@@ -3955,6 +3955,13 @@ repository = {
          }
       }
    },
+   luacheck = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luacom = {
       ['1.4-1'] = {
          {
