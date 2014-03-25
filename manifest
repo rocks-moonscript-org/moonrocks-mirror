@@ -1112,6 +1112,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['gcc-lua-cdecl'] = {
@@ -4141,6 +4148,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luaepnf = {
@@ -5715,6 +5729,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3-3'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lusty-log'] = {
@@ -5948,6 +5967,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.12-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.2-0'] = {
          {
             arch = "rockspec"
@@ -6041,6 +6065,15 @@ repository = {
          }
       },
       ['1.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   lutf8 = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -6456,8 +6489,24 @@ repository = {
          }
       }
    },
+   metalua = {
+      ['0.7.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['metalua-compiler'] = {
       ['0.7.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -6488,6 +6537,20 @@ repository = {
          }
       },
       ['0.7.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7.3-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -8484,6 +8547,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.6.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['wsapi-basic_auth'] = {
@@ -8607,6 +8677,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.6.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['wsapi-xavante'] = {
@@ -8675,6 +8752,13 @@ repository = {
          }
       },
       ['1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.6.1-1'] = {
          {
             arch = "rockspec"
          }, {
