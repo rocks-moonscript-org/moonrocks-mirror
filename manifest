@@ -1581,6 +1581,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.9.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lapis = {
@@ -1653,10 +1660,21 @@ repository = {
          }
       }
    },
-   lapis_console = {
-      ['dev-1'] = {
+   ['lapis-console'] = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lapis-exceptions'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -7545,6 +7563,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    saci = {
@@ -8365,6 +8390,13 @@ repository = {
          }
       },
       ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.2-1'] = {
          {
             arch = "rockspec"
          }, {

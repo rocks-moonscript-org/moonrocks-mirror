@@ -1,8 +1,9 @@
-package = "lapis_console"
-version = "dev-1"
+package = "lapis-console"
+version = "1.0.0-1"
 
 source = {
-  url = "git://github.com/leafo/lapis-console.git"
+  url = "git://github.com/leafo/lapis-console.git",
+	branch = "v1.0.0"
 }
 
 description = {
