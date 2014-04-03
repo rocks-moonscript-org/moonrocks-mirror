@@ -1128,6 +1128,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    haricot = {
@@ -1294,6 +1301,11 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-1'] = {
          {
             arch = "rockspec"
          }
@@ -3589,10 +3601,22 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-term'] = {
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-1'] = {
          {
             arch = "rockspec"
          }
@@ -8857,6 +8881,15 @@ repository = {
    },
    xctrl = {
       ['20101026-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   xlsxwriter = {
+      ['0.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
