@@ -1464,6 +1464,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1-5'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    lake = {
