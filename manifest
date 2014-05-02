@@ -1013,6 +1013,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    enet = {
@@ -1466,6 +1473,16 @@ repository = {
          }
       },
       ['0.1-5'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }
