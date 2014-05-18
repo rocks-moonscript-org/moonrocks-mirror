@@ -3426,6 +3426,13 @@ repository = {
          }
       }
    },
+   ['lua-ircmess'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-jet'] = {
       ['v0.9-1'] = {
          {
@@ -3637,6 +3644,22 @@ repository = {
       ['0.2.1-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['lua-periphery'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
