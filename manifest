@@ -1375,6 +1375,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    inspect = {
@@ -4221,6 +4226,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['luacov-coveralls'] = {
+      ['scm-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -7423,6 +7435,8 @@ repository = {
       ['0.2.1-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
