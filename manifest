@@ -797,6 +797,15 @@ repository = {
          }
       }
    },
+   cwtest = {
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    dado = {
       ['1.0-1'] = {
          {
@@ -1082,6 +1091,15 @@ repository = {
          }
       }
    },
+   fakeredis = {
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    fbclient = {
       ['0.4.0-1'] = {
          {
@@ -1200,6 +1218,8 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -1288,6 +1308,15 @@ repository = {
          }
       },
       ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['http-digest'] = {
+      ['1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -6922,6 +6951,15 @@ repository = {
    },
    multikey = {
       ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['multipart-post'] = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
