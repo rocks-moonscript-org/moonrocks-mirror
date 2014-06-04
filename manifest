@@ -1277,6 +1277,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    flu = {
