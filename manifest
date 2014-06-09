@@ -7421,6 +7421,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['6.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    midialsa = {
@@ -7521,6 +7528,13 @@ repository = {
          }
       },
       ['1.20-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.21-0'] = {
          {
             arch = "rockspec"
          }, {
