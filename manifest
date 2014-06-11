@@ -5896,6 +5896,18 @@ repository = {
          }
       }
    },
+   luaunit = {
+      ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luaxml = {
       ['101012-1'] = {
          {
@@ -5924,13 +5936,9 @@ repository = {
       }
    },
    luazip = {
-      ['1.2.3-2'] = {
+      ['1.2.4-1'] = {
          {
             arch = "rockspec"
-         }, {
-            arch = "src"
-         }, {
-            arch = "win32-x86"
          }
       }
    },
@@ -8021,6 +8029,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   parent = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
