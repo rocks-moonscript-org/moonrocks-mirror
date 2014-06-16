@@ -7660,6 +7660,15 @@ repository = {
          }
       }
    },
+   ['moon-watch'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    mooni = {
       ['0.5-1'] = {
          {
