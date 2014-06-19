@@ -7582,6 +7582,13 @@ repository = {
          }
       }
    },
+   mmapfile = {
+      ['1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    mobdebug = {
       ['0.48-1'] = {
          {
@@ -7734,6 +7741,13 @@ repository = {
          }
       },
       ['0.2.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.6-1'] = {
          {
             arch = "rockspec"
          }, {
