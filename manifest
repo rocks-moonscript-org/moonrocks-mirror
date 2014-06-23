@@ -5977,6 +5977,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luchia = {
