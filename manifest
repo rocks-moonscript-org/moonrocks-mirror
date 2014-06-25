@@ -3742,6 +3742,11 @@ repository = {
       }
    },
    ['lua-jet'] = {
+      ['v0.10-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['v0.9-1'] = {
          {
             arch = "rockspec"
@@ -4295,6 +4300,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['v2.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -8513,6 +8523,22 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "all"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   require = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
          }, {
             arch = "src"
          }
