@@ -7053,6 +7053,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lzmq-auth'] = {
@@ -7122,6 +7129,13 @@ repository = {
          }
       },
       ['0.3.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -8612,6 +8626,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.4-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.4-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['resty-mongol'] = {
@@ -8791,6 +8819,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   seawolf = {
+      ['0.8-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
