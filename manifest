@@ -940,6 +940,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    cwtest = {
