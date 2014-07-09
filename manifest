@@ -3797,6 +3797,13 @@ repository = {
          }
       }
    },
+   ['lua-leveldb'] = {
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-llthreads'] = {
       ['1.0-1'] = {
          {
