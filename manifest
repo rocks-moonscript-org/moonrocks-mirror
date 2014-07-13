@@ -5219,12 +5219,49 @@ repository = {
          }
       }
    },
+   luajwt = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lualibrarytemplate = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   lualinq = {
+      ['1.2-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
