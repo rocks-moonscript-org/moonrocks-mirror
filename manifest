@@ -3250,6 +3250,13 @@ repository = {
          }
       }
    },
+   ltype = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-aplicado'] = {
       ['0.0.1-1'] = {
          {
