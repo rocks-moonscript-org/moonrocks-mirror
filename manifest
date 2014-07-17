@@ -1395,6 +1395,13 @@ repository = {
          }
       }
    },
+   freetype = {
+      ['20140717-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['gcc-lua-cdecl'] = {
       ['1.2.0-1'] = {
          {
@@ -8910,6 +8917,11 @@ repository = {
    },
    seawolf = {
       ['0.8-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }
