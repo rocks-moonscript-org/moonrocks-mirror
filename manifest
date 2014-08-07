@@ -508,6 +508,13 @@ repository = {
          }
       }
    },
+   cassowary = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    cgilua = {
       ['5.1.2-2'] = {
          {
@@ -4676,6 +4683,13 @@ repository = {
          }
       },
       ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -9039,6 +9053,13 @@ repository = {
    },
    sendmail = {
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
