@@ -270,6 +270,16 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    bcrypt = {
