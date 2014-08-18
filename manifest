@@ -1344,6 +1344,15 @@ repository = {
          }
       }
    },
+   evdev = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    fakeredis = {
       ['0.2-1'] = {
          {
@@ -1443,6 +1452,15 @@ repository = {
          }
       },
       ['20121212-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   fluidsynth = {
+      ['1.0-0'] = {
          {
             arch = "rockspec"
          }, {
