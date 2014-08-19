@@ -7462,6 +7462,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    markdown = {
@@ -8412,6 +8419,15 @@ repository = {
          }
       },
       ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   osc = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
