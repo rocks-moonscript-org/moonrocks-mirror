@@ -1508,6 +1508,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    formatter = {
@@ -6292,6 +6299,15 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
