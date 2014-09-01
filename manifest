@@ -1515,6 +1515,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    formatter = {
@@ -8072,7 +8079,23 @@ repository = {
          }
       }
    },
-   ['mjolnir-keycodes'] = {
+   ['mj.keycodes'] = {
+      ['0.4-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      }
+   },
+   ['mjolnir-application'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      },
       ['0.2-1'] = {
          {
             arch = "rockspec"
@@ -8081,6 +8104,58 @@ repository = {
          }
       },
       ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      }
+   },
+   ['mjolnir-fnutils'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }
+      }
+   },
+   ['mjolnir-geometry'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      }
+   },
+   ['mjolnir-hotkey'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      }
+   },
+   ['mjolnir-keycodes'] = {
+      ['0.4-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      }
+   },
+   ['mjolnir-screen'] = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -8193,6 +8268,13 @@ repository = {
    },
    moonbox = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   moongrahams = {
+      ['0.0-1'] = {
          {
             arch = "rockspec"
          }
