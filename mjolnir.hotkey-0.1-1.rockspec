@@ -1,7 +1,7 @@
-package = "mjolnir-screen"
+package = "mjolnir.hotkey"
 version = "0.1-1"
 local url = "github.com/mjolnir-io/mjolnir-core"
-local desc = "Mjolnir module to inspect and manipulate screens (i.e. monitors)."
+local desc = "Mjolnir module to create and manage global hotkeys."
 source = {url = "git://" .. url}
 description = {
   summary = desc,
@@ -12,13 +12,12 @@ description = {
 supported_platforms = {"macosx"}
 dependencies = {
   "lua >= 5.2",
-  "mjolnir-fnutils",
-  "mjolnir-geometry",
+  "mjolnir.keycodes",
 }
 build = {
   type = "builtin",
   modules = {
-    ["mj.screen"] = "screen.lua",
-    ["mj.screen.internal"] = "screen-internal.m",
+    ["mjolnir.hotkey"] = "hotkey.lua",
+    ["mjolnir.hotkey.internal"] = "hotkey.m",
   },
 }

@@ -1,7 +1,7 @@
-package = "mj.keycodes"
-version = "0.4-2"
+package = "mjolnir.hotkey"
+version = "0.2-1"
 local url = "github.com/mjolnir-io/mjolnir-core"
-local desc = "Mjolnir module to convert between key-strings and key-codes."
+local desc = "Mjolnir module to create and manage global hotkeys."
 source = {url = "git://" .. url}
 description = {
   summary = desc,
@@ -12,11 +12,12 @@ description = {
 supported_platforms = {"macosx"}
 dependencies = {
   "lua >= 5.2",
+  "mjolnir.keycodes",
 }
 build = {
   type = "builtin",
   modules = {
-    ["mj.keycodes"] = "keycodes.lua",
-    ["mj.keycodes.internal"] = "keycodes-internal.m",
+    ["mjolnir.hotkey"] = "hotkey.lua",
+    ["mjolnir.hotkey.internal"] = "hotkey.m",
   },
 }

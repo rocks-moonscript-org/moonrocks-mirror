@@ -8079,16 +8079,7 @@ repository = {
          }
       }
    },
-   ['mj.keycodes'] = {
-      ['0.4-2'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "macosx-x86_64"
-         }
-      }
-   },
-   ['mjolnir-application'] = {
+   ['mjolnir.application'] = {
       ['0.1-1'] = {
          {
             arch = "rockspec"
@@ -8111,7 +8102,7 @@ repository = {
          }
       }
    },
-   ['mjolnir-fnutils'] = {
+   ['mjolnir.fnutils'] = {
       ['0.1-1'] = {
          {
             arch = "rockspec"
@@ -8120,16 +8111,7 @@ repository = {
          }
       }
    },
-   ['mjolnir-geometry'] = {
-      ['0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "macosx-x86_64"
-         }
-      }
-   },
-   ['mjolnir-hotkey'] = {
+   ['mjolnir.geometry'] = {
       ['0.1-1'] = {
          {
             arch = "rockspec"
@@ -8145,8 +8127,15 @@ repository = {
          }
       }
    },
-   ['mjolnir-keycodes'] = {
-      ['0.4-2'] = {
+   ['mjolnir.hotkey'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -8154,8 +8143,31 @@ repository = {
          }
       }
    },
-   ['mjolnir-screen'] = {
+   ['mjolnir.keycodes'] = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      }
+   },
+   ['mjolnir.screen'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {

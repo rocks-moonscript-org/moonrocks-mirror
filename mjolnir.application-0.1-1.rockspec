@@ -1,5 +1,5 @@
-package = "mjolnir-application"
-version = "0.2-1"
+package = "mjolnir.application"
+version = "0.1-1"
 local url = "github.com/mjolnir-io/mjolnir-core"
 local desc = "Mjolnir module to inspect and manipulate running applications and their windows."
 source = {url = "git://" .. url}
@@ -12,15 +12,15 @@ description = {
 supported_platforms = {"macosx"}
 dependencies = {
   "lua >= 5.2",
-  "mjolnir-fnutils",
-  "mjolnir-geometry",
+  "mjolnir.fnutils",
+  "mjolnir.geometry",
 }
 build = {
   type = "builtin",
   modules = {
-    ["mj.application"] = "application.lua",
-    ["mj.application.internal"] = "application.m",
-    ["mj.window"] = "window.lua",
-    ["mj.window.internal"] = "window.m",
+    ["mjolnir.application"] = "application.lua",
+    ["mjolnir.application.internal"] = "application.m",
+    ["mjolnir.window"] = "window.lua",
+    ["mjolnir.window.internal"] = "window.m",
   },
 }

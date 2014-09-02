@@ -1,7 +1,7 @@
-package = "mjolnir-hotkey"
+package = "mjolnir.geometry"
 version = "0.2-1"
 local url = "github.com/mjolnir-io/mjolnir-core"
-local desc = "Mjolnir module to create and manage global hotkeys."
+local desc = "Mjolnir module to help with mathy stuff."
 source = {url = "git://" .. url}
 description = {
   summary = desc,
@@ -12,12 +12,11 @@ description = {
 supported_platforms = {"macosx"}
 dependencies = {
   "lua >= 5.2",
-  "mjolnir-keycodes",
 }
 build = {
   type = "builtin",
   modules = {
-    ["mj.hotkey"] = "hotkey.lua",
-    ["mj.hotkey.internal"] = "hotkey.m",
+    ["mjolnir.geometry"] = "geometry.lua",
+    ["mjolnir.geometry.internal"] = "geometry.m",
   },
 }

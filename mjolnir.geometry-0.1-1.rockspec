@@ -1,7 +1,7 @@
-package = "mjolnir-keycodes"
-version = "0.4-2"
+package = "mjolnir.geometry"
+version = "0.1-1"
 local url = "github.com/mjolnir-io/mjolnir-core"
-local desc = "Mjolnir module to convert between key-strings and key-codes."
+local desc = "Mjolnir module to help with mathy stuff."
 source = {url = "git://" .. url}
 description = {
   summary = desc,
@@ -16,7 +16,7 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["mj.keycodes"] = "keycodes.lua",
-    ["mj.keycodes.internal"] = "keycodes-internal.m",
+    ["mjolnir.geometry"] = "geometry.lua",
+    ["mjolnir.geometry.internal"] = "geometry.m",
   },
 }
