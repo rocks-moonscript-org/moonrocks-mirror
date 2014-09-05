@@ -8086,6 +8086,15 @@ repository = {
          }
       }
    },
+   ['mjolnir.7bits.mjomatic'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }
+      }
+   },
    ['mjolnir.alert'] = {
       ['0.1-1'] = {
          {
@@ -8195,6 +8204,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "macosx-x86_64"
+         }
+      }
+   },
+   ['mjolnir.lb.spotify'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
