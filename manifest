@@ -8095,6 +8095,38 @@ repository = {
          }
       }
    },
+   ['mjolnir._asm.compat_51'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      }
+   },
+   ['mjolnir._asm.modules'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }
+      }
+   },
    ['mjolnir.alert'] = {
       ['0.1-1'] = {
          {
@@ -8140,6 +8172,15 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "all"
+         }
+      }
+   },
+   ['mjolnir.cmsj.caffeinate'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
