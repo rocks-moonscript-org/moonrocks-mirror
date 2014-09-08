@@ -8125,6 +8125,13 @@ repository = {
          }, {
             arch = "macosx-x86_64"
          }
+      },
+      ['0.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
       }
    },
    ['mjolnir._asm.modules'] = {
@@ -8136,6 +8143,20 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }
+      },
+      ['0.3-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -8270,6 +8291,15 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "macosx-x86_64"
+         }
+      }
+   },
+   ['mjolnir.lb.itunes'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
          }
       }
    },
