@@ -4310,6 +4310,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-smtps'] = {
@@ -8168,6 +8175,31 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "all"
+         }
+      }
+   },
+   ['mjolnir._asm.notify'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      }
+   },
+   ['mjolnir._asm.timer'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
