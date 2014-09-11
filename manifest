@@ -4924,6 +4924,22 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['luacov-coveralls'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luacrypto = {
@@ -8145,6 +8161,19 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['mjolnir._asm.data'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -8191,6 +8220,28 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['mjolnir._asm.settings'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -8200,6 +8251,8 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -8321,6 +8374,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "macosx-x86_64"
+         }
+      }
+   },
+   ['mjolnir.jstevenson.cursor'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
