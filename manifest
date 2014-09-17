@@ -979,6 +979,8 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -1374,6 +1376,13 @@ repository = {
    },
    evdev = {
       ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -5139,6 +5148,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   luaevent = {
+      ['0.4.3-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
