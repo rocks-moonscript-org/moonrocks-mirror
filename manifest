@@ -1846,6 +1846,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    json2lua = {
@@ -3788,6 +3793,15 @@ repository = {
          }
       }
    },
+   ['lua-curl'] = {
+      ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-de'] = {
       ['0.2-1'] = {
          {
@@ -4323,6 +4337,15 @@ repository = {
       ['1.0.2-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['lua-reql'] = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -7332,6 +7355,22 @@ repository = {
          }
       }
    },
+   lutrace = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luuid = {
       ['20070925-1'] = {
          {
@@ -7690,6 +7729,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   many2one = {
+      ['1.14.09.19-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -8243,6 +8289,28 @@ repository = {
          }
       }
    },
+   ['mjolnir._asm.eventtap'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      }
+   },
+   ['mjolnir._asm.eventtap.event'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      }
+   },
    ['mjolnir._asm.ipc'] = {
       ['0.1-1'] = {
          {
@@ -8325,9 +8393,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -9739,6 +9807,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2-2'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    say = {
@@ -10492,6 +10565,15 @@ repository = {
          }
       },
       ['0.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   termfx = {
+      ['0.3-1'] = {
          {
             arch = "rockspec"
          }, {
