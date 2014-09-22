@@ -8340,6 +8340,8 @@ repository = {
       ['0.1-2'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -8462,10 +8464,28 @@ repository = {
          }, {
             arch = "macosx-x86_64"
          }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "macosx-x86_64"
+         }
       }
    },
    ['mjolnir._asm.undocumented.coredock'] = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      },
+      ['0.1-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -8534,6 +8554,8 @@ repository = {
       ['0.1-2'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "all"
          }
       }
    },
