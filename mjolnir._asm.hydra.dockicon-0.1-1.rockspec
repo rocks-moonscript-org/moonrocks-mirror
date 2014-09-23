@@ -1,7 +1,7 @@
 -- `package` is the require-path.
 --
 --    Note: this must match the filename also.
-package = "mjolnir._asm.notify"
+package = "mjolnir._asm.hydra.dockicon"
 
 -- `version` has two parts, your module's version (0.1) and the
 --    rockspec's version (1) in case you change metadata without
@@ -12,10 +12,10 @@ version = "0.1-1"
 
 -- General metadata:
 
-local url = "github.com/asmagill/mjolnir_asm.compat_51"
-local desc = "Provide Lua 5.1 compatibility functions in Mjolnir"
+local url = "github.com/asmagill/mjolnir_asm.hydra"
+local desc = "Control the Mjolnir dock icon."
 
-source = {url = "git://" .. url}
+source = {url = "git://" .. url, dir = "mjolnir_asm.hydra/dockicon/"}
 description = {
   summary = desc,
   detailed = desc,
@@ -35,7 +35,7 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["mjolnir._asm.notify"] = "init.lua",
-    ["mjolnir._asm.notify.internal"] = "internal.m",
+    ["mjolnir._asm.hydra.dockicon"] = "init.lua",
+    ["mjolnir._asm.hydra.dockicon.internal"] = "internal.m",
   },
 }
