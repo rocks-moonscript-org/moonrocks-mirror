@@ -4372,6 +4372,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-http'] = {
