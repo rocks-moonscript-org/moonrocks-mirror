@@ -4386,6 +4386,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-murmurhash2'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-session'] = {
       ['1.0-1'] = {
          {
@@ -4404,6 +4413,13 @@ repository = {
          }
       },
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -5099,11 +5115,13 @@ repository = {
       }
    },
    luacwrap = {
-      ['1.0.1-1'] = {
+      ['1.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       }
    },
