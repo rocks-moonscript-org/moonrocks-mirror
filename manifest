@@ -4386,6 +4386,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-libcjson'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-murmurhash2'] = {
       ['1.0-1'] = {
          {
@@ -5115,7 +5124,7 @@ repository = {
       }
    },
    luacwrap = {
-      ['1.0.2-1'] = {
+      ['1.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -6524,7 +6533,7 @@ repository = {
       }
    },
    luavenster = {
-      ['1.0.0-1'] = {
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -6533,11 +6542,13 @@ repository = {
       }
    },
    luawinapi = {
-      ['1.0.0-1'] = {
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       }
    },

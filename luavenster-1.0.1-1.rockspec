@@ -1,10 +1,10 @@
 package = "luavenster"
 
-version = "1.0.0-1"
+version = "1.0.1-1"
 
 source = {
-    url    = "git://github.com/oberhofer/luavenster.git",
-    branch = "v1.0.0"
+    url = "git://github.com/oberhofer/luavenster.git",
+    tag = "v1.0.1"
 }
 
 description = {
@@ -19,7 +19,7 @@ description = {
 
 dependencies = {
    "lua >= 5.1",
-   "luawinapi >= 1.0.0"
+   "luawinapi >= 1.0.1"
 }
 
 build = {
@@ -32,7 +32,6 @@ build = {
                     ["venster.init"]      = "src/init.lua",
                     ["venster.utils"]     = "src/utils.lua",
                     ["venster.layout"]    = "src/layout.lua",
-                    ["venster.form"]      = "src/form.lua",
                     ["venster.imagelist"] = "src/imagelist.lua",
                 }
             }
