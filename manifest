@@ -544,6 +544,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    cgilua = {
@@ -4405,6 +4410,15 @@ repository = {
       }
    },
    ['lua-resty-session'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-resty-snappy'] = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
