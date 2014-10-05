@@ -8872,6 +8872,13 @@ repository = {
          }
       }
    },
+   ['mjolnir.tiling'] = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    mmapfile = {
       ['1-1'] = {
          {
@@ -10325,6 +10332,13 @@ repository = {
          }
       },
       ['12-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['13-1'] = {
          {
             arch = "rockspec"
          }, {
