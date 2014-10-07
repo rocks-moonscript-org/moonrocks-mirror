@@ -9170,6 +9170,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    mmapfile = {
@@ -11469,6 +11474,13 @@ repository = {
    },
    web_sanitize = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
