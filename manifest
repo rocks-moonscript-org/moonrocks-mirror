@@ -4384,6 +4384,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-hoedown'] = {
+      ['0.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-http'] = {
       ['0.1-0'] = {
          {
