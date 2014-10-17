@@ -3585,6 +3585,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-chan'] = {
@@ -8799,6 +8804,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['mjolnir._asm.modal_hotkey'] = {
@@ -9441,6 +9453,13 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-2'] = {
          {
             arch = "rockspec"
          }, {
