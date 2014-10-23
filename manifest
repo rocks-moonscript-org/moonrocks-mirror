@@ -4479,6 +4479,13 @@ repository = {
          }
       }
    },
+   ['lua-resty-github'] = {
+      ['v1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-resty-hmac'] = {
       ['v1.0-1'] = {
          {
