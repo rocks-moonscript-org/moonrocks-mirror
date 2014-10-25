@@ -522,6 +522,13 @@ repository = {
          }
       }
    },
+   ['busted.ryanplusplus'] = {
+      ['2.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    cassandra = {
       ['0.1-1'] = {
          {
