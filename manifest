@@ -5307,6 +5307,13 @@ repository = {
          }
       }
    },
+   luacryptor = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luacurl = {
       ['1.1-2'] = {
          {
@@ -8049,6 +8056,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   mach = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -11735,6 +11749,18 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   videur = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
