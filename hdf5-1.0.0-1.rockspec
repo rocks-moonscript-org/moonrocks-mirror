@@ -1,8 +1,8 @@
-package = "lua-hdf5"
-version = "1.1.0-1"
+package = "hdf5"
+version = "1.0.0-1"
 source = {
    url = "git://git.colberg.org/lua-hdf5",
-   tag = "1.1.0",
+   tag = "1.0.0",
 }
 description = {
    summary = "HDF5 for Lua",

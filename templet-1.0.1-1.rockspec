@@ -1,5 +1,5 @@
-package = "lua-templet"
-version = "1.0.1-2"
+package = "templet"
+version = "1.0.1-1"
 source = {
    url = "git://git.colberg.org/lua-templet",
    tag = "1.0.1",
@@ -18,6 +18,9 @@ description = {
 build = {
    type = "make",
    build_target = "test",
+   build_variables = {
+      LUA = "$(LUA)",
+   },
    install_variables = {
       PREFIX = "$(PREFIX)",
       LUADIR = "$(LUADIR)",

@@ -1667,6 +1667,26 @@ repository = {
          }
       }
    },
+   hdf5 = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['heroku-openresty'] = {
       ['1.2.8.6-1'] = {
          {
@@ -4009,26 +4029,6 @@ repository = {
          }
       }
    },
-   ['lua-hdf5'] = {
-      ['1.0.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "all"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }, {
-            arch = "all"
-         }
-      }
-   },
    ['lua-hiredis'] = {
       ['0.1-1'] = {
          {
@@ -4373,26 +4373,6 @@ repository = {
          }
       }
    },
-   ['lua-opencl'] = {
-      ['1.0.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "all"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }, {
-            arch = "all"
-         }
-      }
-   },
    ['lua-parser'] = {
       ['0.1-1'] = {
          {
@@ -4729,31 +4709,6 @@ repository = {
       ['v1.0-1'] = {
          {
             arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   ['lua-templet'] = {
-      ['1.0.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.1-2'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "all"
          }, {
             arch = "src"
          }
@@ -9861,6 +9816,26 @@ repository = {
          }
       }
    },
+   opencl = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    orbit = {
       ['2.0-1'] = {
          {
@@ -11452,6 +11427,17 @@ repository = {
       ['0.6.0-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   templet = {
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
          }, {
             arch = "src"
          }

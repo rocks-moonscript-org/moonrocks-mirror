@@ -1,8 +1,8 @@
-package = "lua-opencl"
-version = "1.0.0-1"
+package = "opencl"
+version = "1.1.0-1"
 source = {
    url = "git://git.colberg.org/lua-opencl",
-   tag = "1.0.0",
+   tag = "1.1.0",
 }
 description = {
    summary = "OpenCL for Lua",
