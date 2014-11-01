@@ -9400,6 +9400,15 @@ repository = {
          }
       }
    },
+   ['mjolnir.sk.transform'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      }
+   },
    ['mjolnir.tiling'] = {
       ['0.2.0-1'] = {
          {
@@ -12215,6 +12224,13 @@ repository = {
          }
       },
       ['0.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.6-1'] = {
          {
             arch = "rockspec"
          }, {
