@@ -3819,6 +3819,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.9.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-coatpersistent'] = {
@@ -3889,6 +3894,18 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['0.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['lua-codegen-lpeg'] = {
+      ['0.3.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
