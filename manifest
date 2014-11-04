@@ -2577,6 +2577,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.4.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    leda = {
@@ -3823,6 +3830,8 @@ repository = {
       ['0.9.1-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -3851,6 +3860,24 @@ repository = {
          }
       },
       ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-coatpersistent-lsqlite3'] = {
+      ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-coatpersistent-luasql'] = {
+      ['0.2.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -3899,6 +3926,8 @@ repository = {
       ['0.3.1-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -3906,6 +3935,8 @@ repository = {
       ['0.3.1-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -10842,26 +10873,6 @@ repository = {
          }
       }
    },
-   shake = {
-      ['1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "all"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "all"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    simulua = {
       ['0.1-1'] = {
          {
@@ -11949,15 +11960,6 @@ repository = {
          }
       },
       ['1.6.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   ['wsapi-basic_auth'] = {
-      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
