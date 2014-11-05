@@ -6049,6 +6049,13 @@ repository = {
             arch = "src"
          }
       },
+      ['33.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['5.1.12-1'] = {
          {
             arch = "rockspec"
