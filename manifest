@@ -10309,6 +10309,13 @@ repository = {
          }
       }
    },
+   radarchart = {
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    readkey = {
       ['1.0-1'] = {
          {
