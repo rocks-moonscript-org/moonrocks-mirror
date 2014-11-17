@@ -9509,6 +9509,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    mmapfile = {
@@ -11562,6 +11567,13 @@ repository = {
    },
    template = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-2'] = {
          {
             arch = "rockspec"
          }, {
