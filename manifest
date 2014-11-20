@@ -4218,6 +4218,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-jet'] = {
@@ -7558,6 +7563,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.7-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lusty-store-mongo'] = {
@@ -7602,6 +7612,11 @@ repository = {
          }
       },
       ['0.12-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.13-0'] = {
          {
             arch = "rockspec"
          }
@@ -10690,6 +10705,11 @@ repository = {
          }
       },
       ['0.8-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.8-3'] = {
          {
             arch = "rockspec"
          }
