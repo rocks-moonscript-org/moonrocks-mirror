@@ -4647,6 +4647,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-snappy'] = {
@@ -10978,6 +10985,13 @@ repository = {
          }
       }
    },
+   sidekiqjobpusher = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    simulua = {
       ['0.1-1'] = {
          {
@@ -11509,6 +11523,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    tamale = {
@@ -12018,9 +12039,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86"
          }
       }
    },
