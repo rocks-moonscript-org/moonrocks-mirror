@@ -565,6 +565,13 @@ repository = {
          }
       }
    },
+   cdb = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    cgilua = {
       ['5.1.2-2'] = {
          {
@@ -1789,6 +1796,18 @@ repository = {
          }
       }
    },
+   httpclient = {
+      ['0.1.0-3'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.0-4'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    i18n = {
       ['0.5-1'] = {
          {
@@ -1895,6 +1914,15 @@ repository = {
       ['0.1-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   jmespath = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -9403,6 +9431,20 @@ repository = {
          }
       }
    },
+   ['mjolnir.grille'] = {
+      ['0.5-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.5-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['mjolnir.hotkey'] = {
       ['0.1-1'] = {
          {
@@ -9529,6 +9571,13 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -11598,6 +11647,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   tdb = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
