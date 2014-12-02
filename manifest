@@ -1240,6 +1240,15 @@ repository = {
          }
       }
    },
+   ['debug.lua'] = {
+      ['0.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    deimos = {
       ['1.0-1'] = {
          {
@@ -9820,6 +9829,15 @@ repository = {
          }
       }
    },
+   mpi = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    multikey = {
       ['0.3-1'] = {
          {
@@ -11739,6 +11757,13 @@ repository = {
          }
       },
       ['0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.6-1'] = {
          {
             arch = "rockspec"
          }, {
