@@ -9648,6 +9648,29 @@ repository = {
          }
       }
    },
+   ['mjolnir.winter'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    mmapfile = {
       ['1-1'] = {
          {
@@ -12074,10 +12097,24 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['vararg-lua'] = {
       ['1.1.patch1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
          {
             arch = "rockspec"
          }, {
