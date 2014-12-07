@@ -1654,6 +1654,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    gumbo = {
@@ -1829,6 +1834,11 @@ repository = {
          }
       },
       ['0.1.0-6'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.0-7'] = {
          {
             arch = "rockspec"
          }
@@ -9486,6 +9496,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['mjolnir.hotkey'] = {
@@ -9671,6 +9688,20 @@ repository = {
          }
       },
       ['0.2.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.1-0'] = {
          {
             arch = "rockspec"
          }, {
