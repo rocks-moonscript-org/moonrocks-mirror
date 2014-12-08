@@ -1946,6 +1946,13 @@ repository = {
          }
       }
    },
+   ['ios-icons'] = {
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    iris = {
       ['0.1-1'] = {
          {
