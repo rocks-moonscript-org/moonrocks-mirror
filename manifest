@@ -4387,6 +4387,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-messagepack'] = {
@@ -4584,6 +4591,11 @@ repository = {
          }
       },
       ['0.4-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.5-0'] = {
          {
             arch = "rockspec"
          }
@@ -8100,6 +8112,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lzmq-auth'] = {
@@ -8188,6 +8207,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lzmq-pool'] = {
@@ -8208,6 +8234,13 @@ repository = {
          }
       },
       ['0.3.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.2-1'] = {
          {
             arch = "rockspec"
          }, {
