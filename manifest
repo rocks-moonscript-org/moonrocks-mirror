@@ -4608,6 +4608,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.5-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-fileinfo'] = {
@@ -9709,6 +9714,11 @@ repository = {
          }
       },
       ['0.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2.4-1'] = {
          {
             arch = "rockspec"
          }
