@@ -4848,6 +4848,15 @@ repository = {
          }
       }
    },
+   ['lua-smc'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-smtps'] = {
       ['1.0-1'] = {
          {
@@ -8057,6 +8066,13 @@ repository = {
          }
       },
       ['5.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
