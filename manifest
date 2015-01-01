@@ -532,6 +532,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.0.rc5-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['busted.ryanplusplus'] = {
@@ -6888,6 +6893,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.7.3-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luastatsd = {
@@ -11484,6 +11494,13 @@ repository = {
          }
       },
       ['13-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['14.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
