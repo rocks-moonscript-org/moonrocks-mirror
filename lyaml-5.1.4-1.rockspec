@@ -1,5 +1,5 @@
 package = "lyaml"
-version = "5.1.1-1"
+version = "5.1.4-1"
 description = {
   detailed = "Read and write YAML format files with Lua.",
   homepage = "http://github.com/gvvaughan/lyaml",
@@ -7,11 +7,11 @@ description = {
   summary = "libYAML binding for Lua",
 }
 source = {
-  dir = "lyaml-release-v5.1.1",
-  url = "http://github.com/gvvaughan/lyaml/archive/release-v5.1.1.zip",
+  dir = "lyaml-release-v5.1.4",
+  url = "http://github.com/gvvaughan/lyaml/archive/release-v5.1.4.zip",
 }
 dependencies = {
-  "lua >= 5.1",
+  "lua >= 5.1, < 5.4",
 }
 external_dependencies = {
   YAML = {
