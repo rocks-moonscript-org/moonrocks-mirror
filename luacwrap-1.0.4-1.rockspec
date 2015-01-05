@@ -1,10 +1,10 @@
 package = "luacwrap"
 
-version = "1.0.3-1"
+version = "1.0.4-1"
 
 source = {
-  url = "git://github.com/oberhofer/luacwrap.git",
-  tag = "v1.0.3",
+  url    = "git://github.com/oberhofer/luacwrap.git",
+  tag = "v1.0.4",
 }
 
 description = {

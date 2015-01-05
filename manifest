@@ -3636,6 +3636,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.9.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ltcltk = {
@@ -5596,13 +5601,11 @@ repository = {
       }
    },
    luacwrap = {
-      ['1.0.3-1'] = {
+      ['1.0.4-1'] = {
          {
             arch = "rockspec"
          }, {
             arch = "src"
-         }, {
-            arch = "win32-x86"
          }
       }
    },
@@ -6296,6 +6299,13 @@ repository = {
          }
       },
       ['33.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['33.2.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -7353,6 +7363,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['0.8-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -12483,6 +12498,20 @@ repository = {
          }
       },
       ['v0.1-7'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['v0.1-8'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['v1-8'] = {
          {
             arch = "rockspec"
          }, {
