@@ -912,10 +912,12 @@ repository = {
          }
       }
    },
-   coroutine = {
+   coronest = {
       ['0.1-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -4569,6 +4571,22 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-messagepack-lua53'] = {
+      ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-nginx-logging'] = {
@@ -4642,6 +4660,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -7480,6 +7503,13 @@ repository = {
          }
       }
    },
+   lunix = {
+      ['20140819-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luno = {
       ['20121129-3'] = {
          {
@@ -8837,6 +8867,13 @@ repository = {
          }
       },
       ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4-1'] = {
          {
             arch = "rockspec"
          }, {

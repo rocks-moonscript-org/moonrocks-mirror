@@ -1,8 +1,8 @@
-package = "coroutine"
+package = "coronest"
 version = "0.1-1"
 
 source = {
-  url = "git://github.com/saucisson/nested-coroutines",
+  url = "git://github.com/saucisson/lua-coronest",
   tag = "0.1",
 }
 
