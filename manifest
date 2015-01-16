@@ -276,6 +276,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    asklua = {
@@ -3034,6 +3041,15 @@ repository = {
          }
       },
       ['0.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   lluv = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -5845,6 +5861,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luaevent = {
@@ -6025,6 +6048,13 @@ repository = {
          }
       },
       ['1.6.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.6.3-1'] = {
          {
             arch = "rockspec"
          }, {
