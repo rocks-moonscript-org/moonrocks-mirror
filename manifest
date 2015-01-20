@@ -1086,6 +1086,30 @@ repository = {
          }
       }
    },
+   cqueues = {
+      ['20150119.51-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "linux-x86_64"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      },
+      ['20150119.52-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "linux-x86_64"
+         }, {
+            arch = "macosx-x86_64"
+         }
+      }
+   },
    crc32 = {
       ['1.0-1'] = {
          {
@@ -5629,6 +5653,13 @@ repository = {
          }
       },
       ['0.7.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.8.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -10533,6 +10564,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    objectlua = {
@@ -13381,6 +13417,13 @@ repository = {
          }
       },
       ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.4-1'] = {
          {
             arch = "rockspec"
          }, {
