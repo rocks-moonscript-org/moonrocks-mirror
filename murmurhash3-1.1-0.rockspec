@@ -1,9 +1,9 @@
-package = "murmur3"
-version = "1.0-1"
+package = "murmurhash3"
+version = "1.1-0"
 
 source = {
 	url = "git://github.com/x25/murmurhash3-lua",
-	tag = "v1.0"
+	tag = "v1.1"
 }
 
 description = {
@@ -20,6 +20,6 @@ dependencies = {
 build = {
 	type = "builtin",
 	modules = {
-		murmur3 = "murmurhash3-lua/lmurmur3.c"
+		murmurhash3 = "murmurhash3-lua/lmurmurhash3.c"
 	}
 }
