@@ -3461,6 +3461,15 @@ repository = {
          }
       }
    },
+   lpeg_patterns = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lposix = {
       ['20031107-1'] = {
          {
@@ -5359,6 +5368,13 @@ repository = {
          }
       },
       ['0.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -10250,6 +10266,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.6-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['mjolnir.winter'] = {
@@ -12249,6 +12270,13 @@ repository = {
          }
       },
       ['41.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['41.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
