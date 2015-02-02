@@ -1,15 +1,15 @@
 package = "csv2tensor"
-version = "0.1-1"
+version = "0.1-2"
 
 source = {
     url = "git://github.com/willkurt/csv2tensor.git",
-    tag = "v0.1-1"
+    tag = "v0.1-2"
 }
 
 description = {
     summary = "Load CSV files into Torch7 Tensors",
     detailed = [[
-Provides a simple function to convert a CSV file  of float/ints into a torch.Tensor. Also allows for including or excluding specific columns in the CSV by name (particularly useful when one column contains labels, or has unnessecary columns
+Provides a simple function to convert a CSV file  of float/ints into a torch.Tensor. Also allows for including or excluding specific columns in the CSV by name (particularly useful when one column contains labels, or has unnessecary columns)
 ]],
     homepage = "https://github.com/willkurt/csv2tensor",
     license = "MIT"
@@ -23,7 +23,6 @@ dependencies = {
 build = {
     type = "builtin",
     modules = {
-       ['init'] = 'init.lua',
        ['csv2tensor'] = 'csv2tensor.lua' 
     }
 }
