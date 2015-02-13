@@ -317,6 +317,22 @@ repository = {
          }
       }
    },
+   base58 = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    basexx = {
       ['0.1.0-1'] = {
          {
@@ -11767,6 +11783,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   router = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
