@@ -7220,6 +7220,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.0rc1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luasocket-unix'] = {
