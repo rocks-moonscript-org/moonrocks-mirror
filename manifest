@@ -3164,6 +3164,13 @@ repository = {
          }
       }
    },
+   lightningmdb = {
+      ['0.9-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    linenoise = {
       ['0.3-1'] = {
          {
@@ -6659,6 +6666,27 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lualibrarytemplate = {
@@ -6749,11 +6777,9 @@ repository = {
       }
    },
    luaobject = {
-      ['0.1.1-4'] = {
+      ['0.1.1-5'] = {
          {
             arch = "rockspec"
-         }, {
-            arch = "src"
          }
       }
    },
@@ -11199,6 +11225,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   pegasus = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
