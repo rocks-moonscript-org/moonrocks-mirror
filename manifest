@@ -1555,6 +1555,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-shlex'] = {
