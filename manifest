@@ -6843,6 +6843,13 @@ repository = {
          }
       }
    },
+   luapgsql = {
+      ['1.4.2-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luapod = {
       ['0.1-1'] = {
          {
