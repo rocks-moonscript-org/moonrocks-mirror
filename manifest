@@ -5819,6 +5819,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.3-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lua_json = {
@@ -13285,6 +13299,13 @@ repository = {
          }
       },
       ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.3-2'] = {
          {
             arch = "rockspec"
          }, {
