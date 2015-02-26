@@ -681,6 +681,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.5-2'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    cassowary = {
@@ -1551,6 +1556,15 @@ repository = {
          }
       }
    },
+   doccotest = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    docopt = {
       ['0.1-0'] = {
          {
@@ -1615,6 +1629,15 @@ repository = {
          }
       },
       ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['dromozoa-ubench'] = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -11022,6 +11045,15 @@ repository = {
          }
       }
    },
+   oauth_light = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['object-model'] = {
       ['0.1.0-1'] = {
          {
@@ -11257,6 +11289,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['org.conman.uuid'] = {
@@ -11330,6 +11369,13 @@ repository = {
       ['0.0.1-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
