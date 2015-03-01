@@ -691,6 +691,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.5-3'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    cassowary = {
@@ -1308,6 +1313,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -7049,13 +7059,6 @@ repository = {
             arch = "src"
          }
       },
-      ['33.3.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
       ['5.1.12-1'] = {
          {
             arch = "rockspec"
@@ -10981,6 +10984,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    morse = {
@@ -11152,6 +11162,13 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-2'] = {
          {
             arch = "rockspec"
          }, {
