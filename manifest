@@ -2525,6 +2525,15 @@ repository = {
          }
       }
    },
+   knxclient = {
+      ['0.0-430'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lake = {
       ['1.2-1'] = {
          {
