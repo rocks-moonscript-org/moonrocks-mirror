@@ -1226,6 +1226,11 @@ repository = {
          }, {
             arch = "macosx-x86_64"
          }
+      },
+      ['20150119.53-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    crc32 = {
