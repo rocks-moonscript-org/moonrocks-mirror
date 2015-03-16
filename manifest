@@ -5522,6 +5522,13 @@ repository = {
          }
       }
    },
+   ['lua-rote'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-sdl2'] = {
       ['2.0.3.3-1'] = {
          {
@@ -7962,6 +7969,22 @@ repository = {
    },
    luaxml = {
       ['101012-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luaxpath = {
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-2'] = {
          {
             arch = "rockspec"
          }, {
