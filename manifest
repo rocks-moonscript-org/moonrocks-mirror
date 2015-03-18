@@ -1317,6 +1317,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    cwtest = {
@@ -7428,6 +7435,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.2.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luarocks-build-cpp'] = {
@@ -11135,6 +11156,15 @@ repository = {
          }
       },
       ['0.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   moor = {
+      ['v1.0-1'] = {
          {
             arch = "rockspec"
          }, {
