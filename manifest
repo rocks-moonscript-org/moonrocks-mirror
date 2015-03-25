@@ -1684,6 +1684,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-json'] = {
@@ -2468,6 +2482,15 @@ repository = {
    },
    jmespath = {
       ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   json = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -5584,6 +5607,11 @@ repository = {
    },
    ['lua-rote'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -11356,6 +11384,16 @@ repository = {
    },
    non = {
       ['0.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.6.1-1'] = {
          {
             arch = "rockspec"
          }
