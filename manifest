@@ -2656,6 +2656,13 @@ repository = {
          }
       }
    },
+   kong = {
+      ['0.1.0beta-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    lake = {
       ['1.2-1'] = {
          {
@@ -3682,6 +3689,15 @@ repository = {
          }
       }
    },
+   loowy = {
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lpack = {
       ['20070629-1'] = {
          {
@@ -3876,6 +3892,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   lpeglabel = {
+      ['0.12.2-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -11284,6 +11307,13 @@ repository = {
    },
    moor = {
       ['v1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['v1.0-2'] = {
          {
             arch = "rockspec"
          }, {
