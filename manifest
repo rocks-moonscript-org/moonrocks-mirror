@@ -705,6 +705,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.5-5'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    cassowary = {
@@ -11321,6 +11326,20 @@ repository = {
          }
       },
       ['v1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['v1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['v1.1-1'] = {
          {
             arch = "rockspec"
          }, {
