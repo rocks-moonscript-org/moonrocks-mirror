@@ -4842,6 +4842,13 @@ repository = {
          }
       }
    },
+   ['lua-fann'] = {
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-geoip'] = {
       ['0.1-1'] = {
          {
@@ -6155,6 +6162,13 @@ repository = {
          }
       },
       ['2.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.5-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -11439,17 +11453,7 @@ repository = {
       }
    },
    non = {
-      ['0.5.0-1'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['0.6.0-1'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['0.6.1-1'] = {
+      ['0.6.2-1'] = {
          {
             arch = "rockspec"
          }
