@@ -2666,6 +2666,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1.1beta-2'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    lake = {
@@ -11332,6 +11337,13 @@ repository = {
       }
    },
    moor = {
+      ['latest-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['v1.0-1'] = {
          {
             arch = "rockspec"
@@ -11454,6 +11466,11 @@ repository = {
    },
    non = {
       ['0.6.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.6.3-1'] = {
          {
             arch = "rockspec"
          }
@@ -12545,6 +12562,13 @@ repository = {
       ['1.0-0'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
