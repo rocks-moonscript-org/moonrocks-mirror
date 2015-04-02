@@ -177,6 +177,13 @@ repository = {
          }
       }
    },
+   alnbox = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['alt-getopt'] = {
       ['0.7.0-1'] = {
          {
@@ -3569,13 +3576,6 @@ repository = {
          }
       }
    },
-   lluver = {
-      ['0.1-2'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    lmapm = {
       ['20070628-2'] = {
          {
@@ -5664,6 +5664,11 @@ repository = {
          }
       },
       ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }
