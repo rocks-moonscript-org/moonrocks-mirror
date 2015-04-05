@@ -8226,6 +8226,16 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['101012-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['130610-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luaxpath = {
