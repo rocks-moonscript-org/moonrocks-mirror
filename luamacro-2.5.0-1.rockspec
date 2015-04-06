@@ -17,7 +17,7 @@ description = {
    maintainer = "steve.j.donovan@gmail.com"
 }
 dependencies = {
-   "lpeg"
+   "lpeg ~= 0.11"
 }
 build = {
    type = "builtin",

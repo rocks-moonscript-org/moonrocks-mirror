@@ -16,7 +16,7 @@ dependencies = {
   'luasocket',
   'luafilesystem',
   'md5',
-  'luuid',
+  'luuid = 20120501-1',
 }
 build = {
   type = 'builtin',

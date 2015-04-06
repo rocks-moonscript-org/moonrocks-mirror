@@ -1,7 +1,7 @@
 package = 'steentje'
 version = '0.1-1'
 source = {
-    url = 'https://github.com/xiaq/steentje',
+    url = 'git://github.com/xiaq/steentje.git',
     tag = 'v0.1',
 }
 description = {

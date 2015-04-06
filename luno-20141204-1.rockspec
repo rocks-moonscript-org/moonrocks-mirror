@@ -3,7 +3,7 @@ package = "Luno"
 version = "20141204-1"
 source =
 {
-    url = "luno-20141204.zip",
+    url = "http://www.echiesse.net.br/download/luno/luno-20141204.zip",
 }
 
 description =

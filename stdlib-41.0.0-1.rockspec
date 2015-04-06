@@ -11,7 +11,7 @@ source = {
   url = "http://github.com/lua-stdlib/lua-stdlib/archive/release-v41.0.0.zip",
 }
 dependencies = {
-  "lua >= 5.1",
+  "lua >= 5.1, < 5.4",
 }
 external_dependencies = nil
 build = {

@@ -25,6 +25,5 @@ build = {
    modules = {
       lpeg = "lpeg.c",
       re = "re.lua"
-   },
-   copy_directories = { "tests" }
+   }
 }

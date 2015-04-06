@@ -3,7 +3,7 @@ version = "0.1-1"
 
 source = {
   url = "git://github.com/saucisson/lua-doccotest",
-  tag = "0.1",
+  tag = "version-0.1-1",
 }
 
 description = {
@@ -28,6 +28,7 @@ dependencies = {
   "ansicolors ~> 1",
   "rings ~> 1",
   "lualogging ~> 1",
+  "serpent ~> 0",
 }
 
 build = {

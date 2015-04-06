@@ -1,8 +1,8 @@
 package="vararg"
 version="1.0-1"
 source = {
-   url = "http://www.tecgraf.puc-rio.br/~maia/lua/vararg-1.0.tar.gz",
-   md5 = "7546f1ba23380313a63947b7386c2e80",
+   url = "https://github.com/moteus/lua-vararg/archive/v1.0.zip",
+   dir = "lua-vararg-1.0",
 }
 description = {
    summary = "Manipulation of variable arguments",
@@ -19,6 +19,7 @@ dependencies = {
 }
 
 build = {
+   copy_directories = {},
    type = "builtin",
    modules = {
       vararg = {
@@ -26,4 +27,3 @@ build = {
       },
    },
 }
-

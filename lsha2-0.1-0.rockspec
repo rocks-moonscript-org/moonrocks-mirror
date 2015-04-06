@@ -7,7 +7,7 @@ source = {
 description = {
   summary = 'Implementation of secure hash functions SHA224/SHA256 in Lua 5.1/5.2 - HEAD.',
   detailed = 'Current development branch.',
-  homepage = 'https://github.com/ophal/lsha2',
+  homepage = 'https://github.com/develCuy/lsha2',
   license = 'GPL-3',
   maintainer = 'Fernando Paredes Garcia <fernando@develcuy.com>',
 }
