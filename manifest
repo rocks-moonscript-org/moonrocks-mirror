@@ -651,6 +651,15 @@ repository = {
          }
       }
    },
+   ['busted-stable'] = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['busted.ryanplusplus'] = {
       ['2.0-0'] = {
          {
