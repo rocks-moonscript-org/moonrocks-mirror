@@ -104,6 +104,13 @@ repository = {
          }
       }
    },
+   ['activelua-learningtool'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    aesfileencrypt = {
       ['0.1.0-1'] = {
          {
@@ -1051,6 +1058,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    copastimer = {
@@ -1554,6 +1568,13 @@ repository = {
    },
    ['debug.lua'] = {
       ['0.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.9-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -7223,6 +7244,8 @@ repository = {
       ['1.2.3-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
