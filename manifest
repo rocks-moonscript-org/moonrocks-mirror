@@ -3641,6 +3641,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lmapm = {
@@ -5517,6 +5524,13 @@ repository = {
    },
    ['lua-requests'] = {
       ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -11926,6 +11940,33 @@ repository = {
          }
       },
       ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['org.conman.parsers.email'] = {
+      ['1.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['org.conman.parsers.ini'] = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['org.conman.parsers.ip'] = {
+      ['1.0.0-0'] = {
          {
             arch = "rockspec"
          }, {
