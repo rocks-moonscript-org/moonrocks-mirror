@@ -4433,6 +4433,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lspec = {
@@ -14143,6 +14150,18 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   udev = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
