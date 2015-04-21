@@ -361,6 +361,13 @@ repository = {
          }
       }
    },
+   ['basic-auth'] = {
+      ['0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    battery_status = {
       ['1.0-7'] = {
          {
@@ -996,18 +1003,18 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['1.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['1.1.3-1'] = {
@@ -1207,9 +1214,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       },
       ['8.04.04-1'] = {
@@ -1753,6 +1760,15 @@ repository = {
          }
       }
    },
+   ['dromozoa-chunk'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['dromozoa-graph'] = {
       ['1.0-1'] = {
          {
@@ -2204,6 +2220,18 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   foo = {
+      ['0.0.1rc2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.1rc2-2'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -3463,6 +3491,20 @@ repository = {
          }
       },
       ['20130702.52-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['20150420.52-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['20150421.52-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -6792,6 +6834,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   luadeepcl = {
+      ['4.0.0rc6-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -10561,9 +10610,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
@@ -10795,9 +10844,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.3-1'] = {
@@ -10824,9 +10873,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -11994,9 +12043,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['2.0.2-1'] = {
@@ -14149,6 +14198,11 @@ repository = {
    },
    turbo = {
       ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-3'] = {
          {
             arch = "rockspec"
          }
