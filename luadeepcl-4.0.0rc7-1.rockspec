@@ -1,7 +1,7 @@
 package = "LuaDeepCL"
-version = "4.0.0rc6-1"
+version = "4.0.0rc7-1"
 source = {
-    url = "file://dist/" .. package .. "-" .. version .. ".tar.gz"
+    url = "http://hughperkins.github.io/DeepCL/Downloads/lua/LuaDeepCL-4.0.0rc7-1.tar.gz"
 }
 description = {
     summary = "LuaDeepCL.",
