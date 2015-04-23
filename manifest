@@ -831,6 +831,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    checks = {
@@ -2412,6 +2417,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['3.4.0-2'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -12284,13 +12294,6 @@ repository = {
          }
       },
       ['0.0.1-5'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0.1-6'] = {
          {
             arch = "rockspec"
          }, {
