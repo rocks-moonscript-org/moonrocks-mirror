@@ -3690,6 +3690,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.8-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['linenoise-windows'] = {
