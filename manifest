@@ -3294,6 +3294,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lapis-console'] = {
@@ -8671,6 +8678,15 @@ repository = {
          }
       }
    },
+   luautf8 = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luavenster = {
       ['1.0.1-1'] = {
          {
@@ -9675,15 +9691,6 @@ repository = {
          }
       },
       ['1.2.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   lutf8 = {
-      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
