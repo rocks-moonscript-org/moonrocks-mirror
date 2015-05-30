@@ -805,6 +805,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    cdb = {
@@ -986,6 +993,13 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -2439,6 +2453,43 @@ repository = {
          }
       }
    },
+   h5tk = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    haricot = {
       ['1.0-1'] = {
          {
@@ -2506,6 +2557,29 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   hprose = {
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }
+      },
+      ['1.0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }
+      },
+      ['1.0.1-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -3379,9 +3453,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       },
       ['20100323-1'] = {
@@ -3396,6 +3470,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['20120807-3'] = {
+         {
+            arch = "rockspec"
          }
       },
       ['20120820-1'] = {
@@ -5191,6 +5270,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-curl'] = {
@@ -5813,6 +5899,20 @@ repository = {
          }
       },
       ['1.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.5-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -7643,6 +7743,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lualdap = {
@@ -7762,6 +7869,13 @@ repository = {
          }
       },
       ['20150504-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['20150504-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -8080,6 +8194,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.7-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luarocks = {
@@ -8142,6 +8261,15 @@ repository = {
          }
       }
    },
+   ['luarocks-fetch-gitrec'] = {
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['luarocks-hello'] = {
       ['0.1-1'] = {
          {
@@ -8160,6 +8288,15 @@ repository = {
          }
       },
       ['1.0.3-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luascope = {
+      ['0.01-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -11304,9 +11441,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
@@ -12022,6 +12159,13 @@ repository = {
          }
       },
       ['v1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['v1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -14531,6 +14675,15 @@ repository = {
          }
       }
    },
+   testy = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    tethys = {
       ['2.0.0-1'] = {
          {
@@ -14666,6 +14819,11 @@ repository = {
          }
       },
       ['1.1-3'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-4'] = {
          {
             arch = "rockspec"
          }
