@@ -2275,6 +2275,15 @@ repository = {
          }
       }
    },
+   flatfile = {
+      ['1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    flu = {
       ['20101020-1'] = {
          {
