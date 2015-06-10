@@ -33,7 +33,7 @@ build = {
     type = "builtin",
     modules = {
        stringy = {
-          sources = {"stringy.c"},
+          sources = {"stringy/stringy.c"},
      }
   }
 }

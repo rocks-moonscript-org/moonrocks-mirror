@@ -15,5 +15,6 @@ dependencies = {
 }
 build = {
    type = "builtin",
-   modules = {}
+   modules = {},
+   install = {bin = {"moor"}}
 }

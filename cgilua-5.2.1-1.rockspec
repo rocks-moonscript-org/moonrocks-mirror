@@ -3,9 +3,9 @@ package = "CGILua"
 version = "5.2.1-1"
 
 source = {
-   url = "https://github.com/keplerproject/cgilua/archive/v5.2.1.zip",
-   md5 = "de45f3267d80d87b996e5c017f0c4bbe",
+   url = "https://github.com/keplerproject/cgilua/archive/v5.2.1.tar.gz",
    dir = "cgilua-5.2.1",
+   md5 = "2125c0d4b583672463f2417555590e0d",
 }
 
 description = {

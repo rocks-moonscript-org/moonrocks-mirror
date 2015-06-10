@@ -1,4 +1,4 @@
-package = "Copas-ev"
+package = "copas-ev"
 version = "0.1-1"
 source = {
   url = "git://github.com/saucisson/lua-copas-ev.git",
@@ -13,12 +13,12 @@ description = {
    homepage = "https://github.com/saucisson/lua-copas-ev",
 }
 dependencies = {
-   "copas >= 1.2",
+   "copas >= 2",
    "coronest >= 0",
    "lua >= 5.1",
-   "lua-ev >= 1.2",
-   "luabitop >= 1.0",
-   "luasocket >= 2.0",
+   "lua-ev >= v1.4",
+   "luasocket >= 2",
+   "luasec >= 0.5",
 }
 build = {
    type = "module",

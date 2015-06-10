@@ -3,6 +3,7 @@ version = "0.1-1"
 
 source = {
   url = "git://github.com/saucisson/lua-c3",
+  tag = "0.1",
 }
 
 description = {

@@ -1,24 +1,28 @@
 package = "lua-protobuf"
 version = "0.1.0-1"
+
 source = {
-   url = "git://github.com/starwing/lua-protobuf.git"
+  url = "https://github.com/starwing/lua-protobuf/archive/0.1.0.tar.gz"
 }
+
 description = {
-   summary = "protobuf data support for Lua",
-   detailed = [[
+  summary = "protobuf data support for Lua",
+  detailed = [[
 This project offers a simple C library for basic protobuf wire format encode/decode.
   ]],
-   homepage = "http://github.com/starwing/lua-protobuf",
-   license = "MIT"
+  homepage = "https://github.com/starwing/lua-protobuf",
+  license = "MIT",
 }
+
 dependencies = {
-   "lua >= 5.1"
+  "lua >= 5.1"
 }
+
 build = {
-   type = "builtin",
-   modules = {
-      [".pb"] = "pb.lua",
-      [".pb_typeinfo"] = "pb_typeinfo.lua",
-      pb = "pb.c"
-   }
+  type = "builtin",
+  modules = {
+    ["pb"]= "pb.c",
+    [".pb"]= "pb.lua", -- hack to make a same name lua module.
+    [".pb_typeinfo"]= "pb_typeinfo.lua", -- hack to make a same name lua module.
+  }
 }
