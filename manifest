@@ -1636,6 +1636,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    date = {
@@ -2641,6 +2648,13 @@ repository = {
          }, {
             arch = "all"
          }
+      },
+      ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    hsm_statechart = {
@@ -3516,6 +3530,15 @@ repository = {
          }
       },
       ['20120927-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   layeredata = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -5419,6 +5442,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-de'] = {
@@ -7276,6 +7306,13 @@ repository = {
          }
       }
    },
+   luadbg = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luadbi = {
       ['0.5-1'] = {
          {
@@ -8278,6 +8315,15 @@ repository = {
          }
       },
       ['2.0.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luaprompt = {
+      ['0.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -11133,9 +11179,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -11626,9 +11672,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
@@ -13009,6 +13055,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.1-8'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-9'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    penlight = {
@@ -13275,6 +13335,15 @@ repository = {
       ['1.0.1-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   rake = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -14998,6 +15067,13 @@ repository = {
          }
       },
       ['1.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-3'] = {
          {
             arch = "rockspec"
          }, {
