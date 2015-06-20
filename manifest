@@ -535,6 +535,15 @@ repository = {
          }
       }
    },
+   bitness = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['bk-tree'] = {
       ['1.0.0-1'] = {
          {
@@ -3012,6 +3021,15 @@ repository = {
          }
       },
       ['0.9.30-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   jsonnet = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -7749,13 +7767,6 @@ repository = {
          }
       }
    },
-   ['luajit-jsonnet'] = {
-      ['0.1-1'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    luajson = {
       ['0.10-2'] = {
          {
@@ -7946,6 +7957,13 @@ repository = {
          }
       },
       ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -15104,7 +15122,7 @@ repository = {
             arch = "src"
          }
       },
-      ['2.0-1'] = {
+      ['1.1-4'] = {
          {
             arch = "rockspec"
          }, {
