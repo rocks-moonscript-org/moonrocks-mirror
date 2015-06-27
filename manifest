@@ -937,6 +937,13 @@ repository = {
          }
       }
    },
+   ['cirru-parser'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    cl = {
       ['20100607-1'] = {
          {
@@ -2094,6 +2101,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    elfs = {
@@ -3017,6 +3031,23 @@ repository = {
          }
       }
    },
+   ['json-lua'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1-3'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    json2lua = {
       ['0.2-2'] = {
          {
@@ -3597,6 +3628,13 @@ repository = {
    },
    layeredata = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -15177,6 +15215,15 @@ repository = {
    },
    tlua = {
       ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   tree = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {

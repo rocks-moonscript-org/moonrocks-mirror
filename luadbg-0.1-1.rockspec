@@ -3,7 +3,6 @@ version = "0.1-1"
 
 source = {
     url = "git://github.com/pratikac/luadbg",
-    tag = "v0.1-1",
 }
 
 description = {
