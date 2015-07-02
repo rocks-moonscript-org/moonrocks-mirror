@@ -6,7 +6,7 @@ source = {
 
 description =
 {
-  summary = "luajit-jsonnet - The Google Jsonnet( operation data template language) for Luajit";
+  summary = "jsonnet - The Google Jsonnet for Luajit";
   homepage = "https://github.com/yuduanchen/luajit-jsonnet";
   license = "Apache License";
 }
@@ -17,8 +17,8 @@ dependencies =
 }
 build = {
     type = "make",
-     modules = { 
-     	 jsonnet = 'jsonnet.lua'
+     modules = {
+         jsonnet = 'jsonnet.lua'
      },
      platforms = {
       linux = {
