@@ -2117,6 +2117,15 @@ repository = {
          }
       }
    },
+   elasticsearch = {
+      ['0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    elfs = {
       ['0.1-1'] = {
          {
