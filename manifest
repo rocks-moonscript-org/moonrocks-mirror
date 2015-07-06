@@ -1288,9 +1288,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['8.02.18-1'] = {
@@ -8620,15 +8620,6 @@ repository = {
          }
       }
    },
-   ['luarocks-hello'] = {
-      ['0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    luars232 = {
       ['1.0.3-1'] = {
          {
@@ -9185,9 +9176,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
