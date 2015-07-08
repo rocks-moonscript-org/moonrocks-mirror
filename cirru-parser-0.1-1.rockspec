@@ -2,7 +2,8 @@
 package = 'cirru-parser'
 version = '0.1-1'
 source = {
-  url = 'git://github.com/Cirru/parser.moon'
+  url = 'git://github.com/Cirru/parser.moon',
+  dir = 'parser.moon'
 }
 description = {
   summary = "Cirru Parser in Lua(MoonScript)",
