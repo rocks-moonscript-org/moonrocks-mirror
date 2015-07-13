@@ -1,9 +1,9 @@
 package = "Vida"
-version = "v1-8"
+version = "v0.1-10"
 
 source = {
-    url = 'https://github.com/nwhitehead/vida/archive/v1-8.tar.gz',
-    dir = 'vida-1-8'
+    url = 'https://github.com/nwhitehead/vida/archive/v0.1-10.tar.gz',
+    dir = 'vida-0.1-10'
 }
 
 description = {
