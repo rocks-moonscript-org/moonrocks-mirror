@@ -1,9 +1,9 @@
 package = "nats"
-version = "0.0.1-1"
+version = "0.0.2-1"
 
 source = {
    url = "git://github.com/DawnAngel/lua-nats.git",
-   tag = "0.0.1"
+   tag = "0.0.2"
 }
 
 description = {
@@ -12,7 +12,8 @@ description = {
       LUA client for NATS messaging system. https://nats.io
    ]],
    homepage = "http://github.com/DawnAngel/lua-nats",
-   license = "MIT/X11"
+   maintainer = "Eric Pinto <ericpinto1985@gmail.com>",
+   license = "MIT"
 }
 
 dependencies = {
@@ -26,7 +27,7 @@ build = {
    type = "none",
    install = {
       lua = {
-         "nats.lua"
+         "src/nats.lua"
       }
    }
 }
