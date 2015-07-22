@@ -3885,6 +3885,15 @@ repository = {
          }
       }
    },
+   lcrypt = {
+      ['0.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lcurses = {
       ['6-2'] = {
          {
@@ -4552,6 +4561,13 @@ repository = {
          }
       },
       ['0.0.4-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -9871,6 +9887,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.7-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lusty-config'] = {
@@ -10299,6 +10320,11 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-1'] = {
          {
             arch = "rockspec"
          }
@@ -12539,13 +12565,6 @@ repository = {
          }
       }
    },
-   mongorover = {
-      ['0.1-1'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    ['moon-redis'] = {
       ['0.1-1'] = {
          {
@@ -13128,9 +13147,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['2.0.2-1'] = {
@@ -13177,6 +13196,13 @@ repository = {
       ['2.2.2-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['2.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
