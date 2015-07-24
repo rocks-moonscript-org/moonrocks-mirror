@@ -1,8 +1,9 @@
 package = "Escher"
-version = "0.1-4"
+version = "0.1-8"
 source = {
     url = "git://github.com/emartech/escher-lua",
     tag = "0.1",
+    dir = "escher-lua"
 }
 description = {
     summary = "Lua implementation of the Escher HTTP request signing library",
@@ -20,6 +21,5 @@ build = {
     modules = {
         ["escher"] = "lib/escher.lua",
         ["escher.urlhandler"] = "lib/escher/urlhandler.lua",
-    },
-    copy_directories = {"spec"}
+    }
 }
