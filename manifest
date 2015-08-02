@@ -8136,6 +8136,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luaish-windows'] = {
@@ -15780,6 +15787,11 @@ repository = {
          }
       },
       ['1.1-5'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-6'] = {
          {
             arch = "rockspec"
          }
