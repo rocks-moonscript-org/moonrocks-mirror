@@ -8143,6 +8143,27 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luaish-windows'] = {
@@ -13811,6 +13832,15 @@ repository = {
          }
       }
    },
+   prosody = {
+      ['scm.trunk.nightly570-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    protobuf = {
       ['1.0.0-0'] = {
          {
@@ -14782,6 +14812,13 @@ repository = {
          }
       },
       ['14.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['14.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
