@@ -3473,7 +3473,7 @@ repository = {
       }
    },
    krpc = {
-      ['0.1.9-0'] = {
+      ['0.1.11-0'] = {
          {
             arch = "rockspec"
          }
@@ -15801,6 +15801,13 @@ repository = {
          }
       },
       ['1.1-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-7'] = {
          {
             arch = "rockspec"
          }, {

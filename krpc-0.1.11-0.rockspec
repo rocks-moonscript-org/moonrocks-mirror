@@ -1,7 +1,7 @@
 package = "kRPC"
-version = "0.1.9-0"
+version = "0.1.11-0"
 source = {
-  url = "https://github.com/djungelorm/krpc/releases/download/lua-client-v0.1.9/krpc-0.1.9-0.tar.gz"
+  url = "https://github.com/djungelorm/krpc/releases/download/lua-client-v0.1.11/krpc-0.1.11-0.tar.gz"
 }
 description = {
   summary = "Lua client library for kRPC, a Remote Procedure Call server for Kerbal Space Program",
