@@ -116,6 +116,13 @@ repository = {
          }
       }
    },
+   adoc_cmd_ext = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    aesfileencrypt = {
       ['0.1.0-1'] = {
          {
@@ -334,6 +341,13 @@ repository = {
          }
       },
       ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -3463,6 +3477,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['kong-cassandra'] = {
@@ -5510,6 +5529,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.6-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-chan'] = {
@@ -6586,6 +6610,13 @@ repository = {
          }
       }
    },
+   ['lua-resty-cookie'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-resty-fileinfo'] = {
       ['1.0-1'] = {
          {
@@ -7477,6 +7508,13 @@ repository = {
          }
       },
       ['0.11.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.11.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -9396,6 +9434,11 @@ repository = {
          }
       },
       ['1.7.8-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.7.9-0'] = {
          {
             arch = "rockspec"
          }
@@ -14878,6 +14921,13 @@ repository = {
             arch = "src"
          }
       },
+      ['14.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['2-1'] = {
          {
             arch = "rockspec"
@@ -15889,6 +15939,11 @@ repository = {
          }
       },
       ['1.1-6'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0-0'] = {
          {
             arch = "rockspec"
          }
