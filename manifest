@@ -13599,6 +13599,15 @@ repository = {
          }
       }
    },
+   otp = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    parent = {
       ['1.0.0-0'] = {
          {
@@ -14545,6 +14554,13 @@ repository = {
          }
       },
       ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['sailor-md'] = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -15944,6 +15960,11 @@ repository = {
          }
       },
       ['2.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0-1'] = {
          {
             arch = "rockspec"
          }
