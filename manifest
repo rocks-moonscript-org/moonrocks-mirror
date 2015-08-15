@@ -302,6 +302,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    argparse = {
@@ -473,6 +480,13 @@ repository = {
          }
       },
       ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -6664,14 +6678,11 @@ repository = {
       }
    },
    ['lua-resty-http'] = {
-      ['0.1-0'] = {
+      ['0.06-0'] = {
          {
             arch = "rockspec"
-         }
-      },
-      ['0.2-0'] = {
-         {
-            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -15425,6 +15436,13 @@ repository = {
    },
    symmetric = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }, {
