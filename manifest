@@ -540,6 +540,15 @@ repository = {
          }
       }
    },
+   binser = {
+      ['0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    bit32 = {
       ['5.2.0alpha.1-1'] = {
          {
@@ -6743,6 +6752,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-redis-connector'] = {
+      ['0.02-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-s3'] = {
       ['v1.0-1'] = {
          {
@@ -6803,6 +6821,13 @@ repository = {
          }
       },
       ['1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.7-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -12385,9 +12410,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -12843,6 +12868,15 @@ repository = {
       }
    },
    modjail = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   mongorover = {
       ['0.1-1'] = {
          {
             arch = "rockspec"
@@ -13611,6 +13645,15 @@ repository = {
       }
    },
    otp = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['pandoc-cli-builder'] = {
       ['0.1-1'] = {
          {
             arch = "rockspec"
