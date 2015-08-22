@@ -1618,6 +1618,13 @@ repository = {
          }
       }
    },
+   cyrussasl = {
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    dado = {
       ['1.0-1'] = {
          {
@@ -1990,6 +1997,13 @@ repository = {
          }
       },
       ['1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -8229,9 +8243,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -13651,10 +13665,24 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['pandoc-cli-builder'] = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
