@@ -3439,36 +3439,6 @@ repository = {
          }
       }
    },
-   knxclient = {
-      ['0.0-430'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0-434'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0-435'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0-464'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    kong = {
       ['0.1.0beta-3'] = {
          {
@@ -8243,9 +8213,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -8293,6 +8263,20 @@ repository = {
          }
       },
       ['1.0-7'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-8'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-9'] = {
          {
             arch = "rockspec"
          }, {
