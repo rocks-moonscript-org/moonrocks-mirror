@@ -12884,15 +12884,6 @@ repository = {
          }
       }
    },
-   mongorover = {
-      ['0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    ['moon-redis'] = {
       ['0.1-1'] = {
          {
