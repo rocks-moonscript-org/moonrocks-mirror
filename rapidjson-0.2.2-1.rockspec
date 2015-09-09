@@ -1,8 +1,8 @@
-package = "json"
-version = "0.1.0-1"
+package = "rapidjson"
+version = "0.2.2-1"
 source = {
-  url = 'git://github.com/xpol/json',
-  tag = 'v0.1.0',
+  url = 'git://github.com/xpol/rapidjson',
+  tag = 'v0.2.2-1'
 }
 
 description = {
@@ -14,12 +14,12 @@ description = {
 
         Provided API:
 
-        - `json.decode()` decode json to lua table.
-        - `json.encode()` encode lua table to json string.
-        - `json.load()` load json file into lua table.
-        - `json.dump()` dump lua table to json file.
+        - `rapidjson.decode()` decode json to lua table.
+        - `rapidjson.encode()` encode lua table to json string.
+        - `rapidjson.load()` load json file into lua table.
+        - `rapidjson.dump()` dump lua table to json file.
   ]],
-  homepage = "https://github.com/xpol/json",
+  homepage = "https://github.com/xpol/rapidjson",
   license = "MIT"
 }
 
@@ -32,6 +32,7 @@ dependencies = {
 build = {
   type = 'cmake',
   variables = {
+    LUA_RAPIDJSON_VERSION = version,
     CMAKE_INSTALL_PREFIX = "$(PREFIX)",
     LUA_INCLUDE_DIR = "$(LUA_INCDIR)",
     BUILD_SHARED_LIBS="ON",
@@ -40,7 +41,7 @@ build = {
   platforms = {
     windows = {
       variables = {
-        LUA_LIBRARIES = "$(LUA_LIBDIR)$(LUALIB)", -- windows DLL needs link with importlib.
+        LUA_LIBRARIES = "$(LUA_LIBDIR)/$(LUALIB)", -- windows DLL needs link with importlib.
       }
     }
   }
