@@ -9100,6 +9100,15 @@ repository = {
          }
       }
    },
+   luarestyredis = {
+      ['0.20-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luarocks = {
       ['2.1.1-1'] = {
          {
