@@ -1610,27 +1610,6 @@ repository = {
       }
    },
    cw = {
-      ['2.0.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['2.0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['2.0.1-2'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
       ['2.0.2-1'] = {
          {
             arch = "rockspec"
@@ -2077,6 +2056,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-graph'] = {
@@ -2507,6 +2493,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    fakeredis = {
@@ -2797,6 +2790,13 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -14011,6 +14011,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.9.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    penlight = {
@@ -15666,6 +15673,15 @@ repository = {
          }
       },
       ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   strsubst = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
