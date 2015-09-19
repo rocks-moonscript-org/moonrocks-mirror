@@ -2945,6 +2945,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    hdf5 = {
@@ -11002,6 +11009,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.7.4-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.7.4-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lxsh = {
@@ -14078,6 +14099,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    penlight = {
@@ -17112,6 +17140,15 @@ repository = {
          }
       },
       ['2.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   xcomposer = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
