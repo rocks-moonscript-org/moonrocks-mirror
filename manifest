@@ -1149,6 +1149,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    concurrentlua = {
@@ -9842,6 +9849,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luatz = {
@@ -10063,6 +10077,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   lucid = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -11511,9 +11532,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['0.26-1'] = {
@@ -12648,9 +12669,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
@@ -15959,6 +15980,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   tabletypes = {
+      ['0.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
