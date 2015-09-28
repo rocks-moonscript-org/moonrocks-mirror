@@ -2057,6 +2057,20 @@ repository = {
             arch = "src"
          }
       },
+      ['1.14-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.15-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -2130,6 +2144,13 @@ repository = {
          }
       },
       ['1.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.12-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -6428,6 +6449,15 @@ repository = {
          }
       },
       ['0.1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-lz4'] = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -11578,6 +11608,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.33-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['math-evol'] = {
@@ -12669,9 +12706,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.2-1'] = {
@@ -15148,6 +15185,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
