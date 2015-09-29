@@ -831,6 +831,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    cassandra = {
@@ -1329,6 +1336,13 @@ repository = {
    },
    coronest = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -2065,6 +2079,13 @@ repository = {
          }
       },
       ['1.15-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.16-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -5079,6 +5100,13 @@ repository = {
          }, {
             arch = "win32-x86"
          }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lpeg_patterns = {
@@ -6914,10 +6942,40 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-murmurhash2'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-resty-prettycjson'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -10107,13 +10165,6 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
-         }
-      }
-   },
-   lucid = {
-      ['1.0-1'] = {
-         {
-            arch = "rockspec"
          }
       }
    },
@@ -17312,6 +17363,13 @@ repository = {
    },
    xcomposer = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
