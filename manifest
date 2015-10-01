@@ -2099,6 +2099,20 @@ repository = {
             arch = "src"
          }
       },
+      ['1.17-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.18-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -8870,6 +8884,13 @@ repository = {
          }
       },
       ['2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.2-2'] = {
          {
             arch = "rockspec"
          }, {
