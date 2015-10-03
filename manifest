@@ -1453,6 +1453,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    coxpcall = {
@@ -2206,6 +2213,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.15-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -2307,6 +2321,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-shlex'] = {
@@ -2334,6 +2355,13 @@ repository = {
    },
    ['dromozoa-tree'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }, {
