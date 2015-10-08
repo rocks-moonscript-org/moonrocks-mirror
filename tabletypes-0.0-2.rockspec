@@ -1,7 +1,5 @@
--- TEMPLATE, NOT PUBLISHED YET --
-
 package = "tabletypes"
-version = "0.0-1"
+version = "0.0-2"
 description = {
   summary = "Metatables implementing meta table types.",
   detailed = [[
@@ -12,12 +10,12 @@ description = {
 }
 source = {
   url = "git://github.com/Okahyphen/tabletypes",
-  tag = 'v0.0.1'
+  tag = 'v0.0.2'
 }
 build = {
   type = "builtin",
   modules = {
-    randbytes = "src/tabletypes.lua"
+    tabletypes = "src/tabletypes.lua"
   }
 }
 dependencies = {

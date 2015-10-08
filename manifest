@@ -2120,7 +2120,28 @@ repository = {
             arch = "src"
          }
       },
+      ['1.19-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.20-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.21-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -3028,6 +3049,13 @@ repository = {
    },
    gomaxmagick = {
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -6955,6 +6983,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-consul'] = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-cookie'] = {
       ['0.1.0-1'] = {
          {
@@ -9342,6 +9379,13 @@ repository = {
          }
       },
       ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-4'] = {
          {
             arch = "rockspec"
          }, {
@@ -12392,9 +12436,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -16212,7 +16256,7 @@ repository = {
       }
    },
    tabletypes = {
-      ['0.0-1'] = {
+      ['0.0-2'] = {
          {
             arch = "rockspec"
          }
