@@ -7902,6 +7902,27 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.5-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.5-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.5-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lua_json = {
@@ -13832,6 +13853,15 @@ repository = {
          }
       }
    },
+   ['net-url'] = {
+      ['0.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    netcheck = {
       ['0.1.0-1'] = {
          {
@@ -16807,6 +16837,11 @@ repository = {
          }
       },
       ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0-2'] = {
          {
             arch = "rockspec"
          }
