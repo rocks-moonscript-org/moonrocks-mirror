@@ -627,6 +627,13 @@ repository = {
          }
       }
    },
+   bump = {
+      ['3.1.5-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    busted = {
       ['1.0-1'] = {
          {
@@ -16987,6 +16994,13 @@ repository = {
          }
       },
       ['2.0-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   tween = {
+      ['2.0.0-1'] = {
          {
             arch = "rockspec"
          }
