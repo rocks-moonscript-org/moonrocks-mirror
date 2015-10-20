@@ -1495,6 +1495,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1-7'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    coxpcall = {
@@ -2460,6 +2467,20 @@ repository = {
          }
       },
       ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -10911,6 +10932,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.8-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lusty-config'] = {
@@ -11354,6 +11380,21 @@ repository = {
          }
       },
       ['0.3-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4-2'] = {
          {
             arch = "rockspec"
          }
@@ -15132,6 +15173,13 @@ repository = {
          }
       },
       ['1.7-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.8-0'] = {
          {
             arch = "rockspec"
          }, {
