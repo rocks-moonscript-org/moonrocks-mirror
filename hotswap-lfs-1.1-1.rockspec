@@ -1,4 +1,4 @@
-package = "hotswap.ev"
+package = "hotswap-lfs"
 version = "1.1-1"
 
 source = {
@@ -7,7 +7,7 @@ source = {
 }
 
 description = {
-  summary    = "Hotswap backend using lua-ev",
+  summary    = "Hotswap backend using file modification timestamps",
   detailed   = [[]],
   license    = "MIT/X11",
   homepage   = "https://github.com/saucisson/lua-hotswap",
@@ -15,15 +15,14 @@ description = {
 }
 
 dependencies = {
-  "lua      >= 5.1",
-  "hotswap  >= 1",
-  "lua-ev   >= v1",
-  "luaposix >= 33",
+  "lua           >= 5.1",
+  "hotswap       >= 1",
+  "luafilesystem >= 1",
 }
 
 build = {
   type    = "builtin",
   modules = {
-    ["hotswap.ev"] = "src/hotswap/ev.lua",
+    ["hotswap.lfs"] = "src/hotswap/lfs.lua",
   },
 }

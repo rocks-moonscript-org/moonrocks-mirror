@@ -1,4 +1,4 @@
-package = "hotswap.lfs"
+package = "hotswap-hash"
 version = "1.1-1"
 
 source = {
@@ -7,7 +7,7 @@ source = {
 }
 
 description = {
-  summary    = "Hotswap backend using file modification timestamps",
+  summary    = "Hotswap backend using file hashes",
   detailed   = [[]],
   license    = "MIT/X11",
   homepage   = "https://github.com/saucisson/lua-hotswap",
@@ -15,14 +15,14 @@ description = {
 }
 
 dependencies = {
-  "lua           >= 5.1",
-  "hotswap       >= 1",
-  "luafilesystem >= 1",
+  "lua     >= 5.1",
+  "hotswap >= 1",
+  "xxhash  >= v1",
 }
 
 build = {
   type    = "builtin",
   modules = {
-    ["hotswap.lfs"] = "src/hotswap/lfs.lua",
+    ["hotswap.hash"] = "src/hotswap/hash.lua",
   },
 }

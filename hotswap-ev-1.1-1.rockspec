@@ -1,4 +1,4 @@
-package = "hotswap.hash"
+package = "hotswap-ev"
 version = "1.1-1"
 
 source = {
@@ -7,7 +7,7 @@ source = {
 }
 
 description = {
-  summary    = "Hotswap backend using file hashes",
+  summary    = "Hotswap backend using lua-ev",
   detailed   = [[]],
   license    = "MIT/X11",
   homepage   = "https://github.com/saucisson/lua-hotswap",
@@ -15,14 +15,15 @@ description = {
 }
 
 dependencies = {
-  "lua     >= 5.1",
-  "hotswap >= 1",
-  "xxhash  >= v1",
+  "lua      >= 5.1",
+  "hotswap  >= 1",
+  "lua-ev   >= v1",
+  "luaposix >= 33",
 }
 
 build = {
   type    = "builtin",
   modules = {
-    ["hotswap.hash"] = "src/hotswap/hash.lua",
+    ["hotswap.ev"] = "src/hotswap/ev.lua",
   },
 }
