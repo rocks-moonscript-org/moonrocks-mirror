@@ -14176,6 +14176,15 @@ repository = {
          }
       }
    },
+   nnsparse = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    npy4th = {
       ['1.1-0'] = {
          {
@@ -15928,6 +15937,15 @@ repository = {
          }
       }
    },
+   sharedtensor = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    sidekiqjobpusher = {
       ['1.0-1'] = {
          {
@@ -17596,6 +17614,13 @@ repository = {
             arch = "src"
          }, {
             arch = "macosx-x86"
+         }
+      }
+   },
+   wespike = {
+      ['0.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
