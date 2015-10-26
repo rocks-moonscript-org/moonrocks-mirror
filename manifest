@@ -976,6 +976,22 @@ repository = {
          }
       }
    },
+   chacha = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    checks = {
       ['1.0-1'] = {
          {
@@ -2225,6 +2241,34 @@ repository = {
             arch = "src"
          }
       },
+      ['1.26-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.27-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.28-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.29-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.4-1'] = {
          {
             arch = "rockspec"
@@ -3367,10 +3411,24 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['hotswap-ev'] = {
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -3385,6 +3443,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['hotswap-http'] = {
@@ -3394,10 +3459,24 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['hotswap-lfs'] = {
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -3753,6 +3832,13 @@ repository = {
    },
    iris = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   iter = {
+      ['0.0-0'] = {
          {
             arch = "rockspec"
          }
@@ -15938,7 +16024,14 @@ repository = {
       }
    },
    sharedtensor = {
-      ['1.0-1'] = {
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-3'] = {
          {
             arch = "rockspec"
          }, {
