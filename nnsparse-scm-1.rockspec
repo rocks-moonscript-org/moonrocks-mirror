@@ -14,12 +14,20 @@ description = {
 }
 
 dependencies = {
-   "torch >= 7.0",
+   'torch >= 7.0', 
+   'nn'
 }
 
  build = {
     type = "builtin",
     modules = {
-      sparseTools = "src/SparseTools.lua",
-    }
- }
+      ['nnsparse.init'] = 'init.lua',
+      ['nnsparse.SparseTools']         = 'src/SparseTools.lua',
+      ['nnsparse.SparseCriterion']     = 'src/SparseCriterion.lua',
+      ['nnsparse.SDAECriterion']       = 'src/SDAECriterion.lua',
+      ['nnsparse.SDAESparseCriterion'] = 'src/SDAESparseCriterion.lua',
+      ['nnsparse.SparseLinearBatch']   = 'src/SparseLinearBatch.lua',
+
+    },
+ 
+}
