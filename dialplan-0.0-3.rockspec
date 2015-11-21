@@ -1,5 +1,5 @@
 package = "dialplan"
-version = "0.0-2"
+version = "0.0-3"
 source = {
   url = "git://github.com/antirek/lua-dialplan",
   tag = "v0.0"  
@@ -13,7 +13,7 @@ description = {
   license = "MIT"
 }
 dependencies = {
-  "lua ~> 5.2"
+  "lua ~> 5.1"
 }
 build = {
   type = "builtin",
