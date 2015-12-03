@@ -2333,6 +2333,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.37-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.4-1'] = {
          {
             arch = "rockspec"
@@ -2594,6 +2601,13 @@ repository = {
          }
       },
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.10-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -8671,6 +8685,18 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   lua_ip = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -16364,6 +16390,11 @@ repository = {
          }
       },
       ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.5-1'] = {
          {
             arch = "rockspec"
          }
