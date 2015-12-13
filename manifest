@@ -383,6 +383,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    asklua = {
@@ -1863,6 +1870,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.7.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    darksidesync = {
@@ -2340,7 +2352,63 @@ repository = {
             arch = "src"
          }
       },
+      ['1.38-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.39-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.40-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.41-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.42-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.43-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.44-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.45-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -2546,6 +2614,50 @@ repository = {
          }
       },
       ['1.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['dromozoa-http'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -2819,6 +2931,22 @@ repository = {
          }
       },
       ['1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['dromozoa-xml'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -3225,6 +3353,15 @@ repository = {
          }
       }
    },
+   finally = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    flatfile = {
       ['1-1'] = {
          {
@@ -3507,6 +3644,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    h5tk = {
@@ -3579,6 +3721,11 @@ repository = {
          }
       },
       ['1.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.4-1'] = {
          {
             arch = "rockspec"
          }
@@ -4112,6 +4259,27 @@ repository = {
          }
       },
       ['3.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -4782,6 +4950,13 @@ repository = {
          }
       },
       ['1.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -5639,6 +5814,13 @@ repository = {
    },
    loadkit = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -6600,6 +6782,18 @@ repository = {
          }
       }
    },
+   ['lua-cbor'] = {
+      ['0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-chan'] = {
       ['0.1-1'] = {
          {
@@ -7331,6 +7525,15 @@ repository = {
          }
       },
       ['0.1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-lru'] = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -8098,6 +8301,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-xxhash'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-rote'] = {
       ['1.0-1'] = {
          {
@@ -8725,6 +8937,13 @@ repository = {
          }
       }
    },
+   lua_system_constants = {
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    lua_uuid = {
       ['0.1-8'] = {
          {
@@ -8973,6 +9192,20 @@ repository = {
          }
       },
       ['0.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.9.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -9471,6 +9704,15 @@ repository = {
          }
       }
    },
+   luaharfbuzz = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luahelp = {
       ['0.3-1'] = {
          {
@@ -9822,6 +10064,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lualdap = {
@@ -9909,6 +10158,13 @@ repository = {
          }
       }
    },
+   ['luanosql-unqlite'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luanotify = {
       ['0.1-1'] = {
          {
@@ -9955,6 +10211,13 @@ repository = {
          }
       },
       ['20150727-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['20150727-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -10208,6 +10471,11 @@ repository = {
          }
       },
       ['3.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['3.1-0'] = {
          {
             arch = "rockspec"
          }
@@ -10999,6 +11267,13 @@ repository = {
             arch = "src"
          }, {
             arch = "all"
+         }
+      }
+   },
+   luaunbound = {
+      ['0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -14598,6 +14873,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    moor = {
@@ -16903,6 +17185,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    sputnik = {
@@ -17396,6 +17685,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    tamale = {
@@ -17488,6 +17784,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    tdb = {
@@ -17560,6 +17863,15 @@ repository = {
             arch = "all"
          }, {
             arch = "src"
+         }
+      },
+      ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -17875,6 +18187,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    tuple = {
@@ -17928,6 +18245,11 @@ repository = {
          }
       },
       ['2.0-3'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0-4'] = {
          {
             arch = "rockspec"
          }
