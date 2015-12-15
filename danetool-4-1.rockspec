@@ -1,8 +1,8 @@
 package = "danetool"
-version = "2-1"
+version = "4-1"
 source = {
 	url = "hg+http://code.zash.se/danetool/",
-	tag = "48a1e8756a73"
+	tag = "89e6b3a3523c"
 }
 description = {
 	summary = "Tool for validating and generating TLSA records",
@@ -11,7 +11,7 @@ description = {
 }
 dependencies = {
 	"luasocket",
-	"luasec",
+	"luasec >= 0.5", -- 0.6 preferred
 	"luaunbound",
 	-- "luaossl",
 	-- "luacrypto",
