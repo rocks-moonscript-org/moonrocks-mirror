@@ -1393,6 +1393,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    copastimer = {
@@ -2012,6 +2019,15 @@ repository = {
          }
       }
    },
+   depgraph = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    dialplan = {
       ['0.0-3'] = {
          {
@@ -2460,6 +2476,13 @@ repository = {
          }
       },
       ['1.48-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.49-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -6934,6 +6957,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-cbor'] = {
@@ -6945,6 +6973,13 @@ repository = {
       ['0-2'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -18603,6 +18638,13 @@ repository = {
          }
       },
       ['0.1.0.rc2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0.rc3-1'] = {
          {
             arch = "rockspec"
          }, {
