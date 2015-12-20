@@ -13776,6 +13776,15 @@ repository = {
          }
       }
    },
+   mirrorfs = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    mixlua = {
       ['0.2.7-1'] = {
          {
