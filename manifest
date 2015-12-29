@@ -2517,6 +2517,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.50-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.6-1'] = {
          {
             arch = "rockspec"
@@ -2813,6 +2820,22 @@ repository = {
          }
       },
       ['1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['dromozoa-lambda'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -3540,6 +3563,15 @@ repository = {
    },
    flatfile = {
       ['1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   flirt = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -6000,6 +6032,15 @@ repository = {
    },
    lnotify = {
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   loadconf = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -9236,6 +9277,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0.2-3'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luacheck = {
@@ -10311,6 +10357,13 @@ repository = {
          }
       },
       ['3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -13953,9 +14006,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -15231,6 +15284,15 @@ repository = {
       ['1.4.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   mosquitto = {
+      ['master-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -18950,6 +19012,13 @@ repository = {
          }
       },
       ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.0-1'] = {
          {
             arch = "rockspec"
          }, {

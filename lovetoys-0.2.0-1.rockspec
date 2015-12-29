@@ -18,16 +18,16 @@ dependencies = {
 build = {
   type = 'builtin',
   modules = {
-    ['lovetoys']                                = 'lovetoys.lua',
-    ['src.Component']                           = 'src/Component.lua',
-    ['src.Engine']                              = 'src/Engine.lua',
-    ['src.Entity']                              = 'src/Entity.lua',
-    ['src.EventManager']                        = 'src/EventManager.lua',
-    ['src.middleclass']                         = 'src/middleclass.lua',
-    ['src.System']                              = 'src/System.lua',
-    ['src.util']                                = 'src/util.lua',
-    ['src.events.ComponentAdded']               = 'src/events/ComponentAdded.lua',
-    ['src.events.ComponentRemoved']             = 'src/events/ComponentRemoved.lua',
+    ['lovetoys.lovetoys']                                = 'lovetoys.lua',
+    ['lovetoys.src.Component']                           = 'src/Component.lua',
+    ['lovetoys.src.Engine']                              = 'src/Engine.lua',
+    ['lovetoys.src.Entity']                              = 'src/Entity.lua',
+    ['lovetoys.src.EventManager']                        = 'src/EventManager.lua',
+    ['lovetoys.src.middleclass']                         = 'src/middleclass.lua',
+    ['lovetoys.src.System']                              = 'src/System.lua',
+    ['lovetoys.src.util']                                = 'src/util.lua',
+    ['lovetoys.src.events.ComponentAdded']               = 'src/events/ComponentAdded.lua',
+    ['lovetoys.src.events.ComponentRemoved']             = 'src/events/ComponentRemoved.lua',
   },
   install = {}
 }
