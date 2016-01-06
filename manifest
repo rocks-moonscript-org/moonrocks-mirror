@@ -3107,6 +3107,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-utf8'] = {
@@ -3423,6 +3430,15 @@ repository = {
          }
       },
       ['2.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['f-strings'] = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -5766,6 +5782,13 @@ repository = {
       ['0.9.16-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.9.17-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -9371,6 +9394,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.13.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.2.0-1'] = {
          {
             arch = "rockspec"
@@ -9977,6 +10007,29 @@ repository = {
          }
       },
       ['1.6.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luaflow = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -16469,6 +16522,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['scm.trunk.nightly606-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    protobuf = {
@@ -17065,6 +17125,15 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   s3 = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
