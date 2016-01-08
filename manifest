@@ -3114,6 +3114,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-utf8'] = {
@@ -17139,6 +17153,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    saci = {
@@ -18769,6 +18797,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    twitter = {
@@ -18946,6 +18979,13 @@ repository = {
          }
       },
       ['0.1.0.rc3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0.rc4-1'] = {
          {
             arch = "rockspec"
          }, {
