@@ -2962,6 +2962,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-regexp'] = {
@@ -3214,6 +3221,13 @@ repository = {
          }
       },
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.10-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -7321,6 +7335,11 @@ repository = {
          }
       },
       ['0.4.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4.2-0'] = {
          {
             arch = "rockspec"
          }
@@ -16135,6 +16154,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    oops = {
@@ -17877,6 +17903,13 @@ repository = {
       ['1.5-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
