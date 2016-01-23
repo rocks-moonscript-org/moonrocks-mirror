@@ -11,19 +11,13 @@ description = {
 }
 dependencies = {
 	"lua >= 5.3",
-	"moonscript",
+	"moonscript >= 0.4",
 	"inspect",
 	"lpeg",
 	"linenoise"
 }
 build = {
-	type = "command",
-	build_command = "moonc -o llix_eval.lua llix/eval.moon; moonc -o llix_parse.lua llix/parse.moon",
-	install = {
-		lua = {
-			"llix_eval.lua",
-			"llix_parse.lua"
-		},
-		bin = {"bin/llix"}
-	}
+	type = "make",
+	build_variables = {},
+	install_variables = {}
 }
