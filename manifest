@@ -2138,6 +2138,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dialplan = {
@@ -5393,6 +5400,22 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.4.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lapis-annotate'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lapis-console'] = {
@@ -5984,7 +6007,7 @@ repository = {
             arch = "src"
          }
       },
-      ['0.9.17.2-1'] = {
+      ['0.9.17.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -9297,6 +9320,15 @@ repository = {
          }
       },
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-ucl'] = {
+      ['0.1.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -13938,6 +13970,22 @@ repository = {
          }
       }
    },
+   matchext = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['math-evol'] = {
       ['1.12-1'] = {
          {
@@ -17131,6 +17179,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    readkey = {
@@ -17568,6 +17630,50 @@ repository = {
          }
       },
       ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   rl = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-5'] = {
          {
             arch = "rockspec"
          }, {
@@ -18711,6 +18817,15 @@ repository = {
          }
       }
    },
+   tableshape = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    tableutils = {
       ['1.0.0-1'] = {
          {
@@ -19176,6 +19291,50 @@ repository = {
          }
       }
    },
+   ['torch-word-emb'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    transducers = {
       ['0.0-1'] = {
          {
@@ -19468,6 +19627,13 @@ repository = {
       ['0.2.2-3'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
