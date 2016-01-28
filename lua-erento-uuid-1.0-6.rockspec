@@ -1,5 +1,5 @@
 package = "lua-erento-uuid"
-version = "1.0-3"
+version = "1.0-6"
 source = {
   url = "git://github.com/erento/lua-resty-uuid.git"
 }
@@ -15,11 +15,12 @@ dependencies = {
 }
 build = {
   type = "builtin",
-    modules = {
-      ["resty.uuid"] = "lib/resty/uuid.lua",
-      libuuid = {
-        sources = {},
-        libraries = { "uuid" }
-      }
+  modules = {
+    ["resty.uuid"] = "lib/resty/uuid.lua",
+  },
+  install = {
+    lib = {
+      "/lib/x86_64-linux-gnu/libuuid.so.1"
+    }
   }
 }
