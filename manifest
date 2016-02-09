@@ -1676,6 +1676,15 @@ repository = {
          }
       }
    },
+   ['cosy-graphinfo'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    coxpcall = {
       ['1.11.0-1'] = {
          {
@@ -3633,6 +3642,13 @@ repository = {
    },
    ['erento-lua-rfc-4122-uuid-generator'] = {
       ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -8970,6 +8986,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-consul'] = {
@@ -10274,6 +10297,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "all"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.10.0-1'] = {
+         {
+            arch = "rockspec"
          }, {
             arch = "src"
          }
