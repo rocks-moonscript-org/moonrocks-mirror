@@ -5809,6 +5809,15 @@ repository = {
          }
       }
    },
+   latclient = {
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    layeredata = {
       ['0.1-1'] = {
          {
@@ -10593,6 +10602,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luacrc16 = {
@@ -11598,6 +11614,13 @@ repository = {
          }
       },
       ['2.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   luamine = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -12742,9 +12765,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -15262,9 +15285,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -18263,6 +18286,15 @@ repository = {
          }
       }
    },
+   remy = {
+      ['0.2.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    require = {
       ['0.1.0-1'] = {
          {
@@ -18877,9 +18909,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -19608,6 +19640,15 @@ repository = {
          }
       },
       ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   strong = {
+      ['1.0.4-1'] = {
          {
             arch = "rockspec"
          }, {
