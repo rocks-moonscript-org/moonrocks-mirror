@@ -661,6 +661,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    bit32 = {
@@ -3852,6 +3859,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.2-16'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.2-2'] = {
          {
             arch = "rockspec"
@@ -6444,6 +6458,36 @@ repository = {
          }
       },
       ['0.9.17.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.9.18.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   liluat = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -15408,9 +15452,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -16854,11 +16898,9 @@ repository = {
       }
    },
    nnsparse = {
-      ['scm-1'] = {
+      ['1.1-0'] = {
          {
             arch = "rockspec"
-         }, {
-            arch = "src"
          }
       }
    },
@@ -17031,6 +17073,13 @@ repository = {
          }
       },
       ['0.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -18916,9 +18965,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       }
    },
