@@ -365,6 +365,13 @@ repository = {
          }
       }
    },
+   ['argon2-ffi'] = {
+      ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    argparse = {
       ['0.1.0-1'] = {
          {
@@ -9269,6 +9276,13 @@ repository = {
          }
       }
    },
+   ['lua-resty-busted'] = {
+      ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-resty-consul'] = {
       ['0.1-0'] = {
          {
@@ -9572,6 +9586,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['lua-resty-socket'] = {
+      ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -12863,9 +12884,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -19052,9 +19073,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       }
    },
