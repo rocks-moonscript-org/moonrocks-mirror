@@ -2293,6 +2293,8 @@ repository = {
       ['2.1.2-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -5948,6 +5950,13 @@ repository = {
          }
       },
       ['0.5-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -11638,6 +11647,13 @@ repository = {
    },
    lualibrarytemplate = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -17416,6 +17432,15 @@ repository = {
          }
       }
    },
+   orderedset = {
+      ['0.01-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['org.conman.env'] = {
       ['1.0.1-0'] = {
          {
@@ -17691,6 +17716,13 @@ repository = {
          }
       },
       ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.0-1'] = {
          {
             arch = "rockspec"
          }, {

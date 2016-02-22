@@ -28,6 +28,5 @@ build = {
     ['lovetoys.src.util']                                = 'src/util.lua',
     ['lovetoys.src.events.ComponentAdded']               = 'src/events/ComponentAdded.lua',
     ['lovetoys.src.events.ComponentRemoved']             = 'src/events/ComponentRemoved.lua',
-  },
-  install = {}
+  }
 }
