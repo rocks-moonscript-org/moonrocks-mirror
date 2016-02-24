@@ -1,8 +1,8 @@
 package = "OrderedSet"
-version = "0.01-2"
+version = "0.01-3"
 source = {
    url = "git://github.com/basiliscos/lua-ordered-set",
-   tag = "v0.01-2",
+   tag = "v0.01-3",
 }
 description = {
    summary = "Ordered set implementation in pure Lua with fast insert/remove",
