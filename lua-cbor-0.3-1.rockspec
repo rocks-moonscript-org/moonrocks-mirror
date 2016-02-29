@@ -1,7 +1,8 @@
 package = "lua-cbor"
-version = "0-3"
+version = "0.3-1"
 source = {
-	url = "hg+http://code.zash.se/lua-cbor/"
+	url = "hg+http://code.zash.se/lua-cbor/",
+	tag = "0.3",
 }
 description = {
 	summary = "Pure Lua CBOR / RFC 7049 implementation",
@@ -20,7 +21,9 @@ build = {
 	type = "builtin",
 	modules = {
 		cbor = "cbor.lua",
+		["cbor.bignum"] = "cbor.bignum.lua";
 	},
 }
 
 -- vim: syntax=lua :
+
