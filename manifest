@@ -19662,6 +19662,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    sputnik = {
@@ -19989,6 +19996,13 @@ repository = {
          }
       },
       ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['string.color'] = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -20680,6 +20694,13 @@ repository = {
          }
       },
       ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3-1'] = {
          {
             arch = "rockspec"
          }, {
