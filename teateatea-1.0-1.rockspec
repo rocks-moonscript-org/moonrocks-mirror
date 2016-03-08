@@ -13,7 +13,7 @@ description = {
 	with options:
 	- trim whitespaces before inserting
 	- drop empty values
-	- use a separator/equal token string as a dictionary of single byte tokens
+	- use a separation/equals token string as a dictionary of single byte tokens
 	more info: https://github.com/Darvame/teateatea
 ]],
  homepage = "https://github.com/Darvame/teateatea",

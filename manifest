@@ -7046,6 +7046,13 @@ repository = {
          }
       }
    },
+   lockbox = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    lodash = {
       ['0.02-0'] = {
          {
@@ -7923,6 +7930,13 @@ repository = {
          }
       },
       ['0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -8809,6 +8823,20 @@ repository = {
    },
    ['lua-jwc'] = {
       ['0.1-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -12815,6 +12843,13 @@ repository = {
          }
       }
    },
+   ['luasql-oci8'] = {
+      ['2.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['luasql-postgres'] = {
       ['2.3.0-1'] = {
          {
@@ -14900,6 +14935,13 @@ repository = {
          }
       }
    },
+   lzw = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    mach = {
       ['1.0-1'] = {
          {
@@ -15137,6 +15179,15 @@ repository = {
          }
       },
       ['1.18-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   md = {
+      ['0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -15639,9 +15690,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -15659,9 +15710,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -15722,9 +15773,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -15775,9 +15826,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -15795,9 +15846,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -15835,9 +15886,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
