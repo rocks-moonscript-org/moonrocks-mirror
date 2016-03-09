@@ -11908,6 +11908,13 @@ repository = {
          }
       }
    },
+   lualol = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    lualzo = {
       ['0.5-1'] = {
          {
