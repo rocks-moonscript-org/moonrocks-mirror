@@ -1383,6 +1383,25 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.3-3'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    commandlineui = {
@@ -20439,6 +20458,11 @@ repository = {
    },
    teateatea = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }
