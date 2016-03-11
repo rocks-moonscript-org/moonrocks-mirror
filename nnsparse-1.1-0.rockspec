@@ -31,6 +31,7 @@ dependencies = {
       ['nnsparse.SparseSorting']       = 'src/SparseSorting.lua',
       ['nnsparse.Batchifier']          = 'src/Batchifier.lua',
       ['nnsparse.DynamicSparseTensor'] = 'src/DynamicSparseTensor.lua',
+      ['nnsparse.MaskCriterion']       = 'src/MaskCriterion.lua',
     },
 
 }
