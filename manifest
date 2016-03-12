@@ -6655,32 +6655,9 @@ repository = {
       }
    },
    liluat = {
-      ['1.0-1'] = {
+      ['1.1.1-1'] = {
          {
             arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.2-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
          }
       }
    },
@@ -11929,6 +11906,11 @@ repository = {
    },
    lualol = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1-2'] = {
          {
             arch = "rockspec"
          }
