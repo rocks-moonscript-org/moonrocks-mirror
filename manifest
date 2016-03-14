@@ -4449,6 +4449,15 @@ repository = {
          }
       }
    },
+   ftcsv = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['fun-alloyed'] = {
       ['0.1-1'] = {
          {
@@ -12054,6 +12063,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   luapdu = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
