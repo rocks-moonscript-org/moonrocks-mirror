@@ -4495,6 +4495,15 @@ repository = {
          }
       }
    },
+   gear = {
+      ['0.01-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    getsize = {
       ['0.1-1'] = {
          {
@@ -6116,6 +6125,13 @@ repository = {
          }
       },
       ['0.5-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5-5'] = {
          {
             arch = "rockspec"
          }, {
@@ -19698,13 +19714,6 @@ repository = {
          }
       },
       ['14.1.6-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['14.1.7-1'] = {
          {
             arch = "rockspec"
          }, {
