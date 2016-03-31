@@ -13762,6 +13762,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luma = {
@@ -17446,6 +17453,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    mpi = {
@@ -21023,6 +21035,15 @@ repository = {
          }
       },
       ['1.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   tesla = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
