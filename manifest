@@ -10297,6 +10297,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.6-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-testlongstring'] = {
@@ -13788,6 +13793,13 @@ repository = {
          }
       },
       ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -18138,6 +18150,15 @@ repository = {
    },
    orderedset = {
       ['0.01-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['org.conman.cbor'] = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
