@@ -5810,6 +5810,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lake = {
@@ -9822,6 +9829,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-nettle'] = {
+      ['0.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-prettycjson'] = {
       ['1.0-1'] = {
          {
@@ -13364,6 +13380,13 @@ repository = {
          }
       }
    },
+   luatabledump = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luatexts = {
       ['0.1.1-1'] = {
          {
@@ -13452,9 +13475,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -19159,9 +19182,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['2.0.1-0'] = {
@@ -21365,6 +21388,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['torch-dataframe'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
