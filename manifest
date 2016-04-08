@@ -375,6 +375,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['argon2-ffi'] = {
@@ -14954,6 +14959,20 @@ repository = {
          }
       },
       ['1.8.0-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.9.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.9.0-1'] = {
          {
             arch = "rockspec"
          }, {
