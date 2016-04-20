@@ -1,7 +1,8 @@
 package = "babel"
-version = "1.2-1"
+version = "1.2-3"
 source = {
-    url = "https://github.com/martin-damien/babel/archive/v1.2.zip"
+    url = "https://github.com/martin-damien/babel/archive/v1.2-3.zip",
+    dir = "babel-1.2-3"
 }
 description = {
     summary = "A simple internationalisation module",
