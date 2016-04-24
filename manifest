@@ -5870,8 +5870,8 @@ repository = {
          }
       }
    },
-   kong_plugin_jwt_up = {
-      ['1.0-0'] = {
+   ['kong-plugin-jwt-up'] = {
+      ['1.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -10032,6 +10032,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-readurl'] = {
@@ -11617,6 +11624,11 @@ repository = {
    },
    luadist2 = {
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-1'] = {
          {
             arch = "rockspec"
          }
@@ -16448,9 +16460,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -16468,9 +16480,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -16584,9 +16596,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
