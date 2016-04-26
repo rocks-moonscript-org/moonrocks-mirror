@@ -3460,6 +3460,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-regexp'] = {
@@ -9490,6 +9497,15 @@ repository = {
    },
    ['lua-mock'] = {
       ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-mosquitto'] = {
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
