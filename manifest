@@ -2486,6 +2486,15 @@ repository = {
          }
       }
    },
+   dataframe = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    date = {
       ['1.0-1'] = {
          {
@@ -3460,6 +3469,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-regexp'] = {
@@ -3608,6 +3624,13 @@ repository = {
          }
       },
       ['1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.7-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -3824,6 +3847,13 @@ repository = {
          }
       },
       ['1.22-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.23-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -4615,6 +4645,13 @@ repository = {
          }
       },
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -13626,6 +13663,11 @@ repository = {
             arch = "src"
          }
       },
+      ['1.7.10-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['1.7.2-0'] = {
          {
             arch = "rockspec"
@@ -16664,9 +16706,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -16717,9 +16759,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
