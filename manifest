@@ -6102,8 +6102,6 @@ repository = {
       ['0.3.3-0'] = {
          {
             arch = "rockspec"
-         }, {
-            arch = "src"
          }
       }
    },
@@ -10464,6 +10462,13 @@ repository = {
          }
       },
       ['2.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.7-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -17468,9 +17473,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -22029,9 +22034,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
