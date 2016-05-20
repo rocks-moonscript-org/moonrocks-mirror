@@ -1,8 +1,8 @@
 package = 'nginx-metrix'
-version = '1.0.rc1-1'
+version = '1.0.rc2-1'
 source = {
-  url = 'https://github.com/bankiru/nginx-metrix/archive/v1.0-rc1.tar.gz',
-  dir = 'nginx-metrix-1.0-rc1'
+  url = 'https://github.com/bankiru/nginx-metrix/archive/v1.0-rc2.tar.gz',
+  dir = 'nginx-metrix-1.0-rc2'
 }
 description = {
   summary    = 'Extended Nginx status and metrics.',
@@ -13,10 +13,11 @@ description = {
 }
 dependencies = {
   'lua ~> 5.1',
-  'lua-cjson >= 2.1',
-  'fun-alloyed >= 0.1.3',
-  'inspect >= 3.1.0',
-  'lust >= 0.1',
+  'lpeg',
+  'dkjson',
+  'fun-alloyed',
+  'inspect',
+  'lust',
 }
 
 build = {
@@ -42,7 +43,7 @@ build = {
 
     ['nginx-metrix.storage.collector_wrapper_factory'] = 'nginx-metrix/storage/collector_wrapper_factory.lua',
     ['nginx-metrix.storage.dict']                      = 'nginx-metrix/storage/dict.lua',
-    ['nginx-metrix.storage.helper']                    = 'nginx-metrix/storage/namespaces.lua',
-    ['nginx-metrix.storage.renderer']                  = 'nginx-metrix/storage/serializer.lua',
+    ['nginx-metrix.storage.namespaces']                = 'nginx-metrix/storage/namespaces.lua',
+    ['nginx-metrix.storage.serializer']                = 'nginx-metrix/storage/serializer.lua',
   },
 }
