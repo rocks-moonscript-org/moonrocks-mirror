@@ -194,6 +194,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.7.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    alnbox = {
@@ -1943,6 +1950,13 @@ repository = {
             arch = "src"
          }, {
             arch = "all"
+         }
+      },
+      ['16.06.04-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       },
       ['8.02.18-1'] = {
@@ -20178,9 +20192,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['2.0.1-0'] = {
@@ -21041,9 +21055,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -22328,9 +22342,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
