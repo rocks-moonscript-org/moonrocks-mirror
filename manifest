@@ -4384,6 +4384,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    evdev = {
@@ -14438,6 +14445,13 @@ repository = {
          }
       }
    },
+   luawalker = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luawebsocket = {
       ['1.0.0-0'] = {
          {
@@ -17069,9 +17083,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -17089,9 +17103,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -17705,9 +17719,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -18718,6 +18732,15 @@ repository = {
          }
       },
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   nnutils = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -24026,6 +24049,13 @@ repository = {
          }
       },
       ['0.7-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7.2-1'] = {
          {
             arch = "rockspec"
          }, {
