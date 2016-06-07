@@ -1,10 +1,10 @@
 package = "lua_sysenv"
-version = "1.0-1"
+version = "0.1-0"
 
 source =
 {
     url = "git://github.com/cjtallman/lua_sysenv",
-    tag = "v1.0",
+    tag = "v0.1",
 }
 
 description =
