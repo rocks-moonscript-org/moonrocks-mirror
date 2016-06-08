@@ -6179,6 +6179,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.8.3-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['kong-cassandra'] = {
@@ -18669,14 +18674,7 @@ repository = {
       }
    },
    ['nginx-metrix'] = {
-      ['1.0.rc5-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.rc6-1'] = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
