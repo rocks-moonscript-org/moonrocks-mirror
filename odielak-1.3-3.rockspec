@@ -1,5 +1,5 @@
 package = "Odielak"
-version = "1.3-2"
+version = "1.3-3"
 source = {
  url = "git://github.com/Darvame/odielak",
  tag = "v1.3",
