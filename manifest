@@ -3257,6 +3257,15 @@ repository = {
          }
       }
    },
+   ['dromozoa-dyld'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['dromozoa-graph'] = {
       ['1.0-1'] = {
          {
@@ -5056,6 +5065,18 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['genesi-password'] = {
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1.0-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -8796,6 +8817,15 @@ repository = {
       ['1.0.1-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['lua-basex'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -13251,6 +13281,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1-3'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    lualzo = {
@@ -14600,9 +14635,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -17456,9 +17491,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -17539,9 +17574,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -17612,9 +17647,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -17652,9 +17687,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -18657,34 +18692,6 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
-         }
-      }
-   },
-   moonmint = {
-      ['0.0.0-6'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0.0-7'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0.0-8'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0.0-9'] = {
-         {
-            arch = "rockspec"
          }
       }
    },
@@ -21565,9 +21572,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       }
    },
