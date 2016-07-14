@@ -1,8 +1,8 @@
 package = 'nginx-metrix'
-version = '1.1.0-1'
+version = '1.1.2-1'
 source = {
-  url = 'https://github.com/bankiru/nginx-metrix/archive/v1.1.0.tar.gz',
-  dir = 'nginx-metrix-1.1.0',
+  url = 'https://github.com/bankiru/nginx-metrix/archive/v1.1.2.tar.gz',
+  dir = 'nginx-metrix-1.1.2',
 }
 description = {
   summary    = 'Extended Nginx status and metrics.',
@@ -44,5 +44,6 @@ build = {
     ['nginx-metrix.storage.dict']                      = 'nginx-metrix/storage/dict.lua',
     ['nginx-metrix.storage.namespaces']                = 'nginx-metrix/storage/namespaces.lua',
     ['nginx-metrix.storage.serializer']                = 'nginx-metrix/storage/serializer.lua',
+    ['nginx-metrix.storage.window']                    = 'nginx-metrix/storage/window.lua',
   },
 }

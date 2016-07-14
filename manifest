@@ -19093,11 +19093,9 @@ repository = {
             arch = "src"
          }
       },
-      ['1.1.0-1'] = {
+      ['1.1.2-1'] = {
          {
             arch = "rockspec"
-         }, {
-            arch = "src"
          }
       }
    },
@@ -23930,6 +23928,20 @@ repository = {
    },
    wcwidth = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
