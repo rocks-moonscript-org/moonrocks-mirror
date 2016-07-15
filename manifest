@@ -11087,6 +11087,13 @@ repository = {
          }
       }
    },
+   ['lua-resty-waf'] = {
+      ['0.8-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-resty-xxhash'] = {
       ['1.0-1'] = {
          {
@@ -14649,9 +14656,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -16716,6 +16723,11 @@ repository = {
          }
       },
       ['4.3-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['4.4-0'] = {
          {
             arch = "rockspec"
          }
@@ -20432,6 +20444,11 @@ repository = {
    },
    proxyquire = {
       ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0-0'] = {
          {
             arch = "rockspec"
          }
