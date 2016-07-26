@@ -16444,6 +16444,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.9.0-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luv-coro-channel'] = {
