@@ -702,6 +702,15 @@ repository = {
          }
       }
    },
+   ['bcrypt-ffi'] = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    bencode = {
       ['1-1'] = {
          {
@@ -2264,11 +2273,11 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "linux-x86_64"
          }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['20150119.52-1'] = {
@@ -5209,6 +5218,15 @@ repository = {
    },
    ['globals-lua'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   glyphify = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -23190,9 +23208,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -23853,6 +23871,13 @@ repository = {
          }
       },
       ['0.3.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.2-1'] = {
          {
             arch = "rockspec"
          }, {
