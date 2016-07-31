@@ -1368,6 +1368,15 @@ repository = {
          }
       }
    },
+   ['cipher-log'] = {
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['cirru-parser'] = {
       ['0.1-1'] = {
          {
@@ -6485,6 +6494,13 @@ repository = {
    },
    ['kong-plugin-jwt-up'] = {
       ['1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3-0'] = {
          {
             arch = "rockspec"
          }, {
