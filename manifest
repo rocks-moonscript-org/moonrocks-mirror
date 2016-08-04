@@ -10591,6 +10591,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.8.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-busted'] = {
@@ -10611,6 +10618,13 @@ repository = {
    },
    ['lua-resty-cookie'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['lua-resty-dogstatsd'] = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -12688,6 +12702,13 @@ repository = {
       ['0.4.3-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.4.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -21814,6 +21835,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    sendmail = {
@@ -24395,6 +24421,11 @@ repository = {
          }
       },
       ['1.2.0-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.2.1'] = {
          {
             arch = "rockspec"
          }

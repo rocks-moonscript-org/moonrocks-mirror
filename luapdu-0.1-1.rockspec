@@ -1,9 +1,8 @@
 package = "LuaPDU"
 version = "0.1-1"
 source = {
-  url = "https://github.com/0x4c4a/luapdu.git",
-  tag = "v0.1-1",
-  dir = "lua-pdu"
+  url = "git://github.com/0x4c4a/lua-pdu.git",
+  tag = "v0.1-1"
 }
 description = {
   summary = "PDU SMS encoder/decoder.",
@@ -11,7 +10,7 @@ description = {
     This is a module for decoding and encoding
     PDU SMS which is used for GSM communication.
   ]],
-  homepage = "https://github.com/0x4c4a/luapdu.git",
+  homepage = "https://github.com/0x4c4a/lua-pdu.git",
   maintainer = "Linards.Jukmanis@0x4c4a.com",
   license = "MIT/X11"
 }

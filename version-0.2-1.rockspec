@@ -10,7 +10,7 @@ description = {
    summary = "Version comparison library",
    detailed = [[
       Compares string based versions (dot separated numbers)
-      as individual versions, angainst ranges, or in sets with multiple
+      as individual versions, against ranges, or in sets with multiple
       allowed and disallowed ranges/versions.
    ]],
    license = "MIT/X11",

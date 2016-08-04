@@ -6,10 +6,7 @@ source = {
 }
 description = {
     homepage = "https://github.com/alikefia/luv-coro-fs",
-    summary = "luv fs wrapper to use coroutines",
-    detailed = [[
-This library ports creationix/luv-coro-fs lit package to luarocks
-    ]],
+    summary = "luv fs coroutine wrapper",
     license = "MIT",
 }
 dependencies = {

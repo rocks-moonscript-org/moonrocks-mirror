@@ -19,16 +19,17 @@ description = {
 }
 dependencies = {
   'lua >= 5.1',
-  'lua_cliargs >= 2.5-0, < 3.0.rc-1',
+  'lua_cliargs = 3.0-1',
   'luafilesystem >= 1.5.0',
+  'luasystem >= 0.2.0-0',
   'dkjson >= 2.1.0',
   'say >= 1.3-0',
   'luassert >= 1.7.8-0',
   'lua-term >= 0.1-1',
   'penlight >= 1.3.2-2',
   'mediator_lua >= 1.1.1-0',
-  'luasocket >= 2.0.1'
 }
+
 build = {
   type = 'builtin',
   modules = {

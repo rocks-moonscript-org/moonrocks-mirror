@@ -15,13 +15,11 @@
     license = "MIT/PerimeterX"
  }
  dependencies = {
-    "lua >= 5.1",
-    "luaknife",
     "lua-cjson",
     "lua-resty-http",
-    "lua-resty-nettle >= 3.1.1"
-
+    "lua-resty-nettle"
  }
+
  build = {
     type = "make"
  }

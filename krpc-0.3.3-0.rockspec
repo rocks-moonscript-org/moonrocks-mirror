@@ -1,11 +1,11 @@
-package = "kRPC"
+package = "krpc"
 version = "0.3.3-0"
 source = {
-  url = "http://luarocks.org/manifests/krpc/krpc-0.3.3-0.src.rock"
+  url = "https://s3.amazonaws.com/krpc/lua/krpc-0.3.3.zip"
 }
 description = {
   summary = "Lua client library for kRPC",
-  homepage = "https://github.com/krpc/krpc/wiki",
+  homepage = "https://krpc.github.io/krpc",
   license = "GNU LGPL v3"
 }
 dependencies = {

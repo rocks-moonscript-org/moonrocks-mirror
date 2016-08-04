@@ -6,10 +6,7 @@ source = {
 }
 description = {
     homepage = "https://github.com/alikefia/luv-coro-channel",
-    summary = "luv socket event driven wrapper based on coroutines",
-    detailed = [[
-This library ports creationix/luv-coro-channel lit package to luarocks
-    ]],
+    summary = "luv socket coroutine wrapper",
     license = "MIT",
 }
 dependencies = {
