@@ -10638,6 +10638,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.8.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-aws-auth'] = {
@@ -19495,6 +19502,13 @@ repository = {
          }
       }
    },
+   netstring = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['nginx-metrix'] = {
       ['1.0.1-1'] = {
          {
@@ -24235,6 +24249,15 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   v1 = {
+      ['0-1'] = {
          {
             arch = "rockspec"
          }, {
