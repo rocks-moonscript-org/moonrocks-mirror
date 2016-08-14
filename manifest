@@ -5296,6 +5296,15 @@ repository = {
          }
       }
    },
+   graphviz = {
+      ['v1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    gumbo = {
       ['0.1-1'] = {
          {
@@ -17906,9 +17915,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -17989,9 +17998,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -18042,9 +18051,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -18062,9 +18071,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -19511,6 +19520,21 @@ repository = {
    },
    netstring = {
       ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.2-0'] = {
          {
             arch = "rockspec"
          }
@@ -24263,15 +24287,6 @@ repository = {
          }
       },
       ['0.2-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   v1 = {
-      ['0-1'] = {
          {
             arch = "rockspec"
          }, {
