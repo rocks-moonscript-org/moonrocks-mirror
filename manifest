@@ -7167,6 +7167,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ldecnumber = {
@@ -10700,8 +10707,32 @@ repository = {
          }
       }
    },
+   ['lua-resty-couchdb'] = {
+      ['0.01-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-resty-dogstatsd'] = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['lua-resty-exec'] = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1.1-0'] = {
          {
             arch = "rockspec"
          }
@@ -17433,6 +17464,15 @@ repository = {
          }
       }
    },
+   media_player = {
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    mediator_lua = {
       ['1.1-1'] = {
          {
@@ -20685,6 +20725,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['perimeterx-nginx-plugin'] = {
@@ -20979,6 +21024,22 @@ repository = {
       ['0.8.0-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.8.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   pulseaudio_widget = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -23477,9 +23538,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
