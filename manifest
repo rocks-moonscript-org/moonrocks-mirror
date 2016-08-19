@@ -1156,6 +1156,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-20'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-21'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['cache-protocols'] = {
@@ -2025,6 +2039,13 @@ repository = {
          }
       },
       ['1.0-12'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-13'] = {
          {
             arch = "rockspec"
          }, {
@@ -11106,6 +11127,13 @@ repository = {
    },
    ['lua-resty-reqargs'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }, {
