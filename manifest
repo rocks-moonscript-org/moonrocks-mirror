@@ -7405,6 +7405,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.4.6-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    leda = {
@@ -11044,6 +11049,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.7-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-libcjson'] = {
@@ -11554,7 +11566,7 @@ repository = {
       }
    },
    ['lua-resty-waf'] = {
-      ['0.8-0'] = {
+      ['0.8.1'] = {
          {
             arch = "rockspec"
          }
@@ -22348,9 +22360,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       }
    },
