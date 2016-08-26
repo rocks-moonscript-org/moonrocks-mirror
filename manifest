@@ -5938,6 +5938,13 @@ repository = {
          }
       }
    },
+   huntable = {
+      ['0.9-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    husl = {
       ['1.0-0'] = {
          {
@@ -6615,6 +6622,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-hello-world'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -10765,6 +10779,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-requests'] = {
@@ -10887,6 +10908,11 @@ repository = {
    },
    ['lua-resty-dogstatsd'] = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -11032,6 +11058,13 @@ repository = {
       ['0.0.4-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -15240,9 +15273,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -20980,6 +21013,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    petrodoc = {
@@ -22423,9 +22463,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       }
    },
