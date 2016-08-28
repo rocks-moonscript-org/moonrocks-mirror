@@ -5519,15 +5519,6 @@ repository = {
          }
       }
    },
-   hashids = {
-      ['1.0.2-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    hdf5 = {
       ['1.0.0-1'] = {
          {
@@ -23840,9 +23831,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -24457,6 +24448,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   umka = {
+      ['0.1.0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
