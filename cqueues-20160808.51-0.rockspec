@@ -36,6 +36,7 @@ build = {
 	build_target = "all5.1";
 	build_variables = {
 		CFLAGS = "$(CFLAGS)";
+		LDFLAGS = "$(LDFLAGS)";
 		bindir = "$(LUA_BINDIR)";
 		includedir = "$(LUA_INCDIR)";
 		libdir = "$(LUA_LIBDIR)";
