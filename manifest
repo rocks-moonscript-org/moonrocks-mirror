@@ -793,28 +793,7 @@ repository = {
       }
    },
    binser = {
-      ['0.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0-2'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0-3'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0-4'] = {
+      ['0.0-5'] = {
          {
             arch = "rockspec"
          }, {
@@ -11292,6 +11271,21 @@ repository = {
    },
    ['lua-resty-repl'] = {
       ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.2-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.3-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.4-0'] = {
          {
             arch = "rockspec"
          }
@@ -24252,6 +24246,11 @@ repository = {
          }
       },
       ['1.5-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.6-0'] = {
          {
             arch = "rockspec"
          }
