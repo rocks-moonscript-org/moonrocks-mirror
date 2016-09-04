@@ -1,5 +1,5 @@
 package = "umka"
-version = "0.1.0"
+version = "0.1.0-0"
 
 source = {
    url = "git://github.com/SuperPaintman/umka",
@@ -13,5 +13,12 @@ description = {
 }
 
 dependencies = {
-  "lua ~> 5.1"
+  "lua >= 5.1"
+}
+
+build = {
+   type = "builtin",
+   modules = {
+      umka = "umka.lua"
+   }
 }
