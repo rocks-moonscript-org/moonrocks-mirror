@@ -5444,6 +5444,15 @@ repository = {
          }
       }
    },
+   gversion = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    h5tk = {
       ['1.0-1'] = {
          {
@@ -6236,6 +6245,15 @@ repository = {
       ['0.0-0'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   itertools = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -10941,6 +10959,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-aws-auth'] = {
@@ -13222,6 +13247,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1-4'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luafanlite = {
@@ -15426,9 +15456,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
