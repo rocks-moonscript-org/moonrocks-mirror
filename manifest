@@ -4739,6 +4739,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['external-oid'] = {
@@ -10425,6 +10432,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-logger'] = {
@@ -11201,6 +11215,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-injection'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-iputils'] = {
       ['0.1.0-1'] = {
          {
@@ -11847,6 +11870,13 @@ repository = {
          }
       },
       ['2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -19069,27 +19099,27 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.1-2'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -19098,9 +19128,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.2-1'] = {
@@ -21545,6 +21575,15 @@ repository = {
          }
       }
    },
+   prefix_tree = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    procdata = {
       ['1.0-1'] = {
          {
@@ -22811,9 +22850,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -23235,6 +23274,15 @@ repository = {
       ['0.0.1-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   sqlite3 = {
+      ['0.4.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -24360,6 +24408,15 @@ repository = {
          }
       },
       ['2.0.3-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   thcsv = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -26046,9 +26103,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
