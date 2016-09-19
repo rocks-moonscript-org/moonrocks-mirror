@@ -20025,6 +20025,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0.3-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    mpi = {
@@ -22882,6 +22887,13 @@ repository = {
          }
       }
    },
+   sfxr = {
+      ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    sha1 = {
       ['0.5-1'] = {
          {
@@ -24173,6 +24185,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   tcc = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },

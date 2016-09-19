@@ -1,7 +1,7 @@
 package = "colormap"
 version = "1.1-0"
 source = {
-   url = "git@github.com:JannerM/torch-colormap",
+   url = "git://github.com/JannerM/torch-colormap",
    tag = "master"
 }
 
