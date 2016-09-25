@@ -5461,8 +5461,25 @@ repository = {
          }
       }
    },
-   ['gonapps-lua-jwt'] = {
+   ['gonapps-jwt'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['gonapps-url-decoder'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-2'] = {
          {
             arch = "rockspec"
          }
@@ -12833,6 +12850,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luabins = {
@@ -15743,6 +15767,13 @@ repository = {
          }
       },
       ['0.0.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.4-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -24929,6 +24960,18 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['tucube-http-router'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
