@@ -5513,6 +5513,13 @@ repository = {
          }
       }
    },
+   guard = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    gumbo = {
       ['0.1-1'] = {
          {
@@ -15639,6 +15646,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luatabledump = {
@@ -21782,6 +21796,15 @@ repository = {
    },
    pokitdok = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   pomelo = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
