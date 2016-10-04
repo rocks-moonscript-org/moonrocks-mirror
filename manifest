@@ -91,6 +91,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    abelhas = {
@@ -3415,6 +3420,13 @@ repository = {
          }
       },
       ['1.54-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.55-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -7618,6 +7630,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.26.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    leg = {
@@ -9949,6 +9968,13 @@ repository = {
          }
       },
       ['0.3.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -12516,11 +12542,6 @@ repository = {
          }
       },
       ['0.4-1'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['0.4-2'] = {
          {
             arch = "rockspec"
          }
@@ -18255,6 +18276,27 @@ repository = {
    },
    media_player = {
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['devel-1'] = {
          {
             arch = "rockspec"
          }, {
