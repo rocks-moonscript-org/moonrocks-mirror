@@ -3054,6 +3054,15 @@ repository = {
          }
       }
    },
+   domotest = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['dromozoa-amalgamate'] = {
       ['1.1-1'] = {
          {
@@ -6989,6 +6998,15 @@ repository = {
          }
       },
       ['20120503-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   landlord = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -11026,6 +11044,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-reql'] = {
@@ -12600,6 +12625,11 @@ repository = {
          }
       },
       ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.5-0'] = {
          {
             arch = "rockspec"
          }
@@ -19044,9 +19074,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -20152,6 +20182,13 @@ repository = {
          }
       },
       ['0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -22574,6 +22611,15 @@ repository = {
          }
       }
    },
+   ['req-content-type-transformer'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    require = {
       ['0.1.0-1'] = {
          {
@@ -23364,9 +23410,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       }
    },
@@ -24773,9 +24819,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -25283,6 +25329,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
