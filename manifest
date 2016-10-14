@@ -931,6 +931,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['3.1.6-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    busted = {
@@ -1834,6 +1839,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    consul = {
@@ -2510,6 +2522,13 @@ repository = {
          }
       },
       ['20160812.53-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['20160812.53-1'] = {
          {
             arch = "rockspec"
          }, {
