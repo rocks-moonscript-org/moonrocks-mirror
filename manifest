@@ -2514,7 +2514,21 @@ repository = {
             arch = "src"
          }
       },
+      ['20160812.51-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['20160812.52-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['20160812.52-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -16147,6 +16161,13 @@ repository = {
          }
       }
    },
+   luavcard = {
+      ['0.1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luavel = {
       ['0.0-1'] = {
          {
@@ -23760,6 +23781,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.1-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    specl = {
@@ -26188,6 +26216,15 @@ repository = {
    },
    void = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   vstruct = {
+      ['2.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
