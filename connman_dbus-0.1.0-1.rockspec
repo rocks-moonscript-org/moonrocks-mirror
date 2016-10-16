@@ -8,7 +8,7 @@ package = "connman_dbus"
     summary = "Get network information with Connman and DBus",
     detailed = "Get network information with Connman and DBus",
     homepage = "https://github.com/stefano-m/lua-connman_dbus",
-    license = "GPL v3"
+    license = "Apache v2.0"
  }
  dependencies = {
     "lua >= 5.1",
