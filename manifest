@@ -3040,6 +3040,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    doccotest = {
@@ -19343,9 +19348,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
@@ -26112,6 +26117,11 @@ repository = {
    },
    version = {
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-1'] = {
          {
             arch = "rockspec"
          }
