@@ -7006,6 +7006,15 @@ repository = {
          }
       }
    },
+   ['kong-segment-log'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    krpc = {
       ['0.1.11-0'] = {
          {
@@ -10835,6 +10844,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-messagepack'] = {
@@ -13363,6 +13386,13 @@ repository = {
          }
       },
       ['0.16.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.16.3-1'] = {
          {
             arch = "rockspec"
          }, {
