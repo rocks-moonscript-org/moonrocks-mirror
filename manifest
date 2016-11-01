@@ -6255,6 +6255,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1.0-8'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    huntable = {
@@ -16314,9 +16321,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -16627,6 +16634,13 @@ repository = {
          }
       },
       ['1.2.4-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -22795,6 +22809,13 @@ repository = {
          }
       },
       ['0.4.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.0-1'] = {
          {
             arch = "rockspec"
          }, {
