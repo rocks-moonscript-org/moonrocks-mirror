@@ -15843,9 +15843,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       },
       ['2.0.2-1'] = {
@@ -16729,6 +16729,13 @@ repository = {
          }
       },
       ['1.2.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -21229,6 +21236,13 @@ repository = {
    },
    nnlr = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-2'] = {
          {
             arch = "rockspec"
          }, {
