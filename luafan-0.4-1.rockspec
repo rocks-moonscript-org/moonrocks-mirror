@@ -65,6 +65,7 @@ build = {
       ["fan.worker.init"] = "modules/fan/worker/init.lua",
       ["fan.pool"] = "modules/fan/pool.lua",
       ["fan.objectbuf"] = "modules/fan/objectbuf.lua",
+      ["fan.upnp"] = "modules/fan/upnp.lua",
       ["fan.utils"] = "modules/fan/utils.lua",
       ["mariadb.orm"] = "modules/mariadb/orm.lua",
       ["mariadb.pool"] = "modules/mariadb/pool.lua",

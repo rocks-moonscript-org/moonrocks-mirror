@@ -7921,6 +7921,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.4.6-2'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    leda = {
@@ -22510,6 +22515,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    petrodoc = {
@@ -22586,6 +22598,13 @@ repository = {
          }
       },
       ['1.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.8.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -26297,6 +26316,15 @@ repository = {
          }
       },
       ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   upower_dbus = {
+      ['0.1.0-2'] = {
          {
             arch = "rockspec"
          }, {
