@@ -8548,6 +8548,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lluv-ftp'] = {
@@ -16484,9 +16491,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -17213,6 +17220,15 @@ repository = {
          }
       },
       ['0.9.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   lundler = {
+      ['dev-20'] = {
          {
             arch = "rockspec"
          }, {
