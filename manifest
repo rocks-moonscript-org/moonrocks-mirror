@@ -12109,6 +12109,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-passwdqc'] = {
@@ -22385,6 +22392,13 @@ repository = {
       ['0.1.2-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
