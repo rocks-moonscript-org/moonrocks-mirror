@@ -1,9 +1,9 @@
 package = "layeredata"
-version = "0.1-6"
+version = "0.0-2"
 
 source = {
-  url = "git+https://github.com/cosyverif/layeredata.git",
-  tag = "0.1",
+  url    = "git+https://github.com/cosyverif/layeredata.git",
+  branch = "dev",
 }
 
 description = {
