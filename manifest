@@ -12044,6 +12044,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.9-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-libcjson'] = {
@@ -13896,6 +13903,15 @@ repository = {
          }
       },
       ['0.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luacoap = {
+      ['0.1-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -20440,9 +20456,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -25288,13 +25304,6 @@ repository = {
          }
       }
    },
-   ['string.color'] = {
-      ['1.0-1'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    stringdistance = {
       ['1.0.0-1'] = {
          {
@@ -26658,6 +26667,13 @@ repository = {
          }
       },
       ['0.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.0-1'] = {
          {
             arch = "rockspec"
          }, {
