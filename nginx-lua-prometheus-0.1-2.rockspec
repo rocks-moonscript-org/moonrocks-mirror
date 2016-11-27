@@ -1,5 +1,5 @@
 package = "nginx-lua-prometheus"
-version = "0.1-1"
+version = "0.1-2"
 
 source = {
   url = "git://github.com/knyar/nginx-lua-prometheus.git"
@@ -8,8 +8,7 @@ source = {
 description = {
   summary = "Prometheus metric library for Nginx",
   homepage = "https://github.com/knyar/nginx-lua-prometheus",
-  license = "MIT",
-  labels = {"metrics", "monitoring", "nginx"}
+  license = "MIT"
 }
 
 dependencies = {
