@@ -5700,6 +5700,51 @@ repository = {
          }
       }
    },
+   ['gobo-awesome'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['gobo-awesome-alttab'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['gobo-awesome-battery'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['gobo-awesome-gobonet'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['gobo-awesome-sound'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    gomaxmagick = {
       ['0.1.1-1'] = {
          {
@@ -7097,6 +7142,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-hello-world'] = {
@@ -7138,6 +7190,13 @@ repository = {
          }
       },
       ['1.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.7-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -8966,6 +9025,15 @@ repository = {
          }
       },
       ['0.0.5-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['love-imgui'] = {
+      ['0.7-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -16243,9 +16311,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       },
       ['2.0.2-1'] = {
@@ -16370,9 +16438,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['1.3.2-1'] = {
@@ -16825,9 +16893,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -19986,9 +20054,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -23953,6 +24021,15 @@ repository = {
          }
       },
       ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   riseml = {
+      ['0.1-0'] = {
          {
             arch = "rockspec"
          }, {
