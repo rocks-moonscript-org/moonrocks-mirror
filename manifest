@@ -16128,6 +16128,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.4.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luarocks-build-cpp'] = {

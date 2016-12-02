@@ -7,11 +7,11 @@ source = {
 description = {
     summary = "A binding for Lua to the SQLite3 database library",
     detailed = [[
-        lsqlite3 is a thin wrapper around the public domain SQLite3 database engine. 
+        lsqlite3 is a thin wrapper around the public domain SQLite3 database engine. SQLite3 is 
+        dynamically linked to lsqlite3. The statically linked alternative is lsqlite3complete.
         The lsqlite3 module supports the creation and manipulation of SQLite3 databases. 
-        After a require('lsqlite3') the exported functions are called with prefix sqlite3. 
-        However, most sqlite3 functions are called via an object-oriented interface to 
-        either database or SQL statement objects.
+        Most sqlite3 functions are called via an object-oriented interface to either 
+        database or SQL statement objects.
     ]],
     license = "MIT",
     homepage = "http://lua.sqlite.org/"
