@@ -11359,6 +11359,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-messagepack-lua53'] = {
@@ -11391,6 +11398,13 @@ repository = {
          }
       },
       ['0.3.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.7-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -11910,13 +11924,6 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
-         }
-      }
-   },
-   ['lua-resty-aws-auth-mediba'] = {
-      ['0.11-0'] = {
-         {
-            arch = "rockspec"
          }
       }
    },
@@ -13884,6 +13891,13 @@ repository = {
          }
       },
       ['1.0.2-3'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   luacc = {
+      ['0.9-0'] = {
          {
             arch = "rockspec"
          }
