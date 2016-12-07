@@ -3,6 +3,7 @@ version = "0.1-0"
 
 source = {
   url = "git://github.com/alfonsoros88/luacoap",
+  branch = "luarocks",
   tag = "v0.1",
 }
 

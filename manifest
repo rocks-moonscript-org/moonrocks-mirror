@@ -402,6 +402,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['3.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['argon2-ffi'] = {
@@ -4976,6 +4981,13 @@ repository = {
          }
       },
       ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -10466,10 +10478,24 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-conciseserialization-lua53'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -13827,6 +13853,18 @@ repository = {
    },
    luacc = {
       ['0.9-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.9-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.9-4'] = {
          {
             arch = "rockspec"
          }
@@ -22982,6 +23020,13 @@ repository = {
          }
       },
       ['1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0-0'] = {
          {
             arch = "rockspec"
          }, {
