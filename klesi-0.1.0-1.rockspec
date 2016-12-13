@@ -1,15 +1,15 @@
 package = "klesi"
-version = "0.1.0-3"
+version = "0.1.0-1"
 source = {
-   url = "https://gitlab.com/Lawful-Lazy/lua-klesi.git",
-   tag = "v0.1.0-3"
+   url = "git://github.com/Lawful-Lazy/lua-klesi.git",
+   tag = "v0.1.0"
 }
 description = {
    summary = "Simple but Powerful OOP library",
    detailed = [[
 Klesi is "class" in Lojban - a logical language. Klesi is designed
 from the ground up to be simple to use, and easy to expand on.]],
-   homepage = "https://gitlab.com/Lawful-Lazy/lua-klesi",
+   homepage = "https://github.com/Lawful-Lazy/lua-klesi",
    license = "MIT/X11"
 }
 dependencies = {
@@ -21,6 +21,6 @@ build = {
       klesi = "src/klesi.lua"
    },
    copy_directories = {
-      "test"
+      "test", "doc-md"
    }
 }
