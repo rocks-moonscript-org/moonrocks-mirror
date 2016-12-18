@@ -1594,6 +1594,22 @@ repository = {
          }
       }
    },
+   cmath = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   collections = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    colorise = {
       ['1.0-1'] = {
          {
@@ -6226,6 +6242,15 @@ repository = {
          }
       },
       ['1.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   hsluv = {
+      ['0.1-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -20561,9 +20586,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -20667,18 +20692,18 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -24800,9 +24825,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       }
    },
