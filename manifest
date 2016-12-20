@@ -7188,6 +7188,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-hello-world'] = {
@@ -24282,6 +24289,13 @@ repository = {
    },
    riseml = {
       ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
