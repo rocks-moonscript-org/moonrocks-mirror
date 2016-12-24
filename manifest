@@ -5554,6 +5554,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    gbk = {
@@ -5674,6 +5681,13 @@ repository = {
    },
    glfw = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -20815,9 +20829,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -21836,6 +21850,13 @@ repository = {
    },
    nanovg = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -27584,6 +27605,11 @@ repository = {
          }
       },
       ['1.4.0-7'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.4.1-8'] = {
          {
             arch = "rockspec"
          }
