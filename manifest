@@ -7459,6 +7459,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.7-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    lain = {
@@ -9017,6 +9022,13 @@ repository = {
          }
       },
       ['0.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.2-1'] = {
          {
             arch = "rockspec"
          }, {
