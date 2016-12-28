@@ -6022,6 +6022,15 @@ repository = {
          }
       }
    },
+   hdrhistogram = {
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['header-transfer'] = {
       ['0.0.1-0'] = {
          {
@@ -9486,9 +9495,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -13344,6 +13353,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-step'] = {
@@ -15194,6 +15210,13 @@ repository = {
             arch = "src"
          }, {
             arch = "all"
+         }
+      }
+   },
+   luainlua = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -17163,9 +17186,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -20809,9 +20832,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
@@ -27641,6 +27664,16 @@ repository = {
          }
       },
       ['1.4.1-8'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.4.2-9'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.5.0-10'] = {
          {
             arch = "rockspec"
          }
