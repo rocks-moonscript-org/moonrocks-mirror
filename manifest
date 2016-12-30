@@ -6029,6 +6029,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['header-transfer'] = {
@@ -26704,6 +26718,15 @@ repository = {
          }
       }
    },
+   tokyocabinet = {
+      ['1.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['torch-dataframe'] = {
       ['1.0-0'] = {
          {
@@ -27684,6 +27707,16 @@ repository = {
          }
       },
       ['1.5.2-12'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.5.3-13'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.5.4-14'] = {
          {
             arch = "rockspec"
          }
