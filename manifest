@@ -5854,6 +5854,13 @@ repository = {
          }
       }
    },
+   ['gonapps-url-router'] = {
+      ['1.1-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    graphviz = {
       ['v1.0-1'] = {
          {
@@ -11601,6 +11608,13 @@ repository = {
          }
       }
    },
+   ['lua-mongo'] = {
+      ['0.2.1-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-mosquitto'] = {
       ['0.2-1'] = {
          {
@@ -17200,9 +17214,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -26880,18 +26894,6 @@ repository = {
          }
       }
    },
-   ['tucube-http-router'] = {
-      ['1.0-1'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['1.1-1'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    tundrawolf = {
       ['1.0.0-0'] = {
          {
@@ -26970,6 +26972,11 @@ repository = {
          }
       },
       ['2.0-4'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.1-0'] = {
          {
             arch = "rockspec"
          }
@@ -27244,6 +27251,13 @@ repository = {
          }
       },
       ['0.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.6.2-1'] = {
          {
             arch = "rockspec"
          }, {
