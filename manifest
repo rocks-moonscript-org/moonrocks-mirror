@@ -5027,6 +5027,29 @@ repository = {
          }
       }
    },
+   ['external-oauth'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['external-oid'] = {
       ['1.0-3'] = {
          {
@@ -9516,9 +9539,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -13707,6 +13730,11 @@ repository = {
          }
       },
       ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-0'] = {
          {
             arch = "rockspec"
          }
@@ -25984,15 +26012,6 @@ repository = {
    },
    ['struct.lua'] = {
       ['0.2-0'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   strut = {
-      ['0.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
