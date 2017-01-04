@@ -2391,6 +2391,15 @@ repository = {
          }
       }
    },
+   ['cpml-ci'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    cprint = {
       ['0.1-1'] = {
          {
@@ -20897,9 +20906,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -24871,6 +24880,13 @@ repository = {
          }
       }
    },
+   see = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    semver = {
       ['1.1.0-1'] = {
          {
@@ -25024,9 +25040,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       }
    },
