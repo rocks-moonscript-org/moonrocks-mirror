@@ -14380,6 +14380,13 @@ repository = {
          }
       }
    },
+   luaclasses = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luacoap = {
       ['0.1-0'] = {
          {
@@ -19486,6 +19493,11 @@ repository = {
          }
       },
       ['4.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['4.5-0'] = {
          {
             arch = "rockspec"
          }
