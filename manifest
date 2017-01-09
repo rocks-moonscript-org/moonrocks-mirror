@@ -15714,6 +15714,13 @@ repository = {
          }
       }
    },
+   lualit = {
+      ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    lualogging = {
       ['1.1.4-1'] = {
          {
@@ -20908,9 +20915,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.2-1'] = {
