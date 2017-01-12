@@ -3636,6 +3636,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.56-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.6-1'] = {
          {
             arch = "rockspec"
@@ -6796,6 +6803,11 @@ repository = {
    },
    iter = {
       ['0.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -14144,6 +14156,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luabins = {
@@ -15289,6 +15315,13 @@ repository = {
          }
       },
       ['0.0.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.7-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -17364,6 +17397,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luaunbound = {
@@ -18085,7 +18125,7 @@ repository = {
       }
    },
    lundler = {
-      ['dev-22'] = {
+      ['dev-23'] = {
          {
             arch = "rockspec"
          }, {

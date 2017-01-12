@@ -1,5 +1,5 @@
 package = "lundler"
-version = "dev-22"
+version = "dev-23"
 source = {
    url = "git://github.com/Romaboy/lundler.git"
 }
