@@ -3643,6 +3643,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.57-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.6-1'] = {
          {
             arch = "rockspec"
@@ -12227,6 +12234,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.12-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-aws-email'] = {
@@ -17125,6 +17137,13 @@ repository = {
          }
       },
       ['0.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.5-1'] = {
          {
             arch = "rockspec"
          }, {
