@@ -10,8 +10,8 @@ description = {
    license = "GPL v2"
 }
 dependencies = {
-   "lua >= 5.2",
-   "awesome >= 3.5"
+   "lua >= 5.3",
+   "awesome >= 4.0"
 }
 supported_platforms = { "linux" }
 build = {

@@ -4187,6 +4187,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-sqlite3'] = {
@@ -15858,6 +15865,15 @@ repository = {
          }
       }
    },
+   lualvm = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lualzo = {
       ['0.5-1'] = {
          {
@@ -23244,6 +23260,15 @@ repository = {
          }
       }
    },
+   outcome = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['ovh-api'] = {
       ['1.0.0-0'] = {
          {
@@ -25287,9 +25312,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       }
    },
