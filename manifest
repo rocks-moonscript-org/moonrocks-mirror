@@ -8367,6 +8367,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.28-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    leg = {
@@ -12506,6 +12513,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['0.0.6-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -22882,6 +22894,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    optparse = {
@@ -25352,9 +25371,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       }
    },
