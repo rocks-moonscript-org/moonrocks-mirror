@@ -6159,6 +6159,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['header-transfer'] = {
@@ -6482,6 +6489,11 @@ repository = {
          }
       },
       ['1.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1.1-0'] = {
          {
             arch = "rockspec"
          }
@@ -23356,6 +23368,13 @@ repository = {
          }
       },
       ['0.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.2-0'] = {
          {
             arch = "rockspec"
          }, {
