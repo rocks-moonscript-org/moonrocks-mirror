@@ -1,7 +1,7 @@
 package = "kong-file-log-exclusion"
 version = "0.0.1-1"
 source = {
-  url = "https://github.com/smitparaggua/kong-file-log-exclusion"
+  url = "https://github.com/PayMaya/kong-file-log-exclusion"
 }
 description = {
   summary = "Kong file logging plugin with options to exclude logged attributes."
