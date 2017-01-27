@@ -23154,6 +23154,22 @@ repository = {
          }
       }
    },
+   option = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    optparse = {
       ['1.0-1'] = {
          {
@@ -23595,22 +23611,6 @@ repository = {
    },
    ['ovh-api'] = {
       ['1.0.0-0'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   ['pandoc-cli-builder'] = {
-      ['0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
