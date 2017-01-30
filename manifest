@@ -20793,6 +20793,41 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.40-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.41-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.42-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.43-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.44-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    mixlua = {
@@ -25040,6 +25075,29 @@ repository = {
          }
       }
    },
+   ['resty-shared-session'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    riemoon = {
       ['0.0.1-1'] = {
          {
@@ -25262,6 +25320,15 @@ repository = {
       ['0.3-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['rocktest-foo'] = {
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -25694,9 +25761,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       }
    },
@@ -27491,6 +27558,15 @@ repository = {
       ['1.6-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['torch-dir-loader'] = {
+      ['0.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
