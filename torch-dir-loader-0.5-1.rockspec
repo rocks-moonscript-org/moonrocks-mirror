@@ -1,8 +1,8 @@
 package = "torch-dir-loader"
-version = "0.5-0"
+version = "0.5-1"
 source = {
-    url = "https://github.com/gforge/torch-dir-loader/archive/v0.5.tar.gz",
-    dir = "torch-dir-loader-0.5-0"
+    url = "https://github.com/gforge/torch-dir-loader/archive/v0.5-1.tar.gz",
+    dir = "torch-dir-loader-0.5-1"
 }
 description = {
     summary = "Loads a directory of files",
