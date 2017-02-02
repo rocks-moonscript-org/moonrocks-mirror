@@ -3927,6 +3927,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -9941,6 +9948,11 @@ repository = {
    },
    lrdb = {
       ['0.1.7-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.8-1'] = {
          {
             arch = "rockspec"
          }
@@ -20901,6 +20913,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.45-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    mixlua = {
@@ -22073,6 +22092,11 @@ repository = {
          }
       },
       ['0.63-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.64-1'] = {
          {
             arch = "rockspec"
          }
@@ -23988,6 +24012,11 @@ repository = {
    },
    pegdebug = {
       ['0.40-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.40-2'] = {
          {
             arch = "rockspec"
          }
@@ -28780,6 +28809,11 @@ repository = {
          }
       },
       ['1.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1.0-0'] = {
          {
             arch = "rockspec"
          }
