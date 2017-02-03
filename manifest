@@ -2201,6 +2201,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    coronest = {
@@ -12537,6 +12544,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1.2-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-fileinfo'] = {
@@ -22706,6 +22718,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0.3-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['nginx-lua-oauth2'] = {
@@ -28814,6 +28831,16 @@ repository = {
          }
       },
       ['1.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.2.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.2.1-0'] = {
          {
             arch = "rockspec"
          }
