@@ -3,7 +3,7 @@ version = '5.3-0'
 
 source = {
   url = 'git://github.com/martin-eden/lua_code_formatter.git',
-  tag = '5.3-0',
+  branch = '5.3',
 }
 
 description = {
@@ -11,9 +11,9 @@ description = {
   detailed = [[
 Formats any valid lua 5.3 code.
 
-Main advantage is that it wraps code lines at right margin (default
-is 70th character in line). Efforts are made to represent code in more
-easy to understand form, not the shortest one.
+Main advantage is that it wraps code lines to maintain readability.
+Efforts are made to represent code in more easy to understand form,
+not the shortest one.
 ]],
   license = 'GPL v3',
 }
@@ -99,11 +99,13 @@ build = {
     ['lcf.workshop.compile.lua.quote_string.intact'] = 'workshop/compile/lua/quote_string/intact.lua',
     ['lcf.workshop.compile.lua.quote_string.linear'] = 'workshop/compile/lua/quote_string/linear.lua',
     ['lcf.workshop.compile.lua.quote_string.quote_char'] = 'workshop/compile/lua/quote_string/quote_char.lua',
+    ['lcf.workshop.compile.lua.serialize_table.lua_code.get_result'] = 'workshop/compile/lua/serialize_table/lua_code/get_result.lua',
     ['lcf.workshop.compile.lua.serialize_table.lua_code.init'] = 'workshop/compile/lua/serialize_table/lua_code/init.lua',
     ['lcf.workshop.compile.lua.serialize_table.lua_code.interface'] = 'workshop/compile/lua/serialize_table/lua_code/interface.lua',
     ['lcf.workshop.compile.lua.serialize_table.lua_code.put_qualified_key'] = 'workshop/compile/lua/serialize_table/lua_code/put_qualified_key.lua',
     ['lcf.workshop.compile.lua.serialize_table.lua_code.serialize'] = 'workshop/compile/lua/serialize_table/lua_code/serialize.lua',
     ['lcf.workshop.compile.lua.serialize_table.lua_code.serialize_subtable'] = 'workshop/compile/lua/serialize_table/lua_code/serialize_subtable.lua',
+    ['lcf.workshop.compile.lua.serialize_table.lua_table.get_result'] = 'workshop/compile/lua/serialize_table/lua_table/get_result.lua',
     ['lcf.workshop.compile.lua.serialize_table.lua_table.init'] = 'workshop/compile/lua/serialize_table/lua_table/init.lua',
     ['lcf.workshop.compile.lua.serialize_table.lua_table.interface'] = 'workshop/compile/lua/serialize_table/lua_table/interface.lua',
     ['lcf.workshop.compile.lua.serialize_table.lua_table.serialize'] = 'workshop/compile/lua/serialize_table/lua_table/serialize.lua',
@@ -132,6 +134,7 @@ build = {
     ['lcf.workshop.load_from.generic_loader'] = 'workshop/load_from/generic_loader.lua',
     ['lcf.workshop.load_from.lua'] = 'workshop/load_from/lua.lua',
     ['lcf.workshop.load_from.lua.serialize_table.lua_code'] = 'workshop/load_from/lua/serialize_table/lua_code.lua',
+    ['lcf.workshop.load_from.lua_table'] = 'workshop/load_from/lua_table.lua',
     ['lcf.workshop.parse.lua.formatter'] = 'workshop/parse/lua/formatter.lua',
     ['lcf.workshop.parse.lua.formatter.handlers.expression'] = 'workshop/parse/lua/formatter/handlers/expression.lua',
     ['lcf.workshop.parse.lua.formatter.handlers.expressions.bin_op'] = 'workshop/parse/lua/formatter/handlers/expressions/bin_op.lua',
@@ -239,6 +242,7 @@ build = {
     ['lcf.workshop.parse.syntaxes.lua.words.word'] = 'workshop/parse/syntaxes/lua/words/word.lua',
     ['lcf.workshop.save_to.lua'] = 'workshop/save_to/lua.lua',
     ['lcf.workshop.save_to.lua.serialize_table.lua_code'] = 'workshop/save_to/lua/serialize_table/lua_code.lua',
+    ['lcf.workshop.save_to.lua_table'] = 'workshop/save_to/lua_table.lua',
     ['lcf.workshop.string.content_attributes'] = 'workshop/string/content_attributes.lua',
     ['lcf.workshop.string.split'] = 'workshop/string/split.lua',
     ['lcf.workshop.string.text_block.add_text'] = 'workshop/string/text_block/add_text.lua',
