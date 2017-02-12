@@ -12886,6 +12886,13 @@ repository = {
          }
       }
    },
+   ['lua-resty-mpd'] = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-resty-murmurhash2'] = {
       ['1.0-1'] = {
          {
@@ -14434,6 +14441,13 @@ repository = {
       }
    },
    luabenchmark = {
+      ['0.10.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.9.0-1'] = {
          {
             arch = "rockspec"
@@ -21586,18 +21600,18 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.1-2'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.2-1'] = {
@@ -25780,6 +25794,15 @@ repository = {
          }
       }
    },
+   scene = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    schema = {
       ['1.0.0-1'] = {
          {
@@ -26422,6 +26445,13 @@ repository = {
          }
       },
       ['3.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -27170,6 +27200,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    taggedcoro = {
@@ -27303,6 +27340,13 @@ repository = {
          }
       },
       ['2.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
