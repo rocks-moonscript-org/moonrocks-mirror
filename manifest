@@ -18923,6 +18923,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.5-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lusty-log'] = {
@@ -19276,6 +19281,11 @@ repository = {
          }
       },
       ['0.4-4'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.5-0'] = {
          {
             arch = "rockspec"
          }
@@ -24542,6 +24552,13 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
