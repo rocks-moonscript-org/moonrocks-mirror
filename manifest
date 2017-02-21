@@ -22859,6 +22859,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    netstring = {
@@ -23998,6 +24005,15 @@ repository = {
    },
    ['ovh-api'] = {
       ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   panlunatic = {
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
