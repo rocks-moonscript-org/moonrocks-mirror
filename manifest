@@ -3787,6 +3787,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-dyld'] = {
@@ -3805,6 +3819,13 @@ repository = {
          }
       },
       ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -4376,6 +4397,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-tree'] = {
@@ -4699,6 +4727,13 @@ repository = {
          }
       },
       ['1.37-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.38-1'] = {
          {
             arch = "rockspec"
          }, {
