@@ -6454,6 +6454,36 @@ repository = {
          }
       }
    },
+   hfun = {
+      ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.1-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.1-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    hglib = {
       ['0.8-1'] = {
          {
@@ -9547,6 +9577,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1-4'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    loop = {
@@ -12594,6 +12629,13 @@ repository = {
          }
       },
       ['0.10.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.10.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -24659,6 +24701,15 @@ repository = {
    },
    phpass = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   physfs = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
