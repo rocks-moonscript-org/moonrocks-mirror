@@ -6482,6 +6482,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['master-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['master-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    hglib = {
@@ -9126,6 +9140,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   litcord = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -20313,6 +20334,13 @@ repository = {
          }
       }
    },
+   mare = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    markdown = {
       ['0.13-1'] = {
          {
@@ -20483,6 +20511,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['mattata-api'] = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -24710,6 +24745,13 @@ repository = {
    },
    physfs = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-2'] = {
          {
             arch = "rockspec"
          }, {
