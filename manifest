@@ -5974,6 +5974,15 @@ repository = {
          }
       }
    },
+   gin = {
+      ['0.2.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    github = {
       ['0.0.1-1'] = {
          {
@@ -8496,6 +8505,13 @@ repository = {
          }
       },
       ['5.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -12229,6 +12245,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-mosquitto'] = {
@@ -12405,6 +12428,15 @@ repository = {
          }
       },
       ['0.3.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-payssion'] = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -21930,9 +21962,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.1-2'] = {
