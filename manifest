@@ -14781,6 +14781,13 @@ repository = {
          }
       }
    },
+   luabibtex = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luabidi = {
       ['0.0.1-0'] = {
          {
@@ -14991,6 +14998,13 @@ repository = {
          }
       },
       ['0.18.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.19.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -18901,6 +18915,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['20170303-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luq = {
@@ -20599,13 +20620,6 @@ repository = {
          }
       }
    },
-   ['mattata-api'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    md = {
       ['0.0-1'] = {
          {
@@ -20656,6 +20670,29 @@ repository = {
          }
       },
       ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   mecab = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -23198,6 +23235,13 @@ repository = {
       ['0.1-2'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.1-20170303'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -27831,6 +27875,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['telegram-bot-lua'] = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
