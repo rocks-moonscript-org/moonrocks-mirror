@@ -4864,6 +4864,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dub = {
@@ -12437,6 +12444,13 @@ repository = {
    },
    ['lua-payssion'] = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -21999,9 +22013,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.1-2'] = {
@@ -27887,6 +27901,16 @@ repository = {
    },
    ['telegram-bot-lua'] = {
       ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.2-0'] = {
          {
             arch = "rockspec"
          }
