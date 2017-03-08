@@ -3833,6 +3833,15 @@ repository = {
          }
       }
    },
+   ['dromozoa-future'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['dromozoa-graph'] = {
       ['1.0-1'] = {
          {
@@ -8726,6 +8735,20 @@ repository = {
       ['1.4.6-2'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   lecho = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -27897,6 +27920,15 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['tdcli.lua'] = {
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
