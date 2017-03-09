@@ -10,6 +10,15 @@ description = {
 dependencies = {}
 build = {
    type = "builtin",
+   platforms = {
+      macosx = {
+         modules = {
+            physfs = {
+               libraries = { "c -framework CoreServices", "IOKit" }
+            }
+         }
+      }
+   },
    modules = {
       physfs = {
          defines = {
