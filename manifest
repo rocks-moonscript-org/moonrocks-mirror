@@ -699,6 +699,15 @@ repository = {
          }
       }
    },
+   basics = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    battery_status = {
       ['1.0-7'] = {
          {
@@ -6118,6 +6127,13 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3-1'] = {
          {
             arch = "rockspec"
          }, {

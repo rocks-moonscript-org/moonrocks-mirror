@@ -43,6 +43,7 @@ build = {
 			['litcord.structures.Overwrite'] = 'litcord/structures/Overwrite.lua',
 			--
 			['litcord.client.init'] = 'litcord/client/init.lua',
+			['litcord.client.Routiner'] = 'litcord/client/Routiner.lua',
 			['litcord.client.Route'] = 'litcord/client/Route.lua',
 			['litcord.client.Rest'] = 'litcord/client/Rest.lua',
 			['litcord.client.Sock'] = 'litcord/client/Sock.lua',
