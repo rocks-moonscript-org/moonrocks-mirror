@@ -14100,6 +14100,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.5.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-smc'] = {
