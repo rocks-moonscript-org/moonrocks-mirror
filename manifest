@@ -3840,6 +3840,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-future'] = {
@@ -4766,6 +4773,13 @@ repository = {
          }
       },
       ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.40-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -7558,6 +7572,11 @@ repository = {
          }
       },
       ['0.1.1beta-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.10.0-0'] = {
          {
             arch = "rockspec"
          }
@@ -23937,6 +23956,15 @@ repository = {
          }
       },
       ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['opeth-all'] = {
+      ['0.0-1'] = {
          {
             arch = "rockspec"
          }, {
