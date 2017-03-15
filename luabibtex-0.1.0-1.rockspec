@@ -27,28 +27,28 @@ build =
     type = "builtin",
     modules =
     {
-        ["luaBibTex"] = "luaBibTex.lua",
-        ["luaBibTex.bibParser"]        = "bibParser.lua",
-        ["luaBibTex.auxParser"]        = "auxParser.lua",
-        ["luaBibTex.bibFunctions"]     = "bibFunctions.lua",
-        ["luaBibTex.bblGenerator"]     = "bblGenerator.lua",
-        ["luaBibTex.fileSystemHelper"] = "fileSystemHelper.lua",
-        ["luaBibTex.logger"]           = "logger.lua",
-        ["luaBibTex.nameObject"]       = "nameObject.lua",
-        --["luaBibTex.stringBuffer"]     = "stringBuffer.lua",
+        ["luaBibTex"] = "src/luaBibTex.lua",
+        ["luaBibTex.bibParser"]        = "src/bibParser.lua",
+        ["luaBibTex.auxParser"]        = "src/auxParser.lua",
+        ["luaBibTex.bibFunctions"]     = "src/bibFunctions.lua",
+        ["luaBibTex.bblGenerator"]     = "src/bblGenerator.lua",
+        ["luaBibTex.fileSystemHelper"] = "src/fileSystemHelper.lua",
+        ["luaBibTex.logger"]           = "src/logger.lua",
+        ["luaBibTex.nameObject"]       = "src/nameObject.lua",
+        --["luaBibTex.stringBuffer"]     = "src/stringBuffer.lua",
     },
 
     install =
     {
         lua =
         {
-            ["luaBibTex.plain"] = "plain.lbst",
+            ["luaBibTex.plain"] = "src/plain.lbst",
         },
 
         bin =
         {
-            ["luaBibTex.bat"]   = "scripts/luaBibTex.bat",
-            ["luaBibTex"]  = "scripts/luaBibTex.sh",
+            ["luaBibTex.bat"]   = "src/scripts/luaBibTex.bat",
+            ["luaBibTex"]  = "src/scripts/luaBibTex.sh",
         },
     },
 }
