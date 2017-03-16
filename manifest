@@ -3817,6 +3817,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-dyld'] = {
@@ -3849,6 +3863,13 @@ repository = {
          }
       },
       ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -4388,6 +4409,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -4807,6 +4835,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.42-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.5-1'] = {
          {
             arch = "rockspec"
@@ -4933,6 +4968,13 @@ repository = {
          }
       },
       ['1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -24920,6 +24962,18 @@ repository = {
          }
       },
       ['1.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['percent-f-strings'] = {
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-2'] = {
          {
             arch = "rockspec"
          }
