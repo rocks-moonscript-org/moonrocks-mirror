@@ -6129,6 +6129,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    github = {
@@ -28262,6 +28269,11 @@ repository = {
          }
       },
       ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.3-0'] = {
          {
             arch = "rockspec"
          }
