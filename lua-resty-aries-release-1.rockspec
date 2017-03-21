@@ -1,5 +1,5 @@
 package = "lua-resty-aries"
-version = "release-1.0"
+version = "release-1"
 source = {
     url = "git://github.com/DoubleSpout/lua-resty-aries.git"
 }
@@ -16,8 +16,8 @@ dependencies = {
 build = {
     type = "builtin",
     modules = {
-        ["resty.aries"]                 = "aries.lua",
-        ["resty.aries.tools"]           = "aries/tools.lua",
-        ["resty.aries.lib"]             = "aries/lib.lua"
+        ["resty.aries"]                 = "lib/resty/aries.lua",
+        ["resty.aries.tools"]           = "lib/resty/aries/tools.lua",
+        ["resty.aries.lib"]             = "lib/resty/aries/lib.lua"
     }
 }
