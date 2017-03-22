@@ -119,6 +119,15 @@ repository = {
          }
       }
    },
+   abstk = {
+      ['release-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['activelua-learningtool'] = {
       ['1.0-1'] = {
          {
@@ -9486,6 +9495,13 @@ repository = {
    },
    ljndpi = {
       ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -25184,6 +25200,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    petrodoc = {
@@ -29794,6 +29817,11 @@ repository = {
          }
       },
       ['1.5.4-14'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.6.0-15'] = {
          {
             arch = "rockspec"
          }
