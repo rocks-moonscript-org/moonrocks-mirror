@@ -13417,6 +13417,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-jit-uuid'] = {
@@ -29294,6 +29301,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ulid = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
