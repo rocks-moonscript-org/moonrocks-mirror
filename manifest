@@ -3806,6 +3806,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -3905,10 +3912,24 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-future'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -4446,6 +4467,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.12-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -4879,6 +4907,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.44-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.5-1'] = {
          {
             arch = "rockspec"
@@ -5012,6 +5047,13 @@ repository = {
          }
       },
       ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -7931,6 +7973,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-hal'] = {
@@ -8210,6 +8259,11 @@ repository = {
          }
       },
       ['0.3.7-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3.8-0'] = {
          {
             arch = "rockspec"
          }
@@ -29991,6 +30045,21 @@ repository = {
          }
       },
       ['1.7.0-16'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0.0-17'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0.0-18'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0.1-19'] = {
          {
             arch = "rockspec"
          }
