@@ -1,6 +1,6 @@
 package = "Dado"
 
-version = "1.8.1-1"
+version = "1.8.2-1"
 
 description = {
    summary = "Database Facilities for LuaSQL",
@@ -21,8 +21,8 @@ dependencies = {
 }
 
 source = {
-   url = "http://www.ccpa.puc-rio.br/software/dado/download/dado-1.8.1.tar.gz",
-   md5 = "af5545ba0498821886f2c6f888c7cf5f",
+   url = "http://www.ccpa.puc-rio.br/software/dado/download/dado-1.8.2.tar.gz",
+   md5 = "490c71e36d7005e1074a83849b727591",
 }
 
 build = {
