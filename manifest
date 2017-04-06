@@ -2948,6 +2948,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.8.3-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    danetool = {
@@ -28652,6 +28657,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    telescope = {
@@ -30129,6 +30139,11 @@ repository = {
          }
       },
       ['2.0.1-19'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.1.0-20'] = {
          {
             arch = "rockspec"
          }
