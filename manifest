@@ -2964,6 +2964,8 @@ repository = {
       ['1.8.3-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -11810,6 +11812,13 @@ repository = {
          }
       },
       ['0.3.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -21398,6 +21407,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    mediator_lua = {
@@ -23677,6 +23693,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    mosquitto = {
@@ -25843,6 +25864,13 @@ repository = {
          }
       },
       ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.1-1'] = {
          {
             arch = "rockspec"
          }, {
