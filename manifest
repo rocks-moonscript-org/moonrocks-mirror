@@ -567,12 +567,12 @@ repository = {
       }
    },
    ['auth0-nginx'] = {
-      ['1.0.1'] = {
+      ['1.0.1-0'] = {
          {
             arch = "rockspec"
          }
       },
-      ['1.0.1-0'] = {
+      ['1.1.0-0'] = {
          {
             arch = "rockspec"
          }
@@ -23712,6 +23712,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    mosquitto = {
@@ -27382,9 +27387,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       }
    },
