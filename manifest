@@ -12528,6 +12528,15 @@ repository = {
          }
       }
    },
+   ['lua-mastodon'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-messagepack'] = {
       ['0.1.0-1'] = {
          {
@@ -23735,6 +23744,11 @@ repository = {
          }
       },
       ['1.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.6.0-1'] = {
          {
             arch = "rockspec"
          }
