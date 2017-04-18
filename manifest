@@ -8177,6 +8177,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-openwhisk'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-upstream-auth-basic'] = {
       ['1.0.0-0'] = {
          {
