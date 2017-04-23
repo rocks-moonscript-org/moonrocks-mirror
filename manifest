@@ -8191,6 +8191,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-upstream-auth-basic'] = {
@@ -12743,6 +12750,13 @@ repository = {
    },
    ['lua-mock'] = {
       ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0-1'] = {
          {
             arch = "rockspec"
          }, {
