@@ -21126,6 +21126,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['4.7-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    magic = {
@@ -24966,6 +24971,13 @@ repository = {
          }
       },
       ['1.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -30494,6 +30506,11 @@ repository = {
          }
       },
       ['2.1.0-20'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['3.0.0-21'] = {
          {
             arch = "rockspec"
          }
