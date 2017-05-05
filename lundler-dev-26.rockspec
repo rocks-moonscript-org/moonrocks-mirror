@@ -1,5 +1,5 @@
 package = "lundler"
-version = "dev-23"
+version = "dev-26"
 source = {
    url = "git://github.com/Romaboy/lundler.git"
 }
@@ -10,7 +10,7 @@ description = {
    maintainer = "Roman Kushin <romadzao@gmail.com>"
 }
 dependencies = {
-   "luafilesystem", "moonscript", "lua-cjson", "luasec"
+   "lua >= 5.1, < 5.4", "luafilesystem", "moonscript", "luasec"
 }
 build = {
 	type = "builtin",
