@@ -3865,6 +3865,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.63-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.7-1'] = {
          {
             arch = "rockspec"
@@ -8136,6 +8143,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-cookies-to-headers'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
