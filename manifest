@@ -4344,6 +4344,15 @@ repository = {
          }
       }
    },
+   ['dromozoa-parser'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['dromozoa-prl'] = {
       ['1.0-1'] = {
          {
@@ -6228,6 +6237,13 @@ repository = {
          }
       },
       ['0.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -17711,13 +17727,6 @@ repository = {
          }
       },
       ['33.4.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['34.0-1'] = {
          {
             arch = "rockspec"
          }, {
