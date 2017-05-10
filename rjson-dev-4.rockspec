@@ -1,5 +1,5 @@
 package = "rjson"
-version = "dev-3"
+version = "dev-4"
 source = {
    url = "git://github.com/Romaboy/rjson.git"
 }

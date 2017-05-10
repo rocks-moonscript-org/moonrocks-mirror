@@ -4351,6 +4351,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-prl'] = {
@@ -6309,6 +6316,15 @@ repository = {
       ['1.1.1-0'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   genny = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -15696,6 +15712,13 @@ repository = {
          }
       },
       ['0.0.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -27129,7 +27152,7 @@ repository = {
       }
    },
    rjson = {
-      ['dev-3'] = {
+      ['dev-4'] = {
          {
             arch = "rockspec"
          }, {
@@ -29216,6 +29239,11 @@ repository = {
          }
       },
       ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.2-0'] = {
          {
             arch = "rockspec"
          }
