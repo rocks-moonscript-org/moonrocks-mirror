@@ -127,6 +127,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['release-1'] = {
          {
             arch = "rockspec"
@@ -4360,6 +4367,13 @@ repository = {
          }
       },
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -10071,6 +10085,13 @@ repository = {
          }
       },
       ['20150505-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['20150624-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -21579,6 +21600,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['math-evol'] = {
@@ -25520,6 +25548,13 @@ repository = {
          }
       },
       ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -30050,6 +30085,13 @@ repository = {
          }
       },
       ['1.0.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.4-0'] = {
          {
             arch = "rockspec"
          }, {
