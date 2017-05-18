@@ -349,6 +349,13 @@ repository = {
          }
       }
    },
+   apicast = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    apidemo = {
       ['1.0-1'] = {
          {
@@ -3223,6 +3230,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   debugger = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -9753,6 +9767,13 @@ repository = {
          }
       }
    },
+   liquid = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    litcord = {
       ['1.0.0-1'] = {
          {
@@ -11589,6 +11610,11 @@ repository = {
          }
       },
       ['1.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.2.2-0'] = {
          {
             arch = "rockspec"
          }
@@ -17020,9 +17046,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -19099,9 +19125,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -23109,27 +23135,27 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.1-2'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -27881,9 +27907,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -29350,6 +29376,11 @@ repository = {
          }
       },
       ['1.2-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.2.1-0'] = {
          {
             arch = "rockspec"
          }
