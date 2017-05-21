@@ -13,7 +13,7 @@ description = {
 dependencies = {
   'lua = 5.1',
   'lpeg',
-  'luasocket',
+  'luasocket = 3.0rc1-2',
   'luafilesystem',
   'md5 = 1.2-1',
   'lsha2',
