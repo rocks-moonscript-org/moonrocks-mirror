@@ -3299,6 +3299,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['debug.lua'] = {
@@ -14275,6 +14282,13 @@ repository = {
          }
       },
       ['0.98-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.99-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -27329,6 +27343,11 @@ repository = {
    },
    riemoon = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.2-1'] = {
          {
             arch = "rockspec"
          }
