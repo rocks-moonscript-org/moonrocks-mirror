@@ -8378,13 +8378,6 @@ repository = {
       }
    },
    ['kong-plugin-deviceuid'] = {
-      ['0.2.3-0'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
       ['0.2.4-0'] = {
          {
             arch = "rockspec"
@@ -27898,6 +27891,22 @@ repository = {
    },
    sandbox = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   sano = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
