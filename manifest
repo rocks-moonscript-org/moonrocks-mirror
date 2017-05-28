@@ -6080,6 +6080,15 @@ repository = {
          }
       }
    },
+   flos = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    fltk4lua = {
       ['0.1-1'] = {
          {
@@ -7452,6 +7461,15 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
+         }
       }
    },
    ['http-digest'] = {
@@ -8457,6 +8475,15 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-jwt-crafter'] = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -17247,9 +17274,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
