@@ -5906,6 +5906,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    feedparser = {
@@ -13392,6 +13406,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-periphery'] = {
@@ -19405,6 +19426,13 @@ repository = {
          }
       },
       ['0.0.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.7-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -30499,6 +30527,13 @@ repository = {
    },
    ufy = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
