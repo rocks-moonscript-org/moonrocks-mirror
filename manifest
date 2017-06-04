@@ -6793,6 +6793,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1-2'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['gonapps-jwt'] = {
@@ -6817,10 +6822,20 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1-3'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['gonapps-url-encoder'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0-2'] = {
          {
             arch = "rockspec"
          }
@@ -6831,10 +6846,20 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['gonapps-url-router'] = {
       ['1.1-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-3'] = {
          {
             arch = "rockspec"
          }
@@ -23303,9 +23328,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -23416,9 +23441,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.2-1'] = {
@@ -23487,9 +23512,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -25492,6 +25517,13 @@ repository = {
          }
       },
       ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
          {
             arch = "rockspec"
          }, {
