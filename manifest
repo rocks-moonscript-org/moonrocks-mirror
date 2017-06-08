@@ -6494,6 +6494,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    gbk = {
@@ -18153,6 +18160,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.0.beta4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luapdu = {
@@ -27000,6 +27014,20 @@ repository = {
             arch = "src"
          }
       },
+      ['0.11.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.11.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.8.0-1'] = {
          {
             arch = "rockspec"
@@ -29902,6 +29930,11 @@ repository = {
          }
       },
       ['1.3-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.3.1-0'] = {
          {
             arch = "rockspec"
          }
