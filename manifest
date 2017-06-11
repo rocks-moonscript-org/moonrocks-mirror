@@ -11382,6 +11382,13 @@ repository = {
          }
       }
    },
+   lrt = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    lsha2 = {
       ['0.1-0'] = {
          {
@@ -12395,6 +12402,13 @@ repository = {
    },
    ['lua-docx'] = {
       ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-0'] = {
          {
             arch = "rockspec"
          }, {
