@@ -7034,6 +7034,15 @@ repository = {
          }
       }
    },
+   hash = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    hashids = {
       ['1.0.5-1'] = {
          {
@@ -11387,6 +11396,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    lsha2 = {
@@ -14836,6 +14850,13 @@ repository = {
             arch = "src"
          }
       },
+      ['2.17-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['2.2-1'] = {
          {
             arch = "rockspec"
@@ -17429,9 +17450,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
