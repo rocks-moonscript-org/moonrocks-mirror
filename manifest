@@ -2172,15 +2172,6 @@ repository = {
          }
       }
    },
-   consul = {
-      ['0.1-5'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    copas = {
       ['1.1.1-1'] = {
          {
@@ -17063,6 +17054,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luafanlite = {
@@ -17079,6 +17077,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luafanmicro = {
@@ -17090,6 +17095,13 @@ repository = {
          }
       },
       ['0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -17473,9 +17485,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -23636,9 +23648,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.1-2'] = {
@@ -24427,6 +24439,13 @@ repository = {
          }
       },
       ['0.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -28539,9 +28558,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       }
    },
