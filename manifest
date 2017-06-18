@@ -8481,6 +8481,15 @@ repository = {
          }
       }
    },
+   ['kong-oidc'] = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-payload-size-limiting'] = {
       ['0.0.0-0'] = {
          {
@@ -12463,6 +12472,13 @@ repository = {
          }
       },
       ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -17516,9 +17532,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -19213,6 +19229,15 @@ repository = {
          }
       },
       ['2.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luasrcdiet = {
+      ['0.2.0-2'] = {
          {
             arch = "rockspec"
          }, {
