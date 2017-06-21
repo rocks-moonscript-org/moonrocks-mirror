@@ -22082,6 +22082,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    mailgun = {
