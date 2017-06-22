@@ -7600,9 +7600,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -9194,6 +9194,20 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['lapis-cache'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -22424,6 +22438,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-7'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    media_player = {
@@ -26041,6 +26069,15 @@ repository = {
          }
       },
       ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['org.conman.parsers.abnf'] = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -31054,6 +31091,15 @@ repository = {
    },
    unicorndecode = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['unsplash-lua'] = {
+      ['0.5-1'] = {
          {
             arch = "rockspec"
          }, {
