@@ -26188,6 +26188,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['org.conman.syslog'] = {
@@ -28377,6 +28384,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   rxlove = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -31174,6 +31188,15 @@ repository = {
          }
       }
    },
+   ['unsplash-lua'] = {
+      ['0.5-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    unzip = {
       ['0.1.0-1'] = {
          {
@@ -32679,6 +32702,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   yue = {
+      ['0.0.1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
