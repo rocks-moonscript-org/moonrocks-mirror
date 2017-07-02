@@ -14271,6 +14271,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-fileinfo'] = {
@@ -25007,6 +25014,13 @@ repository = {
       ['1.8-2'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['1.8-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
