@@ -1758,6 +1758,22 @@ repository = {
          }
       }
    },
+   clutch = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    cmark = {
       ['0.23.0-1'] = {
          {
@@ -3393,6 +3409,13 @@ repository = {
       }
    },
    ['debug.lua'] = {
+      ['0.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.8-1'] = {
          {
             arch = "rockspec"
@@ -10377,6 +10400,15 @@ repository = {
          }
       }
    },
+   ['lluv-curl'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lluv-ftp'] = {
       ['0.1.0-1'] = {
          {
@@ -11229,6 +11261,13 @@ repository = {
          }
       },
       ['1.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -19870,9 +19909,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -23909,9 +23948,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
@@ -27636,6 +27675,15 @@ repository = {
       ['0.0-2'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   randomdist = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
