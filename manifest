@@ -7253,15 +7253,6 @@ repository = {
          }
       }
    },
-   helloworld = {
-      ['1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    ['heroku-openresty'] = {
       ['1.2.8.6-1'] = {
          {
@@ -23955,9 +23946,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.2-1'] = {
