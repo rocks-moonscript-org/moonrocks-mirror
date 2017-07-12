@@ -14559,6 +14559,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.1.11-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.1.4-0'] = {
          {
             arch = "rockspec"
@@ -29074,9 +29081,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       }
    },
