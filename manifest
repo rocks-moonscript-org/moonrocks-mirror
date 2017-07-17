@@ -22295,6 +22295,15 @@ repository = {
          }
       }
    },
+   ['lzmq-zmq'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lzw = {
       ['1.0-0'] = {
          {
@@ -27075,6 +27084,11 @@ repository = {
          }
       },
       ['1.5.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.5.3-1'] = {
          {
             arch = "rockspec"
          }
