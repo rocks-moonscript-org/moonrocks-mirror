@@ -1,9 +1,9 @@
 -- vim: set ft=lua:
 
 package = 'brieflz'
-version = '0.1.0-1'
+version = '0.1.0-2'
 
-source = { url = 'https://github.com/jirutka/brieflz.lua/archive/v0.1.0/brieflz-0.1.0.tar.gz', md5 = 'aff0ad99d376cbfa9dc86325e0f82cd0' }
+source = { url = 'https://github.com/jirutka/brieflz.lua/archive/v0.1.0/brieflz.lua-0.1.0.tar.gz', md5 = '1cb1003cbc340ce935fcf31ee3ea5517' }
 
 description = {
   summary = 'Lua binding for BriefLZ compression library',
