@@ -3559,6 +3559,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    discount = {
@@ -10532,6 +10539,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lluv-curl'] = {
@@ -12709,6 +12723,13 @@ repository = {
          }
       },
       ['0.3.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.7-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -15063,6 +15084,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.04-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-repl'] = {
@@ -16150,6 +16178,20 @@ repository = {
          }
       },
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -26667,6 +26709,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['org.conman.parsers.jsons'] = {
@@ -26685,6 +26734,13 @@ repository = {
          }
       },
       ['1.0.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.7-1'] = {
          {
             arch = "rockspec"
          }, {
