@@ -1153,6 +1153,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    bump = {
@@ -7778,9 +7792,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -15075,6 +15089,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.10-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-readurl'] = {
@@ -18780,6 +18801,13 @@ repository = {
          }
       },
       ['0.1.0.beta4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0.beta5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -24818,6 +24846,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    mmdblua = {
@@ -29015,13 +29050,6 @@ repository = {
          }
       }
    },
-   ['s-assgiloc'] = {
-      ['0.1-1'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    s3 = {
       ['1.0-1'] = {
          {
@@ -29594,6 +29622,13 @@ repository = {
          }
       },
       ['0.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-3'] = {
          {
             arch = "rockspec"
          }, {
