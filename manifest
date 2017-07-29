@@ -3617,6 +3617,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    discount = {
@@ -6161,6 +6168,15 @@ repository = {
          }
       }
    },
+   fat_error = {
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    fbclient = {
       ['0.4.0-1'] = {
          {
@@ -8567,6 +8583,11 @@ repository = {
          }
       },
       ['0.10.3-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.11.0rc2-0'] = {
          {
             arch = "rockspec"
          }
@@ -14503,6 +14524,13 @@ repository = {
       ['0.6.0-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.6.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -29509,9 +29537,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       }
    },
