@@ -4809,6 +4809,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-prl'] = {
@@ -15013,6 +15020,15 @@ repository = {
    },
    ['lua-resty-macaroons'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-resty-mail'] = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
