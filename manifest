@@ -3780,6 +3780,22 @@ repository = {
          }
       }
    },
+   docker = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    docopt = {
       ['0.1-0'] = {
          {
@@ -4755,6 +4771,13 @@ repository = {
          }
       },
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.10-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -10036,6 +10059,13 @@ repository = {
          }
       },
       ['1.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -27353,6 +27383,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    pbc = {
@@ -30595,6 +30630,13 @@ repository = {
          }
       },
       ['41.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['41.2.1-1'] = {
          {
             arch = "rockspec"
          }, {
