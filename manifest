@@ -28562,6 +28562,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    rapidjson = {
