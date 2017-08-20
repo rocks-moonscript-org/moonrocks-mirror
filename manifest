@@ -31511,6 +31511,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.5-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    telescope = {
