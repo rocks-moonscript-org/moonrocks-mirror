@@ -1747,6 +1747,13 @@ repository = {
          }
       }
    },
+   ['chrome-devtools-client'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    chronos = {
       ['0.1-4'] = {
          {
@@ -11583,9 +11590,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -15237,6 +15244,13 @@ repository = {
          }
       },
       ['0.102-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.103-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -33235,6 +33249,13 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.1-1'] = {
          {
             arch = "rockspec"
          }, {
