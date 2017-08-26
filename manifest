@@ -858,6 +858,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    battery_status = {
@@ -3185,6 +3192,11 @@ repository = {
          }
       },
       ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0-0'] = {
          {
             arch = "rockspec"
          }
@@ -16137,6 +16149,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-waf'] = {
@@ -16679,6 +16698,20 @@ repository = {
    },
    ['lua-wolfram'] = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -27610,6 +27643,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0-6'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    pash = {
@@ -30285,6 +30323,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    snowflake = {
@@ -32288,6 +32333,13 @@ repository = {
          }
       },
       ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
