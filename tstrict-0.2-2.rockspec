@@ -1,7 +1,7 @@
 package = "tstrict"
-version = "0.2-1"
+version = "0.2-2"
 source = {
-   url = "http://git.pipapo.org/?p=tstrict;a=summary",
+   url = "git://git.pipapo.org/tstrict",
    branch = "v0.2"
 }
 description = {
