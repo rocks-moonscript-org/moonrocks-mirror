@@ -2,7 +2,7 @@ package = "cmdbuild"
 version = "0.1.0-1"
 source = {
   url = "https://bitbucket.org/enlab/cmdbuild_soap_api/get/master.tar.gz",
-  dir = 'enlab-cmdbuild_soap_api-670e8160666e'
+  dir = 'enlab-cmdbuild_soap_api-e2abccb5094f'
 }
 description = {
   summary = "CMDBuild SOAP API Wrapper",
@@ -30,6 +30,7 @@ build = {
     ['cmdbuild'] = 'src/cmdbuild.lua',
     ['cmdbuild.attachment'] = 'src/cmdbuild/attachment.lua',
     ['cmdbuild.card'] = 'src/cmdbuild/card.lua',
+    ['cmdbuild.relation'] = 'src/cmdbuild/relation.lua',
     ['cmdbuild.lookup'] = 'src/cmdbuild/lookup.lua',
     ['cmdbuild.workflow'] = 'src/cmdbuild/workflow.lua',
     ['base64'] = 'src/base64.lua',
