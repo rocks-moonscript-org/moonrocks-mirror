@@ -6338,6 +6338,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    fbclient = {
@@ -20541,6 +20555,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luasvn = {
@@ -27664,6 +27683,11 @@ repository = {
          }
       },
       ['1.0-6'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0-7'] = {
          {
             arch = "rockspec"
          }
