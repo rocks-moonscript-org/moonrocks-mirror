@@ -1,5 +1,5 @@
 package = "chrome-devtools-client"
-version = "0.1-1"
+version = "0.3-1"
 source = {
    url = "git://github.com/clear-code/lua-chrome-devtools-client"
 }

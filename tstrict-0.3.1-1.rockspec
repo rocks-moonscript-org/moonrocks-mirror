@@ -1,8 +1,8 @@
 package = "tstrict"
-version = "0.3-1"
+version = "0.3.1-1"
 source = {
    url = "git://git.pipapo.org/tstrict",
-   tag = "v0.3",
+   tag = "v0.3.1"
 }
 description = {
    summary = "Yet Another Implementation For Lua Strict Tables",
