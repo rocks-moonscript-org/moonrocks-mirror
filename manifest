@@ -9136,6 +9136,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-payload-size-limiting'] = {
@@ -16860,6 +16867,11 @@ repository = {
    },
    ['lua-utils'] = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }
@@ -25756,9 +25768,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -33913,6 +33925,20 @@ repository = {
          }
       },
       ['0.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.6.1-1'] = {
          {
             arch = "rockspec"
          }, {
