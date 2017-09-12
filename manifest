@@ -3174,6 +3174,15 @@ repository = {
          }
       }
    },
+   ['cube-cli'] = {
+      ['0.1-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    cue = {
       ['1.1.0-1'] = {
          {
@@ -3924,6 +3933,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.alpha2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dogmac = {
@@ -3949,6 +3965,20 @@ repository = {
          }
       },
       ['1.0.alpha1-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.alpha2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.alpha2-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -13604,6 +13634,15 @@ repository = {
       }
    },
    ['lua-inih'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-jconv'] = {
       ['0.1-1'] = {
          {
             arch = "rockspec"
@@ -24710,9 +24749,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
@@ -25246,18 +25285,18 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.1-2'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
@@ -31237,6 +31276,13 @@ repository = {
          }
       },
       ['1.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.4-1'] = {
          {
             arch = "rockspec"
          }, {
