@@ -3970,6 +3970,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.alpha5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dogmac = {
@@ -4023,6 +4030,13 @@ repository = {
          }
       },
       ['1.0.alpha4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.alpha5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -6861,6 +6875,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['fly-bgcrypto-pbkdf2'] = {
@@ -7614,6 +7635,13 @@ repository = {
          }
       }
    },
+   halo = {
+      ['1.1.8-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    haricot = {
       ['1.0-1'] = {
          {
@@ -7682,6 +7710,13 @@ repository = {
    },
    hashids = {
       ['1.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -10682,6 +10717,13 @@ repository = {
          }
       }
    },
+   libtls = {
+      ['2.5.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lice-lua'] = {
       ['0.1.0-1'] = {
          {
@@ -11020,6 +11062,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   llsocket = {
+      ['0.5.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -24866,9 +24915,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
@@ -25945,9 +25994,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -26704,6 +26753,13 @@ repository = {
    },
    nats = {
       ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   net = {
+      ['0.16.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -28277,6 +28333,13 @@ repository = {
          }
       }
    },
+   pcre2 = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    pdh = {
       ['0.1.0-1'] = {
          {
@@ -29482,6 +29545,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    readline = {
@@ -29664,6 +29734,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   regex = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -30779,6 +30856,13 @@ repository = {
          }
       }
    },
+   signal = {
+      ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    simple_test = {
       ['0.0.1-0'] = {
          {
@@ -31574,9 +31658,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['37-1'] = {
