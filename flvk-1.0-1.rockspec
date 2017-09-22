@@ -1,7 +1,7 @@
 package = "flvk"
 version = "1.0-1"
 source = {
-  url = "https://github.com/iZarif/flvk.git",
+  url = "git://github.com/iZarif/flvk",
   tag = "flvk-1.0"
 }
 description = {
