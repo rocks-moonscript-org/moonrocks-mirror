@@ -14118,6 +14118,18 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['lua-lswcli'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-lz4'] = {
