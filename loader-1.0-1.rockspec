@@ -2,7 +2,7 @@ package = "loader"
 version = "1.0-1"
 
 source = {
-   url = "git://github.com/nashory/dataloader.torch",
+   url = "git://github.com/nashory/loader-torch",
    tag = "master"
 }
 
@@ -11,7 +11,7 @@ description = {
    detailed = [[
    Multi-threaded data loader module for Torch
    ]],
-   homepage = "https://github.com/nashory/dataloader.torch",
+   homepage = "https://github.com/nashory/loader-torch",
    license = "BSD-3 Clause"
 }
 

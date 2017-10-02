@@ -3995,6 +3995,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.alpha11-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.alpha2-1'] = {
          {
             arch = "rockspec"
@@ -4082,6 +4089,13 @@ repository = {
          }
       },
       ['1.0.alpha10-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.alpha11-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -6610,6 +6624,13 @@ repository = {
    },
    faketorio = {
       ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -21575,9 +21596,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -27026,6 +27047,20 @@ repository = {
    },
    mwcrng = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
          {
             arch = "rockspec"
          }, {
