@@ -1818,6 +1818,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.8-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    chronos = {
@@ -16931,6 +16936,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-xxhash'] = {
@@ -21361,6 +21373,13 @@ repository = {
          }
       },
       ['0.0.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.9-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -28318,6 +28337,13 @@ repository = {
          }
       },
       ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
