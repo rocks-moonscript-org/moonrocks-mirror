@@ -20,9 +20,9 @@ build = {
   type = 'builtin',
   install = {
     bin = {
-      ['lua.get_ast'] = 'lua_get_ast.sh',
-      ['lua.get_formatter_ast'] = 'lua_get_formatter_ast.sh',
-      ['lua.reformat'] = 'lua_reformat.sh',
+      ['lua.get_ast'] = 'lua_get_ast.lua',
+      ['lua.get_formatter_ast'] = 'lua_get_formatter_ast.lua',
+      ['lua.reformat'] = 'lua_reformat.lua',
     },
   },
   modules = {
