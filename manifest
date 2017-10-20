@@ -9758,6 +9758,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-openwhisk'] = {
@@ -9778,6 +9785,13 @@ repository = {
    },
    ['kong-plugin-perimeterx'] = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -11111,6 +11125,13 @@ repository = {
          }
       },
       ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -15834,6 +15855,15 @@ repository = {
          }
       },
       ['3.0.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-resty-execvp'] = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -24798,6 +24828,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    mediator_lua = {
@@ -26186,9 +26223,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -29480,6 +29517,13 @@ repository = {
             arch = "src"
          }
       },
+      ['2.13-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['2.2-0'] = {
          {
             arch = "rockspec"
@@ -31599,9 +31643,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -32504,9 +32548,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['37-1'] = {
