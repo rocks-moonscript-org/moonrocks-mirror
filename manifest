@@ -1961,6 +1961,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    cmark = {
@@ -33286,6 +33293,13 @@ repository = {
          }
       }
    },
+   ['telegram-bot-api'] = {
+      ['3.4.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['telegram-bot-lua'] = {
       ['1.0.0-0'] = {
          {
@@ -33358,6 +33372,11 @@ repository = {
          }
       },
       ['1.5-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.6-0'] = {
          {
             arch = "rockspec"
          }
