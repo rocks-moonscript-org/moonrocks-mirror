@@ -1968,6 +1968,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    cmark = {
@@ -33297,6 +33304,8 @@ repository = {
       ['3.4.0-0'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
