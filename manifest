@@ -14144,7 +14144,7 @@ repository = {
       }
    },
    ['lua-http-parser'] = {
-      ['1.0-1'] = {
+      ['2.7-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -33000,6 +33000,22 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['stuart-ml'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    subprocess = {
@@ -33336,6 +33352,13 @@ repository = {
          }
       },
       ['2.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -35460,6 +35483,13 @@ repository = {
          }
       },
       ['0.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7.0-2'] = {
          {
             arch = "rockspec"
          }, {
