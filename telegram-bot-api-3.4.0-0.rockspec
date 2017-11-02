@@ -2,8 +2,8 @@ package = "telegram-bot-api"
 version = "3.4.0-0"
 
 source = {
-	url = "https://github.com/yangm97/lua-telegram-bot-api/archive/3.4.0.tar.gz",
-	dir = "telegram-bot-api-3.4.0"
+	url = "git://github.com/yangm97/lua-telegram-bot-api",
+	tag = "3.4.0"
 }
 
 description = {
@@ -18,8 +18,7 @@ dependencies = {
 	"lua >= 5.1",
 	"luasocket >= 3.0rc1-2",
 	"luasec >= 0.6-1",
-	"lua-cjson >= 2.1.0-1",
-	"ltn12 == scm-0"
+	"lua-cjson >= 2.1.0-1"
 }
 
 build = {

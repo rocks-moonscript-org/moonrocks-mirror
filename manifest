@@ -9897,6 +9897,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-xml-threat-protection'] = {
@@ -11980,9 +11987,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['2.3beta-1'] = {
@@ -24892,9 +24899,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       },
       ['1.1.2-2'] = {
