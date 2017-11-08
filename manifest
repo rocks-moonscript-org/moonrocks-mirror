@@ -9928,6 +9928,27 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-upstream-auth-basic'] = {
@@ -12808,6 +12829,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lrexlib-oniguruma'] = {
@@ -12833,6 +12861,13 @@ repository = {
          }
       },
       ['2.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.9.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -12896,6 +12931,22 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lrexlib-pcre2'] = {
+      ['2.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lrexlib-posix'] = {
@@ -12954,6 +13005,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lrexlib-tre'] = {
@@ -12979,6 +13037,13 @@ repository = {
          }
       },
       ['2.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.9.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -21386,9 +21451,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       },
       ['0.4-3'] = {
@@ -31040,6 +31105,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    restserver = {
@@ -32641,6 +32716,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ssh = {
@@ -32926,9 +33008,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['37-1'] = {
