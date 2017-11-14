@@ -361,6 +361,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.3.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    apicast = {
@@ -1068,6 +1075,27 @@ repository = {
       ['5.0-0'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['5.0-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.0-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.0-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -6779,6 +6807,20 @@ repository = {
          }
       },
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -13781,13 +13823,6 @@ repository = {
       }
    },
    ['lua-coat'] = {
-      ['0.1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
       ['0.2.0-1'] = {
          {
             arch = "rockspec"
@@ -16736,6 +16771,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-passwdqc'] = {
@@ -18847,6 +18889,13 @@ repository = {
          }
       },
       ['0.21.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.21.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -27771,6 +27820,13 @@ repository = {
       ['0.5-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
