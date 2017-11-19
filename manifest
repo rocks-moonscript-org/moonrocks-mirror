@@ -15777,6 +15777,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.11.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.8.0-1'] = {
          {
             arch = "rockspec"
@@ -16820,6 +16827,13 @@ repository = {
          }
       },
       ['1.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -20044,6 +20058,20 @@ repository = {
          }
       },
       ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-4'] = {
          {
             arch = "rockspec"
          }, {
@@ -28172,6 +28200,13 @@ repository = {
          }
       },
       ['0.1-20170610'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.20171117-2'] = {
          {
             arch = "rockspec"
          }, {
