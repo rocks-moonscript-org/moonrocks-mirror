@@ -9936,6 +9936,27 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-moocherio'] = {
@@ -17491,6 +17512,15 @@ repository = {
          }
       },
       ['1.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-resty-timer'] = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -27328,9 +27358,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -32560,9 +32590,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -33472,9 +33502,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['37-1'] = {
@@ -34633,6 +34663,15 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   thrift = {
+      ['0.10.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
