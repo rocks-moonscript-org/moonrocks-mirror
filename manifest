@@ -154,6 +154,13 @@ repository = {
          }
       }
    },
+   ['adal-lua'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    adoc_cmd_ext = {
       ['0.1.0-0'] = {
          {
@@ -10120,6 +10127,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.4.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.4.2-1'] = {
          {
             arch = "rockspec"
@@ -12279,6 +12293,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    loop = {
@@ -13263,6 +13291,11 @@ repository = {
          }
       },
       ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.2-0'] = {
          {
             arch = "rockspec"
          }
@@ -20153,6 +20186,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luagraphs = {
@@ -21812,9 +21852,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       },
       ['0.4-3'] = {
@@ -26450,9 +26490,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
@@ -33383,6 +33423,13 @@ repository = {
          }
       },
       ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
