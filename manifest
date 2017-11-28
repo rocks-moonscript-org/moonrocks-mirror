@@ -155,9 +155,11 @@ repository = {
       }
    },
    ['adal-lua'] = {
-      ['0.1-1'] = {
+      ['0.0.1-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -15078,6 +15080,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-messagepack'] = {
@@ -16262,6 +16269,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-dogstatsd'] = {
@@ -16419,6 +16433,15 @@ repository = {
       ['v1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['lua-resty-healthcheck'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -16678,6 +16701,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['lua-resty-lock'] = {
+      ['0.07-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -33944,6 +33974,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['stuart-ml'] = {
@@ -35634,6 +35671,13 @@ repository = {
          }
       },
       ['0.6.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7.0-1'] = {
          {
             arch = "rockspec"
          }, {
