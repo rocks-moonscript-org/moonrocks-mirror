@@ -22672,9 +22672,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -28146,6 +28146,20 @@ repository = {
          }
       },
       ['0.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.2-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -37081,6 +37095,15 @@ repository = {
    },
    xml2lua = {
       ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   xmlua = {
+      ['0.9.0-0'] = {
          {
             arch = "rockspec"
          }, {
