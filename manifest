@@ -9532,6 +9532,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.11.2-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.2.0-2'] = {
          {
             arch = "rockspec"
@@ -10151,6 +10156,15 @@ repository = {
          }
       },
       ['0.4.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-universal-jwt'] = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -11961,6 +11975,13 @@ repository = {
          }
       },
       ['0.1.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.8-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -21710,6 +21731,13 @@ repository = {
          }
       }
    },
+   luark = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luarocks = {
       ['2.1.1-1'] = {
          {
@@ -26427,9 +26455,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.4-1'] = {
@@ -26520,9 +26548,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.2-1'] = {
@@ -32718,9 +32746,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       }
    },
@@ -37104,6 +37132,13 @@ repository = {
    },
    xmlua = {
       ['0.9.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-0'] = {
          {
             arch = "rockspec"
          }, {
