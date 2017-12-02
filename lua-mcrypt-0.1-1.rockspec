@@ -15,6 +15,9 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-	mcrypt = "lmcryptlib.c"
+	mcrypt = {
+		sources = {"lmcryptlib.c"},
+		libraries = {"mcrypt"}
+	}
    }
 }
