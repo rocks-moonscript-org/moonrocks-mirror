@@ -26434,9 +26434,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.4-1'] = {
@@ -29960,6 +29960,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['parser-gen'] = {
@@ -30594,6 +30601,13 @@ repository = {
          }
       },
       ['2.9-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -34852,6 +34866,13 @@ repository = {
          }
       },
       ['0.10.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.10.0-3'] = {
          {
             arch = "rockspec"
          }, {
