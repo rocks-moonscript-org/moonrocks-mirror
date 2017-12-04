@@ -1,5 +1,5 @@
 package = "gxid-bearer"
-version = "1.0.0-1"
+version = "0.0.0-1"
 source = {
    url = "git+ssh://git@stash.globalx.com.au:7999/GIA/gxid-bearer.git"
 }
@@ -8,7 +8,10 @@ description = {
    license = "*** please specify a license ***"
 }
 dependencies = {
-   "lua ~> 5.1"
+   "lua ~> 5.1",
+   "lua-resty-cookie ~> 0.1",
+   "lua-resty-http ~> 0.08",
+   "lua-resty-jwt ~> 0.1"
 }
 build = {
    type = "builtin",
