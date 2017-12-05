@@ -1,8 +1,8 @@
 package = "kong-plugin-queryparams-to-headers"
-version = "1.0-0"
+version = "1.0-1"
 local pluginName = "queryparams-to-headers"
 source = {
-  url = "git://github.com/pravin-raha/kong-plugin-queryParams-to-headers",
+  url = "git://github.com/pravin-raha/kong-plugin-queryparams-to-headers",
 }
 description = {
   summary = "A Kong plugin that will convert QueryParams into headers",
