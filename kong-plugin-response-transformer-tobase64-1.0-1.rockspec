@@ -1,5 +1,5 @@
 package = "kong-plugin-response-transformer-tobase64"
-version = "1.0-0"
+version = "1.0-1"
 local pluginName = "response-transformer-tobase64"
 source = {
   url = "git://github.com/pravin-raha/kong-plugin-response-transformer-tobase64",
@@ -9,8 +9,7 @@ description = {
   license = "MIT"
 }
 dependencies = {
-  "lua ~> 5.1",
-  "lua-resty-cookie ~> 0.1.0"
+  "lua ~> 5.1"
 }
 build = {
   type = "builtin",

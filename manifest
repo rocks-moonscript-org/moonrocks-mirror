@@ -6180,6 +6180,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-xml'] = {
@@ -10133,7 +10140,7 @@ repository = {
       }
    },
    ['kong-plugin-response-transformer-tobase64'] = {
-      ['1.0-0'] = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -10190,6 +10197,13 @@ repository = {
          }
       },
       ['0.4.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -16593,6 +16607,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-hipchat'] = {
@@ -22046,9 +22067,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       },
       ['0.4-3'] = {
@@ -22836,9 +22857,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
