@@ -6187,6 +6187,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-xml'] = {
@@ -9720,6 +9727,15 @@ repository = {
          }
       }
    },
+   ['kong-jwt-claim-headers'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-lapis'] = {
       ['1.6.0.1-1'] = {
          {
@@ -9989,6 +10005,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-moocherio'] = {
@@ -10140,7 +10163,7 @@ repository = {
       }
    },
    ['kong-plugin-response-transformer-tobase64'] = {
-      ['1.0-1'] = {
+      ['1.0-5'] = {
          {
             arch = "rockspec"
          }
@@ -22857,9 +22880,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
