@@ -24954,6 +24954,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['6.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lzlib = {
@@ -27759,6 +27766,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.70-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    mobile_detect = {
@@ -30184,6 +30196,13 @@ repository = {
          }
       },
       ['0.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.8.0-2'] = {
          {
             arch = "rockspec"
          }, {
