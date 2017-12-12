@@ -15,7 +15,10 @@ Functional style fork of lvk.
   license = "MIT"
 }
 dependencies = {
-  "lua >= 5.1", "lua-curl", "lua-cjson"
+  "lua >= 5.1",
+  "luasocket",
+  "luasec",
+  "dkjson"
 }
 build = {
   type = "builtin",
