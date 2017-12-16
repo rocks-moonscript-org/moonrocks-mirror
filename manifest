@@ -3065,11 +3065,11 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "linux-x86_64"
          }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['20150119.51-1'] = {
@@ -10030,6 +10030,13 @@ repository = {
    },
    ['kong-plugin-mithril'] = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.10-1'] = {
          {
             arch = "rockspec"
          }, {
