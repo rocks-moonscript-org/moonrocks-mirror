@@ -3065,11 +3065,11 @@ repository = {
          {
             arch = "rockspec"
          }, {
+            arch = "src"
+         }, {
             arch = "linux-x86_64"
          }, {
             arch = "macosx-x86_64"
-         }, {
-            arch = "src"
          }
       },
       ['20150119.51-1'] = {
@@ -16889,6 +16889,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.7-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-jsonrpc-batch'] = {
@@ -28547,6 +28552,15 @@ repository = {
          }
       }
    },
+   multistreamer = {
+      ['11.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    murmurhash3 = {
       ['1.1-0'] = {
          {
@@ -34065,9 +34079,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['37-1'] = {
