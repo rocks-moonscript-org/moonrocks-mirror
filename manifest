@@ -3065,11 +3065,11 @@ repository = {
          {
             arch = "rockspec"
          }, {
+            arch = "src"
+         }, {
             arch = "linux-x86_64"
          }, {
             arch = "macosx-x86_64"
-         }, {
-            arch = "src"
          }
       },
       ['20150119.51-1'] = {
@@ -3083,11 +3083,11 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "linux-x86_64"
          }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['20150119.52-1'] = {
@@ -26430,6 +26430,13 @@ repository = {
    },
    mimetypes = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-2'] = {
          {
             arch = "rockspec"
          }, {
