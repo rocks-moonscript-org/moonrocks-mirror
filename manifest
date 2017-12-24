@@ -16885,6 +16885,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.12-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-injection'] = {
@@ -31467,6 +31474,15 @@ repository = {
          }
       }
    },
+   prailude = {
+      ['0.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    prefix_tree = {
       ['0.1.0-1'] = {
          {
@@ -34209,9 +34225,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['37-1'] = {
