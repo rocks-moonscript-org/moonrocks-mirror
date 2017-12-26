@@ -31796,6 +31796,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    rapidjson = {
@@ -33289,9 +33296,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       }
    },
