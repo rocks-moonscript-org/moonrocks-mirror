@@ -31555,6 +31555,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    prefix_tree = {
@@ -34734,6 +34741,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['stuart-ml'] = {
@@ -34782,6 +34796,13 @@ repository = {
          }
       },
       ['0.1.5-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.6-0'] = {
          {
             arch = "rockspec"
          }, {
