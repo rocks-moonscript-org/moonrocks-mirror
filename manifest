@@ -9124,6 +9124,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['3.1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['ios-icons'] = {
@@ -10512,6 +10519,13 @@ repository = {
          }
       },
       ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -18286,6 +18300,13 @@ repository = {
          }
       }
    },
+   ['lua-rover'] = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-salt'] = {
       ['0.0.1-0'] = {
          {
@@ -23211,9 +23232,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.4-0'] = {
