@@ -4972,6 +4972,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-dyld'] = {
@@ -9965,6 +9972,13 @@ repository = {
          }
       },
       ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -23232,9 +23246,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['0.4-0'] = {
