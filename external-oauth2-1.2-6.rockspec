@@ -1,7 +1,7 @@
 package = "external-oauth2"
-version = "1.1-5"
+version = "1.2-6"
 source = {
-  url = "git://github.com/jackong/kong-external-oauth"
+  url = "https://github.com/jackong/kong-external-oauth.git"
 }
 description = {
   summary = "A Kong plugin, that let you use an external Oauth 2.0 provider to protect your API",
@@ -14,8 +14,8 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["kong.plugins.external-oauth.access"] = "src/access.lua",
-    ["kong.plugins.external-oauth.handler"] = "src/handler.lua",
-    ["kong.plugins.external-oauth.schema"] = "src/schema.lua"
+    ["kong.plugins.external-oauth2.access"] = "src/access.lua",
+    ["kong.plugins.external-oauth2.handler"] = "src/handler.lua",
+    ["kong.plugins.external-oauth2.schema"] = "src/schema.lua"
   }
 }
