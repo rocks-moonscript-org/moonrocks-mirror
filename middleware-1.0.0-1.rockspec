@@ -1,5 +1,5 @@
 package = "middleware"
-version = "0.0.3-1"
+version = "1.0.0-1"
 source = {
    url = "https://github.com/wesrv/kong-plugin-middleware",
 }
@@ -9,7 +9,6 @@ description = {
 }
 dependencies = {
   "lua >= 5.1",
-  "lua-cjson",
   "lua-resty-http"
 }
 build = {
