@@ -5669,6 +5669,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.13-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -9661,7 +9668,7 @@ repository = {
             arch = "rockspec"
          }
       },
-      ['0.12.0rc1-0'] = {
+      ['0.12.0-0'] = {
          {
             arch = "rockspec"
          }
@@ -14994,6 +15001,20 @@ repository = {
             arch = "src"
          }
       },
+      ['1.5-16'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5-17'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.5-2'] = {
          {
             arch = "rockspec"
@@ -18933,6 +18954,13 @@ repository = {
       ['0.2-3'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -27275,9 +27303,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.4-1'] = {
@@ -38208,6 +38236,15 @@ repository = {
          }
       },
       ['3.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['xcq-subprocess'] = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
