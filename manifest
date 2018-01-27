@@ -7842,6 +7842,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['globals-lua'] = {
@@ -16286,14 +16293,14 @@ repository = {
             arch = "src"
          }
       },
-      ['0.2.0-1'] = {
+      ['0.2.0-0'] = {
          {
             arch = "rockspec"
          }, {
             arch = "src"
          }
       },
-      ['0.2.1-1'] = {
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -29370,6 +29377,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    native = {
@@ -35792,6 +35806,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.5.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['telegram-bot-lua'] = {
@@ -35963,9 +35984,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -36690,6 +36711,11 @@ repository = {
          }
       },
       ['2.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.1-2'] = {
          {
             arch = "rockspec"
          }

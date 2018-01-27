@@ -1,8 +1,8 @@
 package = "lua-protobuf"
-version = "0.2.1-1"
+version = "0.2.0-0"
 
 source = {
-  url = "git://github.com/starwing/lua-protobuf.git",
+  url = "https://github.com/starwing/lua-protobuf/archive/0.2.0.zip",
 }
 
 description = {
@@ -21,6 +21,7 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    pb = "pb.c",
+    pb     = "pb.c";
+    protoc = "protoc.lua";
   }
 }
