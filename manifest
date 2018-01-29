@@ -13071,6 +13071,15 @@ repository = {
          }
       }
    },
+   lovebird = {
+      ['0.4-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    loverocks = {
       ['0.0.3-1'] = {
          {
@@ -15480,6 +15489,22 @@ repository = {
       }
    },
    ['lua-livr'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-livr-extra'] = {
       ['0.1.0-1'] = {
          {
             arch = "rockspec"
@@ -20595,6 +20620,22 @@ repository = {
          }
       },
       ['0.4.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luaex = {
+      ['0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -34898,9 +34939,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['37-1'] = {
