@@ -3052,11 +3052,11 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "linux-x86_64"
          }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['20150119.51-1'] = {
@@ -10488,6 +10488,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-pipeline'] = {
@@ -10580,6 +10587,13 @@ repository = {
    },
    ['kong-plugin-stdout-log'] = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -14972,6 +14986,11 @@ repository = {
          }
       },
       ['2.4-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.4-1'] = {
          {
             arch = "rockspec"
          }
@@ -21991,6 +22010,13 @@ repository = {
          }
       },
       ['1.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -33211,6 +33237,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['resty-smtp'] = {
+      ['1.0rc1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
