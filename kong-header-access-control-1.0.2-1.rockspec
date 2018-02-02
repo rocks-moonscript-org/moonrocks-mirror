@@ -1,8 +1,8 @@
 package = "kong-header-access-control"
-version = "1.0.0-1"
+version = "1.0.2-1"
 source = {
   url = "git://github.com/gumtreeuk/kong-header-access-control",
-  tag = "1.0.0"
+  tag = "1.0.2"
 }
 description = {
   summary = "A plugin for Kong to whitelist / blacklist requests based on values set in a header",
@@ -10,7 +10,7 @@ description = {
   license = "Apache 2.0"
 }
 dependencies = {
-  "lua >= 5.1"
+  "lua >= 5.2"
 }
 build = {
   type = "builtin",
