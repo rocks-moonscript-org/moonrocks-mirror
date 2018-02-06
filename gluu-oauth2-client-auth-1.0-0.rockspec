@@ -23,7 +23,7 @@ build = {
     ["kong.plugins.gluu-oauth2-client-auth.handler"] = "handler.lua",
     ["kong.plugins.gluu-oauth2-client-auth.helper"] = "helper.lua",
     ["kong.plugins.gluu-oauth2-client-auth.schema"] = "schema.lua",
-    ["kong.plugins.gluu-oauth2-client-auth.migrations.cassandra"] = "cassandra.lua",
-    ["kong.plugins.gluu-oauth2-client-auth.migrations.postgres"] = "postgres.lua"
+    ["kong.plugins.gluu-oauth2-client-auth.migrations.cassandra"] = "migrations/cassandra.lua",
+    ["kong.plugins.gluu-oauth2-client-auth.migrations.postgres"] = "migrations/postgres.lua"
   }
 }

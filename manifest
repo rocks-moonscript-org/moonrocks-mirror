@@ -8197,6 +8197,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['gxs-auth'] = {
@@ -15012,6 +15017,11 @@ repository = {
          }
       },
       ['2.5-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.6-0'] = {
          {
             arch = "rockspec"
          }
@@ -37093,6 +37103,16 @@ repository = {
    },
    ['unauthorized-handler'] = {
       ['0.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }
