@@ -7087,6 +7087,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    fbclient = {
@@ -15101,6 +15108,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.8-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-de'] = {
@@ -18038,6 +18050,13 @@ repository = {
    },
    ['lua-resty-readurl'] = {
       ['v1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['lua-resty-redis'] = {
+      ['0.26-0'] = {
          {
             arch = "rockspec"
          }
@@ -26723,9 +26742,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       },
       ['1.1.2-2'] = {
