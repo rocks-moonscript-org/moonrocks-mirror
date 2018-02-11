@@ -26371,6 +26371,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['4.8-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    magic = {
