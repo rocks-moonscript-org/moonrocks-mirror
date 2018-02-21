@@ -1942,6 +1942,18 @@ repository = {
          }
       }
    },
+   ['claims-handler'] = {
+      ['0.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    classy = {
       ['0.2-1'] = {
          {
@@ -4463,6 +4475,13 @@ repository = {
          }
       },
       ['1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -15201,6 +15220,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.8-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-de'] = {
@@ -22635,6 +22659,13 @@ repository = {
             arch = "src"
          }
       },
+      ['34.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['5.1.12-1'] = {
          {
             arch = "rockspec"
@@ -26128,6 +26159,13 @@ repository = {
          }
       },
       ['6.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['6.2.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -37500,6 +37538,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    underscore = {
@@ -38997,8 +39040,22 @@ repository = {
          }
       }
    },
+   ['wtf-action-store'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['wtf-demo'] = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['wtf-fork-lua-resty-redis'] = {
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }
@@ -39039,9 +39096,26 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['wtf-plugin-honeybot-fake-wordpress-data'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['wtf-storage-redis'] = {
       ['0.1-1'] = {
          {
             arch = "rockspec"
