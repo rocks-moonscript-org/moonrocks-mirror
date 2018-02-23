@@ -6342,6 +6342,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-xml'] = {
@@ -11054,6 +11061,20 @@ repository = {
          }
       },
       ['0.3-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3-6'] = {
          {
             arch = "rockspec"
          }, {
@@ -17278,6 +17299,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-dogstatsd'] = {
@@ -20432,9 +20460,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['0.10.0-1'] = {
@@ -39047,6 +39075,13 @@ repository = {
          }
       }
    },
+   ['wtf-action-redirect'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['wtf-action-store'] = {
       ['0.1-1'] = {
          {
@@ -39068,6 +39103,18 @@ repository = {
    },
    ['wtf-fork-lua-resty-redis'] = {
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['wtf-fork-resty-mongol'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1-2'] = {
          {
             arch = "rockspec"
          }
@@ -39153,6 +39200,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['wtf-plugin-honeybot-fake-welcome-data'] = {
@@ -39208,6 +39260,13 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['wtf-storage-mongodb'] = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }
