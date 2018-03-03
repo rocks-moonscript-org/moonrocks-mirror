@@ -7582,6 +7582,15 @@ repository = {
          }
       }
    },
+   fp = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    fr = {
       ['0.1.0-1'] = {
          {
@@ -8094,6 +8103,15 @@ repository = {
          }
       },
       ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['gobo-awesome-light'] = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -19418,6 +19436,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-tinycdb'] = {
@@ -27064,9 +27089,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       },
       ['1.1.2-2'] = {
