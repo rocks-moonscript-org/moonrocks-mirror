@@ -11003,6 +11003,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-xml-threat-protection'] = {
@@ -24263,9 +24270,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['0.4-0'] = {
@@ -39360,6 +39367,11 @@ repository = {
    },
    ['wtf-fork-lua-resty-redis'] = {
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-1'] = {
          {
             arch = "rockspec"
          }
