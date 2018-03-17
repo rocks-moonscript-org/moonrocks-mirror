@@ -2929,9 +2929,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['16.06.04-1'] = {
@@ -11361,6 +11361,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4.5-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    lain = {
@@ -18698,6 +18703,20 @@ repository = {
             arch = "src"
          }
       },
+      ['2.21-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.22-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['2.3-1'] = {
          {
             arch = "rockspec"
@@ -21458,9 +21477,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       },
       ['1.4.2-1'] = {
@@ -22675,6 +22694,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
