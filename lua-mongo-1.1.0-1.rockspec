@@ -1,8 +1,8 @@
 package = 'lua-mongo'
-version = '0.4.1-1'
+version = '1.1.0-1'
 source = {
 	url = 'git://github.com/neoxic/lua-mongo.git',
-	tag = 'v0.4.1',
+	tag = 'v1.1.0',
 }
 description = {
 	summary = 'MongoDB Driver for Lua',
