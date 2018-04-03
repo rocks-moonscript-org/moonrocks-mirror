@@ -1,14 +1,19 @@
 package = "cuid"
-version = "0.1-1"
+version = "0.3-1"
 
 source = {
   url = "git://github.com/marcoonroad/cuid",
-  tag = "v0.1-1",
+  tag = "v0.3-1",
 }
+
+local detailed = [[
+  This library provides collision-resistant IDs for
+  applications which need to scale.
+]]
 
 description = {
   summary  = "CUID generator for Lua.",
-  detailed = "This library provides collision-resistant IDs for applications which need to scale.",
+  detailed = detailed,
   homepage = "http://github.com/marcoonroad/cuid",
   license  = "MIT/X11",
 }

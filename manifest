@@ -2941,9 +2941,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['16.06.04-1'] = {
@@ -3436,6 +3436,13 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -10249,15 +10256,6 @@ repository = {
          }
       }
    },
-   ['kong-cjson'] = {
-      ['2.1.0.6-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    ['kong-consumer-rate-limiting'] = {
       ['1.0.0-0'] = {
          {
@@ -10944,6 +10942,13 @@ repository = {
          }
       },
       ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -11818,6 +11823,13 @@ repository = {
          }
       },
       ['1.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.7.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -21718,9 +21730,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       },
       ['1.4.2-1'] = {
@@ -29160,9 +29172,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -31877,6 +31889,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.14-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['org.conman.env'] = {
@@ -33160,6 +33179,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['pgmoon-mashape'] = {
@@ -34265,6 +34291,13 @@ repository = {
          }
       },
       ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -40288,6 +40321,20 @@ repository = {
          }
       },
       ['1.0.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.7-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.8-0'] = {
          {
             arch = "rockspec"
          }, {
