@@ -1,7 +1,7 @@
 package = "luagq"
-version = "0.1-4"
+version = "0.1-0"
 source = {
-	url = "https://bitbucket.org/senanetworksinc/luagq/raw/4f182d30e805aa17ebdb8745990002cb796ca169/luagq-0.1-4.tar.gz",
+	url = "https://bitbucket.org/senanetworksinc/luagq/raw/7ca40d372c0efcf11ca1316e79a18e388e8ed075/luagq-0.1-0.tar.gz",
 }
 description = {
 	summary = "luagq",

@@ -1,7 +1,7 @@
 package = "luagearman"
-version = "0.1-1"
+version = "0.1-0"
 source = {
-	url = "https://bitbucket.org/senanetworksinc/luagearman/raw/9e9c3d35ca3d517813c746d466477134281bd3cd/luagearman-0.1-1.tar.gz",
+	url = "https://bitbucket.org/senanetworksinc/luagearman/raw/50f0205fd758e62bfda3e8131aadc455c3f8c264/luagearman-0.1-0.tar.gz",
 }
 description = {
 	summary = "luagearman",

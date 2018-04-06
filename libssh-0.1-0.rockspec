@@ -1,13 +1,13 @@
 package = "libssh"
-version = "0.1-1"
+version = "0.1-0"
 source = {
-	url = "https://bitbucket.org/senanetworksinc/libssh/raw/e060a77f0743a290cf0ac8a9bdd629ecdb29cadd/libssh-0.1-1.tar.gz",
+	url = "https://bitbucket.org/senanetworksinc/libssh/raw/ff3b16a0094488139204745a339d61e2f89798fd/libssh-0.1-0.tar.gz",
 }
 description = {
 	summary = "libssh luajit binding.",
 	detailed = [[
 		"libssh" binding for luajit
-		https://github.com/narirou/jconv
+		https://www.libssh.org/
 	]],
 	homepage = "https://bitbucket.org/senanetworksinc/libssh",
 	license = "MIT/X11"
