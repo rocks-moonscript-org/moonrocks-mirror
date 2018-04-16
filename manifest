@@ -10698,6 +10698,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-jwt-claims-validate'] = {
+      ['1.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-jwt-crafter'] = {
       ['1.0-0'] = {
          {
@@ -21418,6 +21427,13 @@ repository = {
    },
    luacs = {
       ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -35650,6 +35666,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    simpleitk = {
@@ -40631,6 +40654,13 @@ repository = {
          }
       },
       ['1.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.1-0'] = {
          {
             arch = "rockspec"
          }, {
