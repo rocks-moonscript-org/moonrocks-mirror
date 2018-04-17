@@ -3390,6 +3390,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    crescent = {
@@ -38930,6 +38937,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   uulua = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
