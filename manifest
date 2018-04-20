@@ -6944,12 +6944,7 @@ repository = {
       }
    },
    espeon = {
-      ['0.1-0'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['0.1-1'] = {
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }
@@ -29478,9 +29473,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -30794,6 +30789,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['11.6.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    murmurhash3 = {
@@ -30942,6 +30944,11 @@ repository = {
          }
       },
       ['0.20.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.21.0-1'] = {
          {
             arch = "rockspec"
          }
