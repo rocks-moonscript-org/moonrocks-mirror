@@ -28071,6 +28071,13 @@ repository = {
          }
       }
    },
+   mediatypes = {
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    memoize = {
       ['2.0.0-0'] = {
          {
@@ -31023,6 +31030,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.21.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['net-url'] = {
@@ -32503,6 +32515,77 @@ repository = {
          }
       },
       ['1.0.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['org.conman.parsers.url.gopher'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['org.conman.parsers.url.sip'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['org.conman.parsers.url.tel'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['org.conman.parsers.url.url'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-2'] = {
          {
             arch = "rockspec"
          }, {
