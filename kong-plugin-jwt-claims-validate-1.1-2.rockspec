@@ -6,7 +6,7 @@ source = {
 }
 description = {
    summary = "A Kong plugin to check JWT claim values",
-   homepage = "https://github.com/wshirey/kong-plugin-jwt-claims-validate",
+   homepage = "https://github.com/zsh1313/kong-plugin-jwt-claims-validate.git",
    license = "MIT"
 }
 dependencies = {
