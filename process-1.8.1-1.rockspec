@@ -1,8 +1,8 @@
 package = "process"
-version = "1.8.0-1"
+version = "1.8.1-1"
 source = {
     url = "gitrec://github.com/mah0x211/lua-process.git",
-    tag = "v1.8.0"
+    tag = "v1.8.1"
 }
 description = {
     summary = "process module",
