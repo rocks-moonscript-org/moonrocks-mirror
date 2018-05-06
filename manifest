@@ -2061,6 +2061,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    clutch = {
@@ -7050,6 +7057,11 @@ repository = {
          }
       },
       ['0.5-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.6-0'] = {
          {
             arch = "rockspec"
          }
@@ -13535,6 +13547,13 @@ repository = {
          }
       },
       ['0.1.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.9-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -21550,6 +21569,13 @@ repository = {
          }
       },
       ['0.12.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.13.0-1'] = {
          {
             arch = "rockspec"
          }, {
