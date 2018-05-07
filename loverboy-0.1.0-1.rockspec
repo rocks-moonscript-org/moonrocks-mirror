@@ -2,14 +2,20 @@ package = "loverboy"
 version = "0.1.0-1"
 
 source = {
-   url = "https://github.com/ngscheurich/loverboy"
+   url = "git://github.com/ngscheurich/loverboy.git",
+   tag = "v0.1.0"
 }
 
 description = {
-   summary = "Download libraries to help with LÖVE development",
+   summary = "💘 Add libraries to a LÖVE project.",
+   detailed = [[
+      Loverboy makes it easy to add Lua libraries to
+      your LÖVE project with a simple set of commands.
+      Library files are added directly to your project
+      directory so distributing your game is a snap.
+   ]],
    homepage = "https://github.com/ngscheurich/loverboy",
-   license = "MIT",
-   labels = {"LÖVE", "love", "love2d", "libraries"}
+   license = "MIT"
 }
 
 dependencies = {
@@ -22,6 +28,13 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      loverboy = "loverboy.lua"
+      loverboy = "src/loverboy.lua",
+      ["loverboy.add"] = "src/loverboy/add.lua",
+      ["loverboy.info"] = "src/loverboy/info.lua",
+      ["loverboy.search"] = "src/loverboy/search.lua",
+      ["loverboy.util"] = "src/loverboy/util.lua"
+   },
+   install = {
+      bin = {"bin/loverboy"}
    }
 }
