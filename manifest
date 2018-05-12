@@ -13924,6 +13924,15 @@ repository = {
          }
       }
    },
+   lobject = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lockbox = {
       ['0.1.0-0'] = {
          {
@@ -18343,6 +18352,13 @@ repository = {
          }
       },
       ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['lua-resty-duo-mobile'] = {
+      ['0.1-0'] = {
          {
             arch = "rockspec"
          }
@@ -33279,6 +33295,15 @@ repository = {
          }
       }
    },
+   parsel = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['parser-gen'] = {
       ['1.0-1'] = {
          {
@@ -41313,6 +41338,13 @@ repository = {
          }
       },
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-0'] = {
          {
             arch = "rockspec"
          }, {
