@@ -1,5 +1,5 @@
 package = "Lua-cURL"
-version = "0.3.8-1"
+version = "0.3.8-2"
 
 source = {
   url = "https://github.com/Lua-cURL/Lua-cURLv3/archive/v0.3.8.zip",
@@ -63,7 +63,7 @@ build = {
       sources = {
         "src/l52util.c",    "src/lceasy.c", "src/lcerror.c",
         "src/lchttppost.c", "src/lcurl.c",  "src/lcutils.c",
-        "src/lcmulti.c",    "src/lcshare.c",
+        "src/lcmulti.c",    "src/lcshare.c", "src/lcmime.c",
       },
       incdirs   = { "$(CURL_INCDIR)" },
       libdirs   = { "$(CURL_LIBDIR)" }

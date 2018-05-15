@@ -317,6 +317,15 @@ repository = {
          }
       }
    },
+   amqp = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    annotate = {
       ['0.1-1'] = {
          {
@@ -5618,6 +5627,29 @@ repository = {
          }
       }
    },
+   ['dromozoa-jpeg'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['dromozoa-json'] = {
       ['1.0-1'] = {
          {
@@ -9514,9 +9546,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -16196,7 +16228,7 @@ repository = {
             arch = "src"
          }
       },
-      ['0.3.8-1'] = {
+      ['0.3.8-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -25388,9 +25420,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.4-0'] = {
@@ -29944,9 +29976,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -30398,18 +30430,18 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-0'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -31432,6 +31464,11 @@ repository = {
          }
       },
       ['0.21.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.22.0-1'] = {
          {
             arch = "rockspec"
          }
