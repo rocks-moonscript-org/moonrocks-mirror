@@ -36550,6 +36550,15 @@ repository = {
          }
       }
    },
+   schwartziantransformutils = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    seawolf = {
       ['0.8-1'] = {
          {
