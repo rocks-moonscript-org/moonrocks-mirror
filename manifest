@@ -2001,6 +2001,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['cipher-log'] = {
@@ -3509,15 +3516,6 @@ repository = {
    },
    ctc = {
       ['0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   ['cube-cli'] = {
-      ['0.1-5'] = {
          {
             arch = "rockspec"
          }, {
@@ -24219,6 +24217,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['20180530-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luapak = {
@@ -25794,9 +25799,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['0.4-0'] = {
@@ -30818,9 +30823,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -34760,6 +34765,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   pkg = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
