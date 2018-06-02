@@ -1,18 +1,18 @@
 package = 'lua-resty-jwt'
-version = '0.1.10-1'
+version = '0.1.12-0'
 source = {
-  url = 'git://github.com/SkyLothar/lua-resty-jwt',
-  branch = 'v0.1.10'
+  url = 'git://github.com/cdbattags/lua-resty-jwt',
+  tag = 'v0.1.12'
 }
 description = {
   summary = 'JWT for ngx_lua and LuaJIT.',
   detailed = [[
-    This library requires an nginx build 
-    with OpenSSL, the ngx_lua module, 
-    the LuaJIT 2.0, the lua-resty-hmac, 
+    This library requires an nginx build
+    with OpenSSL, the ngx_lua module,
+    the LuaJIT 2.0, the lua-resty-hmac,
     and the lua-resty-string,
   ]],
-  homepage = 'https://github.com/SkyLothar/lua-resty-jwt',
+  homepage = 'https://github.com/cdbattags/lua-resty-jwt',
   license = 'Apache License Version 2'
 }
 dependencies = {
