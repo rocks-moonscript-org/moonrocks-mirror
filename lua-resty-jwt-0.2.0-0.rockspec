@@ -1,8 +1,8 @@
 package = 'lua-resty-jwt'
-version = '0.1.12-0'
+version = '0.2.0-0'
 source = {
   url = 'git://github.com/cdbattags/lua-resty-jwt',
-  tag = 'v0.1.12'
+  tag = 'v0.2.0'
 }
 description = {
   summary = 'JWT for ngx_lua and LuaJIT.',
