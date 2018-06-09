@@ -10851,6 +10851,15 @@ repository = {
          }
       }
    },
+   ['kong-https-redirect'] = {
+      ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-influxdb'] = {
       ['1.0.1-1'] = {
          {
@@ -25536,9 +25545,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['0.4-0'] = {
@@ -29704,9 +29713,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -31645,6 +31654,11 @@ repository = {
    },
    ['net-http'] = {
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.2-1'] = {
          {
             arch = "rockspec"
          }
