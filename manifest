@@ -531,6 +531,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['3.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['argon2-ffi'] = {
@@ -10064,6 +10069,13 @@ repository = {
          }
       }
    },
+   iovec = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['irc-engine'] = {
       ['5.0.0-1'] = {
          {
@@ -14086,6 +14098,16 @@ repository = {
       }
    },
    llsocket = {
+      ['0.10.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.11.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.5.0-1'] = {
          {
             arch = "rockspec"
@@ -14102,6 +14124,11 @@ repository = {
          }
       },
       ['0.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.9.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -30478,9 +30505,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -31983,6 +32010,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -39600,6 +39632,20 @@ repository = {
    },
    ['uap-lua'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
          {
             arch = "rockspec"
          }, {
