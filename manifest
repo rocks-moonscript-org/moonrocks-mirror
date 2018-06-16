@@ -6794,6 +6794,15 @@ repository = {
          }
       }
    },
+   ['dromozoa-vecmath'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['dromozoa-xml'] = {
       ['1.0-1'] = {
          {
@@ -12173,6 +12182,25 @@ repository = {
          }
       }
    },
+   ['kong-prometheus-plugin'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['kong-segment-log'] = {
       ['0.1.0-1'] = {
          {
@@ -15241,9 +15269,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -41868,6 +41896,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    xmlua = {
@@ -41989,9 +42031,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
