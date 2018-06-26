@@ -11234,7 +11234,7 @@ repository = {
             arch = "src"
          }
       },
-      ['2.1.0-1'] = {
+      ['2.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -11269,6 +11269,13 @@ repository = {
          }
       },
       ['1.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -26370,6 +26377,15 @@ repository = {
          }
       }
    },
+   lumen = {
+      ['2.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luna = {
       ['0.0.1-0'] = {
          {
@@ -30949,6 +30965,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    mooni = {
@@ -31165,6 +31186,11 @@ repository = {
          }
       },
       ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -40785,6 +40811,13 @@ repository = {
          }
       },
       ['3.0.0-21'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   vmod = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }
