@@ -11288,6 +11288,34 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-hal'] = {
@@ -12004,6 +12032,15 @@ repository = {
          }
       },
       ['0.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-signalfx'] = {
+      ['0.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -24901,7 +24938,7 @@ repository = {
             arch = "src"
          }
       },
-      ['0.7alpha-1'] = {
+      ['0.7-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -25685,9 +25722,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.4-0'] = {
@@ -33835,6 +33872,13 @@ repository = {
       ['0.1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
