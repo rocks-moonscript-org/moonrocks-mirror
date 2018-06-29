@@ -11847,6 +11847,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-referer'] = {
@@ -12289,6 +12303,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-xml-threat-protection'] = {
@@ -12302,6 +12323,11 @@ repository = {
    },
    ['kong-plugin-zipkin'] = {
       ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.2-0'] = {
          {
             arch = "rockspec"
          }
@@ -38881,6 +38907,13 @@ repository = {
          }
       },
       ['3.5.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.5.0.2-0'] = {
          {
             arch = "rockspec"
          }, {
