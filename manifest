@@ -16060,10 +16060,24 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.9.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lsqlite3complete = {
       ['0.9.4-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.9.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -17481,6 +17495,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-llthreads2-compat'] = {
@@ -17513,6 +17534,13 @@ repository = {
          }
       },
       ['0.1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -26722,6 +26750,13 @@ repository = {
       ['0.8-0'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
