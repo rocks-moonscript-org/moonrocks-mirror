@@ -11868,6 +11868,27 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-referer'] = {
@@ -21951,6 +21972,13 @@ repository = {
          }
       },
       ['0.22.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.22.1-1'] = {
          {
             arch = "rockspec"
          }, {
