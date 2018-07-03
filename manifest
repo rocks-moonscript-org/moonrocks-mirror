@@ -6845,6 +6845,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-xml'] = {
@@ -16485,6 +16492,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['1.3.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['dev-0'] = {
          {
             arch = "rockspec"
@@ -18413,6 +18425,13 @@ repository = {
          }
       },
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -37223,6 +37242,15 @@ repository = {
    },
    slt2 = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   smaz = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
