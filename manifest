@@ -11748,6 +11748,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-paseto'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-perimeterx'] = {
       ['1.0.0-1'] = {
          {
@@ -13300,6 +13309,29 @@ repository = {
          }
       }
    },
+   lbuilder = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lcf = {
       ['5.1-0'] = {
          {
@@ -13797,6 +13829,13 @@ repository = {
          }
       },
       ['1.2.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.8-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -19828,6 +19867,13 @@ repository = {
          }
       },
       ['1.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.6.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -29804,9 +29850,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -30040,9 +30086,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -30440,9 +30486,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -30903,9 +30949,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
