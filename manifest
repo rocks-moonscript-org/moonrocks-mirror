@@ -24360,6 +24360,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['20180708-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luapak = {
