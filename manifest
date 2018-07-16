@@ -1193,6 +1193,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    binser = {
@@ -7399,6 +7406,21 @@ repository = {
          }
       },
       ['0.7-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.8-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.8-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.9-0'] = {
          {
             arch = "rockspec"
          }
@@ -15610,6 +15632,13 @@ repository = {
          }, {
             arch = "all"
          }
+      },
+      ['0.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lpeglabel = {
@@ -21341,6 +21370,13 @@ repository = {
          }
       },
       ['1.1-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-7'] = {
          {
             arch = "rockspec"
          }, {
