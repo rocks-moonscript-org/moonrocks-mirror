@@ -34996,6 +34996,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    petrisport = {
