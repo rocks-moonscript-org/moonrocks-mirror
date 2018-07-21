@@ -8,7 +8,8 @@ description = {
 }
 
 source = {
-	url = "https://github.com/aleclarson/lua-emitter.git";
+	url = "git://github.com/aleclarson/lua-emitter.git";
+	tag = "0.0.3";
 }
 
 build = {

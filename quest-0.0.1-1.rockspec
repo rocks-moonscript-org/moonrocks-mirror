@@ -9,14 +9,14 @@ description = {
 
 source = {
 	url = "git://github.com/aleclarson/lua-quest.git";
-  tag = "0.0.1";
+	tag = "0.0.1";
 }
 
 dependencies = {
 	"lua >= 5.1";
 	"http >= 0.2";
 	"emitter >= 0.0.3";
-  "cqueues >= 20171014";
+	"cqueues >= 20171014";
 }
 
 build = {
