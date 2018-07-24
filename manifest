@@ -3731,6 +3731,13 @@ repository = {
          }
       }
    },
+   ['cx-gumbo'] = {
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    cyrussasl = {
       ['1.1.0-1'] = {
          {
@@ -3942,6 +3949,13 @@ repository = {
          }
       },
       ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -23623,9 +23637,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -28633,10 +28647,20 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1.2-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    lzw = {
       ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -34084,6 +34108,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    outcome = {
@@ -35860,6 +35891,13 @@ repository = {
          }
       },
       ['1.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5-0'] = {
          {
             arch = "rockspec"
          }, {
