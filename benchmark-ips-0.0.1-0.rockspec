@@ -1,7 +1,10 @@
 package = "benchmark-ips"
-version = "0.0.1-0"
+local release = '0.0.1'
+version = release .. "-0"
 source = {
-    url = "git+https://github.com/3scale/lua-benchmark-ips.git"
+   url = "https://github.com/3scale/lua-benchmark-ips/archive/v" .. release .. ".tar.gz",
+   md5 = "49622a0ed51c1696c003a93edbf32dc2",
+   dir = "lua-benchmark-ips-" .. release,
 }
 description = {
     summary = "benchmark-ips - provides iteration per second benchmarking",
