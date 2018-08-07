@@ -11374,6 +11374,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-datadog-tags'] = {
@@ -25281,6 +25295,15 @@ repository = {
       ['0.8-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   luarestructure = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -41914,9 +41937,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86"
          }
       }
    },
