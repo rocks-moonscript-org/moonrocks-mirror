@@ -1,8 +1,8 @@
 package = "tmg-cookie-auth-shim"
-version = "0.1.0-1"
+version = "0.0.1-1"
 source = {
    url = "git+ssh://git@stash.globalx.com.au:7999/GIA/tmg-cookie-auth-shim.git",
-   tag = "0.1.0-1"
+   tag = "0.0.1-1"
 }
 
 description = {

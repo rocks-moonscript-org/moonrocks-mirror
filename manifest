@@ -32450,6 +32450,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['12.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['12.1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    murmurhash3 = {
@@ -40406,7 +40420,7 @@ repository = {
       }
    },
    ['tmg-cookie-auth-shim'] = {
-      ['0.1.0-1'] = {
+      ['0.0.1-1'] = {
          {
             arch = "rockspec"
          }
