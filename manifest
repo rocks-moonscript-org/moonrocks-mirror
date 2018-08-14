@@ -30637,9 +30637,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -31590,6 +31590,11 @@ repository = {
          }
       },
       ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.2-1'] = {
          {
             arch = "rockspec"
          }
@@ -40420,7 +40425,17 @@ repository = {
       }
    },
    ['tmg-cookie-auth-shim'] = {
-      ['0.0.1-1'] = {
+      ['0.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }
