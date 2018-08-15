@@ -11391,6 +11391,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-custom-rate-limit'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-customer-identification'] = {
       ['0.1.0-1'] = {
          {
@@ -17808,6 +17817,18 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['lua-l10n'] = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -25484,6 +25505,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luarocks-build-cpp'] = {
@@ -26422,9 +26450,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.4-0'] = {
@@ -30401,9 +30429,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
