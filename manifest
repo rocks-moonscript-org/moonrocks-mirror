@@ -11677,6 +11677,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-header-based-rate-limiting'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-hello-world'] = {
       ['0.1-1'] = {
          {
