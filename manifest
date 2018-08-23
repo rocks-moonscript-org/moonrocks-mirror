@@ -10561,6 +10561,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['json-lua'] = {
@@ -11691,6 +11698,13 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -40537,6 +40551,11 @@ repository = {
          }
       },
       ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2.2-1'] = {
          {
             arch = "rockspec"
          }
