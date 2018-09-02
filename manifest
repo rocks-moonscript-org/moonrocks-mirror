@@ -1232,6 +1232,22 @@ repository = {
          }
       }
    },
+   binarystream = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    binser = {
       ['0.0-5'] = {
          {
@@ -3326,9 +3342,9 @@ repository = {
          }, {
             arch = "linux-x86_64"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['20150119.52-1'] = {
@@ -8349,6 +8365,13 @@ repository = {
          }
       }
    },
+   ['fork3-sc-lua-resty-auto-ssl'] = {
+      ['0.12.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    forma = {
       ['0.2-1'] = {
          {
@@ -8740,6 +8763,29 @@ repository = {
       ['1.1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   geometrymoon = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -24139,9 +24185,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -30901,9 +30947,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -35739,6 +35785,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    petrisport = {
@@ -36371,6 +36424,13 @@ repository = {
          }
       },
       ['1.0.201808-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.201809-1'] = {
          {
             arch = "rockspec"
          }, {
