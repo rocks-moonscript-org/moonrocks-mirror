@@ -8787,6 +8787,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    getopt = {
@@ -11812,6 +11819,13 @@ repository = {
          }
       },
       ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -31766,6 +31780,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    mmapfile = {
@@ -32512,6 +32533,18 @@ repository = {
    },
    mtmsg = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   mtstates = {
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }
