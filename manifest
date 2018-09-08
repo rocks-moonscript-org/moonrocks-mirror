@@ -2021,6 +2021,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    chroma = {
@@ -13746,15 +13753,6 @@ repository = {
    },
    latclient = {
       ['0.4-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   lava = {
-      ['finale-0'] = {
          {
             arch = "rockspec"
          }, {
