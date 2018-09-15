@@ -11911,6 +11911,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-header-based-request-termination'] = {
@@ -32664,6 +32671,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   mtint = {
+      ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
