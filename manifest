@@ -13066,6 +13066,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-prometheus-plugin'] = {
@@ -18654,6 +18661,15 @@ repository = {
    },
    ['lua-messagepack-lua53'] = {
       ['0.5.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-mikrotik'] = {
+      ['1.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -25046,6 +25062,13 @@ repository = {
          }
       }
    },
+   luamqtt = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luamqttc = {
       ['0.9-1'] = {
          {
@@ -29081,6 +29104,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['6.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lzlib = {
@@ -31125,9 +31155,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -31986,18 +32016,18 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.2-0'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -34372,6 +34402,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    orbit = {
@@ -36365,6 +36402,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   poly1305 = {
+      ['1.0-5'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -43360,6 +43404,13 @@ repository = {
          }
       }
    },
+   ['wtf-action-simple_response'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['wtf-action-store'] = {
       ['0.1-1'] = {
          {
@@ -43503,6 +43554,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['wtf-plugin-honeybot-fake-welcome-data'] = {
@@ -43563,6 +43619,23 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['wtf-plugin-honeybot-troll_die'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2-2'] = {
          {
             arch = "rockspec"
          }
