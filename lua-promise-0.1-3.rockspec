@@ -1,9 +1,9 @@
 package = "lua-promise"
-version = "0.1-2"
+version = "0.1-3"
 
 source = {
-	url = "https://github.com/hjmmc/lua-promise/archive/0.1-2.tar.gz",
-	dir = "lua-promise-0.1-2"
+	url = "https://github.com/hjmmc/lua-promise/archive/0.1-3.tar.gz",
+	dir = "lua-promise-0.1-3"
 }
 
 description = {
