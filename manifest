@@ -6054,6 +6054,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.14-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -7208,6 +7215,13 @@ repository = {
          }
       },
       ['1.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.12-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -12606,6 +12620,22 @@ repository = {
          }
       }
    },
+   ['kong-plugin-proxy-cache'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-proxycache'] = {
       ['0.1.1-1'] = {
          {
@@ -16546,9 +16576,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['0.5-0'] = {
@@ -22506,6 +22536,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-9'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-websockets'] = {
@@ -27308,9 +27345,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.4-0'] = {
@@ -31313,9 +31350,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -31549,9 +31586,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -31949,9 +31986,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
