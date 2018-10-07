@@ -8110,6 +8110,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    families = {
@@ -10704,6 +10718,15 @@ repository = {
       ['0.1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ipipx = {
+      ['beta-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -27352,9 +27375,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['0.4-0'] = {
@@ -37912,6 +37935,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    require = {
@@ -39077,6 +39114,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    sha2 = {
@@ -39513,6 +39557,13 @@ repository = {
          }
       },
       ['0.3-9'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4-0'] = {
          {
             arch = "rockspec"
          }, {
