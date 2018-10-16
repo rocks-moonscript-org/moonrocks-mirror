@@ -4064,6 +4064,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dataframe = {
@@ -12711,6 +12718,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-proxycache'] = {
@@ -13425,6 +13439,11 @@ repository = {
          }
       },
       ['0.2.0-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3.0-2'] = {
          {
             arch = "rockspec"
          }
@@ -27460,9 +27479,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.4-0'] = {
@@ -32571,9 +32590,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -38212,6 +38231,22 @@ repository = {
          }
       }
    },
+   ['resty-hostcheck'] = {
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['resty-mongol'] = {
       ['0.2-0'] = {
          {
@@ -43560,6 +43595,20 @@ repository = {
          }
       },
       ['0.0.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.4-0'] = {
          {
             arch = "rockspec"
          }, {
