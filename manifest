@@ -11846,6 +11846,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['kong-plugin-cookies-to-headers'] = {
@@ -12304,6 +12309,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-jwt-auth'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-jwt-claims-validate'] = {
       ['1.1-2'] = {
          {
@@ -12743,6 +12757,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-proxycache'] = {
@@ -12969,6 +12990,11 @@ repository = {
    },
    ['kong-plugin-serverless-functions'] = {
       ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2.0-0'] = {
          {
             arch = "rockspec"
          }
@@ -13436,6 +13462,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-prometheus-plugin'] = {
@@ -13462,6 +13495,11 @@ repository = {
          }
       },
       ['0.3.0-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3.1-2'] = {
          {
             arch = "rockspec"
          }
@@ -13610,6 +13648,13 @@ repository = {
          }
       },
       ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -16690,9 +16735,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['0.5-0'] = {
@@ -31502,9 +31547,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -31738,9 +31783,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -32138,9 +32183,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -43518,6 +43563,22 @@ repository = {
          }
       }
    },
+   wagon = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    warp = {
       ['0.1'] = {
          {
@@ -43669,6 +43730,13 @@ repository = {
          }
       },
       ['0.0.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.5-0'] = {
          {
             arch = "rockspec"
          }, {
