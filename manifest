@@ -12764,6 +12764,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-proxycache'] = {
@@ -13464,6 +13471,13 @@ repository = {
          }
       },
       ['0.0.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -14339,9 +14353,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -21282,6 +21296,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-passwdqc'] = {
@@ -24949,9 +24970,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -31547,9 +31568,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -32183,9 +32204,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -32753,6 +32774,11 @@ repository = {
          }
       },
       ['1.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.4-1'] = {
          {
             arch = "rockspec"
          }
@@ -43737,6 +43763,13 @@ repository = {
          }
       },
       ['0.0.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.6-0'] = {
          {
             arch = "rockspec"
          }, {
