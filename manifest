@@ -4677,6 +4677,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.beta3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dogmac = {
@@ -4793,6 +4800,13 @@ repository = {
          }
       },
       ['1.0.beta2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta3-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -12771,6 +12785,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-proxycache'] = {
@@ -19081,15 +19109,6 @@ repository = {
          }
       }
    },
-   ['lua-lunix'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    ['lua-lz4'] = {
       ['1.0-1'] = {
          {
@@ -20247,6 +20266,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['lua-resty-consul-event'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -43768,6 +43794,20 @@ repository = {
          }
       },
       ['0.0.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.7-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.8-0'] = {
          {
             arch = "rockspec"
          }, {
