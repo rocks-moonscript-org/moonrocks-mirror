@@ -11606,6 +11606,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-7'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-file-log-exclusion'] = {
@@ -12799,6 +12806,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-proxycache'] = {
@@ -13394,6 +13408,13 @@ repository = {
          }
       },
       ['1.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.4.10-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -16777,9 +16798,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.5-0'] = {
@@ -21057,6 +21078,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.2.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-mpd'] = {
@@ -24996,9 +25024,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -31830,9 +31858,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -32700,9 +32728,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -32805,6 +32833,11 @@ repository = {
          }
       },
       ['1.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.5-1'] = {
          {
             arch = "rockspec"
          }
@@ -43808,6 +43841,13 @@ repository = {
          }
       },
       ['0.0.8-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.9-0'] = {
          {
             arch = "rockspec"
          }, {
