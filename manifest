@@ -20295,6 +20295,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-cookie'] = {
@@ -20990,6 +20995,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-limit-rate'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-lock'] = {
       ['0.07-0'] = {
          {
@@ -21622,6 +21636,13 @@ repository = {
          }
       },
       ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -43853,6 +43874,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    web_sanitize = {
@@ -44695,6 +44723,13 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['wtf-plugin-honeybot-sandbox'] = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }
