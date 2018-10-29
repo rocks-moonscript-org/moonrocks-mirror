@@ -1437,6 +1437,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    bump = {
@@ -5372,6 +5379,13 @@ repository = {
    },
    ['dromozoa-compiler'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -13972,6 +13986,11 @@ repository = {
          }
       },
       ['0.4.7-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4.8-0'] = {
          {
             arch = "rockspec"
          }
@@ -22634,6 +22653,15 @@ repository = {
          }
       }
    },
+   ['lua-testclass'] = {
+      ['0.01-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-testlongstring'] = {
       ['0.2.2-2'] = {
          {
@@ -25116,9 +25144,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -32314,9 +32342,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
