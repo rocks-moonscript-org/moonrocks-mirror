@@ -12850,6 +12850,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-proxycache'] = {
@@ -13169,6 +13176,15 @@ repository = {
          }
       },
       ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-template-transformer'] = {
+      ['0.7.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -25144,9 +25160,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
