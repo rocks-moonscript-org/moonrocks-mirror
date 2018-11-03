@@ -5391,6 +5391,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-curl'] = {
@@ -13838,6 +13845,13 @@ repository = {
          }
       },
       ['0.1-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-4'] = {
          {
             arch = "rockspec"
          }, {
@@ -33094,6 +33108,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0.6-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    mockagne = {
@@ -41284,6 +41303,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.9-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['stuart-ml'] = {
@@ -41316,6 +41342,13 @@ repository = {
          }
       },
       ['0.1.8-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.9-0'] = {
          {
             arch = "rockspec"
          }, {
