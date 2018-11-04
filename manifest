@@ -5398,6 +5398,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-curl'] = {
@@ -39754,6 +39761,18 @@ repository = {
          }
       }
    },
+   ['shape-detector'] = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    sharedtensor = {
       ['1.0-2'] = {
          {
@@ -41305,6 +41324,13 @@ repository = {
          }
       },
       ['0.1.9-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-0'] = {
          {
             arch = "rockspec"
          }, {
