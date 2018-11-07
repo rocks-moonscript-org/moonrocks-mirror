@@ -8254,6 +8254,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    families = {
@@ -11648,6 +11655,62 @@ repository = {
    },
    ['kong-aliyun-http-filter'] = {
       ['0.0.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-auto-https'] = {
+      ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-7'] = {
          {
             arch = "rockspec"
          }, {
@@ -15699,6 +15762,13 @@ repository = {
    },
    liquid = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -37247,6 +37317,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    petrisport = {
@@ -41364,6 +41441,13 @@ repository = {
          }
       },
       ['0.2.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
