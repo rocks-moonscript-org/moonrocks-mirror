@@ -226,6 +226,27 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    alien = {
@@ -7864,6 +7885,11 @@ repository = {
          }
       },
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.3-0'] = {
          {
             arch = "rockspec"
          }
@@ -17696,6 +17722,15 @@ repository = {
          }
       }
    },
+   lrunkit = {
+      ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lsha2 = {
       ['0.1-0'] = {
          {
@@ -17902,6 +17937,13 @@ repository = {
       ['1.0.1-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -39683,6 +39725,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   rubyapi = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
