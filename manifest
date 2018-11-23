@@ -4735,6 +4735,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.beta4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dogmac = {
@@ -4858,6 +4865,13 @@ repository = {
          }
       },
       ['1.0.beta3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta4-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -5951,6 +5965,13 @@ repository = {
          }
       },
       ['1.36-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.37-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -7588,6 +7609,20 @@ repository = {
          }
       },
       ['2.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0-4'] = {
          {
             arch = "rockspec"
          }, {
@@ -45010,6 +45045,13 @@ repository = {
       }
    },
    wiola = {
+      ['0.10.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.5.1-1'] = {
          {
             arch = "rockspec"
