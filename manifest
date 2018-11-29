@@ -4767,6 +4767,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.beta5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dogmac = {
@@ -4897,6 +4904,13 @@ repository = {
          }
       },
       ['1.0.beta4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta5-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -17445,9 +17459,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.5-0'] = {
@@ -18233,6 +18247,13 @@ repository = {
          }
       },
       ['1.0-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -36083,6 +36104,20 @@ repository = {
          }
       },
       ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4-10'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4-11'] = {
          {
             arch = "rockspec"
          }, {
