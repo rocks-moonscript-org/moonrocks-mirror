@@ -1770,6 +1770,15 @@ repository = {
          }
       }
    },
+   ['c-lua-package'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    c3 = {
       ['0.1-1'] = {
          {
@@ -2006,9 +2015,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       },
       ['5.1.4-2'] = {
@@ -8559,6 +8568,22 @@ repository = {
          }
       },
       ['0.71-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   fennel = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -16162,6 +16187,13 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -32757,9 +32789,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -33146,9 +33178,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -36124,6 +36156,20 @@ repository = {
             arch = "src"
          }
       },
+      ['0.4-12'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4-13'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.4-2'] = {
          {
             arch = "rockspec"
@@ -38592,6 +38638,22 @@ repository = {
          }
       }
    },
+   printable_chars = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    procdata = {
       ['1.0-1'] = {
          {
@@ -40382,6 +40444,15 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   sample_rtcomponent = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -43239,6 +43310,15 @@ repository = {
          }
       }
    },
+   ['test-package'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    testingunit = {
       ['0.1-0'] = {
          {
@@ -44485,6 +44565,15 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   uuid_test = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
