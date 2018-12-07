@@ -1,5 +1,5 @@
 package = "luasoap"
-version = "4.0-1"
+version = "4.0-2"
 
 source = {
    url="https://github.com/tomasguisasola/luasoap/archive/v4_0.tar.gz",
@@ -18,7 +18,7 @@ dependencies = {
    "lua >= 5.0",
    "luaexpat >= 1.1.0-3",
    "luasocket >= 2.0.2-1",
-   "lua-http-digest >= 1.2.2-1",
+   "http-digest >= 1.2.2-1",
 }
 
 build = {

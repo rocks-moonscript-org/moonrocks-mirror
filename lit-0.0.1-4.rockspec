@@ -1,6 +1,9 @@
 package = "Lit"
 version = "0.0.1-4"
 rockspec_format = "3.0"
+-- technically, windows should be supported, but I don't have a machine to
+-- test it right now.
+supported_platforms = {"macosx", "linux"}
 source = {
    url = "git://github.com/mokafolio/Lit"
 }
@@ -20,7 +23,7 @@ dependencies = {
 -- entering the custom meson / ninja based build step.
 external_dependencies = {
     sdl2 = {
-       library = "sdl2"
+       library = "SDL2"
     }
     -- @TODO: Can we check for binaries here, too? i.e. to see if meson/ninja are installed?
 }
