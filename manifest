@@ -7806,6 +7806,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0-8'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    effil = {
@@ -27208,6 +27215,13 @@ repository = {
          }
       },
       ['20181102-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['20181207-0'] = {
          {
             arch = "rockspec"
          }, {
