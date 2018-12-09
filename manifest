@@ -7765,6 +7765,13 @@ repository = {
             arch = "src"
          }
       },
+      ['2.0-10'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['2.0-2'] = {
          {
             arch = "rockspec"
@@ -7808,6 +7815,13 @@ repository = {
          }
       },
       ['2.0-8'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0-9'] = {
          {
             arch = "rockspec"
          }, {
@@ -16962,6 +16976,13 @@ repository = {
          }
       },
       ['0.3.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -32947,9 +32968,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -35835,6 +35856,15 @@ repository = {
       ['0.1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   notification = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -43531,9 +43561,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
