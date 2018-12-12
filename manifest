@@ -812,6 +812,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    asklua = {
@@ -28947,9 +28954,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.4-0'] = {
