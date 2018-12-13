@@ -1,7 +1,8 @@
 package = "nacl-cli"
 version = "0.5-1"
 source = {
-   url = "https://github.com/eriksank/nacl-cli"
+   url = "git://github.com/eriksank/nacl-cli",
+    tag = "0.5-1"
 }
 description = {
    summary = "nacl-cli is a program that provides a text-based, serialization format for Daniel Bernstein's tweetnacl library",
@@ -9,16 +10,15 @@ description = {
    license = "LGPL",
    maintainer="Erik Poupaert <erik@sankuru.biz>"
 }
+
 dependencies = {
     'lua >= 5.1',
-    'tweetnacl',
+    'luatweetnacl',
     'base58',
     'lbase64', 
-    'sha2',
-    'inspect',
-    'f-strings',
-    'luastatic'
+    'sha2'
 }
+
 build = {
    type = "builtin",
    modules = {
@@ -27,13 +27,7 @@ build = {
       ["cli-cmds"] = "cli-cmds.lua",
       ["ext-string"] = "ext-string.lua",
       ["nacl-cli"] = "nacl-cli.lua",
-      smoketest = "smoketest.lua",
       util = "util.lua"
-   },
-  install = {
-    bin = {
-      ["nacl-cli"] = "nacl-cli.lua",
-    }
-  }
+   }
 }
 
