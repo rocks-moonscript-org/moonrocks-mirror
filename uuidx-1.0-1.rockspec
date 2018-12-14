@@ -14,12 +14,12 @@ dependencies = {
     "lua >= 5.1, < 5.4"
 }
 build = {
-    type = "make",
-    install_variables = {
-        INST_PREFIX="$(PREFIX)",
-        INST_BINDIR="$(BINDIR)",
-        INST_LIBDIR="$(LIBDIR)",
-        INST_LUADIR="$(LUADIR)",
-        INST_CONFDIR="$(CONFDIR)",
-    },
+    type = "builtin",
+    modules = {
+        libuuidx = {
+            sources = {"clib/uuid.c"},
+            libraries = {"uuid"}
+        },
+        ["resty.uuidx"] = "lib/resty/uuidx.lua"
+   }
 }

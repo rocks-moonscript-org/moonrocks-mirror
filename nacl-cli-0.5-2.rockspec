@@ -22,12 +22,11 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      armour = "armour.lua",
-      cli = "cli.lua",
-      ["cli-cmds"] = "cli-cmds.lua",
-      ["ext-string"] = "ext-string.lua",
-      ["nacl-cli"] = "nacl-cli.lua",
-      util = "util.lua"
+      ["lnacl-cli.armour"] = "lnacl-cli/armour.lua",
+      ["lnacl-cli.cli"] = "lnacl-cli/cli.lua",
+      ["lnacl-cli.cli-cmds"] = "lnacl-cli/cli-cmds.lua",
+      ["lnacl-cli.ext-string"] = "lnacl-cli/ext-string.lua",
+      ["lnacl-cli.util"] = "lnacl-cli/util.lua",
    }
 }
 
