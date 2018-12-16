@@ -11,7 +11,7 @@ version = "1.0-1"               -- TODO: renumber, must match the info in the fi
 
 supported_platforms = {"linux", "macosx"}
 source = {
-  url = "http://luarocks.org/modules/francoisweissert/myplugin",  -- "http://github.com/Kong/kong-plugin.git"
+  url = "git://github.com/francoisweissert1/myplugin"
 --  tag = "1.0"
 }
 
@@ -29,8 +29,8 @@ build = {
   type = "builtin",
   modules = {
     -- TODO: add any additional files that the plugin consists of
-    ["kong.plugins."..package..".handler"] = "myplugin/handler.lua",
-    ["kong.plugins."..package..".schema"] = "myplugin/schema.lua",
-    ["kong.plugins."..package..".access"] = "myplugin/access.lua",
+    ["kong.plugins."..package..".handler"] = "handler.lua",
+    ["kong.plugins."..package..".schema"] = "schema.lua",
+    ["kong.plugins."..package..".access"] = "access.lua",
   }
 }
