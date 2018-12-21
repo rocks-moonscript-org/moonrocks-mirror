@@ -4913,6 +4913,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.beta6-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dogmac = {
@@ -7801,6 +7808,13 @@ repository = {
          }
       },
       ['2.0-10'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0-11'] = {
          {
             arch = "rockspec"
          }, {
@@ -12402,6 +12416,20 @@ repository = {
          }
       }
    },
+   ['kong-oidc-consumer'] = {
+      ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-path-based-routing'] = {
       ['0.1-1'] = {
          {
@@ -13008,6 +13036,13 @@ repository = {
          }
       },
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -18706,6 +18741,13 @@ repository = {
          }
       },
       ['2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -33186,9 +33228,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.3-1'] = {
@@ -34247,9 +34289,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
