@@ -4920,6 +4920,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.beta6-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta6-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dogmac = {
@@ -19756,6 +19770,13 @@ repository = {
          }
       }
    },
+   ['lua-fs-module'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-geoip'] = {
       ['0.1-1'] = {
          {
@@ -26925,6 +26946,13 @@ repository = {
    },
    lualdap = {
       ['1.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.4.rc1-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -47312,9 +47340,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
