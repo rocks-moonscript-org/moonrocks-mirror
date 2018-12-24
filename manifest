@@ -238,6 +238,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    alfons = {
@@ -312,6 +317,13 @@ repository = {
          }
       },
       ['2.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.3.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -4929,6 +4941,13 @@ repository = {
          }
       },
       ['1.0.beta6-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta6-6'] = {
          {
             arch = "rockspec"
          }, {
@@ -19461,6 +19480,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-ddlt'] = {
@@ -33291,9 +33317,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.3-1'] = {
