@@ -4919,6 +4919,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.beta6-10'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.beta6-2'] = {
          {
             arch = "rockspec"
@@ -4962,6 +4969,13 @@ repository = {
          }
       },
       ['1.0.beta6-8'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta6-9'] = {
          {
             arch = "rockspec"
          }, {
@@ -39779,6 +39793,13 @@ repository = {
          }
       }
    },
+   quantum = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    quest = {
       ['0.0.1-1'] = {
          {
@@ -44015,9 +44036,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
