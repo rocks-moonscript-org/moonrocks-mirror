@@ -6004,6 +6004,15 @@ repository = {
          }
       }
    },
+   ['dromozoa-fuse'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['dromozoa-future'] = {
       ['1.0-1'] = {
          {
@@ -44046,9 +44055,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
