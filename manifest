@@ -6011,6 +6011,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-future'] = {
@@ -18899,6 +18906,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-acme'] = {
@@ -21736,6 +21757,13 @@ repository = {
    },
    ['lua-resty-busted'] = {
       ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['lua-resty-cidr-decimal'] = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -30131,6 +30159,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lunamark = {
@@ -34012,9 +34047,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -44062,9 +44097,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
