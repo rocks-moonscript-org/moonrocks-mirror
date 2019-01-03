@@ -4926,6 +4926,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.beta6-11'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.beta6-2'] = {
          {
             arch = "rockspec"
@@ -11147,6 +11154,22 @@ repository = {
          }
       }
    },
+   httprequestparser = {
+      ['ver-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['ver-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    hump = {
       ['0.4-2'] = {
          {
@@ -12314,6 +12337,13 @@ repository = {
          }
       },
       ['1.1-7'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-8'] = {
          {
             arch = "rockspec"
          }, {
@@ -18920,6 +18950,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['6.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['6.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-acme'] = {
@@ -22294,6 +22338,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-info'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-injection'] = {
       ['1.0-1'] = {
          {
@@ -23925,6 +23978,15 @@ repository = {
    },
    ['lua-resty-xxhash'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-rocks-app-project'] = {
+      ['1.0.0-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -33647,9 +33709,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -36134,6 +36196,15 @@ repository = {
          }
       }
    },
+   ['nginx-lua-waf'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['nginx-metrix'] = {
       ['1.1.3-1'] = {
          {
@@ -37461,6 +37532,22 @@ repository = {
          }
       }
    },
+   ['org.conman.const.gopher-types'] = {
+      ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['org.conman.dns'] = {
       ['1.0.11-1'] = {
          {
@@ -37719,6 +37806,13 @@ repository = {
    },
    ['org.conman.parsers.url.gopher'] = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -39008,6 +39102,13 @@ repository = {
          }
       },
       ['5.3-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['6.0-0'] = {
          {
             arch = "rockspec"
          }, {
