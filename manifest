@@ -12329,6 +12329,27 @@ repository = {
       }
    },
    ['kong-external-oauth'] = {
+      ['1.1-10'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-11'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-12'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.1-6'] = {
          {
             arch = "rockspec"
@@ -12344,6 +12365,13 @@ repository = {
          }
       },
       ['1.1-8'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-9'] = {
          {
             arch = "rockspec"
          }, {
@@ -13833,6 +13861,15 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['kong-plugin-ram'] = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -21801,13 +21838,6 @@ repository = {
    },
    ['lua-resty-busted'] = {
       ['0.0.1-0'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
-   ['lua-resty-cidr-decimal'] = {
-      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -39109,6 +39139,13 @@ repository = {
          }
       },
       ['6.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['6.0-1'] = {
          {
             arch = "rockspec"
          }, {
