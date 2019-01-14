@@ -3566,9 +3566,9 @@ repository = {
          }, {
             arch = "linux-x86_64"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['20150119.52-1'] = {
@@ -13413,7 +13413,21 @@ repository = {
       }
    },
    ['kong-plugin-jwt-claims-to-headers'] = {
-      ['0.1.0-1'] = {
+      ['0.2.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-6'] = {
          {
             arch = "rockspec"
          }, {
@@ -30658,6 +30672,20 @@ repository = {
          }
       }
    },
+   lunescript = {
+      ['main-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   lunescript51 = {
+      ['main-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    lunit = {
       ['0.4-1'] = {
          {
@@ -33849,9 +33877,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -44542,9 +44570,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
