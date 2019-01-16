@@ -1,9 +1,8 @@
 package = "fsoutcall"
-version = "1.0.1-6"
+version = "1.0.1-8"
 source = {
-   url = "git://gitee.com/voipke/fsoutcall.git",
-   branch = "master",
-   tag = "1.0.1-6"
+   url = "http://60.205.170.164/fsoutcall-1.0.1-8.tar.gz",
+   file = "fsoutcall-1.0.1-8.tar.gz"
 }
 description = {
    summary = "call out from freeswitch.",
