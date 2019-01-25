@@ -1,9 +1,9 @@
 package = "openssl-baikal"
-version = "1.1.0-1"
+version = "1.1.1-0"
 
 source = {
   url = "gitrec://github.com/ealogar/lua-openssl",
-  tag = "1.1.0"
+  tag = "1.1.1"
 }
 
 description = {
