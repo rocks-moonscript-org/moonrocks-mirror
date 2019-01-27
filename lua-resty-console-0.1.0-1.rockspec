@@ -12,6 +12,7 @@ description = {
 dependencies = {
    "lua-hiredis-with-5.2-fix >= 0.2.2",
    "inspect >= 2.0",
+   "argparse >= 0.6.0",
 }
 
 build = {
