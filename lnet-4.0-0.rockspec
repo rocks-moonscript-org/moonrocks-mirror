@@ -1,8 +1,8 @@
-package = "lua-net"
-version = "3.0.0"
+package = "lnet"
+version = "4.0-0"
 source = {
    url = "git://github.com/rayaman/net.git",
-   tag = "v3.0.0",
+   tag = "v4.0.0",
 }
 description = {
    summary = "Lua networking library that wraps around lua-socket to make networking easy.",
@@ -14,6 +14,7 @@ description = {
 }
 dependencies = {
    "lua >= 5.1",
+   "luasocket",
    "multi"
 }
 build = {
