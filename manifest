@@ -5846,6 +5846,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.16-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -6119,6 +6126,13 @@ repository = {
          }
       },
       ['1.15-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.16-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -11640,6 +11654,13 @@ repository = {
          }
       },
       ['ver-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['ver-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -27304,27 +27325,27 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       },
       ['1.4.2-1'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       },
       ['1.5.0-1'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       },
       ['1.5.0-2'] = {
@@ -28299,6 +28320,13 @@ repository = {
    },
    lualit = {
       ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   lualog = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }
