@@ -1,9 +1,9 @@
 package = "kong-plugin-escher"
-version = "3.0.0-1"
+version = "3.0.1-1"
 supported_platforms = {"linux", "macosx"}
 source = {
   url = "git+https://github.com/emartech/kong-plugin-escher.git",
-  tag = "3.0.0"
+  tag = "3.0.1"
 }
 description = {
   summary = "Escher auth plugin for Kong API gateway.",
@@ -21,13 +21,14 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["kong.plugins.escher.api"] = "kong/plugins/escher/api.lua",
     ["kong.plugins.escher.access"] = "kong/plugins/escher/access.lua",
+    ["kong.plugins.escher.api"] = "kong/plugins/escher/api.lua",
     ["kong.plugins.escher.cache_warmer"] = "kong/plugins/escher/cache_warmer.lua",
     ["kong.plugins.escher.consumer_db"] = "kong/plugins/escher/consumer_db.lua",
     ["kong.plugins.escher.crypt"] = "kong/plugins/escher/crypt.lua",
     ["kong.plugins.escher.daos"] = "kong/plugins/escher/daos.lua",
     ["kong.plugins.escher.encryption_key_path_retriever"] = "kong/plugins/escher/encryption_key_path_retriever.lua",
+    ["kong.plugins.escher.escher_factory"] = "kong/plugins/escher/escher_factory.lua",
     ["kong.plugins.escher.escher_wrapper"] = "kong/plugins/escher/escher_wrapper.lua",
     ["kong.plugins.escher.handler"] = "kong/plugins/escher/handler.lua",
     ["kong.plugins.escher.init_worker"] = "kong/plugins/escher/init_worker.lua",
