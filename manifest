@@ -8411,6 +8411,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    effil = {
@@ -33501,6 +33508,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['5.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    magic = {
@@ -47788,6 +47800,13 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3-1'] = {
          {
             arch = "rockspec"
          }, {
