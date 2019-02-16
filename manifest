@@ -3428,9 +3428,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['16.06.04-1'] = {
@@ -3631,9 +3631,9 @@ repository = {
          }, {
             arch = "linux-x86_64"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['20150119.52-1'] = {
@@ -18588,9 +18588,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['2.3beta-1'] = {
@@ -19127,9 +19127,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       },
       ['0.7-3'] = {
@@ -43515,6 +43515,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   sirocco = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
