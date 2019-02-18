@@ -3904,6 +3904,13 @@ repository = {
          }
       }
    },
+   croissant = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    csv = {
       ['1-1'] = {
          {
@@ -8708,6 +8715,13 @@ repository = {
          }
       },
       ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.0-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -14596,6 +14610,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-path-replacer'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-perimeterx'] = {
       ['1.0.0-1'] = {
          {
@@ -18588,9 +18611,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['2.3beta-1'] = {
@@ -19127,9 +19150,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       },
       ['0.7-3'] = {
@@ -24223,6 +24246,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.7.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-passwdqc'] = {
@@ -27654,27 +27684,27 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       },
       ['1.4.2-1'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       },
       ['1.5.0-1'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       },
       ['1.5.0-2'] = {
@@ -28070,9 +28100,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -28113,9 +28143,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
