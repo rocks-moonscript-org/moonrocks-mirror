@@ -3909,6 +3909,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.1-2'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    csv = {
@@ -14612,6 +14617,13 @@ repository = {
    },
    ['kong-plugin-path-replacer'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -26290,6 +26302,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['0.1.3-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -43550,6 +43567,11 @@ repository = {
    },
    sirocco = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.1-2'] = {
          {
             arch = "rockspec"
          }
