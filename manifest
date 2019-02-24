@@ -460,6 +460,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    amqp = {
@@ -37396,6 +37403,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['12.2.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    multitone = {
@@ -41145,6 +41159,15 @@ repository = {
       ['0.1-7'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['postgres-auth-server'] = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -45183,6 +45206,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['stuart-ml'] = {
@@ -45250,6 +45280,13 @@ repository = {
          }
       },
       ['2.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.2-0'] = {
          {
             arch = "rockspec"
          }, {
