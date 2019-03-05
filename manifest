@@ -14132,6 +14132,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-header-based-request-termination'] = {
@@ -14185,6 +14192,13 @@ repository = {
          }
       },
       ['2.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -16183,6 +16197,13 @@ repository = {
          }
       },
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -21394,6 +21415,15 @@ repository = {
       ['0.1-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['lua-gd'] = {
+      ['1.0-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -36412,6 +36442,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['1.0.10-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['1.0.2-1'] = {
          {
             arch = "rockspec"
@@ -41719,6 +41754,13 @@ repository = {
          }
       },
       ['1.0.201902-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.201903-1'] = {
          {
             arch = "rockspec"
          }, {
