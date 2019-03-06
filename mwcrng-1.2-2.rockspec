@@ -1,8 +1,8 @@
 package = "MWCRNG"
-version = "1.2-1"
+version = "1.2-2"
 source = {
     url = "git://github.com/ratanvarghese/mwcrng",
-    tag = "v1.2"
+    tag = "v1.2-2"
 }
 description = {
     summary = "A Multiply-With-Carry Pseudorandom Number Generator.",
@@ -15,7 +15,7 @@ description = {
     license = "MIT/X11",
 }
 dependencies = {
-    "lua >= 5.1, < 5.4"
+    "lua >= 5.3, < 5.4"
 }
 build = {
     type = "builtin",
