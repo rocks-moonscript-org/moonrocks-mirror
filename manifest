@@ -13989,6 +13989,34 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-extend-headers'] = {
@@ -14411,6 +14439,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "all"
+         }
+      }
+   },
+   ['kong-plugin-jwt-keycloak'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -26702,6 +26737,13 @@ repository = {
          }
       },
       ['0.1.3-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   lua_table = {
+      ['0.4'] = {
          {
             arch = "rockspec"
          }
