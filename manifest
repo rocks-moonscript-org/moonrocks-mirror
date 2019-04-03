@@ -14396,6 +14396,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-header-based-request-termination'] = {
@@ -14598,6 +14605,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "all"
+         }
+      }
+   },
+   ['kong-plugin-jwt-crafter-for-ee'] = {
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -14994,28 +15008,7 @@ repository = {
       }
    },
    ['kong-plugin-myredirect'] = {
-      ['0.1-5'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
       ['0.1-6'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.1.0-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -33918,6 +33911,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   lux = {
+      ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
