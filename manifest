@@ -1456,6 +1456,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0-8'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    biolua = {
@@ -27123,6 +27130,11 @@ repository = {
          }
       },
       ['0.4.1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4.2'] = {
          {
             arch = "rockspec"
          }
