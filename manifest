@@ -8036,6 +8036,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.65-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.7-1'] = {
          {
             arch = "rockspec"
@@ -13459,6 +13466,15 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-force-ssl'] = {
+      ['1.0.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -29619,13 +29635,6 @@ repository = {
       }
    },
    luakuroshiro = {
-      ['0.1-0'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
       ['0.2-0'] = {
          {
             arch = "rockspec"
