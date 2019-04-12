@@ -2183,6 +2183,15 @@ repository = {
          }
       }
    },
+   cerebro = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    cgilua = {
       ['5.1.2-2'] = {
          {
@@ -13474,6 +13483,13 @@ repository = {
       }
    },
    ['kong-force-ssl'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.0-0'] = {
          {
             arch = "rockspec"
@@ -13665,6 +13681,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['kong-oidc-extend'] = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -14507,6 +14530,36 @@ repository = {
          }
       },
       ['2.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-header-translator'] = {
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -25224,6 +25277,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['lua-resty-openidc-extend'] = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
