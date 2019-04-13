@@ -12,7 +12,7 @@ dependencies = {}
 build = {
    type = "builtin",
    modules = {
-      ["kong.plugins.myredirect.handler"] = "src/handler.lua",
-      ["kong.plugins.myredirect.schema"] = "src/schema.lua"
+      ["kong.plugins.kong-plugin-myredirect.handler"] = "src/handler.lua",
+      ["kong.plugins.kong-plugin-myredirect.schema"] = "src/schema.lua"
    }
 }
