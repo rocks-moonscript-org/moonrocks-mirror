@@ -5054,6 +5054,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.beta13-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.beta2-0'] = {
          {
             arch = "rockspec"
@@ -8501,6 +8508,15 @@ repository = {
       ['0.1.1-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   dumper = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -12881,6 +12897,13 @@ repository = {
    },
    ['k-sway'] = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -30044,6 +30067,29 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   luamon = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
