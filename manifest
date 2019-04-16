@@ -14376,6 +14376,27 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-hal'] = {
@@ -15937,6 +15958,13 @@ repository = {
       }
    },
    ['kong-plugin-template-transformer'] = {
+      ['0.10.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.7.2-0'] = {
          {
             arch = "rockspec"
@@ -30071,13 +30099,6 @@ repository = {
       }
    },
    luamon = {
-      ['0.1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
       ['0.1.1-1'] = {
          {
             arch = "rockspec"
@@ -30085,7 +30106,7 @@ repository = {
             arch = "src"
          }
       },
-      ['0.2.0-1'] = {
+      ['0.2.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -41712,6 +41733,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['perimeterx-nginx-plugin'] = {
@@ -42102,6 +42130,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['1.10.0-1'] = {
+         {
+            arch = "rockspec"
          }
       },
       ['1.2.0-1'] = {
