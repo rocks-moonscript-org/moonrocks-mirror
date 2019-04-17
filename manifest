@@ -3314,6 +3314,15 @@ repository = {
          }
       }
    },
+   ['coro-http-luv'] = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    coronalog = {
       ['1.0-0'] = {
          {
@@ -8553,6 +8562,13 @@ repository = {
          }
       },
       ['0.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -14392,6 +14408,13 @@ repository = {
          }
       },
       ['1.1.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.6-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -31310,6 +31333,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luasec-fixed'] = {
@@ -35315,6 +35345,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['1.3-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -42078,6 +42113,13 @@ repository = {
          }
       },
       ['6.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['6.1-1'] = {
          {
             arch = "rockspec"
          }, {
