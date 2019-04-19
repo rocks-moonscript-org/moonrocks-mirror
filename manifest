@@ -13524,6 +13524,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-file-log-exclusion'] = {
@@ -24542,6 +24549,15 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-resty-fernet'] = {
+      ['1.0-0'] = {
          {
             arch = "rockspec"
          }, {
