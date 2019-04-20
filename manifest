@@ -19355,6 +19355,13 @@ repository = {
          }
       }
    },
+   lnodelist = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    lnotify = {
       ['0.2-1'] = {
          {
