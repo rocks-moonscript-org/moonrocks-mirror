@@ -1,7 +1,7 @@
 package = "kong-oidc-extend"
 version = "1.0.0-0"
 source = {
-    url = "git://github.com/linhdangduy/kong-oidc",
+    url = "git://github.com/linhdangduy/kong-oidc-extend",
     dir = "kong-oidc-extend"
 }
 description = {
@@ -17,7 +17,7 @@ description = {
 
         It can be used as a reverse proxy terminating OAuth/OpenID Connect in front of an origin server so that the origin server/services can be protected with the relevant standards without implementing those on the server itself.
     ]],
-    homepage = "https://github.com/linhdangduy/kong-oidc",
+    homepage = "https://github.com/linhdangduy/kong-oidc-extend",
     license = "Apache 2.0"
 }
 dependencies = {
