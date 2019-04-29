@@ -5103,6 +5103,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.beta14-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.beta2-0'] = {
          {
             arch = "rockspec"
@@ -5407,6 +5414,13 @@ repository = {
          }
       },
       ['1.0.beta13-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta14-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -11283,6 +11297,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['4.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['gxs-auth'] = {
@@ -13805,6 +13824,13 @@ repository = {
          }
       },
       ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -17015,6 +17041,25 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['kong-timechecking'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-3'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
