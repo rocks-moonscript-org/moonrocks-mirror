@@ -8666,6 +8666,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['eaw-abstraction-layer'] = {
@@ -15074,6 +15081,22 @@ repository = {
       ['1.1-0'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['kong-plugin-jwt-fetcher'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -42903,29 +42926,6 @@ repository = {
    },
    plterm = {
       ['0.2-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   plug = {
-      ['0.0.1-0'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.1.1-0'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
