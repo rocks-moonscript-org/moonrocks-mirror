@@ -8,8 +8,7 @@ description = {
 
 supported_platforms = {"linux", "macosx"}
 source = {
-  url = "http://github.com/Kong/kong-plugin.git",
-  tag = "0.1.0"
+  url = "git://github.com/thanhdongnguyen/kong-auth-key-signature"
 }
 
 dependencies = {
@@ -17,7 +16,7 @@ dependencies = {
 build = {
     type = "builtin",
     modules = {
-        ["kong.plugins.auth-key-signature.handle"] = "auth-key-signature/kong/plugins/auth-key-signature/handle.lua",
-        ["kong.plugins.auth-key-signature.schema"] = "auth-key-signature/kong/plugins/auth-key-signature/schema.lua"
+        ["kong.plugins.kong-auth-key-signature.handler"] = "kong/plugins/kong-auth-key-signature/handler.lua",
+        ["kong.plugins.kong-auth-key-signature.schema"] = "kong/plugins/kong-auth-key-signature/schema.lua"
     }
 }
