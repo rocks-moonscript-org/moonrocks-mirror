@@ -17363,7 +17363,12 @@ repository = {
       }
    },
    ['kong-url-rewrite'] = {
-      ['1.0.0-0'] = {
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.2-0'] = {
          {
             arch = "rockspec"
          }
@@ -24902,6 +24907,23 @@ repository = {
          }
       }
    },
+   ['lua-resty-etcd'] = {
+      ['0.2-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-resty-exec'] = {
       ['1.0.0-0'] = {
          {
@@ -25917,11 +25939,9 @@ repository = {
       }
    },
    ['lua-resty-openidc-extend'] = {
-      ['0.0.0-1'] = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
-         }, {
-            arch = "src"
          }
       }
    },
@@ -27369,6 +27389,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['lua-typeof'] = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -31764,6 +31791,13 @@ repository = {
          }
       },
       ['3.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
