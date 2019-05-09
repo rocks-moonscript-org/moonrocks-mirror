@@ -1,8 +1,7 @@
 package = "kong-url-rewrite"
-version = "1.0.2-0"
+version = "1.0.2-4"
 source = {
-   url = "git://github.com/linhdangduy/kong-url-rewrite",
-   tag = "v1.0.2"
+   url = "git://github.com/linhdangduy/kong-url-rewrite"
 }
 description = {
   summary = "KongAPI Gateway middleware plugin for url-rewrite purposes.",

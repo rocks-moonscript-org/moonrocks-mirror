@@ -1,7 +1,8 @@
 package = "kong-oidc-extend"
-version = "1.0.0-0"
+version = "1.0.0-1"
 source = {
-    url = "git://github.com/linhdangduy/kong-oidc-extend",
+    url = "git@github.com/linhdangduy/kong-oidc-extend",
+    tag = "v1.0.0",
     dir = "kong-oidc-extend"
 }
 description = {
