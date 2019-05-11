@@ -2,7 +2,7 @@ package = "jwks_aware_oauth_jwt_access_token_validator"
 version = "0.1-1"
 supported_platforms = {"linux", "macosx"}
 source = {
-  url = "https://bitbucket.org/gt_tech/jwks_aware_oauth_jwt_access_token_validator",
+  url = "git://bitbucket.org/gt_tech/jwks_aware_oauth_jwt_access_token_validator",
   tag = "v0.1-1"
 }
 description = {

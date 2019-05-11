@@ -1,8 +1,8 @@
 package = 'lua-amf3'
-version = '2.0.0rc1-1'
+version = '2.0.0-1'
 source = {
 	url = 'git://github.com/neoxic/lua-amf3.git',
-	tag = 'v2.0.0rc1',
+	tag = 'v2.0.0',
 }
 description = {
 	summary = 'AMF3 encoding/decoding library for Lua',
