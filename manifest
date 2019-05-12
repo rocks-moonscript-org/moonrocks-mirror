@@ -165,6 +165,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    act = {
@@ -5216,6 +5223,13 @@ repository = {
          }
       },
       ['1.0.beta14-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta14-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -28082,6 +28096,18 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   lua_fun = {
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4.0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
