@@ -5236,6 +5236,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.beta14-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.beta2-0'] = {
          {
             arch = "rockspec"
