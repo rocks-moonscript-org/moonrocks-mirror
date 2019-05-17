@@ -13762,6 +13762,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-cluster-drain'] = {
