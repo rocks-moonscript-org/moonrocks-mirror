@@ -13664,6 +13664,15 @@ repository = {
          }
       }
    },
+   ['kong-auth-request'] = {
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-auto-https'] = {
       ['0.0.1-0'] = {
          {
@@ -16696,6 +16705,15 @@ repository = {
          }
       },
       ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-upstream-selector'] = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -42074,6 +42092,13 @@ repository = {
          }
       },
       ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.4-1'] = {
          {
             arch = "rockspec"
          }, {
