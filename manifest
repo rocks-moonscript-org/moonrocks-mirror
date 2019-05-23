@@ -13671,6 +13671,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-auto-https'] = {
@@ -15305,6 +15312,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['kong-plugin-jwt-up'] = {
@@ -16501,6 +16513,13 @@ repository = {
          }
       },
       ['0.10.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.11.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -36134,6 +36153,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['v1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    matchext = {
@@ -42783,6 +42807,13 @@ repository = {
          }
       },
       ['0.12-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.13-1'] = {
          {
             arch = "rockspec"
          }, {
