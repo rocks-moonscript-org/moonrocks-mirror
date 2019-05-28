@@ -13713,6 +13713,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.7-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-auto-https'] = {
@@ -15349,6 +15363,11 @@ repository = {
          }
       },
       ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.3-1'] = {
          {
             arch = "rockspec"
          }
@@ -22953,6 +22972,13 @@ repository = {
          }
       },
       ['0.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -43322,6 +43348,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['6.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    petrisport = {
@@ -50111,7 +50144,7 @@ repository = {
       }
    },
    uuidx = {
-      ['1.0-2'] = {
+      ['1.0-3'] = {
          {
             arch = "rockspec"
          }, {

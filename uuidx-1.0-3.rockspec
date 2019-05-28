@@ -1,5 +1,5 @@
 package = "uuidx"
-version = "1.0-2"
+version = "1.0-3"
 source = {
     url = "git://github.com/zs-soft/lua-resty-UUID_64_94.git",
     branch = "master"
