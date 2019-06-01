@@ -630,6 +630,13 @@ repository = {
          }
       }
    },
+   apisix = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    app_scheduler = {
       ['1.0-0'] = {
          {
@@ -17222,6 +17229,13 @@ repository = {
          }
       }
    },
+   ['kong-redis-cluster'] = {
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['kong-request-header'] = {
       ['0.0.1-1'] = {
          {
@@ -21219,6 +21233,13 @@ repository = {
          }
       },
       ['0.2.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   lredux = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -26194,6 +26215,11 @@ repository = {
    },
    ['lua-resty-ngxvar'] = {
       ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2-0'] = {
          {
             arch = "rockspec"
          }
@@ -49390,6 +49416,15 @@ repository = {
    },
    tpdu = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['tqdm-lua'] = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
