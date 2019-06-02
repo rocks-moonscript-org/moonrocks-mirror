@@ -3466,6 +3466,15 @@ repository = {
          }
       }
    },
+   corequests = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['coro-http-luv'] = {
       ['1.0.0-0'] = {
          {
@@ -12159,6 +12168,15 @@ repository = {
    },
    hsm_statechart = {
       ['0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ht16k33 = {
+      ['0.1.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -21243,6 +21261,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lrexlib-gnu'] = {
@@ -28409,6 +28432,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    lua_ip = {
@@ -28517,6 +28545,11 @@ repository = {
          }
       },
       ['0.4.2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4.3-0'] = {
          {
             arch = "rockspec"
          }
@@ -48589,6 +48622,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.8-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['telegram-bot-api'] = {
@@ -49907,6 +49947,13 @@ repository = {
    },
    unicorndecode = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
