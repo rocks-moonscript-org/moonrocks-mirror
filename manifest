@@ -640,6 +640,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    app_scheduler = {
@@ -22026,7 +22036,7 @@ repository = {
       }
    },
    ['lua-amf3'] = {
-      ['2.0.1-1'] = {
+      ['2.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -23361,7 +23371,7 @@ repository = {
       }
    },
    ['lua-json'] = {
-      ['0.1.1-1'] = {
+      ['0.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -28538,6 +28548,15 @@ repository = {
       ['0.4.3-0'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   lua_test = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -48610,6 +48629,13 @@ repository = {
          }
       },
       ['0.8-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.8-3'] = {
          {
             arch = "rockspec"
          }, {
