@@ -14478,6 +14478,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-cookies-to-headers'] = {
@@ -15377,6 +15384,13 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -16325,6 +16339,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-resource-transformer'] = {
@@ -16454,6 +16475,13 @@ repository = {
       ['0.2.0-0'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.3.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -17255,6 +17283,13 @@ repository = {
          }
       },
       ['1.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -22211,6 +22246,15 @@ repository = {
          }
       }
    },
+   ['lua-bz2'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-c3class'] = {
       ['0.7-2'] = {
          {
@@ -23461,6 +23505,13 @@ repository = {
          }
       },
       ['0-7'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0-8'] = {
          {
             arch = "rockspec"
          }, {
@@ -39457,6 +39508,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['3.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    moor = {
@@ -52265,6 +52323,13 @@ repository = {
          }
       },
       ['1.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.3-1'] = {
          {
             arch = "rockspec"
          }, {
