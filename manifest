@@ -15482,6 +15482,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-mithril'] = {
@@ -25960,6 +25967,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['lua-resty-jsonschema'] = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
