@@ -2,11 +2,11 @@ package = "lua-resty-openidc-extend"
 version = "1.0.0-3"
 source = {
     url = "git://github.com/linhdangduy/lua-resty-openidc-extend",
-    tag = "v1.0.0",
+    tag = "v1.0.1",
     dir = "lua-resty-openidc-extend"
 }
 description = {
-    summary = "A library for NGINX implementing the OpenID Connect Relying Party (RP) and the OAuth 2.0 Resource Server (RS) functionality",
+    summary = "copy - A library for NGINX implementing the OpenID Connect Relying Party (RP) and the OAuth 2.0 Resource Server (RS) functionality",
     detailed = [[
         lua-resty-openidc is a library for NGINX implementing the OpenID Connect Relying Party (RP) and the OAuth 2.0 Resource Server (RS) functionality.
 
