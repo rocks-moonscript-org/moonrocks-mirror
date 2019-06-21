@@ -14521,6 +14521,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-api-transformer'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-aws-kinesis'] = {
       ['0.1.0-1'] = {
          {
@@ -26278,6 +26287,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.5-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-limit-rate'] = {
@@ -26721,13 +26735,6 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
-         }
-      }
-   },
-   ['lua-resty-openidc-extend'] = {
-      ['1.0.0-3'] = {
-         {
-            arch = "rockspec"
          }
       }
    },

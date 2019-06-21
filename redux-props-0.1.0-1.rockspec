@@ -13,7 +13,9 @@ description = {
 build = {
     type = "builtin",
     modules = {
-        ["reduxProps"] = "src/reduxProps.lua",
+        ["redux-props.connect"] = "src/connect.lua",
+        ["redux-props.provider"] = "src/provider.lua",
+        ["redux-props.component"] = "src/component.lua",
     }
 }
 dependencies = {
