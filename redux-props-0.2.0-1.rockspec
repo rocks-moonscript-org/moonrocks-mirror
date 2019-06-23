@@ -2,7 +2,6 @@ package = "redux-props"
 version = "0.2.0-1"
 source = {
     url = "git+https://github.com/pyericz/redux-props",
-    tag = "v0.2.0"
 }
 description = {
     summary = "Handle redux state changes.",
