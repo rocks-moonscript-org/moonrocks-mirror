@@ -7213,6 +7213,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -15692,6 +15699,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-mithril'] = {
@@ -16593,6 +16607,13 @@ repository = {
          }
       },
       ['1.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -18977,6 +18998,13 @@ repository = {
    },
    ['ldk-i18n'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -23350,7 +23378,7 @@ repository = {
       }
    },
    ['lua-ezlib'] = {
-      ['0.1.0-1'] = {
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -25686,6 +25714,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-dogstatsd'] = {
@@ -27876,6 +27911,13 @@ repository = {
          }
       },
       ['1.10.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.10.0-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -32518,6 +32560,11 @@ repository = {
          }
       },
       ['3.5.2-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['4.0-0'] = {
          {
             arch = "rockspec"
          }
@@ -46298,6 +46345,22 @@ repository = {
          }
       },
       ['2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['rpc-prizm'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
