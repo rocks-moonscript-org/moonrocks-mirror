@@ -1925,6 +1925,11 @@ repository = {
             arch = "src"
          }
       },
+      ['2.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['2.0.rc0-0'] = {
          {
             arch = "rockspec"
@@ -14617,6 +14622,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-add-header'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-api-transformer'] = {
       ['0.1.0-0'] = {
          {
@@ -16088,6 +16102,13 @@ repository = {
          }
       },
       ['0.3.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -33664,6 +33685,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.8.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luastatic = {
@@ -36078,6 +36104,13 @@ repository = {
          }
       },
       ['1.29.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.30.0-0'] = {
          {
             arch = "rockspec"
          }, {
