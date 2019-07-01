@@ -933,6 +933,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    asklua = {
@@ -1926,6 +1933,11 @@ repository = {
          }
       },
       ['2.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -43231,6 +43243,13 @@ repository = {
          }
       },
       ['2.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
