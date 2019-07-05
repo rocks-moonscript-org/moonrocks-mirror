@@ -1,8 +1,8 @@
 package = 'lua-xxtea'
-version = '0.1.1-1'
+version = '0.1.2-1'
 source = {
 	url = 'git://github.com/neoxic/lua-xxtea.git',
-	tag = 'v0.1.1',
+	tag = 'v0.1.2',
 }
 description = {
 	summary = 'XXTEA encryption/decryption module for Lua',
