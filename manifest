@@ -5335,6 +5335,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.beta15-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.beta2-0'] = {
          {
             arch = "rockspec"
@@ -5646,6 +5653,13 @@ repository = {
          }
       },
       ['1.0.beta14-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta15-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -19101,6 +19115,13 @@ repository = {
    },
    ['ldk-cli'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -53285,6 +53306,15 @@ repository = {
          }
       },
       ['1.2-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   xmllpegparser = {
+      ['2.1-1'] = {
          {
             arch = "rockspec"
          }, {
