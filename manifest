@@ -17043,6 +17043,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.12.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.7.2-0'] = {
          {
             arch = "rockspec"
