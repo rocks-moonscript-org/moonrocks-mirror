@@ -16189,6 +16189,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-moocherio'] = {
@@ -19173,6 +19187,15 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['ldk-hash'] = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
