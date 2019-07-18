@@ -4752,6 +4752,22 @@ repository = {
          }
       }
    },
+   ['dd-lua-tester'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['debug.lua'] = {
       ['0.10-1'] = {
          {
@@ -11035,6 +11051,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['gh-md-toc'] = {
+      ['1.3-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -26743,6 +26766,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.7-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-limit-rate'] = {
@@ -28295,6 +28323,13 @@ repository = {
          }
       },
       ['0.3.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -45340,6 +45375,15 @@ repository = {
          }
       }
    },
+   pulseaudio = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    pulseaudio_cli = {
       ['0.1-1'] = {
          {
@@ -47073,6 +47117,13 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
