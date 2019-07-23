@@ -1,15 +1,19 @@
 package = "opentracing-openresty"
-version = "0.0.3.iresty-0"
+version = "0.1-0"
 
 source = {
     url = "git://github.com/iresty/opentracing-openresty.git",
-    tag = "v0.0.3-iresty",
+    tag = "v0.1",
 }
 
 description = {
-	summary = "Lua platform API for OpenTracing";
+	summary = "OpenResty API for OpenTracing";
 	homepage = "https://github.com/iresty/opentracing-openresty";
 	license = "Apache 2.0";
+}
+
+dependencies = {
+	"lua >= 5.1"
 }
 
 build = {
