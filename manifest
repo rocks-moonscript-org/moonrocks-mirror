@@ -11033,6 +11033,13 @@ repository = {
          }
       }
    },
+   geezifylua = {
+      ['0.1.3-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['genesi-password'] = {
       ['1.1-0'] = {
          {
@@ -11462,6 +11469,11 @@ repository = {
          }
       },
       ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0-4'] = {
          {
             arch = "rockspec"
          }
@@ -26843,6 +26855,11 @@ repository = {
          }
       },
       ['0.7-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.8-0'] = {
          {
             arch = "rockspec"
          }
