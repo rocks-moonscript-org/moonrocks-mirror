@@ -11131,6 +11131,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['gimlet-cocktail'] = {
@@ -35287,6 +35294,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   lume = {
+      ['2.3.0-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
