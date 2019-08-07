@@ -1046,6 +1046,13 @@ repository = {
          }
       }
    },
+   aurora = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['auth0-nginx'] = {
       ['1.0.1-0'] = {
          {
@@ -28931,6 +28938,13 @@ repository = {
          }
       },
       ['0.1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.5-1'] = {
          {
             arch = "rockspec"
          }, {
