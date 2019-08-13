@@ -3,7 +3,7 @@
 package = "jeejah"
 version = "0.3.0-1"
 source = {
-   url = "https://gitlab.com/technomancy/jeejah.git",
+   url = "git+https://gitlab.com/technomancy/jeejah.git",
    tag = "0.3.0",
 }
 description = {
@@ -12,7 +12,7 @@ description = {
         Implements a server that speaks the nREPL protocol and allows
         clients to connect and evaluate code over a network connection.
     ]],
-   homepage = "https://gitlab.com/technomancy/jeejah.git",
+   homepage = "https://gitlab.com/technomancy/jeejah",
    license = "MIT/X11",
 }
 dependencies = {
