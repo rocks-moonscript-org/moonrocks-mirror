@@ -7,9 +7,8 @@ source = {
     branch = '1.0.0'
 }
 supported_platforms = {
-    'linux',
-    'macosx',
-    'windows'
+    'windows',
+    'unix'
 }
 description = {
     summary = 'LDK - function arguments type checking',
@@ -21,25 +20,19 @@ dependencies = {
 }
 
 local function make_platform(name)
-    local modules = {
-        ['ldk.path'] = {
-            'csrc/path.c',
-            'csrc/cbuf.c',
+    local sources = {'csrc/path.c', 'csrc/cbuf.c'}
+    if name == 'windows' then
+        sources[#sources + 1] = 'csrc/error_win.c'
+        sources[#sources + 1] = 'csrc/path_win.c'
+    elseif name == 'unix' then
+        sources[#sources + 1] = 'csrc/error_unix.c'
+        sources[#sources + 1] = 'csrc/path_unix.c'
+    end
+    return {
+        modules = {
+            ['ldk.path'] = sources
         }
     }
-    local function append(t, x)
-        t[#t + 1] = x
-    end
-
-    if name == 'windows' then
-        append(modules['ldk.path'], 'csrc/error_win.c')
-        append(modules['ldk.path'], 'csrc/path_win.c')
-    elseif name == 'unix' then
-        append(modules['ldk.path'], 'csrc/error_unix.c')
-        append(modules['ldk.path'], 'csrc/path_unix.c')
-    end
-
-    return {modules = modules}
 end
 
 build = {
