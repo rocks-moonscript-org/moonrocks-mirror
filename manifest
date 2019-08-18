@@ -40761,6 +40761,15 @@ repository = {
          }
       }
    },
+   ['moon-promise'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['moon-redis'] = {
       ['0.1-1'] = {
          {
