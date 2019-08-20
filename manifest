@@ -17431,6 +17431,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-shepherd'] = {

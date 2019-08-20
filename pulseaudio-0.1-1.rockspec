@@ -1,7 +1,8 @@
 package = "pulseaudio"
 version = "0.1-1"
 source = {
-	url = "https://gitlab.com/doronbehar/lua-pulseaudio/-/archive/v0.1/lua-pulseaudio-v0.1.tar.gz",
+	url = "git://github.com/doronbehar/lua-pulseaudio",
+	tag = "v0.1"
 }
 description = {
 	summary = "Bindings to libpulse",
