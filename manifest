@@ -13968,6 +13968,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    klesi = {
@@ -25357,6 +25364,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-mnemonic'] = {
@@ -36575,15 +36589,6 @@ repository = {
          }
       },
       ['20170303-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   luo = {
-      ['0.1.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -48078,6 +48083,13 @@ repository = {
    },
    rockwriter = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
