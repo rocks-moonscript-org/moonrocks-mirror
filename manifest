@@ -23996,6 +23996,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.3.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.3.2-1'] = {
          {
             arch = "rockspec"
@@ -26530,6 +26537,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-checkups'] = {
@@ -27864,6 +27878,15 @@ repository = {
       ['0.15-0'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['lua-resty-nats'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
