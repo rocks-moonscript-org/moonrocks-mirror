@@ -13458,6 +13458,13 @@ repository = {
          }
       }
    },
+   ['iresty-nginx-lua-prometheus'] = {
+      ['0.20190917-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    iris = {
       ['0.1-1'] = {
          {
@@ -18328,6 +18335,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['0.5.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -27540,6 +27552,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.07-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-keycloak'] = {
@@ -29695,6 +29714,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['lua-tinyyaml'] = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -46556,6 +46582,11 @@ repository = {
          }
       },
       ['1.1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1.2-0'] = {
          {
             arch = "rockspec"
          }
