@@ -17210,6 +17210,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['kong-plugin-referer'] = {
@@ -18920,6 +18925,15 @@ repository = {
          }
       }
    },
+   lacord = {
+      ['1569435811-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lake = {
       ['1.2-1'] = {
          {
@@ -20455,6 +20469,13 @@ repository = {
    },
    libssh = {
       ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -23664,6 +23685,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.5.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['dev-0'] = {
          {
             arch = "rockspec"
@@ -25366,6 +25394,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-mnemonic'] = {
@@ -26153,6 +26188,13 @@ repository = {
          }
       },
       ['0.1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -28133,6 +28175,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-openssl'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-passwdqc'] = {
       ['1.0-1'] = {
          {
@@ -28299,6 +28350,16 @@ repository = {
          }
       },
       ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.2-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.3-0'] = {
          {
             arch = "rockspec"
          }
@@ -42313,6 +42374,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.5-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    nancy = {
@@ -53281,6 +53349,13 @@ repository = {
    },
    ['verify-token'] = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-2'] = {
          {
             arch = "rockspec"
          }, {
