@@ -11850,6 +11850,15 @@ repository = {
          }
       }
    },
+   guardia = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    gumbo = {
       ['0.1-1'] = {
          {
@@ -27135,6 +27144,13 @@ repository = {
          }
       },
       ['1.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.3-1'] = {
          {
             arch = "rockspec"
          }, {
