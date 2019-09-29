@@ -745,6 +745,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.8-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['apisix-dev'] = {
@@ -3076,6 +3081,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['cmft-kong'] = {
+      ['1.1.1-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -10879,6 +10891,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -28438,6 +28455,13 @@ repository = {
    },
    ['lua-resty-redis'] = {
       ['0.26-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['lua-resty-redis-cluster'] = {
+      ['1.0-0'] = {
          {
             arch = "rockspec"
          }
