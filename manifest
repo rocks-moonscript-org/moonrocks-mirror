@@ -9520,6 +9520,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    effil = {
@@ -17335,6 +17342,20 @@ repository = {
    },
    ['kong-plugin-request-firewall'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.1-1'] = {
          {
             arch = "rockspec"
          }, {
