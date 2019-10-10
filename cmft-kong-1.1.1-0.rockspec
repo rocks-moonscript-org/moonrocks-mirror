@@ -39,7 +39,6 @@ dependencies = {
   "lua-resty-redis == 0.26",
   "lua-resty-jwt ~> 0.2.0",
   "lua-cmsgpack == 0.4.0",
-  "regex == 0.1.0",
   -- external Kong plugins
   "kong-plugin-azure-functions ~> 0.3",
   "kong-plugin-kubernetes-sidecar-injector ~> 0.1",

@@ -2621,6 +2621,13 @@ repository = {
          }
       }
    },
+   chalk = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    chance = {
       ['1.0-0'] = {
          {
@@ -14693,6 +14700,36 @@ repository = {
    },
    ['kong-consumer-route'] = {
       ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-datadog-k8s'] = {
+      ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -28606,6 +28643,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.4-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-readurl'] = {
@@ -34944,6 +34986,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.7.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.8-1'] = {
          {
             arch = "rockspec"
@@ -34952,6 +35001,13 @@ repository = {
          }
       },
       ['0.8.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.8.2-1'] = {
          {
             arch = "rockspec"
          }, {
