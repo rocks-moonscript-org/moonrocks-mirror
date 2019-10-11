@@ -10155,6 +10155,13 @@ repository = {
          }
       }
    },
+   f = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['f-strings'] = {
       ['0.1-1'] = {
          {
@@ -15289,15 +15296,6 @@ repository = {
    },
    ['kong-plugin-api-transformer'] = {
       ['0.1.0-0'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   ['kong-plugin-argonath-request-transformer'] = {
-      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -36657,6 +36655,11 @@ repository = {
    },
    lummander = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.0-2'] = {
          {
             arch = "rockspec"
          }
