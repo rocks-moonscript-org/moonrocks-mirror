@@ -1,10 +1,10 @@
 package = "orange"
-version = "0.7-0"
+version = "0.8-0"
 supported_platforms = {"linux"}
 
 source = {
-    url = "git://github.com/shuaijinchao/orange",
-    branch = "master",
+    url = "git://github.com/orlabs/orange",
+    branch = "v0.8.0",
 }
 
 description = {
@@ -15,14 +15,15 @@ description = {
 }
 
 dependencies = {
+    "luafilesystem = 1.7.0-2",
+    "penlight = 1.5.4-1",
+    "lrandom = 20180729-1",
+    "luacrypto = 0.3.2-2",
+    "luasocket = 3.0rc1-2",
     "lua-resty-http = 0.13-0",
     "lua-resty-kafka = 0.06-0",
     "lua-resty-dns-client = 1.0.0-1",
     "lua-resty-jwt = 0.2.0-0",
-    "luasocket = 3.0rc1-2",
-    "luafilesystem = 1.7.0-2",
-    "luacrypto = 0.3.2-2",
-    "penlight = 1.5.4-1",
 }
 
 build = {
