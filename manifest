@@ -529,6 +529,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    amalg = {
@@ -5742,6 +5756,20 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.beta18-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta18-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.beta2-0'] = {
          {
             arch = "rockspec"
@@ -6074,6 +6102,20 @@ repository = {
          }
       },
       ['1.0.beta17-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta18-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta18-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -48860,6 +48902,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rollbar-nginx'] = {
@@ -55761,6 +55810,13 @@ repository = {
          }
       },
       ['1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3-2'] = {
          {
             arch = "rockspec"
          }, {
