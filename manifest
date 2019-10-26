@@ -16410,6 +16410,13 @@ repository = {
          }
       }
    },
+   ['kong-plugin-html-replacer'] = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['kong-plugin-http-log-with-body'] = {
       ['0.1.1-1'] = {
          {
