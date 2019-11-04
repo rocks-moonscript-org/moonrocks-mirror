@@ -46968,6 +46968,13 @@ repository = {
             arch = "src"
          }
       },
+      ['6.3.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['6.3.1-1'] = {
          {
             arch = "rockspec"
@@ -47004,6 +47011,13 @@ repository = {
          }
       },
       ['6.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['6.5.0-2'] = {
          {
             arch = "rockspec"
          }, {
