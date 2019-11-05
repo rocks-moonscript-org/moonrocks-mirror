@@ -14204,6 +14204,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    jumper = {
@@ -29029,6 +29034,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['lua-resty-prometheus'] = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -47894,6 +47906,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.201911-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    pulseaudio = {
@@ -52059,6 +52078,15 @@ repository = {
          }
       }
    },
+   sys = {
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['table-flatten'] = {
       ['0.2.0-1'] = {
          {
@@ -56145,6 +56173,15 @@ repository = {
          }
       },
       ['0.0.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   xlua = {
+      ['1.1-0'] = {
          {
             arch = "rockspec"
          }, {
