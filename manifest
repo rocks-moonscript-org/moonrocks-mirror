@@ -14795,6 +14795,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.1.0-10'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.1.0-2'] = {
          {
             arch = "rockspec"
@@ -15222,6 +15227,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-file-log-exclusion'] = {
@@ -15521,6 +15533,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['kong-oidc-ws-rbac'] = {
+      ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -19252,6 +19271,13 @@ repository = {
       ['0.0.1-3'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.0.1-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
