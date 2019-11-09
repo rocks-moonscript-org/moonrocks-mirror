@@ -5832,6 +5832,20 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.beta21-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta21-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.beta3-0'] = {
          {
             arch = "rockspec"
@@ -42054,6 +42068,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    mockagne = {
@@ -48024,10 +48043,24 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    pulseaudio_cli = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -52918,6 +52951,13 @@ repository = {
          }
       },
       ['0.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3-0'] = {
          {
             arch = "rockspec"
          }, {

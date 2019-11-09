@@ -2,15 +2,14 @@ rockspec_format = "3.0"
 package = "lua-resty-nettle"
 version = "1.0-1"
 source = {
-    url = "git://github.com/bungle/lua-resty-session.git",
-    branch = "v1.0"
+    url = "git://github.com/bungle/lua-resty-nettle.git",
+    branch = "v1.0",
 }
 
 description = {
     summary    = "LuaJIT FFI bindings for Nettle (a low-level cryptographic library)",
     detailed   = "lua-resty-nettle contains LuaJIT FFI bindings to GNU Nettle cryptographic library.",
     homepage   = "https://github.com/bungle/lua-resty-nettle",
-    issues_url = "https://github.com/bungle/lua-resty-nettle/issues",
     maintainer = "Aapo Talvensaari <aapo.talvensaari@gmail.com>",
     license    = "BSD",
     labels     = {
@@ -18,7 +17,7 @@ description = {
     },
 }
 dependencies = {
-    "luajit >= 2.0",
+    "lua >= 5.1",
 }
 build = {
     type = "builtin",
@@ -92,6 +91,7 @@ build = {
         ["resty.nettle.types.gcm"]             = "lib/resty/nettle/types/gcm.lua",
         ["resty.nettle.types.gosthash94"]      = "lib/resty/nettle/types/gosthash94.lua",
         ["resty.nettle.types.hmac"]            = "lib/resty/nettle/types/hmac.lua",
+        ["resty.nettle.types.knuth-lfib"]      = "lib/resty/nettle/types/knuth-lfib.lua",
         ["resty.nettle.types.md2"]             = "lib/resty/nettle/types/md2.lua",
         ["resty.nettle.types.md4"]             = "lib/resty/nettle/types/md4.lua",
         ["resty.nettle.types.md5"]             = "lib/resty/nettle/types/md5.lua",
@@ -107,7 +107,7 @@ build = {
         ["resty.nettle.types.sha2"]            = "lib/resty/nettle/types/sha2.lua",
         ["resty.nettle.types.sha3"]            = "lib/resty/nettle/types/sha3.lua",
         ["resty.nettle.types.twofish"]         = "lib/resty/nettle/types/twofish.lua",
-        ["resty.nettle.types.umac"]            = "lib/resty/nettle/types/umca.lua",
+        ["resty.nettle.types.umac"]            = "lib/resty/nettle/types/umac.lua",
         ["resty.nettle.types.version"]         = "lib/resty/nettle/types/version.lua",
         ["resty.nettle.types.xts"]             = "lib/resty/nettle/types/xts.lua",
         ["resty.nettle.types.yarrow"]          = "lib/resty/nettle/types/yarrow.lua",
