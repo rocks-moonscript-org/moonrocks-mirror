@@ -29243,6 +29243,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.6-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-readurl'] = {
@@ -47595,6 +47600,13 @@ repository = {
          }
       },
       ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.0-1'] = {
          {
             arch = "rockspec"
          }, {
