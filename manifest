@@ -5902,6 +5902,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.beta25-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.beta3-0'] = {
          {
             arch = "rockspec"
@@ -6297,6 +6304,13 @@ repository = {
          }
       },
       ['1.0.beta24-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta25-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -27918,6 +27932,11 @@ repository = {
          }
       },
       ['0.7-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.8-0'] = {
          {
             arch = "rockspec"
          }
@@ -53264,6 +53283,13 @@ repository = {
          }
       },
       ['0.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.6-0'] = {
          {
             arch = "rockspec"
          }, {
