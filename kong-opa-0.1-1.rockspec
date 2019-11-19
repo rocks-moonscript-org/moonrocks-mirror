@@ -3,7 +3,7 @@ version = "0.1-1"
 supported_platforms = {"linux", "macosx"}
 source = {
   url = "git://github.com/ninjaneers-team/kong-opa",
-  tag = "v1.0"
+  tag = "v1.1"
 }
 
 description = {

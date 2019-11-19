@@ -5909,6 +5909,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.beta25-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.beta3-0'] = {
          {
             arch = "rockspec"
@@ -16329,6 +16336,22 @@ repository = {
    },
    ['kong-plugin-extend-headers'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-flexible-rate-limit'] = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -30761,6 +30784,13 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -53290,6 +53320,13 @@ repository = {
          }
       },
       ['0.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7-0'] = {
          {
             arch = "rockspec"
          }, {
