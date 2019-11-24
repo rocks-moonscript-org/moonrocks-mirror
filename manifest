@@ -19870,6 +19870,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1574559577-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1574559577-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lake = {
@@ -21379,6 +21393,13 @@ repository = {
          }
       },
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
