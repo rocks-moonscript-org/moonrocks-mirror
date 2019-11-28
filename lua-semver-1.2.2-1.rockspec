@@ -1,7 +1,7 @@
 package = "lua-semver"
 version = "1.2.2-1"
 source = {
-   url = "https://github.com/Akionka/lua-semver.git",
+   url = "git+https://github.com/Akionka/lua-semver.git",
    tag = "v1.2.2",
 }
 
@@ -15,12 +15,12 @@ description = {
 }
 
 dependencies = {
-   "lua ~> 5.1"
+   "lua >= 5.1"
 }
 
 build = {
    type = "builtin",
    modules = {
-      semver = "semver/semver.lua",
+      ["semver"] = "semver/semver.lua",
    }
 }
