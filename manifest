@@ -3583,6 +3583,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.5.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    connman_widget = {
@@ -3643,6 +3650,15 @@ repository = {
          }
       },
       ['0.3.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   contract = {
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -5980,6 +5996,20 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.beta27-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta27-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.beta3-0'] = {
          {
             arch = "rockspec"
@@ -6389,6 +6419,13 @@ repository = {
          }
       },
       ['1.0.beta26-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.beta27-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -12440,6 +12477,13 @@ repository = {
          }
       },
       ['3.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -18559,6 +18603,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-template-transformer'] = {
@@ -19232,6 +19283,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-prometheus-plugin'] = {
@@ -19669,6 +19727,13 @@ repository = {
          }
       },
       ['0.0.1-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-5'] = {
          {
             arch = "rockspec"
          }, {
