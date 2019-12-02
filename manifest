@@ -3662,6 +3662,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    copas = {
@@ -48302,6 +48309,13 @@ repository = {
          }
       },
       ['1.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   proctor = {
+      ['1.0-0'] = {
          {
             arch = "rockspec"
          }
