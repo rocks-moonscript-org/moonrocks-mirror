@@ -18643,6 +18643,27 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-template-transformer'] = {
@@ -19391,6 +19412,11 @@ repository = {
          }
       },
       ['0.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.7.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -48658,6 +48684,13 @@ repository = {
          }
       },
       ['1.0.201911-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.201912-1'] = {
          {
             arch = "rockspec"
          }, {
