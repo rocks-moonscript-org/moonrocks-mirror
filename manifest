@@ -32999,6 +32999,15 @@ repository = {
          }
       }
    },
+   luacrypto2 = {
+      ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luacryptor = {
       ['1.0-1'] = {
          {
