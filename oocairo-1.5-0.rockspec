@@ -2,8 +2,8 @@ package = "oocairo"
 version = "1.5-0"
 local versionNumber = version:gsub("^(.*)-.-$", "%1")
 source = {
-  url = "https://github.com/awesomeWM/oocairo/archive/master.zip",
-  dir = "oocairo-master",
+  url = "https://github.com/awesomeWM/oocairo/archive/v"..versionNumber..".zip",
+  dir = "oocairo-"..versionNumber,
 }
 description = {
   summary = "Cairo bindings for lua ",
