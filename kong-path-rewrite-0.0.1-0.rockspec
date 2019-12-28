@@ -10,5 +10,8 @@ description = {
 dependencies = {}
 build = {
    type = "builtin",
-   modules = {}
+   modules = {
+    ["kong.plugins.kong-path-rewrite.handler"] = "kong/plugins/kong-path-rewrite/handler.lua",
+    ["kong.plugins.kong-path-rewrite.schema"] = "kong/plugins/kong-path-rewrite/schema.lua"
+   }
 }
