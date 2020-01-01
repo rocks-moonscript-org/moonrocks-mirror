@@ -773,6 +773,13 @@ repository = {
          }
       }
    },
+   apioak = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    apisix = {
       ['0.4-0'] = {
          {
@@ -6323,6 +6330,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.rc1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dogmac = {
@@ -6691,6 +6705,13 @@ repository = {
          }
       },
       ['1.0.beta9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.rc1-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -38197,6 +38218,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.15-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.7-1'] = {
          {
             arch = "rockspec"
@@ -51650,6 +51676,15 @@ repository = {
          }
       },
       ['0.35.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   sht20 = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
