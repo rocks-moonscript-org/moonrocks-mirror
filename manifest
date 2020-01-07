@@ -25278,6 +25278,15 @@ repository = {
          }
       }
    },
+   ['lua-casclib'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-cassandra'] = {
       ['0.1.0-0'] = {
          {
