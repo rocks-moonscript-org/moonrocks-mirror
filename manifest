@@ -787,6 +787,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    apisix = {
@@ -26170,6 +26175,13 @@ repository = {
          }
       },
       ['v1.5-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['lua-event-dispatcher'] = {
+      ['0.1-0'] = {
          {
             arch = "rockspec"
          }
@@ -51844,6 +51856,15 @@ repository = {
          }
       },
       ['0.35.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   shiplog = {
+      ['0.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
