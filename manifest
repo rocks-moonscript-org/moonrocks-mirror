@@ -26199,6 +26199,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-ezlib'] = {
@@ -31732,6 +31737,15 @@ repository = {
          }
       },
       ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-shmem'] = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
