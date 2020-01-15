@@ -830,6 +830,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['master-0'] = {
          {
             arch = "rockspec"
@@ -19542,6 +19547,13 @@ repository = {
          }
       }
    },
+   ['kong-plugin-url-regex-rewriter'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['kong-plugin-url-replace'] = {
       ['0.1.0-0'] = {
          {
@@ -30335,6 +30347,13 @@ repository = {
          }
       },
       ['0.4.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -51889,6 +51908,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.35.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.35.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    shiplog = {
@@ -56034,6 +56067,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    utf8 = {
@@ -56730,6 +56770,13 @@ repository = {
          }
       },
       ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4-1'] = {
          {
             arch = "rockspec"
          }, {
