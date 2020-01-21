@@ -52679,6 +52679,13 @@ repository = {
          }
       }
    },
+   spherical_defense = {
+      ['0.0.3-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    split = {
       ['1.0.0-1'] = {
          {
