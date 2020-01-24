@@ -21,6 +21,8 @@ build = {
     type = "builtin",
     modules = {
         ["event-dispatcher.Event"] = "src/event.lua",
-        ["event-dispatcher.Dispatcher"] = "src/dispatcher.lua"
+        ["event-dispatcher.Dispatcher"] = "src/dispatcher.lua",
+        ["event-dispatcher.Executor.direct"] = "src/executor/direct.lua",
+        ["event-dispatcher.Executor.protected"] = "src/executor/protected.lua",
    }
 }
