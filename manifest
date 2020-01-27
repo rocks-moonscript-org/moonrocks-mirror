@@ -6458,6 +6458,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.rc3-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dogmac = {
@@ -15845,6 +15852,13 @@ repository = {
          }
       }
    },
+   ['kong-custom-error-handlers'] = {
+      ['0.3.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['kong-datadog-k8s'] = {
       ['0.0.1-0'] = {
          {
@@ -16342,6 +16356,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['kong-oidc-v2'] = {
+      ['2.0.0-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -26461,6 +26482,13 @@ repository = {
          }
       },
       ['0.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -44681,6 +44709,11 @@ repository = {
          }
       },
       ['13.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['14.0-0'] = {
          {
             arch = "rockspec"
          }
