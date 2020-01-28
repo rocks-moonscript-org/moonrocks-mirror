@@ -25785,6 +25785,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-chan'] = {
@@ -34106,6 +34113,15 @@ repository = {
    },
    luadaemon = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luadash = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -44593,6 +44609,11 @@ repository = {
          }
       },
       ['0.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3.2-1'] = {
          {
             arch = "rockspec"
          }
@@ -58480,6 +58501,13 @@ repository = {
          }
       },
       ['1.3-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3-3'] = {
          {
             arch = "rockspec"
          }, {
