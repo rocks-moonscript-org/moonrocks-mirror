@@ -792,6 +792,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    apisix = {
@@ -33770,6 +33775,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.14.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.2-1'] = {
          {
             arch = "rockspec"
@@ -54317,6 +54329,13 @@ repository = {
          }
       },
       ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4-1'] = {
          {
             arch = "rockspec"
          }, {
