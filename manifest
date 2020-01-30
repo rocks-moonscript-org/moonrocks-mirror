@@ -52859,8 +52859,8 @@ repository = {
          }
       }
    },
-   spherical_defense = {
-      ['0.0.3-2'] = {
+   sphericaldefence = {
+      ['0.0.3-3'] = {
          {
             arch = "rockspec"
          }

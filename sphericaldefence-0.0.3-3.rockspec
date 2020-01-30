@@ -1,6 +1,6 @@
-package = "spherical_defense"
+package = "sphericaldefence"
 
-version = "0.0.3-2"
+version = "0.0.3-3"
 
 -- The version '0.0.1' is the source code version, the trailing '1' is the version of this rockspec.
 -- whenever the source version changes, the rockspec should be reset to 1. The rockspec version is only
