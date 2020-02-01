@@ -1366,6 +1366,13 @@ repository = {
          }
       }
    },
+   ['bad-boys-for-life-online-2020'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    base = {
       ['1.0-0'] = {
          {
@@ -6470,6 +6477,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.rc4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dogmac = {
@@ -6859,6 +6873,13 @@ repository = {
          }
       },
       ['1.0.rc3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.rc4-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -55054,6 +55075,13 @@ repository = {
          }
       }
    },
+   test360 = {
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    testingunit = {
       ['0.1-0'] = {
          {
@@ -57051,6 +57079,83 @@ repository = {
          }
       },
       ['2.4-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['watch-1917-online-free-putlocker'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['watch-bad-boys-for-life-online-free-putlocker'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['watch-birds-of-prey-online-free-putlocker'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['watch-frozen-ii-online-free-putlocker'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['watch-gretel-hansel-online-2020'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['watch-gretel-hansel-online-free-putlocker'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['watch-jumanji-the-next-level-online-free-putlocker'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['watch-sonic-the-hedgehog-online-free-putlocker'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['watch-star-wars-episode-ix-the-rise-of-skywalker-online-free-putlocker'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['watch-star-wars-the-rise-of-skywalker-online'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['watch-star-wars-the-rise-of-skywalker-online-2020'] = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }
