@@ -1,9 +1,9 @@
 package = "kong-simple-request-validator"
-version = "0.0.4-1"
+version = "0.0.4-2"
 supported_platforms = {"linux", "macosx"}
 source = {
   url = "git+https://github.com/brightwang/kong-simple-request-validator.git",
-  tag = "0.0.4-1"
+  tag = "0.0.4-2"
 }
 description = {
   summary = "Kong Plugin for Request Validator",
