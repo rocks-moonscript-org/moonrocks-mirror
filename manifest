@@ -16385,6 +16385,83 @@ repository = {
          }
       }
    },
+   ['kong-oidc-ng'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1-10'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-11'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-7'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-8'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-9'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-oidc-v2'] = {
       ['2.0.0-0'] = {
          {
@@ -20420,6 +20497,13 @@ repository = {
    },
    ['kong-simple-request-validator'] = {
       ['0.0.4-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.4-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -29942,6 +30026,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.08-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-keycloak'] = {
@@ -36054,6 +36145,13 @@ repository = {
          }
       },
       ['0.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -58113,6 +58211,45 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['wtf-plugin-honeybot-fake-asa'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.5-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.6-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['wtf-plugin-honeybot-fake-asa-data'] = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }
