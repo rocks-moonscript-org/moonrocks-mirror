@@ -16688,6 +16688,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-api-transformer'] = {
@@ -52647,6 +52654,15 @@ repository = {
       ['0.0.1-5'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   skewheap = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
