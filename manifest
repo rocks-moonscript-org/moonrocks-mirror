@@ -2514,6 +2514,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    carrot = {
@@ -3116,6 +3130,11 @@ repository = {
          }
       },
       ['4.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['4.1.0-2'] = {
          {
             arch = "rockspec"
          }
@@ -13222,6 +13241,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['4.1.2-60'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['gxs-auth'] = {
@@ -13266,6 +13290,11 @@ repository = {
          }
       },
       ['2.0.1-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0.1-3'] = {
          {
             arch = "rockspec"
          }
@@ -15652,6 +15681,13 @@ repository = {
          }
       },
       ['1.5.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.1-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -55824,6 +55860,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0.4-42'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    toboolean = {
@@ -56473,6 +56514,11 @@ repository = {
          }
       },
       ['2.0.1-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0.1-9'] = {
          {
             arch = "rockspec"
          }
