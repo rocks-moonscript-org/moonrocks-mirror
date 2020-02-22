@@ -2331,6 +2331,15 @@ repository = {
          }
       }
    },
+   ['busted-htest'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['busted-stable'] = {
       ['1.0-0'] = {
          {
@@ -16047,6 +16056,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-external-oauth'] = {
@@ -21154,6 +21170,13 @@ repository = {
          }
       },
       ['1574559577-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1582301062-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -30917,6 +30940,13 @@ repository = {
          }
       },
       ['0.5.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -58605,6 +58635,20 @@ repository = {
          }
       },
       ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['wtf-plugin-honeybot-fake-sonicwall'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['wtf-plugin-honeybot-fake-sonicwall-data'] = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }
