@@ -4280,6 +4280,15 @@ repository = {
          }
       }
    },
+   cosrun = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['cosy-client'] = {
       ['0.1-1'] = {
          {
@@ -6521,6 +6530,13 @@ repository = {
          }
       },
       ['1.0.rc5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.rc5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -31877,6 +31893,13 @@ repository = {
          }
       },
       ['1.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0-1'] = {
          {
             arch = "rockspec"
          }, {
