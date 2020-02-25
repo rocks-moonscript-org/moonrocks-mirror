@@ -847,6 +847,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['master-0'] = {
          {
             arch = "rockspec"
@@ -12389,6 +12394,15 @@ repository = {
          }
       },
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   gambiarra = {
+      ['0.4.1-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -56883,6 +56897,13 @@ repository = {
          }
       },
       ['1.2.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
