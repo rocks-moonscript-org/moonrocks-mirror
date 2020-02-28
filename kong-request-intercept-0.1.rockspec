@@ -3,7 +3,6 @@ version = "0.1"
 supported_platforms = {"linux", "macosx"}
 source = {
   url = "git://github.com/GreatWriter/kong-request-intercept",
-  tag = "0.1"
 }
 description = {
   summary = "Kong plugin to authenticate requests using http services.",
