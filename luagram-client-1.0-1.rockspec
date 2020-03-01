@@ -1,23 +1,22 @@
 package = "luagram-client"
 version = "1.0-1"
 source = {
-   url = "file:///home/amir/luagram/",
+   url = "git://github.com/luagram/luagram.git",
+   tag = "v1.0-1",
+   branch = "master"
 }
 description = {
-  detailed = [[
-    Lua telegram client - tdlib
-   ]],
-   license = "MIT"
+   summary = "telegram cli client",
+   homepage = "https://github.com/luagram/luagram.git",
+
+   license = "kon nane harki copyright dor bzane"
 }
 dependencies = {
-      "lua >= 5.3"
+  "lua >= 5.3"
 }
 build = {
    type = "builtin",
    modules = {
-     ["luagram-client"] = "luagram-client.lua",
-          ["luagram"] = "luagram.so"
-
+     ["luagram-client"] = "luagram-client.lua"
    }
 }
-
