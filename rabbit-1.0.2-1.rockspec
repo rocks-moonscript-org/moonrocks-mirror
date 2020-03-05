@@ -1,13 +1,12 @@
 package = "Rabbit"
-version = "1.0.0-1"
+version = "1.0.2-1"
 supported_platforms = {"linux", "macosx"}
 source = {
-   url = "git://github.com/JanyW/rabbit-gateway",
-   tag = "1.0.0"
+   url = "git://github.com/JanyW/rabbit-gateway", 
+   tag = "1.0.2"
 }
 description = {
    summary = "Rabbit is a API gateway built on top of Openresty",
-   maintainer = "janyw",
    license = "apache 2.0"
 }
 dependencies = {
@@ -19,8 +18,8 @@ build = {
    type = "builtin",
    modules = {
       ["rabbit"] = "rabbit/init.lua",
-      ["rabbit.global"] = "rabbit/global.lua",
       ["rabbit.constants"] = "rabbit/constants.lua",
+      ["rabbit.global"] = "rabbit/global.lua",
       ["rabbit.version"] = "rabbit/version.lua",
       
       ["rabbit.runloop.entity.labels"] = "rabbit/runloop/entity/labels.lua",
@@ -28,8 +27,8 @@ build = {
       ["rabbit.runloop.entity.route"] = "rabbit/runloop/entity/route.lua",
       ["rabbit.runloop.entity.service"] = "rabbit/runloop/entity/service.lua",
       ["rabbit.runloop.entity.tire"] = "rabbit/runloop/entity/tire.lua",
-      ["rabbit.runloop.handler"] = "rabbit/runloop/handler.lua",
       ["rabbit.runloop.core_entiy"] = "rabbit/runloop/core_entiy.lua",
+      ["rabbit.runloop.handler"] = "rabbit/runloop/handler.lua",
       ["rabbit.runloop.plugins_iterator"] = "rabbit/runloop/plugins_iterator.lua",
 
       ["rabbit.tools.iputils"] = "rabbit/tools/iputils.lua",
@@ -38,7 +37,6 @@ build = {
       ["rabbit.vendor.classic"] = "rabbit/vendor/classic.lua",
 
       ["rabbit.plugins.base_plugin"] = "rabbit/plugins/base_plugin.lua",
-      
       ["rabbit.plugins.cros.handler"] = "rabbit/plugins/cros/handler.lua",
       ["rabbit.plugins.header-restriction.handler"] = "rabbit/plugins/header-restriction/handler.lua",
       ["rabbit.plugins.ip-restriction.handler"] = "rabbit/plugins/ip-restriction/handler.lua",
