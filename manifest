@@ -18166,6 +18166,20 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-jwt-claims-to-headers'] = {
