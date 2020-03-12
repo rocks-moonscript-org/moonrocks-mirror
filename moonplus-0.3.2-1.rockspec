@@ -1,6 +1,6 @@
 rockspec_format = "3.0"
 package = "MoonPlus"
-version = "0.3.0-1"
+version = "0.3.2-1"
 source = {
 	url = "git+https://github.com/pigpigyyy/MoonPlus"
 }
