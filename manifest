@@ -6684,6 +6684,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.rc6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dogmac = {
@@ -7087,6 +7094,13 @@ repository = {
          }
       },
       ['1.0.rc5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.rc6-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -15386,6 +15400,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.7-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['jumbleberry-dogstatsd'] = {
@@ -19547,6 +19566,13 @@ repository = {
          }
       },
       ['0.2.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.11-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -30688,6 +30714,20 @@ repository = {
          }
       },
       ['0.2.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.2-0'] = {
          {
             arch = "rockspec"
          }, {
