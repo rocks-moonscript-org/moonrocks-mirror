@@ -21,6 +21,7 @@ build = {
       ["rabbit.constants"] = "rabbit/constants.lua",
       ["rabbit.global"] = "rabbit/global.lua",
       ["rabbit.version"] = "rabbit/version.lua",
+      ["rabbit.error_handlers"] = "rabbit/error_handlers.lua",
       
       ["rabbit.runloop.entity.labels"] = "rabbit/runloop/entity/labels.lua",
       ["rabbit.runloop.entity.project"] = "rabbit/runloop/entity/project.lua",
