@@ -22415,6 +22415,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.29.0-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lcolorize = {
