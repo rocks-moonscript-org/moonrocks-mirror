@@ -1,7 +1,8 @@
 package = "lua-webview"
 version = "1.0-1"
 source = {
-  url = "git+https://github.com/javalikescript/lua-webview.git"
+	url = "git+https://github.com/javalikescript/lua-webview.git",
+	tag = "1.0",
 }
 description = {
   summary = "Functions to open a web page in a dedicated window from Lua.",
@@ -12,9 +13,12 @@ description = {
     This module is part of the luaclibs project, the binaries can be found on the luajls page.
   ]],
   homepage = "https://github.com/javalikescript/lua-webview",
-  license = "MIT"
+  license = "MIT",
 }
-supported_platforms = { "linux", "windows" }
+supported_platforms = {
+	"linux",
+	"windows",
+}
 dependencies = {}
 
 -- see https://github.com/luarocks/luarocks/wiki/Creating-a-rock
@@ -48,6 +52,6 @@ end
 build = {
 	 platforms = {
 	  linux = build_platform("linux"),
-	  windows = build_platform("windows")
+	  windows = build_platform("windows"),
   }
 }

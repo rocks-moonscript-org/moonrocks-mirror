@@ -13766,6 +13766,15 @@ repository = {
          }
       }
    },
+   harryplotter = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    hash = {
       ['1.0.0-0'] = {
          {
@@ -17165,6 +17174,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-amqp'] = {
@@ -19206,6 +19222,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-opa'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-openwhisk'] = {
       ['0.1.0-0'] = {
          {
@@ -19920,6 +19945,11 @@ repository = {
          }
       },
       ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.5.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -26921,6 +26951,15 @@ repository = {
          }
       },
       ['0.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-covid-data'] = {
+      ['0.1.0-0'] = {
          {
             arch = "rockspec"
          }, {
