@@ -1,0 +1,133 @@
+package = "luajls"
+version = "0.2-1"
+source = {
+   url = "git+https://github.com/javalikescript/luajls.git",
+   tag = "0.2"
+}
+description = {
+   summary = "luajls aims to be a standard library for stand-alone Lua applications",
+   detailed = [[
+      The library provides an abstract interface to the underlying operating system, such as file system and network access.
+      The jls Lua library is composed of a set of jls Lua modules.
+      The jls Lua library also provides interface for general purpose libraries such as JSON, ZIP, SSL.
+      The main targeted OSes are Linux and Windows.
+   ]],
+   homepage = "https://github.com/javalikescript/luajls",
+   license = "MIT"
+}
+-- find jls -type f | xargs grep "require(" | grep -v "jls\."
+dependencies = {
+   "lua >= 5.3, < 5.4",
+   "dkjson",
+   "luafilesystem",
+   "luasocket",
+   --"luv", -- luv replaces luafilesystem and luasocket
+   --"openssl",
+   "lua-cjson", -- cjson replaces dkjson
+   "lua-zlib",
+   "sha1",
+   --"lua-webview",
+   "luaunit", -- test dependency
+}
+build = {
+   type = "builtin",
+   modules = {
+      ["jls.io.File"] = "jls/io/File.lua",
+      ["jls.io.FileDescriptor"] = "jls/io/FileDescriptor.lua",
+      ["jls.io.FileDescriptor-"] = "jls/io/FileDescriptor-.lua",
+      ["jls.io.FileDescriptor-luv"] = "jls/io/FileDescriptor-luv.lua",
+      ["jls.io.Path"] = "jls/io/Path.lua",
+      ["jls.io.Pipe"] = "jls/io/Pipe.lua",
+      ["jls.io.Pipe-luv"] = "jls/io/Pipe-luv.lua",
+      ["jls.io.Serial"] = "jls/io/Serial.lua",
+      ["jls.io.fs"] = "jls/io/fs.lua",
+      ["jls.io.fs-lfs"] = "jls/io/fs-lfs.lua",
+      ["jls.io.fs-luv"] = "jls/io/fs-luv.lua",
+      ["jls.io.streams"] = "jls/io/streams.lua",
+      ["jls.io.streams.BufferedStreamHandler"] = "jls/io/streams/BufferedStreamHandler.lua",
+      ["jls.io.streams.CallbackStreamHandler"] = "jls/io/streams/CallbackStreamHandler.lua",
+      ["jls.io.streams.ChunkedStreamHandler"] = "jls/io/streams/ChunkedStreamHandler.lua",
+      ["jls.io.streams.FileWriter"] = "jls/io/streams/FileWriter.lua",
+      ["jls.io.streams.LimitedStreamHandler"] = "jls/io/streams/LimitedStreamHandler.lua",
+      ["jls.io.streams.PromiseStreamHandler"] = "jls/io/streams/PromiseStreamHandler.lua",
+      ["jls.io.streams.StreamHandler"] = "jls/io/streams/StreamHandler.lua",
+      ["jls.lang.ProcessBuilder"] = "jls/lang/ProcessBuilder.lua",
+      ["jls.lang.ProcessHandle"] = "jls/lang/ProcessHandle.lua",
+      ["jls.lang.Promise"] = "jls/lang/Promise.lua",
+      ["jls.lang.StringBuffer"] = "jls/lang/StringBuffer.lua",
+      ["jls.lang.class"] = "jls/lang/class.lua",
+      ["jls.lang.event"] = "jls/lang/event.lua",
+      ["jls.lang.event-"] = "jls/lang/event-.lua",
+      ["jls.lang.event-luv"] = "jls/lang/event-luv.lua",
+      ["jls.lang.loader"] = "jls/lang/loader.lua",
+      ["jls.lang.logger"] = "jls/lang/logger.lua",
+      ["jls.lang.process"] = "jls/lang/process.lua",
+      ["jls.lang.process-"] = "jls/lang/process-.lua",
+      ["jls.lang.process-luv"] = "jls/lang/process-luv.lua",
+      ["jls.lang.runtime"] = "jls/lang/runtime.lua",
+      ["jls.lang.sys"] = "jls/lang/sys.lua",
+      ["jls.lang.sys-"] = "jls/lang/sys-.lua",
+      ["jls.lang.sys-luv"] = "jls/lang/sys-luv.lua",
+      ["jls.lang.sys-socket"] = "jls/lang/sys-socket.lua",
+      ["jls.lang.system"] = "jls/lang/system.lua",
+      ["jls.net"] = "jls/net.lua",
+      ["jls.net-luv"] = "jls/net-luv.lua",
+      ["jls.net-socket"] = "jls/net-socket.lua",
+      ["jls.net.URL"] = "jls/net/URL.lua",
+      ["jls.net.http"] = "jls/net/http.lua",
+      ["jls.net.http.Attributes"] = "jls/net/http/Attributes.lua",
+      ["jls.net.http.HeaderStreamHandler"] = "jls/net/http/HeaderStreamHandler.lua",
+      ["jls.net.http.HttpClient"] = "jls/net/http/HttpClient.lua",
+      ["jls.net.http.HttpContext"] = "jls/net/http/HttpContext.lua",
+      ["jls.net.http.HttpContextHolder"] = "jls/net/http/HttpContextHolder.lua",
+      ["jls.net.http.HttpExchange"] = "jls/net/http/HttpExchange.lua",
+      ["jls.net.http.HttpMessage"] = "jls/net/http/HttpMessage.lua",
+      ["jls.net.http.HttpRequest"] = "jls/net/http/HttpRequest.lua",
+      ["jls.net.http.HttpResponse"] = "jls/net/http/HttpResponse.lua",
+      ["jls.net.http.HttpResponseFile"] = "jls/net/http/HttpResponseFile.lua",
+      ["jls.net.http.HttpServer"] = "jls/net/http/HttpServer.lua",
+      ["jls.net.http.form"] = "jls/net/http/form.lua",
+      ["jls.net.http.handler"] = "jls/net/http/handler.lua",
+      ["jls.net.http.readBody"] = "jls/net/http/readBody.lua",
+      ["jls.net.http.ws"] = "jls/net/http/ws.lua",
+      ["jls.net.mqtt"] = "jls/net/mqtt.lua",
+      ["jls.net.secure"] = "jls/net/secure.lua",
+      ["jls.util.CoroutineScheduler"] = "jls/util/CoroutineScheduler.lua",
+      ["jls.util.Date"] = "jls/util/Date.lua",
+      ["jls.util.EventPublisher"] = "jls/util/EventPublisher.lua",
+      ["jls.util.LocalDateTime"] = "jls/util/LocalDateTime.lua",
+      ["jls.util.MessageDigest"] = "jls/util/MessageDigest.lua",
+      ["jls.util.Scheduler"] = "jls/util/Scheduler.lua",
+      ["jls.util.Sigar"] = "jls/util/Sigar.lua",
+      ["jls.util.Struct"] = "jls/util/Struct.lua",
+      ["jls.util.TableList"] = "jls/util/TableList.lua",
+      ["jls.util.WebView"] = "jls/util/WebView.lua",
+      ["jls.util.base64"] = "jls/util/base64.lua",
+      ["jls.util.color"] = "jls/util/color.lua",
+      ["jls.util.hex"] = "jls/util/hex.lua",
+      ["jls.util.integers"] = "jls/util/integers.lua",
+      ["jls.util.json"] = "jls/util/json.lua",
+      ["jls.util.json-cjson"] = "jls/util/json-cjson.lua",
+      ["jls.util.json-dkjson"] = "jls/util/json-dkjson.lua",
+      ["jls.util.md.Crc32"] = "jls/util/md/Crc32.lua",
+      ["jls.util.md.Crc32-"] = "jls/util/md/Crc32-.lua",
+      ["jls.util.md.Crc32-zlib"] = "jls/util/md/Crc32-zlib.lua",
+      ["jls.util.md.md5"] = "jls/util/md/md5.lua",
+      ["jls.util.md.md5-"] = "jls/util/md/md5-.lua",
+      ["jls.util.md.md5-openssl"] = "jls/util/md/md5-openssl.lua",
+      ["jls.util.md.sha1"] = "jls/util/md/sha1.lua",
+      ["jls.util.md.sha1-"] = "jls/util/md/sha1-.lua",
+      ["jls.util.md.sha1-openssl"] = "jls/util/md/sha1-openssl.lua",
+      ["jls.util.profiler"] = "jls/util/profiler.lua",
+      ["jls.util.strings"] = "jls/util/strings.lua",
+      ["jls.util.tables"] = "jls/util/tables.lua",
+      ["jls.util.zip.Deflater"] = "jls/util/zip/Deflater.lua",
+      ["jls.util.zip.Inflater"] = "jls/util/zip/Inflater.lua",
+      ["jls.util.zip.ZipFile"] = "jls/util/zip/ZipFile.lua",
+      ["jls.util.zip.gzip"] = "jls/util/zip/gzip.lua",
+      ["jls.util.zip.tar"] = "jls/util/zip/tar.lua",
+   },
+   copy_directories = {
+      "tests"
+   }
+}
