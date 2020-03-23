@@ -30125,6 +30125,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-dogstatsd'] = {
@@ -36607,6 +36614,20 @@ repository = {
          }
       }
    },
+   ['luajls-lfs'] = {
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['luajls-luv'] = {
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luajson = {
       ['0.10-2'] = {
          {
@@ -38682,6 +38703,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   luaserial = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -42467,6 +42495,13 @@ repository = {
    },
    magic = {
       ['5.25-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['magic-apigw'] = {
+      ['master-0'] = {
          {
             arch = "rockspec"
          }
@@ -57872,6 +57907,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['upstream-auth-hmac'] = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
