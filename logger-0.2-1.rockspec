@@ -1,27 +1,24 @@
-#!/usr/bin/env lua
-
 package = "logger"
-version = "1.0.0-1"
+version = "0.2-1"
 source  = {
-    url = "https://gitlab.com/doronbehar/lua-logger/-/archive/v1.0.0/lua-logger-v1.0.0.zip",
+    url = "git://github.com/doronbehar/lua-logger.git",
+    tag = "v0.2"
 }
 description = {
     summary = "A simple API to use logging features",
-    detailed    = [[
+    detailed = [[
 lua logger provides a simple API to use logging features in Lua. Its design was
 based on log4j and it was forked from log4l by @mwchase.
 ]],
-    homepage    = "https://gitlab.com/doronbehar/lua-logger",
+    homepage = "https://github.com/doronbehar/lua-logger",
     license = "MIT/X11",
 }
 dependencies = {
     "lua >= 5.1, < 5.4",
 }
 build   = {
-    type    = "none",
-    install = {
-        lua = {
-            ['logger'] = "logger.lua",
-        }
-    }
+	type = "builtin",
+	modules = {
+		logger = "logger.lua"
+	}
 }
