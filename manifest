@@ -8725,6 +8725,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.13-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -17616,6 +17623,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-escher-signer'] = {
@@ -20328,6 +20342,8 @@ repository = {
       ['1.0.0-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
