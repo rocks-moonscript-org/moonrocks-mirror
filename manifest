@@ -42517,6 +42517,11 @@ repository = {
       }
    },
    ['magic-apigw'] = {
+      ['magic-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['master-0'] = {
          {
             arch = "rockspec"
