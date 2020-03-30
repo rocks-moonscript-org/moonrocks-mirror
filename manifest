@@ -283,8 +283,26 @@ repository = {
          }
       }
    },
+   ads1015 = {
+      ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['adt.lua'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   adxl345 = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -1974,6 +1992,15 @@ repository = {
       ['0.1-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   bme280 = {
+      ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -14259,6 +14286,15 @@ repository = {
          }
       }
    },
+   ht16k33 = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    htk = {
       ['3.2.0-1'] = {
          {
@@ -24396,6 +24432,15 @@ repository = {
       ['0.0.1-0'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   long = {
+      ['2.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -53461,6 +53506,15 @@ repository = {
          }
       }
    },
+   sgp30 = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    sha1 = {
       ['0.5-1'] = {
          {
@@ -53585,6 +53639,22 @@ repository = {
    },
    shiplog = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   sht20 = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -58111,6 +58181,13 @@ repository = {
          }
       },
       ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5-1'] = {
          {
             arch = "rockspec"
          }, {
