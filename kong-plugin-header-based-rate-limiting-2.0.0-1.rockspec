@@ -34,5 +34,8 @@ build = {
     ["kong.plugins.header-based-rate-limiting.get_null_uuid"] = "kong/plugins/header-based-rate-limiting/get_null_uuid.lua",
     ["kong.plugins.header-based-rate-limiting.migrations.cassandra"] = "kong/plugins/header-based-rate-limiting/migrations/cassandra.lua",
     ["kong.plugins.header-based-rate-limiting.migrations.postgres"] = "kong/plugins/header-based-rate-limiting/migrations/postgres.lua",
+    ["kong.plugins.header-based-rate-limiting.migrations.000_base_header_based_rate_limiting"] = "kong/plugins/header-based-rate-limiting/migrations/000_base_header_based_rate_limiting.lua",
+    ["kong.plugins.header-based-rate-limiting.migrations.001_120_to_200"] = "kong/plugins/header-based-rate-limiting/migrations/001_120_to_200.lua",
+    ["kong.plugins.header-based-rate-limiting.migrations.init"] = "kong/plugins/header-based-rate-limiting/migrations/init.lua",
   }
 }

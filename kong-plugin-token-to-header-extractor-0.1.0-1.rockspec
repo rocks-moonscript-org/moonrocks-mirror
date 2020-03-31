@@ -1,5 +1,5 @@
 package = "kong-plugin-token-to-header-extractor"
-version = "1.0.0-1"
+version = "0.1.0-1"
 
 local pluginName = package:match("^kong%-plugin%-(.+)$")
 
@@ -7,7 +7,7 @@ supported_platforms = {"linux", "macosx"}
 
 source = {
    url = "git://github.com/vnwonah/kong-token-to-header-extractor",
-   tag = "v1.0"
+   tag = "v0.1"
 }
 description = {
    summary = "Kong Plugin for extracting values from token and adding them as headers in upstream request",
