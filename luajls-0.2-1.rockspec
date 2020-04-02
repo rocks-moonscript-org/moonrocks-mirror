@@ -2,31 +2,23 @@ package = "luajls"
 version = "0.2-1"
 source = {
    url = "git+https://github.com/javalikescript/luajls.git",
-   tag = "0.2"
+   tag = "0.2",
 }
 description = {
    summary = "luajls aims to be a standard library for stand-alone Lua applications",
    detailed = [[
       The library provides an abstract interface to the underlying operating system, such as file system and network access.
-      The jls Lua library is composed of a set of jls Lua modules.
-      The jls Lua library also provides interface for general purpose libraries such as JSON, ZIP, SSL.
-      The main targeted OSes are Linux and Windows.
+      The jls Lua library is composed of a set of jls Lua modules. The jls Lua library also provides interface for general purpose libraries such as JSON, ZIP, SSL. The main targeted OSes are Linux and Windows.
+      For dependencies use rock module luajls-lfs or luajls-luv
    ]],
    homepage = "https://github.com/javalikescript/luajls",
-   license = "MIT"
+   license = "MIT",
+   --labels = { "event", "linux", "windows", "filesystem", "http", "compression", "json" },
 }
--- find jls -type f | xargs grep "require(" | grep -v "jls\."
 dependencies = {
    "lua >= 5.3, < 5.4",
    "dkjson",
-   "luafilesystem",
-   "luasocket",
-   --"luv", -- luv replaces luafilesystem and luasocket
-   --"openssl",
-   "lua-cjson", -- cjson replaces dkjson
-   "lua-zlib",
    "sha1",
-   --"lua-webview",
    "luaunit", -- test dependency
 }
 build = {
@@ -128,6 +120,6 @@ build = {
       ["jls.util.zip.tar"] = "jls/util/zip/tar.lua",
    },
    copy_directories = {
-      "tests"
+      "tests",
    }
 }
