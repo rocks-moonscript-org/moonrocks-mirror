@@ -17219,6 +17219,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-aws-lambda-response-transformer'] = {
@@ -19198,6 +19205,13 @@ repository = {
    },
    ['kong-plugin-opa'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -59798,6 +59812,13 @@ repository = {
          }
       },
       ['1.3-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3-4'] = {
          {
             arch = "rockspec"
          }, {

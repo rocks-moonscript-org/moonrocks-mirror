@@ -1,7 +1,7 @@
 package = "upstream-auth-hmac"
 version = "0.0.1-1"
 source = {
-   url = "git://github.com/gae1202/kong-plugin-upstream-auth-hmac"
+   url = "git+https://github.com/i4platform/kong_plugin_proto"
 }
 description = {
    homepage = "*** please enter a project homepage ***",
