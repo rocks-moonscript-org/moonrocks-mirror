@@ -6689,6 +6689,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.rc7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dogmac = {
@@ -12469,6 +12476,13 @@ repository = {
          }
       },
       ['1.1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -51418,6 +51432,13 @@ repository = {
          }
       },
       ['1.0.202003-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.202004-1'] = {
          {
             arch = "rockspec"
          }, {
