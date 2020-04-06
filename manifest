@@ -820,6 +820,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    apisix = {
@@ -1207,6 +1212,11 @@ repository = {
          }
       },
       ['1.8-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.9-0'] = {
          {
             arch = "rockspec"
          }
@@ -17792,6 +17802,13 @@ repository = {
          }
       },
       ['0.0.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.11-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -37303,6 +37320,15 @@ repository = {
          }
       }
    },
+   luaminify = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luamon = {
       ['0.1.1-1'] = {
          {
@@ -39882,6 +39908,13 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-2'] = {
          {
             arch = "rockspec"
          }, {
