@@ -547,6 +547,15 @@ repository = {
          }
       }
    },
+   allonet = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    alnbox = {
       ['1.0.0-1'] = {
          {
@@ -1196,6 +1205,11 @@ repository = {
       }
    },
    aspect = {
+      ['1.10-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['1.6-0'] = {
          {
             arch = "rockspec"
@@ -18575,6 +18589,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-jwt-keycloak-scope-edit'] = {
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-jwt-up'] = {
       ['1.5-0'] = {
          {
@@ -30016,6 +30039,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-dns'] = {
@@ -30919,18 +30949,6 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
-         }
-      }
-   },
-   ['lua-resty-jsonschema'] = {
-      ['0.1-0'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['0.2-0'] = {
-         {
-            arch = "rockspec"
          }
       }
    },
@@ -45770,6 +45788,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    moonrocks = {
@@ -46750,6 +46775,22 @@ repository = {
    },
    ncache = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['nekos-lua-cqueues'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -49788,6 +49829,18 @@ repository = {
          }
       }
    },
+   ['pegasus-mr'] = {
+      ['0.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.9.0-10'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    pegdebug = {
       ['0.40-1'] = {
          {
@@ -52097,6 +52150,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    readosm = {
@@ -54006,13 +54066,6 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
-         }
-      }
-   },
-   ['skywalking-nginx-lua'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
          }
       }
    },
