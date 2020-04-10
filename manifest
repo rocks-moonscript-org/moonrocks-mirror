@@ -12320,6 +12320,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    formatter = {
@@ -18589,15 +18596,6 @@ repository = {
          }
       }
    },
-   ['kong-plugin-jwt-keycloak-scope-edit'] = {
-      ['1.1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    ['kong-plugin-jwt-up'] = {
       ['1.5-0'] = {
          {
@@ -20362,6 +20360,13 @@ repository = {
          }
       },
       ['0.13.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.15.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -37539,6 +37544,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['3.1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luamqttc = {
@@ -51110,6 +51120,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.5.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ppkit = {
@@ -51787,6 +51804,13 @@ repository = {
          }
       },
       ['1.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.4-1'] = {
          {
             arch = "rockspec"
          }, {
