@@ -1,3 +1,4 @@
+rockspec_format = "3.0"
 package = "kong-plugin-token-to-header-extractor"
 version = "0.1.0-1"
 
@@ -28,11 +29,11 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-    -- TODO: add any additional files that the plugin consists of
-    ["kong.plugins."..pluginName..".handler"] = "kong/plugins/"..pluginName.."/handler.lua",
-    ["kong.plugins."..pluginName..".schema"] = "kong/plugins/"..pluginName.."/schema.lua",
-    ["kong.plugins."..pluginName..".daos"] = "kong/plugins/"..pluginName.."/daos.lua",
-    ["kong.plugins."..pluginName..".migrations.000_base_token_to_header_extractor"] = "kong/plugins/"..pluginName.."/migrations/000_base_token_to_header_extractor.lua",
-    ["kong.plugins."..pluginName..".migrations.init"] = "kong/plugins/"..pluginName.."/migrations/init.lua",
+      -- TODO: add any additional files that the plugin consists of
+      ["kong.plugins."..pluginName..".handler"] = "kong/plugins/"..pluginName.."/handler.lua",
+      ["kong.plugins."..pluginName..".schema"] = "kong/plugins/"..pluginName.."/schema.lua",
+      ["kong.plugins."..pluginName..".daos"] = "kong/plugins/"..pluginName.."/daos.lua",
+      ["kong.plugins."..pluginName..".migrations.000_base_token_to_header_extractor"] = "kong/plugins/"..pluginName.."/migrations/000_base_token_to_header_extractor.lua",
+      ["kong.plugins."..pluginName..".migrations.init"] = "kong/plugins/"..pluginName.."/migrations/init.lua",
    }
 }
