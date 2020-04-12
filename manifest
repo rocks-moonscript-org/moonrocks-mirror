@@ -31429,6 +31429,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-mpd'] = {
@@ -54104,13 +54111,6 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
-         }
-      }
-   },
-   ['skywalking-nginx-lua'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
          }
       }
    },
