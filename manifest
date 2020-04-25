@@ -6768,6 +6768,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.rc8-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dogmac = {
@@ -7185,6 +7192,13 @@ repository = {
          }
       },
       ['1.0.rc7-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.rc8-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -14186,6 +14200,15 @@ repository = {
          }
       }
    },
+   horchata = {
+      ['0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    host = {
       ['0.1.0-1'] = {
          {
@@ -15321,6 +15344,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    jmespath = {
@@ -16209,6 +16239,13 @@ repository = {
          }
       },
       ['2.0.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.4-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -21269,6 +21306,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['kong-proxy-cache-plugin'] = {
@@ -22338,6 +22380,13 @@ repository = {
          }
       },
       ['1.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.8.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -26304,6 +26353,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ltui = {
@@ -29710,6 +29766,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-aries'] = {
@@ -32325,6 +32388,13 @@ repository = {
    },
    ['lua-resty-pubsub'] = {
       ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -52196,6 +52266,13 @@ repository = {
          }
       }
    },
+   raisin = {
+      ['3.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    rake = {
       ['0.1-1'] = {
          {
@@ -57591,6 +57668,13 @@ repository = {
          }
       },
       ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.1-1'] = {
          {
             arch = "rockspec"
          }, {
