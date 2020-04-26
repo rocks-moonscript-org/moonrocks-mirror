@@ -6775,6 +6775,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.rc8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dogmac = {
@@ -51075,6 +51082,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['6.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    petrisport = {
@@ -51588,6 +51602,22 @@ repository = {
          }
       },
       ['0.0.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   praytimes = {
+      ['2.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.3-3'] = {
          {
             arch = "rockspec"
          }, {
