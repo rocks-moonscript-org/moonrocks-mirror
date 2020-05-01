@@ -13410,6 +13410,15 @@ repository = {
          }
       }
    },
+   grasp = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    guard = {
       ['0.0.1-1'] = {
          {
@@ -37277,6 +37286,15 @@ repository = {
          }
       }
    },
+   ['luajit-woothee'] = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['luajit-xxhash'] = {
       ['0.1.5-1'] = {
          {
@@ -59422,27 +59440,6 @@ repository = {
       ['0.2-1'] = {
          {
             arch = "rockspec"
-         }
-      }
-   },
-   ['wimbly-lib'] = {
-      ['1.0-1'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['1.0-2'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0-3'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
          }
       }
    },
