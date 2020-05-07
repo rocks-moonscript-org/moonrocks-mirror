@@ -26575,6 +26575,27 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.9-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ltype = {
@@ -52693,6 +52714,15 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['raven-knight'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
