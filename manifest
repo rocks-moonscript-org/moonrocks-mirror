@@ -1968,6 +1968,13 @@ repository = {
          }
       }
    },
+   bitarray = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    bitlib = {
       ['23-2'] = {
          {
@@ -20488,6 +20495,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-shepherd'] = {
@@ -32456,6 +32477,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-passwdqc'] = {
@@ -33210,6 +33238,13 @@ repository = {
          }
       },
       ['3.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.4-1'] = {
          {
             arch = "rockspec"
          }, {
