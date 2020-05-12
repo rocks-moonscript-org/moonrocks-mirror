@@ -30987,6 +30987,13 @@ repository = {
          }
       }
    },
+   ['lua-resty-gaze'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-resty-github'] = {
       ['v1.0-1'] = {
          {
@@ -52664,6 +52671,13 @@ repository = {
          }
       },
       ['1.0.4-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.5-1'] = {
          {
             arch = "rockspec"
          }, {
