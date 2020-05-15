@@ -1,5 +1,5 @@
 package = "kong-plugin-oidc-acl-fix"
-version = "1.0-0"
+version = "1.0-1"
 local pluginName = "oidc-acl-fix"
 source = {
   url = "git://github.com/xfroelicher/kong-plugin-oidc-acl-v2",
