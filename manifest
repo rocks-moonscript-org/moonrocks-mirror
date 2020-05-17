@@ -29068,6 +29068,13 @@ repository = {
          }
       }
    },
+   ['lua-marshal'] = {
+      ['v1.0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-mastodon'] = {
       ['0.1-1'] = {
          {
@@ -47326,6 +47333,13 @@ repository = {
          }
       },
       ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3-1'] = {
          {
             arch = "rockspec"
          }, {
