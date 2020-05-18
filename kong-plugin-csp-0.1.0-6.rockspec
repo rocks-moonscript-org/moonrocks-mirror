@@ -1,5 +1,5 @@
 package = "kong-plugin-csp"
-version = "0.1.0-2"
+version = "0.1.0-6"
 source = {
    url = "git+https://github.com/zffocussss/kong-plugin-csp.git"
 }
@@ -13,7 +13,7 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      ["kong.plugins.kong-plugin-scp.handler"] = "src/handler.lua",
-      ["kong.plugins.kong-plugin-scp.schema"] = "src/schema.lua"
+      ["kong.plugins.kong-plugin-csp.handler"] = "src/handler.lua",
+      ["kong.plugins.kong-plugin-csp.schema"] = "src/schema.lua"
    }
 }
