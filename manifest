@@ -18396,6 +18396,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-grpc-gateway'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-grpc-web'] = {
       ['0.1.0-1'] = {
          {
@@ -20701,6 +20710,13 @@ repository = {
          }
       },
       ['2.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.4.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -32892,6 +32908,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-pubsub'] = {
@@ -33561,6 +33582,13 @@ repository = {
          }
       },
       ['3.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -49564,6 +49592,20 @@ repository = {
          }
       },
       ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3.2-1'] = {
          {
             arch = "rockspec"
          }, {
