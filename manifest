@@ -18410,6 +18410,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-grpc-web'] = {
@@ -38462,6 +38469,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luamqtt = {
@@ -48126,6 +48147,13 @@ repository = {
          }
       },
       ['0.20200420-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.20200523-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -58265,6 +58293,22 @@ repository = {
       ['0.1-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['turbo-redis'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
