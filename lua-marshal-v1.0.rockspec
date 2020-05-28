@@ -10,7 +10,7 @@ description = {
         Lua functions with upvalues and basic data types"
     ]],
     homepage = "https://github.com/joe7575/lua-marshal",
-    license = "unknown"
+    license = "MIT"
 }
 dependencies = {
    "lua == 5.1"
