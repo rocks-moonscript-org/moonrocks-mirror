@@ -58091,6 +58091,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['tls-mailer'] = {
