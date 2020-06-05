@@ -24,7 +24,7 @@ source = {
 }
 
 description = {
-    summary = "Apache APISIX(incubating) is a cloud-native microservices API gateway, delivering the ultimate performance, security, open source and scalable platform for all your APIs and microservices.",
+    summary = "Apache APISIX(incubating) is a cloud-native microservices API gateway, delivering the ultimate performance, security, open source and scalable platform for all your APIs and microservices. Notice: Luarocks is not an official release or archive area. Please download source code from the official download page(http://apisix.apache.org/downloads/) and archive page(https://archive.apache.org/dist/incubator/apisix/)",
     homepage = "https://github.com/apache/incubator-apisix",
     license = "Apache License 2.0",
 }
