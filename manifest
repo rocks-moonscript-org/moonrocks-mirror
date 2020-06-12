@@ -16930,6 +16930,27 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-consumer-rate-limiting'] = {
@@ -17536,6 +17557,13 @@ repository = {
          }
       },
       ['0.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -22194,6 +22222,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-segment-log'] = {
@@ -22346,6 +22381,34 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -22619,6 +22682,13 @@ repository = {
          }
       },
       ['0.7-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
