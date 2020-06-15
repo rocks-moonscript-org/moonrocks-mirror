@@ -11136,6 +11136,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    emdcriterion = {
@@ -58365,6 +58372,13 @@ repository = {
          }
       },
       ['0.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7.1-1'] = {
          {
             arch = "rockspec"
          }, {
