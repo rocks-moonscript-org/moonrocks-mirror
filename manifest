@@ -52983,6 +52983,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    properset = {
@@ -54643,6 +54648,15 @@ repository = {
    },
    rjson = {
       ['dev-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   rkeys = {
+      ['2.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
