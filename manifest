@@ -22146,6 +22146,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-proxy-cache-plugin'] = {
@@ -27611,6 +27618,15 @@ repository = {
          }
       }
    },
+   ['lua-buffet'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-busmt-if'] = {
       ['0.1.0-0'] = {
          {
@@ -31546,6 +31562,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-exec'] = {
@@ -31896,6 +31917,13 @@ repository = {
          }
       },
       ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -33558,6 +33586,11 @@ repository = {
          }
       },
       ['1.8-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.9-0'] = {
          {
             arch = "rockspec"
          }
@@ -54657,6 +54690,13 @@ repository = {
    },
    rkeys = {
       ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
