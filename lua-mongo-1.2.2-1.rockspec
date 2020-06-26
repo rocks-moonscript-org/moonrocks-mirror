@@ -1,25 +1,25 @@
 package = 'lua-mongo'
-version = '1.0.0-1'
+version = '1.2.2-1'
 source = {
 	url = 'git://github.com/neoxic/lua-mongo.git',
-	tag = 'v1.0.0',
+	tag = '1.2.2',
 }
 description = {
 	summary = 'MongoDB Driver for Lua',
-	detailed = 'lua-mongo is a binding to the MongoDB C Driver (http://mongoc.org) for Lua.',
+	detailed = 'lua-mongo is a binding to MongoDB C Driver 1.16 or higher for Lua.',
 	license = 'MIT',
 	homepage = 'https://github.com/neoxic/lua-mongo',
-	maintainer = 'Arseny Vakhrushev <arseny.vakhrushev@gmail.com>',
+	maintainer = 'Arseny Vakhrushev <arseny.vakhrushev@me.com>',
 }
 dependencies = {
 	'lua >= 5.1',
 }
 external_dependencies = {
 	LIBMONGOC = {
-		header = 'libmongoc-1.0/mongoc.h'
+		header = 'libmongoc-1.0/mongoc/mongoc.h'
 	},
 	LIBBSON = {
-		header = 'libbson-1.0/bson.h'
+		header = 'libbson-1.0/bson/bson.h'
 	},
 }
 build = {
@@ -40,11 +40,12 @@ build = {
 				'src/gridfsfilelist.c',
 				'src/main.c',
 				'src/objectid.c',
+				'src/readprefs.c',
 				'src/util.c',
 			},
-			libraries = { 'mongoc-1.0', 'bson-1.0' },
-			incdirs = { '$(LIBMONGOC_INCDIR)/libmongoc-1.0', '$(LIBBSON_INCDIR)/libbson-1.0' },
-			libdirs = { '$(LIBMONGOC_LIBDIR)', '$(LIBBSON_LIBDIR)' },
+			libraries = {'mongoc-1.0', 'bson-1.0'},
+			incdirs = {'$(LIBMONGOC_INCDIR)/libmongoc-1.0', '$(LIBBSON_INCDIR)/libbson-1.0'},
+			libdirs = {'$(LIBMONGOC_LIBDIR)', '$(LIBBSON_LIBDIR)'},
 		},
 	},
 }
