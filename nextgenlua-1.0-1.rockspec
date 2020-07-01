@@ -16,22 +16,20 @@ dependencies = {
 }
 build = {
    type = "builtin",
-   modules = {
-      nextgenlua = { 
-         "src/base64.lua",
-         "src/basexx.lua",
-         "src/dkjson.lua",
-         "src/json.lua",
-         "src/jwe.lua",
-         "src/jwks2pem.lua",
-         "src/jws.lua",
-         "src/jwt.lua",
-         "src/kjwt.lua",
-         "src/luaosslutils.lua",
-         "src/plain.lua",
-         "src/uuid.lua",
-         "src/yaml.lua",
-         "src/charter_security_lib.lua"
-      }   
+   modules = {     
+      ["nextgenlua.main"] =  "src/charter_security_lib.lua",
+      ["nextgenlua.base64"] =  "src/base64.lua",
+      ["nextgenlua.basexx"] =  "src/basexx.lua",
+      ["nextgenlua.dkjson"] =  "src/dkjson.lua",
+      ["nextgenlua.json"] =  "src/json.lua",
+      ["nextgenlua.jwe"] =  "src/jwe.lua",
+      ["nextgenlua.jwks2pem"] =  "src/jwks2pem.lua",
+      ["nextgenlua.jws"] =  "src/jws.lua",
+      ["nextgenlua.jwt"] =  "src/jwt.lua",
+      ["nextgenlua.kjwt"] =  "src/kjwt.lua",
+      ["nextgenlua.luaosslutils"] =  "src/luaosslutils.lua",
+      ["nextgenlua.plain"] =  "src/plain.lua",
+      ["nextgenlua.uuid"] =  "src/uuid.lua",
+      ["nextgenlua.yaml"] =  "src/yaml.lua",
    }
 }
