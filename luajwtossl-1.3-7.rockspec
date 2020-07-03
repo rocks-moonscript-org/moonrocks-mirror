@@ -2,7 +2,7 @@ package = "luajwtossl"
 version = "1.3-7"
 
 source = {
-	url = "https://github.com/rhajamor/luajwt.git ",
+	url = "git://github.com/rhajamor/luajwt",
 	tag = "v1.3-7"
 }
 
