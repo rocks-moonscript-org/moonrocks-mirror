@@ -1,8 +1,8 @@
 package = 'lua-amf3'
-version = '2.0.3-1'
+version = '2.0.4-1'
 source = {
 	url = 'git://github.com/neoxic/lua-amf3.git',
-	tag = 'v2.0.3',
+	tag = '2.0.4',
 }
 description = {
 	summary = 'AMF3 encoding/decoding module for Lua',
@@ -15,7 +15,7 @@ description = {
 	]],
 	license = 'MIT',
 	homepage = 'https://github.com/neoxic/lua-amf3',
-	maintainer = 'Arseny Vakhrushev <arseny.vakhrushev@gmail.com>',
+	maintainer = 'Arseny Vakhrushev <arseny.vakhrushev@me.com>',
 }
 dependencies = {
 	'lua >= 5.1',
