@@ -16201,6 +16201,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.9-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['jsonschema-gitless'] = {
@@ -16877,6 +16882,13 @@ repository = {
          }
       },
       ['2.0.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.1.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -17581,6 +17593,13 @@ repository = {
          }
       },
       ['0.0.1-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-6'] = {
          {
             arch = "rockspec"
          }, {
@@ -45467,6 +45486,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    microsoftsapi = {
@@ -60933,6 +60959,15 @@ repository = {
          }
       },
       ['0.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   warn = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
