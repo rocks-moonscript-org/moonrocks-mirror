@@ -13266,6 +13266,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.0-2'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    gamecake = {
@@ -59247,6 +59252,11 @@ repository = {
          }
       },
       ['1.0.6-46'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.7-47'] = {
          {
             arch = "rockspec"
          }
