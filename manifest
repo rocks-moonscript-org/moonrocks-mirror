@@ -59260,6 +59260,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0.8-48'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    toboolean = {

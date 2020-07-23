@@ -15,7 +15,7 @@ dependencies = {
    "luv          == 1.36.0-0",
    "luasocket    == 3.0rc1-2",
    "luautf8      == 0.1.1-1",
-   "bit32        == 5.3.5-1"
+   "bit32        >= 5.0.0"
 }
 
 build = {
