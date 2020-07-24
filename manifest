@@ -31641,6 +31641,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-counter'] = {
@@ -48645,6 +48652,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.5.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['multipart-post'] = {
@@ -48997,6 +49011,15 @@ repository = {
    },
    ncache = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   nef = {
+      ['0.1.0-0'] = {
          {
             arch = "rockspec"
          }, {
