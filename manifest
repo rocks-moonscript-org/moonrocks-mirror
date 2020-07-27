@@ -49937,6 +49937,15 @@ repository = {
          }
       }
    },
+   ocsg = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    octoflow = {
       ['0.0.1-0'] = {
          {
