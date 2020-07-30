@@ -19867,6 +19867,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-keycloak-auth-request'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-kubernetes-sidecar-injector'] = {
       ['0.1.0-0'] = {
          {
@@ -42206,6 +42215,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luavel = {
@@ -48451,6 +48467,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.3-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    mtmsg = {
@@ -48475,6 +48496,11 @@ repository = {
          }
       },
       ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -48507,6 +48533,11 @@ repository = {
          }
       },
       ['0.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4.2-1'] = {
          {
             arch = "rockspec"
          }
@@ -48719,6 +48750,15 @@ repository = {
          }
       },
       ['0.5.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['multipart-formdata-lib'] = {
+      ['1.0-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -50202,6 +50242,11 @@ repository = {
    },
    oocairo = {
       ['1.5-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.5-1'] = {
          {
             arch = "rockspec"
          }
