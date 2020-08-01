@@ -3094,6 +3094,15 @@ repository = {
          }
       }
    },
+   ['cffi-lua'] = {
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    cfg = {
       ['1.2-1'] = {
          {
@@ -12176,6 +12185,15 @@ repository = {
          }
       }
    },
+   fastutils = {
+      ['0.1.1-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    fat_error = {
       ['0.2-1'] = {
          {
@@ -12863,6 +12881,13 @@ repository = {
          }
       },
       ['2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -54768,6 +54793,13 @@ repository = {
          }
       },
       ['2.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.7-0'] = {
          {
             arch = "rockspec"
          }, {
