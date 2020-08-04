@@ -2875,6 +2875,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    carrot = {
@@ -20443,15 +20448,6 @@ repository = {
          }
       },
       ['0.9.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   ['kong-plugin-moocherio'] = {
-      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -49700,6 +49696,24 @@ repository = {
          }
       },
       ['1.0-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['nokia-fork-lua-resty-dns-client'] = {
+      ['3.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['nokia-fork-lua-resty-mysql'] = {
+      ['0.20-1'] = {
          {
             arch = "rockspec"
          }, {
