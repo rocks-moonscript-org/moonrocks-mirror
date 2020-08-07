@@ -1,11 +1,11 @@
 package = "rude"
-version = "0.4-1"
+version = "0.4-3"
 source = {
-   url = "git://github.com/mrrogge/rude",
-   tag = "v0.4.1"
+   url = "https://github.com/mrrogge/rude/archive/v0.4.1.tar.gz",
+   dir = "rude-0.4.1/rude"
 }
 description = {
-   homepage = "git://github.com/mrrogge/rude",
+   homepage = "https://github.com/mrrogge/rude",
    license = "MIT",
    summary = 'An ECS game engine built for LÖVE2D.'
 }
