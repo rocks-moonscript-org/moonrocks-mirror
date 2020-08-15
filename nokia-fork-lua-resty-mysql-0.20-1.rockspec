@@ -21,6 +21,6 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["resty.mysql"] = "lib/resty/mysql.lua"
+    ["nokia.resty.mysql"] = "lib/resty/mysql.lua"
   }
 }
