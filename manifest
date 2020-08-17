@@ -14962,6 +14962,15 @@ repository = {
          }
       }
    },
+   ['hjson-lua'] = {
+      ['0.1.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    hook_nt_create_file = {
       ['0.1-1'] = {
          {
@@ -36673,6 +36682,13 @@ repository = {
    },
    lua_resty_netacea = {
       ['0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0-2'] = {
          {
             arch = "rockspec"
          }, {
