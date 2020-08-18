@@ -12238,6 +12238,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    fat_error = {
@@ -17763,29 +17770,6 @@ repository = {
    },
    ['kong-https-redirect'] = {
       ['0.0.1-0'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   ['kong-igg-hmac-auth'] = {
-      ['0.0.1-4'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0.1-5'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0.1-6'] = {
          {
             arch = "rockspec"
          }, {
@@ -32332,6 +32316,15 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-resty-fastutils'] = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
