@@ -12507,6 +12507,33 @@ repository = {
          }
       }
    },
+   ['ffi-avl'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['ffi-hyperparser'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['ffi-list'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ffiex = {
       ['0.1.0-1'] = {
          {
@@ -15602,15 +15629,6 @@ repository = {
          }
       }
    },
-   hyperparser = {
-      ['1.3-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    i18n = {
       ['0.5-1'] = {
          {
@@ -18020,6 +18038,22 @@ repository = {
          }
       },
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-oidc-custom-host'] = {
+      ['1.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -30525,6 +30559,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-mtrace'] = {
@@ -33155,6 +33196,13 @@ repository = {
          }
       },
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -49042,15 +49090,6 @@ repository = {
    },
    ['multipart-formdata-lib'] = {
       ['1.0-2'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   ['multipart-formdata-parser'] = {
-      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
