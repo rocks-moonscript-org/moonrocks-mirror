@@ -484,6 +484,13 @@ repository = {
             arch = "src"
          }
       },
+      ['3.10-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['3.2-1'] = {
          {
             arch = "rockspec"
@@ -562,6 +569,20 @@ repository = {
          }
       },
       ['3.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -2911,6 +2932,11 @@ repository = {
          }
       },
       ['2.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['3.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -18045,15 +18071,22 @@ repository = {
          }
       }
    },
-   ['kong-oidc-custom-host'] = {
-      ['1.1.0-0'] = {
+   ['kong-oidc-forward-host'] = {
+      ['1.1.1-0'] = {
          {
             arch = "rockspec"
          }, {
             arch = "src"
          }
       },
-      ['1.1.0-1'] = {
+      ['1.1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.3-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -21323,6 +21356,13 @@ repository = {
          }
       },
       ['1.2.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.6-0'] = {
          {
             arch = "rockspec"
          }, {

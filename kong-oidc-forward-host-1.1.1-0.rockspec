@@ -1,8 +1,8 @@
-package = "kong-oidc-custom-host"
-version = "1.1.0-1"
+package = "kong-oidc-forward-host"
+version = "1.1.1-0"
 source = {
     url = "git://github.com/jasine/kong-oidc",
-    tag = "v1.1.0",
+    tag = "v1.1.1",
     dir = "kong-oidc"
 }
 description = {
@@ -22,7 +22,7 @@ description = {
     license = "Apache 2.0"
 }
 dependencies = {
-    "lua-resty-openidc ~> 1.6.1-1"
+    "lua-resty-openidc ~> 1.7.2-1"
 }
 build = {
     type = "builtin",
