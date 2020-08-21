@@ -1409,6 +1409,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.2-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    astar = {
@@ -3676,6 +3681,13 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -22708,6 +22720,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-proxy-cache-plugin'] = {
@@ -37256,6 +37275,20 @@ repository = {
             arch = "src"
          }
       },
+      ['0.24.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.24.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.3.0-1'] = {
          {
             arch = "rockspec"
@@ -37490,6 +37523,13 @@ repository = {
          }
       },
       ['0.14.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.14.0-2'] = {
          {
             arch = "rockspec"
          }, {
