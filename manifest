@@ -32075,6 +32075,22 @@ repository = {
          }
       }
    },
+   ['lua-resty-couchbase'] = {
+      ['0.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-couchdb'] = {
       ['2.0-0'] = {
          {
@@ -59420,6 +59436,13 @@ repository = {
          }
       },
       ['0.2-3'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['template-text'] = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }
