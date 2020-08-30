@@ -1587,6 +1587,15 @@ repository = {
          }
       }
    },
+   away = {
+      ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['awesome-autostart'] = {
       ['1.0-1'] = {
          {
@@ -36439,6 +36448,11 @@ repository = {
          }
       },
       ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.2-2'] = {
          {
             arch = "rockspec"
          }
