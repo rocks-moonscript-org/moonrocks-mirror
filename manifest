@@ -2690,6 +2690,15 @@ repository = {
          }
       }
    },
+   ['busted-jsonl'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['busted-stable'] = {
       ['1.0-0'] = {
          {
@@ -56767,13 +56776,6 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
-         }
-      }
-   },
-   ['samp-api'] = {
-      ['1.0-1'] = {
-         {
-            arch = "rockspec"
          }
       }
    },
