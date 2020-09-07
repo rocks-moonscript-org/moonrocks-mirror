@@ -1603,6 +1603,15 @@ repository = {
          }
       }
    },
+   ['away-luv'] = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['awesome-autostart'] = {
       ['1.0-1'] = {
          {
@@ -16699,6 +16708,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['kemi-test-suite'] = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -40690,6 +40706,15 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   luapicohttpparser = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
