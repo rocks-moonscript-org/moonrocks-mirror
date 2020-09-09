@@ -1601,6 +1601,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['away-luv'] = {
@@ -1695,6 +1702,22 @@ repository = {
          }
       },
       ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   base64 = {
+      ['1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -6284,6 +6307,15 @@ repository = {
    },
    deque = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['dev-roshangeorge-ljsonschema'] = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -16713,6 +16745,11 @@ repository = {
    },
    ['kemi-test-suite'] = {
       ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }
@@ -34714,6 +34751,13 @@ repository = {
          }
       },
       ['0.08-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.09-0'] = {
          {
             arch = "rockspec"
          }, {
