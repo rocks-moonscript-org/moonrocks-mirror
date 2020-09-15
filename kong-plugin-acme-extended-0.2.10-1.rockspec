@@ -1,5 +1,5 @@
 package = "kong-plugin-acme-extended"
-version = "1.0.0-3"
+version = "0.2.10-1"
 source = {
    url = "git+https://github.com/Instamojo/kong-plugin-acme.git",
    branch = "master",
