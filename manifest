@@ -17408,6 +17408,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.1.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-aliyun-http-filter'] = {
@@ -21710,6 +21717,27 @@ repository = {
          }
       },
       ['1.2.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.7-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -54919,6 +54947,15 @@ repository = {
          }
       }
    },
+   powerlog = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ppkit = {
       ['1.0-1'] = {
          {
@@ -59571,6 +59608,15 @@ repository = {
          }
       }
    },
+   syntaxhighlight = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    sys = {
       ['1.1-0'] = {
          {
@@ -62573,6 +62619,13 @@ repository = {
          }
       }
    },
+   ['watch-the-new-mutants-online-free'] = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    watcher = {
       ['0.1.0-0'] = {
          {
@@ -64255,6 +64308,13 @@ repository = {
          }
       },
       ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.4-2'] = {
          {
             arch = "rockspec"
          }, {
