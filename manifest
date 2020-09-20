@@ -1622,6 +1622,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['away-luv'] = {
@@ -12076,6 +12083,15 @@ repository = {
          }
       }
    },
+   eventbus = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    eventemitter = {
       ['0.1.0-1'] = {
          {
@@ -16877,6 +16893,11 @@ repository = {
          }
       },
       ['0.3-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-4'] = {
          {
             arch = "rockspec"
          }
@@ -53356,6 +53377,13 @@ repository = {
          }
       },
       ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.3-1'] = {
          {
             arch = "rockspec"
          }, {

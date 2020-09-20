@@ -15,7 +15,7 @@ description = {
    license = "Apache 2.0"
 }
 dependencies = {
-   "lua-resty-worker-events >= 1.0.0"
+   "lua-resty-worker-events = 1.0.0"
 }
 build = {
    type = "builtin",
