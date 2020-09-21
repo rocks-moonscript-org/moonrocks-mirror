@@ -11549,6 +11549,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    eja = {
@@ -35822,6 +35829,13 @@ repository = {
          }
       },
       ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
