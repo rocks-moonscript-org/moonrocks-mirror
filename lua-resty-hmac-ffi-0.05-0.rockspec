@@ -1,14 +1,14 @@
 package = 'lua-resty-hmac-ffi'
-version = '1.0-0'
+version = '0.05-0'
 
 source = {
-  url = 'git://github.com/jamesmarlowe/lua-resty-hmac',
-  tag = 'v1.0'
+  url = 'git://github.com/jkeys089/lua-resty-hmac',
+  tag = 'v0.05'
 }
 
 description = {
-  summary = 'Lua driver for making and receiving hmac signed requests',
-  homepage = 'https://github.com/jamesmarlowe/lua-resty-hmac',
+  summary = 'HMAC functions for ngx_lua and LuaJIT',
+  homepage = 'https://github.com/jkeys089/lua-resty-hmac',
   license = 'BSD-2-Clause License'
 }
 

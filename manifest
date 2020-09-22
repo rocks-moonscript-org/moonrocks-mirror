@@ -18902,6 +18902,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-aws-lambda-response-transformer'] = {
@@ -24289,6 +24296,13 @@ repository = {
          }
       },
       ['1.8.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.8.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -33314,7 +33328,7 @@ repository = {
       }
    },
    ['lua-resty-hmac-ffi'] = {
-      ['1.0-0'] = {
+      ['0.05-0'] = {
          {
             arch = "rockspec"
          }
