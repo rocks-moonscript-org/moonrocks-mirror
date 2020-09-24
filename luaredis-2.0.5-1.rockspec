@@ -3,7 +3,7 @@ version = "2.0.5-1"
 
 source = {
    url = "https://github.com/hnimminh/repository/raw/master/luaredis-2.0.5-1.zip",
-   md5 = "bf0c3f7ce7eacf875f9c57460583d076"
+   md5 = "1c2d2b8bea7e359f3f3b7871f75fe022"
 }
 
 description = {

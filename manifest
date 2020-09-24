@@ -1,83 +1,6 @@
 commands = {}
 modules = {}
 repository = {
-   ['123movies-watch-365-days-online-free-full-streaming'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
-   ['123movies-watch-ava-online-free-full-streaming'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
-   ['123movies-watch-infidel-online-free-full-streaming'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
-   ['123movies-watch-project-power-online-free-full-streaming'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
-   ['123movies-watch-tenet-online-free-full-streaming'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
-   ['123movies-watch-the-eight-hundred-online-free-full-streaming'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
-   ['123movies-watch-the-kissing-booth-2-online-free-full-streaming'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
-   ['123movies-watch-the-last-shift-online-free-full-streaming'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
-   ['123movies-watch-the-new-mutants-online-free-full-streaming'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
-   ['123movies-watch-train-to-busan-2-online-free-full-streaming'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
-   ['123movies-watch-unhinged-online-free-full-streaming'] = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    ['30log'] = {
       ['0.2-1'] = {
          {
@@ -16992,6 +16915,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3-5'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    keyauthvaluepass = {
@@ -24945,6 +24873,13 @@ repository = {
    },
    ['ldk-checks'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -53929,7 +53864,7 @@ repository = {
             arch = "src"
          }
       },
-      ['1.9.0-1'] = {
+      ['1.8.1-1'] = {
          {
             arch = "rockspec"
          }, {
