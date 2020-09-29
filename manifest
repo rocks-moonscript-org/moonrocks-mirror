@@ -25038,6 +25038,15 @@ repository = {
          }
       }
    },
+   ['ldk-hash'] = {
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ldoc = {
       ['1.1.0-1'] = {
          {
@@ -32886,6 +32895,13 @@ repository = {
          }
       },
       ['5.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -58466,6 +58482,15 @@ repository = {
          }
       }
    },
+   slnet = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    slnunicode = {
       ['1.1-1'] = {
          {
@@ -60989,6 +61014,13 @@ repository = {
          }
       },
       ['0.7.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.8.0-1'] = {
          {
             arch = "rockspec"
          }, {
