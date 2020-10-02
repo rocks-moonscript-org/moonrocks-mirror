@@ -1,6 +1,6 @@
 package = "vusted"
-version = "0.0.1-1"
-source = {url = "git+https://github.com/notomo/vusted.git", tag = "v0.0.1"}
+version = "1.0.0-1"
+source = {url = "git+https://github.com/notomo/vusted.git", tag = "v1.0.0"}
 description = {
   summary = "`busted` wrapper for testing neovim plugin",
   detailed = [[]],
