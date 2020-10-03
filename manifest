@@ -1657,6 +1657,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['away-dataqueue'] = {
@@ -23926,6 +23933,15 @@ repository = {
          }
       }
    },
+   ['kong-upstream-jwt-extended'] = {
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-user-agent-based-routing'] = {
       ['0.1-0'] = {
          {
@@ -28771,6 +28787,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['lua-amqp-client'] = {
+      ['1.0-3'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -54775,6 +54798,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    pesterkit = {
@@ -62937,6 +62967,13 @@ repository = {
    },
    vusted = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
