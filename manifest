@@ -7440,6 +7440,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.rc11-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.rc2-0'] = {
          {
             arch = "rockspec"
@@ -7947,6 +7954,20 @@ repository = {
          }
       },
       ['1.0.rc10-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.rc11-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.rc11-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -23934,7 +23955,7 @@ repository = {
       }
    },
    ['kong-upstream-jwt-extended'] = {
-      ['2.0.0-1'] = {
+      ['2.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
