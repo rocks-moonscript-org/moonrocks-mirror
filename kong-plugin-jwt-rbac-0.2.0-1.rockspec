@@ -25,7 +25,6 @@ build = {
     ["kong.plugins."..pluginName..".handler"] = "kong/plugins/"..pluginName.."/handler.lua",
     ["kong.plugins."..pluginName..".functions"] = "kong/plugins/"..pluginName.."/functions.lua",
     ["kong.plugins."..pluginName..".migrations.init"] = "kong/plugins/"..pluginName.."/migrations/init.lua",
-    ["kong.plugins."..pluginName..".migrations.000_base_rbac"] = "kong/plugins/"..pluginName.."/migrations/000_base_rbac.lua",
-    ["kong.plugins."..pluginName..".migrations.001_010_to_020"] = "kong/plugins/"..pluginName.."/migrations/001_010_to_020.lua"
+    ["kong.plugins."..pluginName..".migrations.000_base_rbac"] = "kong/plugins/"..pluginName.."/migrations/000_base_rbac.lua"
   }
 }
