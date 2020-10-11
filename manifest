@@ -1664,6 +1664,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['away-dataqueue'] = {
@@ -9627,6 +9634,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.15-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -17031,6 +17045,11 @@ repository = {
          }
       },
       ['0.3-5'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-6'] = {
          {
             arch = "rockspec"
          }
@@ -40293,6 +40312,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['luajls-lfs'] = {
@@ -58626,6 +58650,16 @@ repository = {
          }
       },
       ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-3'] = {
          {
             arch = "rockspec"
          }
