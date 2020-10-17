@@ -22,5 +22,6 @@ build = {
     modules = {
         ["moonbreaker"] = "src/moonbreaker/init.lua",
         ["moonbreaker.oop"] = "src/moonbreaker/oop.lua",
+        ["moonbreaker.xpcall"] = "src/moonbreaker/xpcall.lua",
     },
 }
