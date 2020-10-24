@@ -58836,6 +58836,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['skywalking-nginx-lua-plugin'] = {
