@@ -1739,6 +1739,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['devel-1'] = {
          {
             arch = "rockspec"
@@ -1768,6 +1775,13 @@ repository = {
    },
    ['awesome-launch'] = {
       ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -24124,6 +24138,15 @@ repository = {
          }
       }
    },
+   kong_injection = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    kosmo = {
       ['0.2-1'] = {
          {
@@ -33319,6 +33342,11 @@ repository = {
          }
       },
       ['1.3-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.4-0'] = {
          {
             arch = "rockspec"
          }
@@ -58545,6 +58573,13 @@ repository = {
    },
    sessiond_dbus = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
