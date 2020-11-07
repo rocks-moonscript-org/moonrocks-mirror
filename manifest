@@ -13867,6 +13867,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    galconmodslib = {
@@ -20810,6 +20815,15 @@ repository = {
          }
       },
       ['1.7-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-jwt-verifier'] = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -36533,6 +36547,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-tsort'] = {
@@ -38341,6 +38362,43 @@ repository = {
          }
       },
       ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luabcd = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-5'] = {
          {
             arch = "rockspec"
          }, {
@@ -61738,6 +61796,13 @@ repository = {
          }
       },
       ['0.8.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.8.2-1'] = {
          {
             arch = "rockspec"
          }, {
