@@ -13872,6 +13872,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    galconmodslib = {
@@ -61599,6 +61604,13 @@ repository = {
          }
       }
    },
+   ticketing = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    timerwheel = {
       ['0.1.0-1'] = {
          {
@@ -62023,6 +62035,15 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['tonos-client'] = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "linux-x86_64"
          }
       }
    },
