@@ -8176,6 +8176,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -9659,6 +9666,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-multi'] = {
@@ -11053,6 +11067,20 @@ repository = {
             arch = "src"
          }
       },
+      ['1.16-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.17-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2-1'] = {
          {
             arch = "rockspec"
@@ -11161,6 +11189,13 @@ repository = {
          }
       },
       ['1.16-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.17-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -18543,6 +18578,15 @@ repository = {
          }
       }
    },
+   ['kong-o2b-ticketing'] = {
+      ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-oauth2-ext'] = {
       ['0.0.1'] = {
          {
@@ -19215,6 +19259,13 @@ repository = {
          }
       },
       ['3.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.5.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -35418,6 +35469,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-passwdqc'] = {
@@ -49993,6 +50051,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.1.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    mooncrafts = {
@@ -52122,6 +52187,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['nx-kong-oidc'] = {
+      ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -60979,14 +61051,14 @@ repository = {
       }
    },
    tarantoolapp = {
-      ['1.0.3-1'] = {
+      ['1.0.4-1'] = {
          {
             arch = "rockspec"
          }, {
             arch = "src"
          }
       },
-      ['1.0.4-1'] = {
+      ['1.0.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -61604,13 +61676,6 @@ repository = {
          }
       }
    },
-   ticketing = {
-      ['0.1-1'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    timerwheel = {
       ['0.1.0-1'] = {
          {
@@ -62039,11 +62104,11 @@ repository = {
       }
    },
    ['tonos-client'] = {
-      ['1.0.0-0'] = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "linux-x86_64"
+            arch = "src"
          }
       }
    },
