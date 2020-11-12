@@ -1,7 +1,8 @@
 package = "nanoid"
-version = "0.1.0-0"
+version = "1.0.0-0"
 source = {
-  url = "git+ssh://git@github.com/mrtnpwn/nanoid.git"
+  url = "git+https://github.com/mrtnpwn/nanoid",
+  tag = "v1.0.0-0"
 }
 description = {
   summary = "Tiny, secure, URL-friendly, unique string ID generator",
@@ -12,18 +13,17 @@ description = {
   ]],
   homepage = "https://github.com/mrtnpwn/nanoid",
   license = "MIT",
-  maintainer = "Martín Aguilar <ik7swordking@gmail.com>"
+  maintainer = "Martín Aguilar <ik7swordking@gmail.com>",
 }
 dependencies = {
-  "luaossl >= 20200709-0"
+  "luaossl >= 20200709-0",
+  "luabitop >= 1.0.2-3",
 }
 build = {
   type = "builtin",
   modules = {
     ["nanoid"] = "nanoid/init.lua",
-    ["nanoid.nonsecure"] = "nanoid/nonsecure.lua",
-    ["nanoid.secure"] = "nanoid/secure.lua",
-    ["nanoid.url"] = "nanoid/url.lua",
-    ["nanoid.version"] = "nanoid/version.lua"
-  }
+    ["nanoid.non_secure"] = "nanoid/non_secure.lua",
+  },
 }
+
