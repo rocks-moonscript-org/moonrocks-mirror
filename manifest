@@ -11878,6 +11878,20 @@ repository = {
          }
       }
    },
+   emoji = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['emoji-clock'] = {
       ['scm-1'] = {
          {
@@ -35017,6 +35031,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-multiplexer'] = {
@@ -45344,6 +45365,15 @@ repository = {
       ['0.1.2-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   lurror = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -59237,6 +59267,13 @@ repository = {
          }
       }
    },
+   signalise = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    simple_test = {
       ['0.0.1-0'] = {
          {
@@ -62055,6 +62092,13 @@ repository = {
    },
    ['tls-mailer'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }, {
