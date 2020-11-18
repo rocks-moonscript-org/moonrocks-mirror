@@ -11890,6 +11890,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['emoji-clock'] = {
@@ -16860,6 +16867,13 @@ repository = {
          }
       }
    },
+   jsmin = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['json-logic-lua'] = {
       ['0.0.2-1'] = {
          {
@@ -20924,6 +20938,13 @@ repository = {
    },
    ['kong-plugin-jwt-verifier'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -35417,6 +35438,13 @@ repository = {
          }
       },
       ['1.7.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.7.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -51629,6 +51657,22 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['nested-cli'] = {
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    net = {
@@ -51913,6 +51957,13 @@ repository = {
          }
       },
       ['0.20200523-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.20201118-1'] = {
          {
             arch = "rockspec"
          }, {
