@@ -18910,6 +18910,74 @@ repository = {
          }
       }
    },
+   ['kong-opa-plugin'] = {
+      ['0.0.1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.10-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.12-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.13-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.6-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.7-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.8-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['kong-path-allow'] = {
       ['0.1-0'] = {
          {
@@ -19431,6 +19499,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-cookies-to-headers'] = {
@@ -19606,6 +19681,13 @@ repository = {
          }
       },
       ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -34811,6 +34893,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-moesif'] = {
@@ -35072,6 +35161,20 @@ repository = {
          }
       },
       ['4.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.0.1-0'] = {
          {
             arch = "rockspec"
          }, {
