@@ -12,7 +12,7 @@ description = {
     lua-resty-agoradynamickey: an optional lua resty lib AgoraDynamicKey.
   ]],
   homepage = "https://github.com/zhucebuliaopx/lua-resty-agoradynamickey",
-  maintainer = "peng <px92@gmail.com>",
+  maintainer = "peng <px92@hotmail.com>",
   license = "MIT License"
 }
 
