@@ -3011,6 +3011,15 @@ repository = {
          }
       }
    },
+   busted_resty = {
+      ['0.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    butter = {
       ['1.0.1-1'] = {
          {
@@ -7640,6 +7649,13 @@ repository = {
          }
       },
       ['1.0.rc12-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.rc12-4'] = {
          {
             arch = "rockspec"
          }, {
@@ -23110,13 +23126,6 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
-         }
-      }
-   },
-   ['kong-plugin-skywalking'] = {
-      ['0.3.0-0'] = {
-         {
-            arch = "rockspec"
          }
       }
    },
