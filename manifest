@@ -52737,6 +52737,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.20201218-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['nginx-lua-waf'] = {
@@ -63375,6 +63382,13 @@ repository = {
          }
       },
       ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
