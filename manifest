@@ -38159,6 +38159,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-string-test'] = {
@@ -42640,6 +42647,13 @@ repository = {
          }
       },
       ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -63699,6 +63713,13 @@ repository = {
          }
       },
       ['0.0.7-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.9-1'] = {
          {
             arch = "rockspec"
          }, {
