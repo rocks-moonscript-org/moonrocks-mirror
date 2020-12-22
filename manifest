@@ -19311,6 +19311,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-path-based-routing'] = {
@@ -48574,6 +48581,22 @@ repository = {
       ['1.0.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   memo = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
