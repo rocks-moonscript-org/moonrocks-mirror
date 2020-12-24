@@ -27173,6 +27173,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    llix = {
@@ -34368,6 +34375,13 @@ repository = {
    },
    ['lua-resty-global-throttle'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -51752,13 +51766,6 @@ repository = {
          }
       }
    },
-   mpsym = {
-      ['1.0-1'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    mqttudp = {
       ['0.4-1'] = {
          {
@@ -64031,6 +64038,13 @@ repository = {
          }
       },
       ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-4'] = {
          {
             arch = "rockspec"
          }, {
