@@ -1915,6 +1915,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    base2base = {
@@ -12206,6 +12213,13 @@ repository = {
       ['0.1-0'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -31038,6 +31052,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-ezlib'] = {
@@ -35670,6 +35689,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-mpd'] = {
@@ -36690,6 +36716,11 @@ repository = {
          }
       },
       ['2.5-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.6-0'] = {
          {
             arch = "rockspec"
          }
@@ -44218,6 +44249,13 @@ repository = {
          }
       },
       ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.4-1'] = {
          {
             arch = "rockspec"
          }, {
