@@ -31,6 +31,7 @@ build = {
         ['shiki.unicode']        = 'shiki/unicode.lua',
         ['shiki.escape']         = 'shiki/escape.lua',
         ['shiki.config']         = 'shiki/config.lua',
+        ['shiki.parser']         = 'shiki/parser.lua',
     },
     install = {
         bin = {
