@@ -44305,6 +44305,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luasofia = {
@@ -55356,6 +55363,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['org.conman.uuid'] = {
@@ -60389,6 +60410,15 @@ repository = {
          }
       },
       ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['set-lua'] = {
+      ['1.0.0-0'] = {
          {
             arch = "rockspec"
          }, {
