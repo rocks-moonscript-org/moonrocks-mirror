@@ -239,6 +239,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['access-token-introspection'] = {
@@ -28813,6 +28820,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    lredux = {
@@ -42799,6 +42811,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luaossl = {
@@ -44307,6 +44326,13 @@ repository = {
          }
       },
       ['0.0.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.9-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -52872,6 +52898,13 @@ repository = {
          }
       },
       ['1.0.6-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['nginx-lua-exporter'] = {
+      ['0.2-0'] = {
          {
             arch = "rockspec"
          }
