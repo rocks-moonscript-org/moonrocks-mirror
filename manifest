@@ -216,6 +216,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['ac-luaserver'] = {
@@ -27250,6 +27257,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    llix = {
@@ -44433,6 +44447,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luasofia = {
@@ -58832,6 +58853,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.8-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    readosm = {
@@ -63392,6 +63420,15 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   timerfd = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
