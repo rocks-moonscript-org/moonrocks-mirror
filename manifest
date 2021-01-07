@@ -7734,6 +7734,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0.rc13-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.rc2-0'] = {
          {
             arch = "rockspec"
@@ -19252,6 +19259,15 @@ repository = {
          }
       },
       ['0.1-9'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-oidc-test'] = {
+      ['0.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -34004,6 +34020,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-ctxdump'] = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-dns'] = {
       ['0.21-1'] = {
          {
@@ -37375,6 +37400,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-session-zhulx'] = {
+      ['2.24-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-shcache'] = {
       ['0.01-0'] = {
          {
@@ -38081,6 +38115,13 @@ repository = {
    },
    ['lua-rover'] = {
       ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['lua-s7iso'] = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -57223,6 +57264,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.12.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2.0-1'] = {
          {
             arch = "rockspec"
@@ -65367,6 +65415,13 @@ repository = {
          }
       },
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
