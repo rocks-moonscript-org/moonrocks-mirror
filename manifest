@@ -1774,6 +1774,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['away-dataqueue'] = {
@@ -13522,6 +13529,43 @@ repository = {
       ['1.0-0'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   fir = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -51576,6 +51620,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    mooncrafts = {
@@ -51859,6 +51910,13 @@ repository = {
          }
       },
       ['0.4.21-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.22-1'] = {
          {
             arch = "rockspec"
          }, {
