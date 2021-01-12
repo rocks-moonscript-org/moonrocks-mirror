@@ -1,11 +1,11 @@
 rockspec_format = "3.0"
 
-package = "lua-ihex"
-version = "0.1.0-1"
+package = "ihex"
+version = "0.1.1-1"
 
 source = {
-    url = "git://github.com/sci4me/lua-ihex.git",
-    tag = "0.1.0"
+    url = "git://github.com/sci4me/ihex.lua.git",
+    tag = "0.1.1"
 }
 
 description = {
@@ -15,10 +15,13 @@ description = {
         probably-not-that-buggy Intel Hex encoding 
         and decoding utility library for Lua.
     ]],
-    homepage = "https://github.com/sci4me/lua-ihex",
-    issues_url = "https://github.com/sci4me/lua-ihex/issues",
+    homepage = "https://github.com/sci4me/ihex.lua",
+    issues_url = "https://github.com/sci4me/ihex.lua/issues",
     maintainer = "sci4me",
-    license = "MIT"
+    license = "MIT",
+    labels = {
+        "serialization"
+    }
 }
 
 dependencies = {
@@ -29,7 +32,7 @@ dependencies = {
 build = {
     type = "builtin",
     modules = {
-        ["lua-ihex"] = "src/lua-ihex.lua"
+        ["ihex"] = "ihex/ihex.lua"
     },
     copy_directories = {
         "docs",
