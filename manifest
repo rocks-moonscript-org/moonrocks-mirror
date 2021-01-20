@@ -2510,6 +2510,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    biolua = {
@@ -18716,6 +18723,13 @@ repository = {
          }
       },
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.3.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -37165,6 +37179,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.6.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-readurl'] = {
@@ -44413,6 +44432,27 @@ repository = {
          }
       },
       ['1.0-20'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-21'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-22'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-23'] = {
          {
             arch = "rockspec"
          }, {
@@ -53228,12 +53268,7 @@ repository = {
       }
    },
    myauth = {
-      ['1.8.6-0'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['1.8.6-1'] = {
+      ['1.0.0-0'] = {
          {
             arch = "rockspec"
          }
