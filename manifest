@@ -1159,6 +1159,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.2-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    app_scheduler = {
@@ -22450,6 +22455,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-oauth2-token-introspection-request'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-oidc-acl'] = {
       ['1.0-0'] = {
          {
@@ -34557,6 +34571,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-dogstatsd'] = {
@@ -44490,6 +44511,41 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0-24'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-25'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-26'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-27'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-28'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0-3'] = {
          {
             arch = "rockspec"
@@ -53305,6 +53361,21 @@ repository = {
          }
       },
       ['1.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.2.2-0'] = {
          {
             arch = "rockspec"
          }
@@ -64995,6 +65066,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['tulip-cli'] = {
@@ -65027,6 +65105,13 @@ repository = {
          }
       },
       ['0.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.5-1'] = {
          {
             arch = "rockspec"
          }, {
