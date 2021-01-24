@@ -32567,6 +32567,15 @@ repository = {
          }
       }
    },
+   ['lua-maxminddb'] = {
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-mbedtls'] = {
       ['0.1.0-1'] = {
          {
@@ -52628,6 +52637,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    moor = {
@@ -61808,6 +61824,15 @@ repository = {
          }
       }
    },
+   skooma = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['skywalking-nginx-lua'] = {
       ['0.1-0'] = {
          {
@@ -68357,6 +68382,13 @@ repository = {
          }
       },
       ['2.0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
