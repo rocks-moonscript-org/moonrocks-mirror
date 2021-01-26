@@ -4156,6 +4156,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    cluacov = {
@@ -17215,6 +17222,15 @@ repository = {
          }
       }
    },
+   isodd = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    iter = {
       ['0.0-0'] = {
          {
@@ -25926,6 +25942,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lapis-crud'] = {
@@ -25936,6 +25959,22 @@ repository = {
       }
    },
    ['lapis-exceptions'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lapis-systemd'] = {
       ['1.0.0-1'] = {
          {
             arch = "rockspec"
@@ -49214,6 +49253,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    malvado = {
@@ -63119,6 +63165,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    strictness = {
@@ -63545,6 +63596,13 @@ repository = {
          }
       },
       ['2.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -65144,6 +65202,13 @@ repository = {
          }
       },
       ['0.1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -67191,6 +67256,13 @@ repository = {
          }
       },
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
