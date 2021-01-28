@@ -19487,6 +19487,21 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2-2'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['kong-oidc-ng'] = {
@@ -28456,6 +28471,15 @@ repository = {
          }
       },
       ['0.0.5-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   losc = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -54097,6 +54121,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ngxjsonform = {
@@ -65795,6 +65826,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.1.0-13'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    underscore = {
@@ -66991,6 +67027,13 @@ repository = {
    },
    warn = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
