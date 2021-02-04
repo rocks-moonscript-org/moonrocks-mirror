@@ -17860,6 +17860,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.7-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kemi-test-suite'] = {
@@ -34917,6 +34924,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.4.4-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-exec'] = {
@@ -37739,6 +37751,15 @@ repository = {
    },
    ['lua-resty-scrypt'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-resty-secrets'] = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -65619,6 +65640,13 @@ repository = {
          }
       },
       ['0.1.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.11-1'] = {
          {
             arch = "rockspec"
          }, {
