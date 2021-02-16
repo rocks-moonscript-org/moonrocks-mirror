@@ -5276,9 +5276,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['16.06.04-1'] = {
@@ -5526,11 +5526,11 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
+            arch = "linux-x86_64"
          }, {
             arch = "macosx-x86_64"
          }, {
-            arch = "linux-x86_64"
+            arch = "src"
          }
       },
       ['20150119.51-1'] = {
@@ -5546,9 +5546,9 @@ repository = {
          }, {
             arch = "linux-x86_64"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['20150119.52-1'] = {
@@ -26272,6 +26272,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lapis-redis'] = {
@@ -26977,6 +26984,15 @@ repository = {
          }
       },
       ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   lester = {
+      ['0.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -32584,6 +32600,13 @@ repository = {
          }
       },
       ['0.6.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -41108,6 +41131,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.15.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.2-1'] = {
          {
             arch = "rockspec"
@@ -42225,6 +42255,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luaflock = {
@@ -42617,9 +42654,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -63792,9 +63829,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['40-1'] = {
@@ -65737,6 +65774,13 @@ repository = {
          }
       },
       ['1.6.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.8.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -69661,6 +69705,13 @@ repository = {
          }
       },
       ['1.4-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.4-4'] = {
          {
             arch = "rockspec"
          }, {
