@@ -15600,6 +15600,13 @@ repository = {
          }
       }
    },
+   ['gxid-param'] = {
+      ['1.0.0-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['gxs-auth'] = {
       ['1.0.0-1'] = {
          {
@@ -16663,9 +16670,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -19672,6 +19679,11 @@ repository = {
          }
       },
       ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0-3'] = {
          {
             arch = "rockspec"
          }
@@ -29358,9 +29370,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.5-0'] = {
@@ -31177,6 +31189,13 @@ repository = {
          }
       },
       ['1.5.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.1-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -34249,6 +34268,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-agoradynamickey'] = {
@@ -35404,6 +35430,11 @@ repository = {
          }
       },
       ['1.2-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.3-0'] = {
          {
             arch = "rockspec"
          }
@@ -37434,6 +37465,13 @@ repository = {
          }
       },
       ['0.6.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -51788,9 +51826,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
