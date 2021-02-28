@@ -13742,6 +13742,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    firebase = {
@@ -16694,9 +16701,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -29355,9 +29362,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       },
       ['0.7-3'] = {
@@ -31627,6 +31634,13 @@ repository = {
          }
       },
       ['0.3.12-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.13-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -45997,6 +46011,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luasofia = {
@@ -47089,6 +47110,15 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   luawav = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -51537,9 +51567,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -51822,9 +51852,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.2-1'] = {
@@ -52496,9 +52526,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
