@@ -903,6 +903,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    amqp = {
@@ -47069,6 +47076,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.4-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luaunix = {
@@ -60295,6 +60307,13 @@ repository = {
          }
       },
       ['1.0.202102-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.202103-1'] = {
          {
             arch = "rockspec"
          }, {
