@@ -1423,9 +1423,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.7.1-1'] = {
@@ -3404,6 +3404,13 @@ repository = {
    },
    callbag = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -16727,9 +16734,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -29719,9 +29726,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       },
       ['20090623-1'] = {
@@ -31000,6 +31007,22 @@ repository = {
       ['0.01-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['lua-boolexpr'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -63175,6 +63198,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['skywalking-nginx-lua-plugin'] = {
@@ -66455,6 +66485,22 @@ repository = {
          }
       }
    },
+   ttodo = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    tulip = {
       ['0.0.10-1'] = {
          {
@@ -67004,6 +67050,13 @@ repository = {
          }
       },
       ['2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.4-0'] = {
          {
             arch = "rockspec"
          }, {
