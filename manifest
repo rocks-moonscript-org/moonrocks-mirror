@@ -382,6 +382,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    aesfileencrypt = {
@@ -35568,6 +35575,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.2.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-resty-fastutils'] = {
@@ -43004,6 +43016,15 @@ repository = {
          }
       }
    },
+   luaipfs = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luaircclient = {
       ['1.0-1'] = {
          {
@@ -44211,6 +44232,13 @@ repository = {
          }
       },
       ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -51671,18 +51699,18 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -51936,9 +51964,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.2-1'] = {
@@ -51956,9 +51984,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.2-1'] = {
@@ -67090,6 +67118,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.4-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    typical = {
@@ -70669,7 +70704,7 @@ repository = {
             arch = "src"
          }
       },
-      ['0.7.1-1'] = {
+      ['0.7.2-1'] = {
          {
             arch = "rockspec"
          }, {
