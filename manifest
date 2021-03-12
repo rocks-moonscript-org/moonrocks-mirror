@@ -1430,9 +1430,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['0.7.1-1'] = {
@@ -17835,6 +17835,11 @@ repository = {
          }
       },
       ['0.9.3-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.9.4-0'] = {
          {
             arch = "rockspec"
          }
@@ -34823,6 +34828,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-aws'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-aws-auth'] = {
       ['0.01-0'] = {
          {
@@ -41712,9 +41726,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -67160,6 +67174,13 @@ repository = {
          }
       },
       ['2.4-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.5-0'] = {
          {
             arch = "rockspec"
          }, {
