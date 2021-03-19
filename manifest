@@ -35479,6 +35479,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-dogstatsd'] = {
@@ -66175,6 +66182,13 @@ repository = {
          }
       },
       ['0.12.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.13.0-1'] = {
          {
             arch = "rockspec"
          }, {
