@@ -17913,6 +17913,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.9.5-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['jsonschema-gitless'] = {
@@ -20545,6 +20550,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.5.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-aws-lambda-response-transformer'] = {
@@ -20859,6 +20871,13 @@ repository = {
          }
       },
       ['0.2.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -25062,6 +25081,13 @@ repository = {
          }
       },
       ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -29662,9 +29688,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       },
       ['0.7-3'] = {
@@ -30518,6 +30544,13 @@ repository = {
    },
    lsqlcipher = {
       ['0.9.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.9.5-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -44076,6 +44109,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lualol = {
@@ -47081,6 +47121,13 @@ repository = {
          }
       },
       ['1.0.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -64218,6 +64265,11 @@ repository = {
    },
    sqlcipher = {
       ['4.4.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['4.4.2-2'] = {
          {
             arch = "rockspec"
          }
