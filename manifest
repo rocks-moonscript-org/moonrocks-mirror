@@ -16832,9 +16832,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -19893,6 +19893,11 @@ repository = {
          }
       },
       ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0-5'] = {
          {
             arch = "rockspec"
          }
@@ -25187,6 +25192,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1-7'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['kong-prometheus-plugin'] = {
@@ -26741,9 +26751,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -29688,9 +29698,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "win32-x86"
+         }, {
+            arch = "src"
          }
       },
       ['0.7-3'] = {
@@ -35720,6 +35730,11 @@ repository = {
          }
       },
       ['1.4.4-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.5.0-0'] = {
          {
             arch = "rockspec"
          }
@@ -47128,6 +47143,13 @@ repository = {
          }
       },
       ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
