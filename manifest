@@ -24981,6 +24981,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-xml-threat-protection'] = {
@@ -51308,6 +51315,13 @@ repository = {
          }
       }
    },
+   ['middleman-test'] = {
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    middleware = {
       ['0.0.10-1'] = {
          {
@@ -52431,9 +52445,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
