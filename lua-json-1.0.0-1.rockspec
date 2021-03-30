@@ -1,8 +1,8 @@
 package = 'lua-json'
-version = '0.1.3-1'
+version = '1.0.0-1'
 source = {
 	url = 'git://github.com/neoxic/lua-json.git',
-	tag = 'v0.1.3',
+	tag = '1.0.0',
 }
 description = {
 	summary = 'JSON encoding/decoding module for Lua',
