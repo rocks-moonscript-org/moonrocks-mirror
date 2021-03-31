@@ -25018,6 +25018,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-xml-threat-protection'] = {
@@ -45746,6 +45760,13 @@ repository = {
          }
       },
       ['3.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.6.0-1'] = {
          {
             arch = "rockspec"
          }, {
