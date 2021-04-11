@@ -988,15 +988,6 @@ repository = {
          }
       }
    },
-   ansi = {
-      ['0.1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    ansicolors = {
       ['1.0-1'] = {
          {
@@ -2364,6 +2355,13 @@ repository = {
    },
    beemovie = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -13627,10 +13625,8 @@ repository = {
          }, {
             arch = "src"
          }
-      }
-   },
-   ['ffi-avl'] = {
-      ['1.0.0-1'] = {
+      },
+      ['0.9.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -13648,15 +13644,6 @@ repository = {
       }
    },
    ['ffi-hyperparser'] = {
-      ['1.0.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   ['ffi-list'] = {
       ['1.0.0-1'] = {
          {
             arch = "rockspec"
@@ -16872,9 +16859,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.2-1'] = {
@@ -18301,15 +18288,6 @@ repository = {
          }
       },
       ['1.0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   klesi = {
-      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -22405,9 +22383,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -46436,9 +46414,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['3.0.1-1'] = {
@@ -46487,9 +46465,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "win32-x86"
-         }, {
             arch = "src"
+         }, {
+            arch = "win32-x86"
          }
       },
       ['2.0.2-1'] = {
@@ -47568,9 +47546,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.4-0'] = {
@@ -50876,9 +50854,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['0.26-1'] = {
@@ -52163,9 +52141,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -52174,9 +52152,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
@@ -52268,9 +52246,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -52290,9 +52268,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
@@ -52319,9 +52297,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -52728,9 +52706,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -56931,36 +56909,6 @@ repository = {
          }
       },
       ['0.2-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   option = {
-      ['0.1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.1.0-2'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.1.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.1.1-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -64957,9 +64905,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "all"
-         }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       },
       ['40-1'] = {
@@ -68786,15 +68734,6 @@ repository = {
          }
       },
       ['1.2-2'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   varargs = {
-      ['0.1.3-1'] = {
          {
             arch = "rockspec"
          }, {
