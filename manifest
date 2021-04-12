@@ -11957,6 +11957,13 @@ repository = {
          }
       }
    },
+   ['du-bundler'] = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    dub = {
       ['2.2.0-1'] = {
          {
@@ -16859,9 +16866,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['0.2-1'] = {
@@ -30691,6 +30698,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.9.5-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lsqlite3 = {
@@ -40284,6 +40298,13 @@ repository = {
          }
       }
    },
+   ['lua-timeago'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-tinycdb'] = {
       ['0.1-1'] = {
          {
@@ -40808,6 +40829,15 @@ repository = {
          }
       },
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-zstd'] = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -47546,9 +47576,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['0.4-0'] = {
@@ -52141,9 +52171,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -52152,9 +52182,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.2-1'] = {
@@ -52246,9 +52276,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -52268,9 +52298,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       },
       ['0.2-1'] = {
@@ -52706,9 +52736,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "macosx-x86_64"
-         }, {
             arch = "src"
+         }, {
+            arch = "macosx-x86_64"
          }
       }
    },
@@ -64905,9 +64935,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ['40-1'] = {
