@@ -1,14 +1,14 @@
 package = 'lua-xxtea'
-version = '0.1.2-1'
+version = '1.0.0-1'
 source = {
 	url = 'git://github.com/neoxic/lua-xxtea.git',
-	tag = 'v0.1.2',
+	tag = '1.0.0',
 }
 description = {
 	summary = 'XXTEA encryption/decryption module for Lua',
 	license = 'MIT',
 	homepage = 'https://github.com/neoxic/lua-xxtea',
-	maintainer = 'Arseny Vakhrushev <arseny.vakhrushev@gmail.com>',
+	maintainer = 'Arseny Vakhrushev <arseny.vakhrushev@me.com>',
 }
 dependencies = {
 	'lua >= 5.1',
