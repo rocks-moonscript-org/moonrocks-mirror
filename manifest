@@ -3599,6 +3599,15 @@ repository = {
          }
       }
    },
+   casbin = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    cassandra = {
       ['0.1-1'] = {
          {
@@ -26353,6 +26362,13 @@ repository = {
          }
       },
       ['1617477179-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1618833413-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -71650,6 +71666,13 @@ repository = {
          }
       },
       ['0.7.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7.8-1'] = {
          {
             arch = "rockspec"
          }, {
