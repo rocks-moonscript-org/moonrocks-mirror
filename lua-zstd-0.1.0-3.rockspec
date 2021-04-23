@@ -1,12 +1,12 @@
 package = 'lua-zstd'
-version = '0.1.0-1'
+version = '0.1.0-3'
 source = {
 	url = 'git://github.com/neoxic/lua-zstd.git',
 	tag = '0.1.0',
 }
 description = {
 	summary = 'Zstandard module for Lua',
-	detailed = 'lua-zstd is a binding to Zstandard C library for Lua.',
+	detailed = 'lua-zstd is a binding to the Zstandard C library for Lua.',
 	license = 'MIT',
 	homepage = 'https://github.com/neoxic/lua-zstd',
 	maintainer = 'Arseny Vakhrushev <arseny.vakhrushev@me.com>',
@@ -25,8 +25,9 @@ build = {
 	modules = {
 		zstd = {
 			sources = {
-				'src/comp.c',
-				'src/decomp.c',
+				'src/cctx.c',
+				'src/cctxparams.c',
+				'src/dctx.c',
 				'src/main.c',
 				'src/util.c',
 			},
