@@ -3910,6 +3910,8 @@ repository = {
       ['6.0.2-0'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -23575,6 +23577,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['kong-plugin-referer'] = {
@@ -26162,6 +26169,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   kong_plugin_salt_sensor = {
+      ['1.0.0-3'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -51146,6 +51160,13 @@ repository = {
          }
       },
       ['0.1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
