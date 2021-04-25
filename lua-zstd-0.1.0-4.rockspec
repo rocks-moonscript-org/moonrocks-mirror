@@ -1,5 +1,5 @@
 package = 'lua-zstd'
-version = '0.1.0-3'
+version = '0.1.0-4'
 source = {
 	url = 'git://github.com/neoxic/lua-zstd.git',
 	tag = '0.1.0',
