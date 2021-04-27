@@ -20840,6 +20840,22 @@ repository = {
          }
       }
    },
+   ['kong-plugin-concurrent-connections-quota'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-cookies-to-headers'] = {
       ['1.0-1'] = {
          {
@@ -32133,6 +32149,22 @@ repository = {
          }
       },
       ['0.3.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-color'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -46568,6 +46600,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luasec-fixed'] = {
@@ -59366,6 +59405,13 @@ repository = {
          }
       },
       ['1.1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.10.0-1'] = {
          {
             arch = "rockspec"
          }, {
