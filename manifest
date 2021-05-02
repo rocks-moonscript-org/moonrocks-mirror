@@ -19353,7 +19353,7 @@ repository = {
       }
    },
    ['kong-ext-auth'] = {
-      ['0.2-1'] = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -55008,6 +55008,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['15.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    multikey = {
@@ -60239,6 +60244,13 @@ repository = {
          }
       },
       ['6.7.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['6.7.3-1'] = {
          {
             arch = "rockspec"
          }, {

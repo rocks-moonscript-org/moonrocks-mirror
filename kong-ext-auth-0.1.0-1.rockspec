@@ -1,16 +1,16 @@
 package = "kong-ext-auth"
-version = "0.2-1"
+version = "0.1.0-1"
 supported_platforms = {"linux", "macosx"}
 source = {
-  url = "git://github.com/samnela/kong-ext-auth",
-  tag = "poc-jwt-token"
+  url = "git://github.com/be-humble/kong-ext-auth",
+  tag = "main"
 }
 description = {
-  summary = "Test Kong plugin to authenticate requests using external http services.",
+  summary = "Kong plugin to authenticate requests using external http services.",
   license = "MIT",
-  homepage = "https://github.com/samnela/kong-ext-auth",
+  homepage = "https://github.com/be-humble/kong-ext-auth",
   detailed = [[
-      Kong plugin to authenticate requests using http services.
+      Kong plugin to authenticate requests using external http services.
   ]]
 }
 dependencies = {
