@@ -21550,6 +21550,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-google-cloud-functions'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-google-logging'] = {
       ['0.0.1-1'] = {
          {
@@ -26492,6 +26501,13 @@ repository = {
          }
       },
       ['1618833413-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1619975269-0'] = {
          {
             arch = "rockspec"
          }, {
