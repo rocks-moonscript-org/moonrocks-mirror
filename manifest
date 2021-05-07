@@ -17827,6 +17827,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    jmespath = {
@@ -26559,6 +26566,18 @@ repository = {
          }
       }
    },
+   lambda = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    lamda = {
       ['0.1.0-1'] = {
          {
@@ -32258,6 +32277,13 @@ repository = {
          }
       },
       ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
