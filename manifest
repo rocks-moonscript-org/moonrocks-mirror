@@ -18957,6 +18957,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.4.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-aggregator'] = {
@@ -67553,6 +67560,13 @@ repository = {
          }
       },
       ['1.13.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.14.1-1'] = {
          {
             arch = "rockspec"
          }, {
