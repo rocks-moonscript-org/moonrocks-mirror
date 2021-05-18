@@ -3526,6 +3526,13 @@ repository = {
          }
       }
    },
+   candran = {
+      ['0.14.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    caribay = {
       ['1.0.0-1'] = {
          {
@@ -42599,6 +42606,11 @@ repository = {
          }
       },
       ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4-1'] = {
          {
             arch = "rockspec"
          }
