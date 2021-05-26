@@ -32224,6 +32224,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-cjson'] = {
@@ -71845,6 +71852,13 @@ repository = {
          }
       },
       ['1.4-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5-1'] = {
          {
             arch = "rockspec"
          }, {
