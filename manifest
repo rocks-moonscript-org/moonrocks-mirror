@@ -19752,6 +19752,16 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.1-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.1-3'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['kong-http-to-https'] = {
@@ -23220,6 +23230,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-mm-rate-limiting'] = {
+      ['0.0.5-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-myplugin'] = {
       ['0.1.0-1'] = {
          {
@@ -26018,6 +26037,15 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-skywalking'] = {
+      ['0.1.1-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -32348,6 +32376,13 @@ repository = {
          }
       },
       ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -52200,7 +52235,7 @@ repository = {
       }
    },
    microsoftsapi = {
-      ['1.0-1'] = {
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }
