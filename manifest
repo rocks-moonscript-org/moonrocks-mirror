@@ -61898,6 +61898,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.202106-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    pulseaudio = {
