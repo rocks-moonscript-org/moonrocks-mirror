@@ -16650,6 +16650,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    hotfix = {
@@ -17949,6 +17956,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   jnet = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -33880,6 +33894,13 @@ repository = {
          }
       },
       ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.2-1'] = {
          {
             arch = "rockspec"
          }, {
