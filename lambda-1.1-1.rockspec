@@ -1,7 +1,7 @@
 package = "lambda"
 version = "1.1-1"
 source = {
-	url = "https://gitlab.com/benrob0329/lua-lambda",
+	url = "git://gitlab.com/benrob0329/lua-lambda",
 	tag = "v1.1",
 }
 
