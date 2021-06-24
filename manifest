@@ -3541,6 +3541,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    caribay = {
@@ -12237,6 +12244,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['eaw-abstraction-layer'] = {
@@ -17719,6 +17731,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['8.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ip2proxy = {
@@ -22339,8 +22358,6 @@ repository = {
       ['0.1.0-1'] = {
          {
             arch = "rockspec"
-         }, {
-            arch = "all"
          }
       }
    },
@@ -44997,6 +45014,15 @@ repository = {
          }
       }
    },
+   luakube = {
+      ['0.1.0alpha-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luakuroshiro = {
       ['0.2-0'] = {
          {
@@ -54643,6 +54669,15 @@ repository = {
          }
       },
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   mongo = {
+      ['1.2.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -68241,6 +68276,13 @@ repository = {
          }
       },
       ['1.16.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.17.0-1'] = {
          {
             arch = "rockspec"
          }, {
