@@ -1,17 +1,17 @@
 rockspec_format = "3.0"
 package = "ldk-core"
-version = "0.1.1-1"
+version = "0.1.0-1"
 source = {
-   url = "git://github.com/luadevkit/core.git",
-   tag = "v0.1.1"
+   url = "git://github.com/dwenegar/ldk-core.git",
+   tag = "v0.1.0"
 }
 description = {
-   summary = "Core Libraries",
+   summary = "LDK Core Libraries",
    license = "MIT",
    maintainer = "simone.livieri@gmail.com"
 }
 dependencies = {
-   "lua >= 5.3"
+   "lua >= 5.4"
 }
 build = {
    modules = {
