@@ -1083,6 +1083,13 @@ repository = {
          }
       }
    },
+   ['api7-snowflake'] = {
+      ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    apicast = {
       ['scm-1'] = {
          {
@@ -1602,6 +1609,13 @@ repository = {
       ['1.0.0-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -4043,6 +4057,15 @@ repository = {
       ['0.1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   chameleon = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -13934,6 +13957,13 @@ repository = {
    },
    ['ffi-hyperparser'] = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -24992,20 +25022,6 @@ repository = {
       }
    },
    ['kong-plugin-traceable'] = {
-      ['1.0.11-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.12-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
       ['1.0.13-1'] = {
          {
             arch = "rockspec"
@@ -37285,6 +37301,13 @@ repository = {
          }
       },
       ['1.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.4.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -64510,6 +64533,15 @@ repository = {
          }
       }
    },
+   ['scalable-rate-limiter'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    scene = {
       ['0.1-0'] = {
          {
@@ -65989,6 +66021,15 @@ repository = {
          }
       },
       ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   squirt = {
+      ['1.0.1-0'] = {
          {
             arch = "rockspec"
          }, {
