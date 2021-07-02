@@ -4069,6 +4069,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    chance = {
@@ -4250,6 +4264,15 @@ repository = {
          }
       },
       ['0.2-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   cincau = {
+      ['0.3.20210701-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -13966,6 +13989,13 @@ repository = {
          }
       },
       ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -35602,6 +35632,15 @@ repository = {
          }
       },
       ['1.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-resp'] = {
+      ['0.5.4-1'] = {
          {
             arch = "rockspec"
          }, {
