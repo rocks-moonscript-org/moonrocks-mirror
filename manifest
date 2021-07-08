@@ -22506,7 +22506,7 @@ repository = {
       }
    },
    ['kong-plugin-http-mirror'] = {
-      ['0.1.0-1'] = {
+      ['1.0.0-0'] = {
          {
             arch = "rockspec"
          }
@@ -25861,6 +25861,13 @@ repository = {
          }
       },
       ['1.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.4.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -39596,6 +39603,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.8.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-readurl'] = {
@@ -49869,6 +49883,20 @@ repository = {
          }
       },
       ['0.0.0-10'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.0-11'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.0-12'] = {
          {
             arch = "rockspec"
          }, {
