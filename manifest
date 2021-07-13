@@ -39763,6 +39763,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.11.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-repl'] = {
@@ -42039,6 +42046,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lua2json = {
@@ -42709,6 +42723,15 @@ repository = {
          }
       },
       ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luacasc = {
+      ['1.14-0'] = {
          {
             arch = "rockspec"
          }, {
