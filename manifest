@@ -19299,6 +19299,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.5.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-aggregator'] = {
@@ -35524,6 +35531,29 @@ repository = {
          }
       }
    },
+   ['lua-randombytes'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-rbtree'] = {
       ['0.0.1-1'] = {
          {
@@ -43643,6 +43673,15 @@ repository = {
          }
       },
       ['2.0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luadbc = {
+      ['1.12-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -72960,6 +72999,13 @@ repository = {
          }
       },
       ['1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5-2'] = {
          {
             arch = "rockspec"
          }, {
