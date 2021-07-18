@@ -41192,6 +41192,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-simdjson'] = {

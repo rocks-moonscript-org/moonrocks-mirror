@@ -20,13 +20,13 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["kong.plugins.prometheus.api"] = "kong/plugins/prometheus/api.lua",
-    ["kong.plugins.prometheus.status_api"] = "kong/plugins/prometheus/status_api.lua",
-    ["kong.plugins.prometheus.exporter"] = "kong/plugins/prometheus/exporter.lua",
-    ["kong.plugins.prometheus.enterprise.exporter"] = "kong/plugins/prometheus/enterprise/exporter.lua",
-    ["kong.plugins.prometheus.handler"] = "kong/plugins/prometheus/handler.lua",
-    ["kong.plugins.prometheus.prometheus"] = "kong/plugins/prometheus/prometheus.lua",
-    ["kong.plugins.prometheus.serve"] = "kong/plugins/prometheus/serve.lua",
-    ["kong.plugins.prometheus.schema"] = "kong/plugins/prometheus/schema.lua",
+    ["kong.plugins.mp-prometheus.api"] = "kong/plugins/mp-prometheus/api.lua",
+    ["kong.plugins.mp-prometheus.status_api"] = "kong/plugins/mp-prometheus/status_api.lua",
+    ["kong.plugins.mp-prometheus.exporter"] = "kong/plugins/mp-prometheus/exporter.lua",
+    ["kong.plugins.mp-prometheus.enterprise.exporter"] = "kong/plugins/mp-prometheus/enterprise/exporter.lua",
+    ["kong.plugins.mp-prometheus.handler"] = "kong/plugins/mp-prometheus/handler.lua",
+    ["kong.plugins.mp-prometheus.prometheus"] = "kong/plugins/mp-prometheus/prometheus.lua",
+    ["kong.plugins.mp-prometheus.serve"] = "kong/plugins/mp-prometheus/serve.lua",
+    ["kong.plugins.mp-prometheus.schema"] = "kong/plugins/mp-prometheus/schema.lua",
   }
 }
