@@ -3781,6 +3781,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    cbuf = {
@@ -6878,6 +6885,13 @@ repository = {
          }
       },
       ['2.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -51313,6 +51327,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.41.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.6.1-1'] = {
          {
             arch = "rockspec"
@@ -70060,7 +70081,7 @@ repository = {
       }
    },
    unreliablefs = {
-      ['0.1.0-1'] = {
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -71882,12 +71903,7 @@ repository = {
       }
    },
    wowcig = {
-      ['0.1-0'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['0.1-1'] = {
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }
