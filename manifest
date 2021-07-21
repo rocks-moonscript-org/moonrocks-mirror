@@ -13845,6 +13845,15 @@ repository = {
          }
       }
    },
+   ['fengari-web'] = {
+      ['0.1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    fennel = {
       ['0.1.0-1'] = {
          {
