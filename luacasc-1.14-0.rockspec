@@ -7,6 +7,11 @@ source = {
 }
 dependencies = {
   'lua = 5.1',
+  'luabitop',
+  'luafilesystem',
+  'luasocket',
+  'lzlib',
+  'md5',
 }
 build = {
   type = 'builtin',
