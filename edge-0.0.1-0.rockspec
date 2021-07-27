@@ -25,7 +25,8 @@ dependencies = {
     "lua-resty-openssl >= 0.7.3",
     "lua-resty-healthcheck >= 2.0.0",
     "lua-resty-dns-client >= 6.0.2",
-    "binaryheap >= 0.4"
+    "binaryheap >= 0.4",
+    "lua-resty-jwt >= 0.2.3"
 }
 
 build = {

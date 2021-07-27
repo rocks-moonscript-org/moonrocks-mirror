@@ -3687,6 +3687,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.25.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    cassandra = {
@@ -21016,6 +21021,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.2.15-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.2.2-1'] = {
          {
             arch = "rockspec"
@@ -28200,6 +28212,24 @@ repository = {
       }
    },
    ['ldk-core'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['ldk-hash'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['ldk-lang'] = {
       ['0.1.0-1'] = {
          {
             arch = "rockspec"
@@ -61693,6 +61723,13 @@ repository = {
          }
       },
       ['6.7.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['6.8.0-1'] = {
          {
             arch = "rockspec"
          }, {
