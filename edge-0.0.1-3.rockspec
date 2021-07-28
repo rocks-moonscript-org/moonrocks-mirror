@@ -1,5 +1,5 @@
 package = "edge"
-version = "0.0.1-0"
+version = "0.0.1-3"
 
 source = {
     url = "git+ssh://git@git.newegg.org:newegg-college/bts/edge/agent.git",
