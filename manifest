@@ -15671,6 +15671,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['gobo-awesome-bluetooth'] = {
@@ -15728,6 +15735,13 @@ repository = {
    },
    ['gobo-awesome-light'] = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -35678,6 +35692,13 @@ repository = {
          }
       },
       ['0.3.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -59200,6 +59221,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['org.conman.dns'] = {
@@ -59807,6 +59835,13 @@ repository = {
          }
       },
       ['1.0.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -68732,6 +68767,13 @@ repository = {
          }
       },
       ['0.13.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.13.2-1'] = {
          {
             arch = "rockspec"
          }, {
