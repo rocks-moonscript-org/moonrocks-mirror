@@ -1,10 +1,10 @@
 package = "kong-plugin-jwt-validation"
-version = "1.2-5"
+version = "1.2-9"
 source = {
    url = "git+https://github.com/alisonjf/kong-jwt-validation-plugin.git"
 }
 description = {
-   summary = "A plugin for Kong which adds a custom generated JWT expiration time and user id claim validation",
+   summary = "A plugin for Kong which adds a custom generated JWT expiration time, user id and user profile id claim validation",
    homepage = "https://github.com/alisonjf/kong-jwt-validation-plugin.git",
    license = "MIT"
 }
