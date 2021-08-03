@@ -15499,6 +15499,29 @@ repository = {
          }
       }
    },
+   girvel = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    github = {
       ['0.0.1-1'] = {
          {
@@ -36686,6 +36709,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-consul'] = {
@@ -43120,8 +43150,6 @@ repository = {
       ['1.14-0'] = {
          {
             arch = "rockspec"
-         }, {
-            arch = "src"
          }
       }
    },
@@ -44040,8 +44068,6 @@ repository = {
       ['1.12-0'] = {
          {
             arch = "rockspec"
-         }, {
-            arch = "src"
          }
       }
    },
@@ -72306,6 +72332,11 @@ repository = {
    },
    wowcig = {
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3-0'] = {
          {
             arch = "rockspec"
          }
