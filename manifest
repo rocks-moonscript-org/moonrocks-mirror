@@ -3707,6 +3707,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.29.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    cassandra = {
@@ -27338,6 +27343,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1627995481.88199-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lacord-client'] = {
@@ -36616,6 +36628,13 @@ repository = {
    },
    ['lua-resty-aws'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
