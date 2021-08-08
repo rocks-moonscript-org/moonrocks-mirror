@@ -41,7 +41,6 @@ build = {
 	   ["gitsigns.current_line_blame"] = "lua/gitsigns/current_line_blame.lua",
 	   ["gitsigns.debounce"] = "lua/gitsigns/debounce.lua",
 	   ["gitsigns.debug"] = "lua/gitsigns/debug.lua",
-	   ["gitsigns.diff"] = "lua/gitsigns/diff.lua",
 	   ["gitsigns.diff_ext"] = "lua/gitsigns/diff_ext.lua",
 	   ["gitsigns.diff_ffi"] = "lua/gitsigns/diff_ffi.lua",
 	   ["gitsigns.git"] = "lua/gitsigns/git.lua",
@@ -55,17 +54,8 @@ build = {
 	   ["gitsigns.status"] = "lua/gitsigns/status.lua",
 	   ["gitsigns.util"] = "lua/gitsigns/util.lua",
    },
-   -- copy_directories = {
-	   -- -- "ftplugin",
-	   -- 'lua'
-   -- }
+   copy_directories = {
+	   -- "ftplugin",
+	   'doc'
+   }
 }
-
--- if _MODREV == 'git' then
---    dependencies[#dependencies + 1] = 'ldoc'
-
---    source = {
---       url = 'git://github.com/luaposix/luaposix.git',
---    }
--- end
-

@@ -3712,6 +3712,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.30.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    cassandra = {
@@ -13963,6 +13968,13 @@ repository = {
          }
       },
       ['0.1.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.10.0-1'] = {
          {
             arch = "rockspec"
          }, {
