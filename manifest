@@ -3717,6 +3717,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.31.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    cassandra = {
@@ -19503,6 +19508,15 @@ repository = {
          }
       },
       ['2.5.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-advanced-router'] = {
+      ['0.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -38173,6 +38187,13 @@ repository = {
       ['0.6-0'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.6.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -74048,6 +74069,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['zhangsaizz-skywalking-nginx-lua'] = {
+      ['master-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
