@@ -19536,6 +19536,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-aggregator'] = {
