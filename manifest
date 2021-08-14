@@ -7453,6 +7453,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.21.08.13-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    dislua = {
@@ -13201,13 +13206,6 @@ repository = {
       }
    },
    ['esk-lua-resty-auto-ssl'] = {
-      ['0.13.1.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
       ['0.13.1.2-1'] = {
          {
             arch = "rockspec"
@@ -32858,6 +32856,13 @@ repository = {
          }
       },
       ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -52924,6 +52929,11 @@ repository = {
          }
       },
       ['1.20.08.23-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.21.08.13-1'] = {
          {
             arch = "rockspec"
          }
