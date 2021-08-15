@@ -5,8 +5,19 @@ source = {
   url = 'https://www.townlong-yak.com/casc/files/luacasc-1.14.zip',
   dir = 'luacasc',
 }
+description = {
+  summary = 'An implementation of the CASC file system in Lua, capable of reading from local installations and/or CDN-hosted data.',
+  detailed = [[
+    The source code of this module is copyrighted by the folks at
+    townlong-yak.com, with all rights reserved. This module is provided
+    as a convenience, with permission of the author.
+  ]],
+  homepage = 'https://www.townlong-yak.com/casc/',
+  license = 'All Rights Reserved',
+  maintainer = 'ferronn@ferronn.dev',
+}
 dependencies = {
-  'lua = 5.1',
+  'lua >= 5.1',
   'luabitop',
   'luafilesystem',
   'luasocket',
