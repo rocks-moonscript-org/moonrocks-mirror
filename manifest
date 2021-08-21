@@ -3732,6 +3732,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.33.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    cassandra = {
@@ -41731,6 +41736,15 @@ repository = {
          }
       }
    },
+   ['lua-serialize'] = {
+      ['0.1.20210820-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-shepi'] = {
       ['1.3-1'] = {
          {
@@ -52402,6 +52416,20 @@ repository = {
          }
       },
       ['0.4.1.53-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.1.53-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.1.53-4'] = {
          {
             arch = "rockspec"
          }, {
@@ -67011,8 +67039,26 @@ repository = {
          }
       }
    },
+   sproto = {
+      ['0.1.20210820-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    sputnik = {
       ['9.03.16-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['sql-orm'] = {
+      ['0.3.20210821-1'] = {
          {
             arch = "rockspec"
          }, {
