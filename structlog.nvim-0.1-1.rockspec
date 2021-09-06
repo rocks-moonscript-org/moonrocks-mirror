@@ -15,6 +15,7 @@ Instead of writting complex messages, you can start thinking in terms of
 an event that happens in the context of key/value pairs.
 Each log entry is a meaningful dictionary instead of an opaque string!
   ]],
+  labels = { "neovim", "logs" },
   homepage = "https://github.com/Tastyep/structlog.nvim",
   maintainer = "Luc Sinet",
   license = "MIT",
