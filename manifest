@@ -19963,15 +19963,6 @@ repository = {
          }
       }
    },
-   ['kong-check-header-x'] = {
-      ['1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    ['kong-circuit-breaker'] = {
       ['1.0.0-1'] = {
          {
@@ -57782,6 +57773,18 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   nanostores_lua = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
