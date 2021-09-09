@@ -3780,6 +3780,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.36.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    cassandra = {
@@ -4651,6 +4656,13 @@ repository = {
    },
    cldr = {
       ['0.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -25721,6 +25733,13 @@ repository = {
    },
    ['kong-plugin-traceable'] = {
       ['1.0.13-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.14-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -57823,6 +57842,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.6-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    nanovg = {
@@ -65581,6 +65610,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    rubyapi = {
@@ -67477,6 +67511,20 @@ repository = {
          }
       },
       ['v1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['v1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['v1.1.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -72982,6 +73030,13 @@ repository = {
          }
       },
       ['0.13.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.13.3-1'] = {
          {
             arch = "rockspec"
          }, {
