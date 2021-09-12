@@ -1,8 +1,10 @@
+rockspec_format = "1.0"
 package = "cassowary"
 version = "2.3.1-2"
 
 source = {
    url = "git://github.com/sile-typesetter/cassowary.lua",
+   dir = "cassowary.lua",
    tag = "v2.3.1"
 }
 
