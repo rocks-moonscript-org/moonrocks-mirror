@@ -1,5 +1,5 @@
 package = "edge"
-version = "0.0.1-3"
+version = "0.0.1-4"
 
 source = {
     url = "git+ssh://git@git.newegg.org:newegg-college/bts/edge/agent.git",
@@ -26,7 +26,8 @@ dependencies = {
     "lua-resty-healthcheck >= 2.0.0",
     "lua-resty-dns-client >= 6.0.2",
     "binaryheap >= 0.4",
-    "lua-resty-jwt >= 0.2.3"
+    "lua-resty-jwt >= 0.2.3",
+    "nginx-lua-prometheus >= 0.20210206"
 }
 
 build = {
