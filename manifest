@@ -52459,6 +52459,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.42.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.6.1-1'] = {
          {
             arch = "rockspec"
@@ -68502,6 +68509,22 @@ repository = {
          }
       }
    },
+   strongstring = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    strsubst = {
       ['0.2-1'] = {
          {
@@ -74958,6 +74981,24 @@ repository = {
          }
       },
       ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   yoke = {
+      ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['yoke-file'] = {
+      ['0.0.1-0'] = {
          {
             arch = "rockspec"
          }, {
