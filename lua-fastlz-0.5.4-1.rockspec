@@ -1,8 +1,8 @@
 package = 'lua-fastlz'
-version = '0.5.1-1'
+version = '0.5.4-1'
 source = {
    url = 'git+https://github.com/lalawue/lua-fastlz.git',
-   tag = '0.5.1'
+   tag = '0.5.4'
 }
 description = {
    summary = 'LZ77 lossless data compression for Lua',
