@@ -14765,6 +14765,13 @@ repository = {
          }
       }
    },
+   ['flatbuffers-lib'] = {
+      ['2.0.0-5'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    flatfile = {
       ['1-1'] = {
          {
@@ -33340,6 +33347,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-buffet'] = {
@@ -46234,6 +46248,15 @@ repository = {
          }
       }
    },
+   ['luajit-dmon'] = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['luajit-geoip'] = {
       ['2.1.0-1'] = {
          {
@@ -46254,6 +46277,15 @@ repository = {
       ['0.1-2'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['luajit-mail'] = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -59248,6 +59280,15 @@ repository = {
       ['0.0.1-0'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['nxx-lua-resty-cookie'] = {
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
