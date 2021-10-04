@@ -43663,6 +43663,13 @@ repository = {
          }
       }
    },
+   lua_pack_cn = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    lua_redis = {
       ['1.0.0-1'] = {
          {
@@ -66446,6 +66453,13 @@ repository = {
    },
    sass = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   satellite = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }
