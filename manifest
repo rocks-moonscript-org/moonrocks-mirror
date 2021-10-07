@@ -15488,6 +15488,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    functorflow = {
@@ -46413,6 +46420,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luajit-tidy'] = {
@@ -64566,6 +64580,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   qrprinter = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
