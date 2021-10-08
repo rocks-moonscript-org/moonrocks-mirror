@@ -13763,6 +13763,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['ext-plugin-proto'] = {
@@ -36259,6 +36264,13 @@ repository = {
          }
       },
       ['0.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -64587,6 +64599,13 @@ repository = {
       ['1.0-0'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
