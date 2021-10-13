@@ -4193,6 +4193,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    centrilua = {
@@ -13792,6 +13799,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['ext-plugin-proto'] = {
@@ -17817,6 +17831,13 @@ repository = {
          }
       },
       ['0.2.20210909-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.20211012-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -40895,6 +40916,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-r3'] = {
@@ -58775,6 +58810,13 @@ repository = {
    },
    netlink = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
