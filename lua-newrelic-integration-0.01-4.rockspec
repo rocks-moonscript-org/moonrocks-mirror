@@ -1,14 +1,14 @@
 package = "lua-newrelic-integration"
-version = "0.01-1"
+version = "0.01-4"
 source = {
    url = "git://github.com/danifbento/lua-newrelic-integration",
-   tag = "v0.01"
+   tag = "v0.01-4"
 }
 description = {
    summary = "Lua newrelic client library for OpenResty / ngx_lua.",
    detailed = [[
-    Features an interface to reporting and monitoring with newrelic.
-    Requires newrelic SDK shared libraries to be installed
+    Features an interface to reporting and monitoring with New Relic.
+    Requires New Relic C-SDK shared librarie to be installed
     (https://docs.newrelic.com/docs/agents/c-sdk/get-started/introduction-c-sdk/)
   ]],
    homepage = "https://github.com/danifbento/lua-newrelic-integration",
@@ -21,7 +21,7 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      ["lua-nri.newrelic"] = "lib/nri/newrelic.lua",
-      ["lua-nri.newrelic_agent"] = "lib/nri/newrelic_agent.lua"
+      ["lua-nri.newrelic"] = "lib/lua-nri/newrelic.lua",
+      ["lua-nri.newrelic_agent"] = "lib/lua-nri/newrelic_agent.lua"
    }
 }

@@ -2,9 +2,8 @@ package = "satellite"
 version = "1.0-1"
 
 source = {
-   url = "git+ssh://git@github.com/pvpsnvz/satellite",
-   branch = "main",
-   tag = "v1.0-1"
+   url = "git+https://github.com/pvpsnvz/satellite.git",
+   branch = "main"
 }
 
 description = {
