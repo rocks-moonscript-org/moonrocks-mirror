@@ -4298,6 +4298,13 @@ repository = {
          }
       }
    },
+   chaboksms = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    chacha = {
       ['1.0-1'] = {
          {
@@ -18528,6 +18535,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ip2location = {
@@ -20033,6 +20045,13 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -27150,6 +27169,13 @@ repository = {
       ['1.1-0'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['1.2.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -52928,6 +52954,13 @@ repository = {
          }
       },
       ['1.42.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.42.0-1'] = {
          {
             arch = "rockspec"
          }, {
