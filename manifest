@@ -13970,6 +13970,13 @@ repository = {
          }
       }
    },
+   ezenv = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    f = {
       ['0.1.0-1'] = {
          {
@@ -71031,6 +71038,15 @@ repository = {
          }
       }
    },
+   toml = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['tonos-client'] = {
       ['1.0.0-1'] = {
          {
@@ -71152,6 +71168,13 @@ repository = {
          }
       },
       ['1.23.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.24.0-1'] = {
          {
             arch = "rockspec"
          }, {
