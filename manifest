@@ -12678,7 +12678,7 @@ repository = {
             arch = "src"
          }
       },
-      ['1.0.0-3'] = {
+      ['1.0.0-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -22220,6 +22220,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-cookies-to-headers'] = {
@@ -22734,6 +22741,24 @@ repository = {
       ['0.1.0-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-file-log-extended'] = {
+      ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
          }, {
             arch = "src"
          }
@@ -66039,6 +66064,13 @@ repository = {
          }
       }
    },
+   ['resurfaceio-logger'] = {
+      ['1.2-3'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    rfcvalid = {
       ['0.6.0-1'] = {
          {
@@ -70410,6 +70442,11 @@ repository = {
          }
       },
       ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4.1-1'] = {
          {
             arch = "rockspec"
          }

@@ -1,5 +1,5 @@
 package = "dtracing"
-version = "1.0.0-3"
+version = "1.0.0-2"
 
 source = {
   url = "git+https://git@gitlab.com/skilledboy/dtracing.git",
