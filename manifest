@@ -23450,6 +23450,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-http-log-with-body-base64'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-http-mirror'] = {
       ['1.0.0-0'] = {
          {
@@ -23987,6 +23996,22 @@ repository = {
          }
       },
       ['0.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-log-extended'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -40846,6 +40871,13 @@ repository = {
          }
       },
       ['0.7.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.8.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -71077,6 +71109,13 @@ repository = {
    },
    toml = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.2-0'] = {
          {
             arch = "rockspec"
          }, {
