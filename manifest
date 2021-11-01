@@ -64391,6 +64391,22 @@ repository = {
          }
       }
    },
+   proto = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    protobuf = {
       ['1.0.0-0'] = {
          {
