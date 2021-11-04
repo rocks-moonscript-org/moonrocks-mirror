@@ -1,7 +1,7 @@
-package = "tools"
-version = "1.0.0-1"
+package = "luatools"
+version = "1.0.0-2"
 source = {
-   url = "git://github.com/lualcs/tools",
+   url = "git://github.com/lualcs/luaTools",
 }
 description = {
    summary = "An extra mocking layer for OpenResty in busted testing environment.",
@@ -9,7 +9,7 @@ description = {
       This module mocks the following OpenResty APIs:
 
    ]],
-   homepage = "git://github.com/lualcs/tools",
+   homepage = "git://github.com/lualcs/luaTools",
    license = "MIT"
 }
 dependencies = {
@@ -76,19 +76,19 @@ build = {
       ["table.zeroSetting"] = "src/method/table/zeroSetting.lua",
       ["string.gsplit"] = "src/method/string/gsplit.lua",
       ["array.append"] = "src/method/array/append.lua",
-      ["array.appends"] = "src/method/array/appends.lua",
+      ["array.merge"] = "src/method/array/merge.lua",
       ["array.call"] = "src/method/array/call.lua",
       ["array.map"] = "src/method/array/map.lua",
-      ["array.maxNumber"] = "src/method/array/maxNumber.lua",
-      ["array.minmaxNumber"] = "src/method/array/minmaxNumber.lua",
-      ["array.minNumber"] = "src/method/array/minNumber.lua",
+      ["array.max"] = "src/method/array/max.lua",
+      ["array.minmax"] = "src/method/array/minmax.lua",
+      ["array.min"] = "src/method/array/min.lua",
       ["array.rand"] = "src/method/array/rand.lua",
       ["array.sum"] = "src/method/array/sum.lua",
-      ["array.weightSumming"] = "src/method/array/weightSumming.lua",
+      ["array.wgtSum"] = "src/method/array/wgtSum.lua",
       ["map.call"] = "src/method/map/call.lua",
       ["map.ckarray"] = "src/method/map/ckarray.lua",
       ["map.count"] = "src/method/map/count.lua",
-      ["map.karray"] = "src/method/map/karray.lua",
+      ["map.keys"] = "src/method/map/keys.lua",
       ["map.rand"] = "src/method/map/rand.lua",
       ["map.sum"] = "src/method/map/sum.lua",
       ["math.frexp"] = "src/method/math/frexp.lua",
