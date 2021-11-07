@@ -53601,6 +53601,13 @@ repository = {
          }
       }
    },
+   lzfse = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    lzlib = {
       ['0.3-1'] = {
          {
