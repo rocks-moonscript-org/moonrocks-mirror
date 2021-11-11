@@ -4757,6 +4757,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['4.1.1-13'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['4.1.1-3'] = {
          {
             arch = "rockspec"
@@ -22260,6 +22265,13 @@ repository = {
          }
       },
       ['0.1.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.8-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -71450,6 +71462,13 @@ repository = {
          }
       },
       ['1.24.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.25.0-1'] = {
          {
             arch = "rockspec"
          }, {
