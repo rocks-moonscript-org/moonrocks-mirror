@@ -14032,6 +14032,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.2-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    f = {
@@ -57485,6 +57490,13 @@ repository = {
          }
       },
       ['0.4.20210925-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.20211114-2'] = {
          {
             arch = "rockspec"
          }, {
