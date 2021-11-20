@@ -30183,6 +30183,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['3.4.1-2'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lice-lua'] = {
@@ -76445,6 +76450,13 @@ repository = {
          }
       },
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-2'] = {
          {
             arch = "rockspec"
          }, {
