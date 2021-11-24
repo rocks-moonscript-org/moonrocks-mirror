@@ -1715,6 +1715,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    astar = {
@@ -64499,6 +64504,15 @@ repository = {
    },
    ['postgres-auth-server'] = {
       ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['power-table'] = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
