@@ -28372,6 +28372,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1637789515-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lacord-client'] = {
