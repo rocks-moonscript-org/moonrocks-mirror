@@ -2,8 +2,7 @@ package = "yoke"
 version = "0.0.1-1"
 
 source = {
-   url = "file:///home/zen/lib/yoke/yoke-src.zip"
-   -- url = "https://yokerp.com/src/yoke-src.zip"
+   url = "file:///home/zen/lib/yoke/rocks/yoke.zip"
 }
 
 description = {

@@ -1,7 +1,7 @@
 local plugin_name = "jwt-blacklist"
 local package_name = "kong-plugin-" .. plugin_name
-local package_version = "0.1.0"
-local rockspec_revision = "8"
+local package_version = "0.1.4"
+local rockspec_revision = "3"
 
 local github_account_name = "propzians"
 local github_repo_name = "kong-plugin-jwt-blacklist"
@@ -31,7 +31,6 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    -- TODO: add any additional code files added to the plugin
     ["kong.plugins."..plugin_name..".handler"] = "kong/plugins/"..plugin_name.."/handler.lua",
     ["kong.plugins."..plugin_name..".schema"] = "kong/plugins/"..plugin_name.."/schema.lua"
   }
