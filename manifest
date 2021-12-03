@@ -1114,6 +1114,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['api7-snowflake'] = {
@@ -45775,6 +45782,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luadbg = {
@@ -47445,6 +47462,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luajwtjitsi-petergood'] = {
@@ -48971,6 +48995,36 @@ repository = {
          }
       },
       ['5.1.7-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luaprecomp = {
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.3-1'] = {
          {
             arch = "rockspec"
          }, {
