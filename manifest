@@ -55900,6 +55900,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    minifs = {
@@ -72149,6 +72156,13 @@ repository = {
          }
       },
       ['1.26.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.27.0-1'] = {
          {
             arch = "rockspec"
          }, {
