@@ -77224,6 +77224,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.1-7'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['yoke-file'] = {
