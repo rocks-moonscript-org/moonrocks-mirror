@@ -13624,6 +13624,13 @@ repository = {
          }
       }
    },
+   error = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    escher = {
       ['0.1-8'] = {
          {
@@ -21211,6 +21218,13 @@ repository = {
          }
       }
    },
+   ['kong-jwt-firebase'] = {
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['kong-jwt2header'] = {
       ['1.0-3'] = {
          {
@@ -24195,13 +24209,6 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
-         }
-      }
-   },
-   ['kong-plugin-jwt-firebase'] = {
-      ['1.0.0-1'] = {
-         {
-            arch = "rockspec"
          }
       }
    },
