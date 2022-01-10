@@ -1121,6 +1121,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['api7-snowflake'] = {
@@ -29231,6 +29238,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.41.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lapis-console'] = {
@@ -41738,6 +41752,25 @@ repository = {
          }
       },
       ['1.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-resty-pushover'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.0-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -72741,6 +72774,13 @@ repository = {
          }
       },
       ['1.27.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.28.0-1'] = {
          {
             arch = "rockspec"
          }, {
