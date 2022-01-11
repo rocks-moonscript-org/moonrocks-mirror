@@ -16147,6 +16147,13 @@ repository = {
          }
       }
    },
+   getenv = {
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    getopt = {
       ['1.0.0-1'] = {
          {
@@ -31504,6 +31511,11 @@ repository = {
    },
    loadchunk = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -64073,6 +64085,13 @@ repository = {
          }
       },
       ['1.11.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.12.0-1'] = {
          {
             arch = "rockspec"
          }, {
