@@ -1,9 +1,9 @@
 rockspec_format = "3.0"
 package = "testcase"
-version = "0.4.3-1"
+version = "0.4.4-1"
 source = {
    url = "git+https://github.com/mah0x211/lua-testcase.git",
-   tag = "v0.4.3"
+   tag = "v0.4.4"
 }
 description = {
    summary = "a small helper tool to run the test files.",
