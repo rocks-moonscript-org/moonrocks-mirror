@@ -7479,6 +7479,15 @@ repository = {
          }
       }
    },
+   ['dbhys-openresty-skywalking'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    dbus_proxy = {
       ['0.10.0-1'] = {
          {
@@ -19849,6 +19858,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.7-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kemi-test-suite'] = {
@@ -27010,6 +27026,13 @@ repository = {
          }
       },
       ['2.0.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.6-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -64003,6 +64026,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.2-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    payments = {
@@ -65494,6 +65522,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    pluto = {
@@ -66026,6 +66059,27 @@ repository = {
          }
       },
       ['0.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.4-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -72390,6 +72444,15 @@ repository = {
          }
       }
    },
+   tglua = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    thcsv = {
       ['1.0-1'] = {
          {
@@ -72408,6 +72471,13 @@ repository = {
    },
    timerfd = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
