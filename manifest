@@ -1090,6 +1090,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['api7-lua-resty-http'] = {
@@ -1747,6 +1754,11 @@ repository = {
    },
    assert = {
       ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3.3-1'] = {
          {
             arch = "rockspec"
          }
@@ -21384,6 +21396,11 @@ repository = {
          }
       },
       ['2.0.0-22'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0.0-23'] = {
          {
             arch = "rockspec"
          }
@@ -65540,6 +65557,11 @@ repository = {
          }
       },
       ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3.0-1'] = {
          {
             arch = "rockspec"
          }
