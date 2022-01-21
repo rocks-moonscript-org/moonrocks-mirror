@@ -7507,6 +7507,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dbus_proxy = {
@@ -15730,6 +15737,13 @@ repository = {
    },
    fsoutcall = {
       ['1.0.1-8'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   fsrouter = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }
