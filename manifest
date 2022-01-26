@@ -16242,6 +16242,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    getopt = {
@@ -46534,6 +46539,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.2-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luadbg = {
@@ -66198,6 +66208,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    protobuf = {
@@ -69171,6 +69188,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   setenv = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -76510,6 +76534,11 @@ repository = {
          }
       },
       ['0.13.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.13.1-0'] = {
          {
             arch = "rockspec"
          }
