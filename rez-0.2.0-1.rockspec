@@ -1,8 +1,8 @@
 package = "rez"
-version = "0.1.0-1"
+version = "0.2.0-1"
 source = {
     url = "git+https://github.com/mah0x211/lua-rez.git",
-    tag = "v0.1.0",
+    tag = "v0.2.0",
 }
 description = {
     summary = "A simple template engine for lua.",
