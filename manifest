@@ -2409,6 +2409,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    basename = {
@@ -15850,6 +15855,11 @@ repository = {
          }
       },
       ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -32829,6 +32839,29 @@ repository = {
          }
       }
    },
+   lp = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lpack = {
       ['20070629-1'] = {
          {
@@ -48499,6 +48532,15 @@ repository = {
          }
       }
    },
+   luajwtabcpen = {
+      ['2.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luajwtjitsi = {
       ['1.3-5'] = {
          {
@@ -62189,6 +62231,11 @@ repository = {
    },
    opendir = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }
