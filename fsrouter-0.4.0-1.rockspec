@@ -1,8 +1,8 @@
 package = 'fsrouter'
-version = '0.1.0-1'
+version = '0.4.0-1'
 source = {
     url = 'git+https://github.com/mah0x211/lua-fsrouter.git',
-    tag = 'v0.1.0',
+    tag = 'v0.4.0',
 }
 description = {
     summary = 'filesystem based url router',
@@ -12,9 +12,12 @@ description = {
 }
 dependencies = {
     'lua >= 5.1',
-    'basedir >= 0.1.0',
+    'basedir >= 0.3.0',
+    'extname >= 0.1.0',
     'isa >= 0.2.1',
+    'libmagic >= 5.41',
     'loadchunk >= 0.1.2',
+    'mediatypes >= 2.0.1',
     'plut >= 0.3.0',
 }
 build = {
