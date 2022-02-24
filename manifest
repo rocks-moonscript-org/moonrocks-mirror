@@ -7952,6 +7952,13 @@ repository = {
          }
       }
    },
+   ['digiprime-jwt'] = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    digitalfilter = {
       ['1.0-0'] = {
          {
@@ -14319,6 +14326,13 @@ repository = {
          }
       },
       ['0.3.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -31137,6 +31151,13 @@ repository = {
          }
       },
       ['3.4.1-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   libzmanim = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }
