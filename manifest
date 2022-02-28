@@ -13904,6 +13904,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.6.3-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    escher = {
@@ -19445,6 +19450,22 @@ repository = {
          }
       },
       ['5.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['irc-parser'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -29998,6 +30019,11 @@ repository = {
          }
       },
       ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -75330,6 +75356,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   unpack = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
