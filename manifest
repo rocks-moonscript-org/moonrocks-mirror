@@ -9753,6 +9753,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['dromozoa-amalgamate'] = {
@@ -13848,6 +13855,15 @@ repository = {
          }
       }
    },
+   erde = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['erento-lua-rfc-4122-uuid-generator'] = {
       ['1.0-0'] = {
          {
@@ -14327,6 +14343,13 @@ repository = {
          }
       },
       ['1.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -68736,6 +68759,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    rfcvalid = {
@@ -72271,25 +72299,6 @@ repository = {
          }
       }
    },
-   swef = {
-      ['0.6'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['1'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
-   ['swef.lua'] = {
-      ['0.6'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    switch = {
       ['1.0-0'] = {
          {
@@ -75323,15 +75332,6 @@ repository = {
       ['0.1.0-1'] = {
          {
             arch = "rockspec"
-         }
-      }
-   },
-   umka = {
-      ['0.1.0-0'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
          }
       }
    },
