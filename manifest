@@ -5879,6 +5879,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    copas = {
@@ -9776,6 +9781,13 @@ repository = {
          }
       },
       ['0.1-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-6'] = {
          {
             arch = "rockspec"
          }, {
@@ -15708,6 +15720,20 @@ repository = {
          }
       },
       ['0.0.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -23244,6 +23270,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-cookies-to-headers'] = {
@@ -27701,6 +27734,11 @@ repository = {
    },
    ['kong-plugin-url-regex-rewriter'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -64501,6 +64539,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['ossp-uuid'] = {
+      ['1.6.2-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
