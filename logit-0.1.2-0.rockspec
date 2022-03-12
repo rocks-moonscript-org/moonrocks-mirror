@@ -1,15 +1,13 @@
 package = "logit"
--- SemVer: 5.0.0
--- Revisión: 0
-version = "5.0.0-0"
+version = "0.1.2-0"
 source  = {
   url = "git://github.com/Miqueas/Logit",
-  tag = "v5.0.0"
+  tag = "v0.1.2"
 }
 
 description = {
-  summary  = "Easy logging for Lua",
-  detailed = "A dependency-free, cross-platform, simple and well designed logging library for Lua",
+  summary  = "Easy logging for Lua and Nim",
+  detailed = "Dependency-free, cross-platform and small logging library for Lua and Nim, with a simple and comfortable API",
   homepage = "https://github.com/Miqueas/Logit",
   license  = "zlib"
 }
