@@ -3861,6 +3861,13 @@ repository = {
          }
       }
    },
+   ['canary-oss'] = {
+      ['1.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    candran = {
       ['0.14.0-1'] = {
          {
@@ -24893,6 +24900,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1.6-2'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['kong-plugin-jwt-claims-to-headers'] = {
@@ -27831,7 +27843,12 @@ repository = {
             arch = "rockspec"
          }
       },
-      ['0.1.1-1'] = {
+      ['0.1.1-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.1-3'] = {
          {
             arch = "rockspec"
          }
@@ -27897,6 +27914,13 @@ repository = {
          }
       },
       ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -42686,6 +42710,13 @@ repository = {
          }
       },
       ['0.8.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.8.7-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -66223,6 +66254,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['7.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    personnummer = {
@@ -68407,6 +68445,13 @@ repository = {
    },
    redstats = {
       ['1.0.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
