@@ -1,7 +1,7 @@
 package = "swef"
 version = "1-3"
 source = {
-   url = "git+https://github.com/JhonnyRice/swef.git",
+   url = "git+https://www.github.com/JhonnyRice/swef.git",
    tag = "1.3"
 }
 description = {
