@@ -20141,6 +20141,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1-4'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['json-rpc'] = {
@@ -39258,6 +39263,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-agoradynamickey'] = {
@@ -57400,6 +57412,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    mexbt = {
@@ -67080,6 +67097,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    pluto = {
@@ -72718,8 +72740,27 @@ repository = {
          }
       }
    },
+   ['string-capitalize'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['string-contains'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['string-split'] = {
       ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -72727,6 +72768,11 @@ repository = {
    },
    ['string-trim'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -74170,6 +74216,11 @@ repository = {
          }
       },
       ['0.5.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.5.4-1'] = {
          {
             arch = "rockspec"
          }
