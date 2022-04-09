@@ -1,0 +1,31 @@
+package = 'io-fileno'
+version = '0.1.0-1'
+source = {
+    url = 'git+https://github.com/mah0x211/lua-io-fileno.git',
+    tag = 'v0.1.0',
+}
+description = {
+    summary = 'get the file descriptor from the lua file handle.',
+    homepage = 'https://github.com/mah0x211/lua-io-fileno',
+    license = 'MIT/X11',
+    maintainer = 'Masatoshi Fukunaga',
+}
+dependencies = {
+    'lua >= 5.1',
+    'lauxhlib >= 0.3.1',
+}
+build = {
+    type = 'make',
+    build_variables = {
+        LIB_EXTENSION   = "$(LIB_EXTENSION)",
+        CFLAGS          = "$(CFLAGS)",
+        WARNINGS        = "-Wall -Wno-trigraphs -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wno-switch -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -Wshadow -Wsign-compare",
+        CPPFLAGS        = "-I$(LUA_INCDIR)",
+        LDFLAGS         = "$(LIBFLAG)",
+        IO_FILENO_COVERAGE = "$(IO_FILENO_COVERAGE)",
+    },
+    install_variables = {
+        LIB_EXTENSION   = "$(LIB_EXTENSION)",
+        INST_LIBDIR     = "$(LIBDIR)/io/",
+    }
+}
