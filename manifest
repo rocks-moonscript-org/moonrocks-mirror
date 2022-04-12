@@ -3317,6 +3317,13 @@ repository = {
          }
       }
    },
+   bufio = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    bump = {
       ['3.1.5-1'] = {
          {
@@ -21281,6 +21288,13 @@ repository = {
          }
       },
       ['2.8.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.8.1-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -65284,6 +65298,13 @@ repository = {
    },
    pancake = {
       ['1.0.0b11-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0b16-0'] = {
          {
             arch = "rockspec"
          }, {
