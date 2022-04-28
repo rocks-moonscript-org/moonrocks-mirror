@@ -15566,6 +15566,13 @@ repository = {
          }
       }
    },
+   fiber = {
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    fifo = {
       ['0.2-0'] = {
          {
@@ -59674,6 +59681,13 @@ repository = {
          }
       }
    },
+   mkstemp = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    mm = {
       ['1.0.0-1'] = {
          {
@@ -73233,6 +73247,13 @@ repository = {
       }
    },
    ['string-contains'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['string-replace'] = {
       ['0.1.0-1'] = {
          {
             arch = "rockspec"
