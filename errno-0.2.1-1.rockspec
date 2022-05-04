@@ -1,18 +1,18 @@
-package = 'opendir'
-version = '0.2.0-1'
+package = "errno"
+version = "0.2.1-1"
 source = {
-    url = 'git+https://github.com/mah0x211/lua-opendir.git',
-    tag = 'v0.2.0',
+    url = "git+https://github.com/mah0x211/lua-errno.git",
+    tag = "v0.2.1",
 }
 description = {
-    summary = 'open a directory stream.',
-    homepage = 'https://github.com/mah0x211/lua-opendir',
-    license = 'MIT/X11',
-    maintainer = 'Masatoshi Fukunaga'
+    summary = "the errno handling module for lua.",
+    homepage = "https://github.com/mah0x211/lua-errno",
+    license = "MIT/X11",
+    maintainer = "Masatoshi Fukunaga"
 }
 dependencies = {
-    'lua >= 5.1',
-    'lauxhlib >= 0.1.0',
+    "lua >= 5.1",
+    "error >= 0.7.0",
 }
 build = {
     type = 'make',
@@ -22,10 +22,13 @@ build = {
         WARNINGS        = "-Wall -Wno-trigraphs -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wno-switch -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -Wshadow -Wsign-compare",
         CPPFLAGS        = "-I$(LUA_INCDIR)",
         LDFLAGS         = "$(LIBFLAG)",
-        OPENDIR_COVERAGE = "$(OPENDIR_COVERAGE)",
+        ERRNO_COVERAGE  = "$(ERRNO_COVERAGE)",
     },
     install_variables = {
         LIB_EXTENSION   = "$(LIB_EXTENSION)",
-        INST_LIBDIR     = "$(LIBDIR)",
+        INST_LIBDIR     = "$(LIBDIR)/errno/",
+        INST_LUADIR     = "$(LUADIR)",
+        CONFDIR         = '$(CONFDIR)',
+        LUA_INCDIR      = '$(LUA_INCDIR)',
     }
 }
