@@ -17003,6 +17003,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.0-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    gerar_cpf_cnpj = {
@@ -20865,6 +20872,13 @@ repository = {
    },
    kafka = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-2'] = {
          {
             arch = "rockspec"
          }, {
