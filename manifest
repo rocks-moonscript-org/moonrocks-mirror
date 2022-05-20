@@ -74445,6 +74445,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    table_dump = {
@@ -78573,6 +78578,13 @@ repository = {
       ['1.0.0-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
