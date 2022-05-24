@@ -3421,6 +3421,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    bump = {
@@ -32860,6 +32865,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.15.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.5.0-1'] = {
          {
             arch = "rockspec"
@@ -58866,6 +58876,20 @@ repository = {
    },
    miniflac = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
