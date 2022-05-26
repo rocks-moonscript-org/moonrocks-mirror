@@ -31725,6 +31725,15 @@ repository = {
          }
       }
    },
+   lfsampler = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lfunctimer = {
       ['0.0.1-1'] = {
          {
@@ -44537,6 +44546,13 @@ repository = {
          }
       },
       ['1.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-3'] = {
          {
             arch = "rockspec"
          }, {
