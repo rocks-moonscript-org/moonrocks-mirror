@@ -20816,6 +20816,20 @@ repository = {
          }
       }
    },
+   jsregexp = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['jumbleberry-auto-ssl'] = {
       ['0.13.1-2'] = {
          {
@@ -31681,6 +31695,20 @@ repository = {
    },
    lfsampler = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
