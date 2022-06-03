@@ -13636,6 +13636,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dump = {
@@ -14013,6 +14020,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    elfs = {
@@ -14290,6 +14304,13 @@ repository = {
    },
    erde = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -16410,7 +16431,7 @@ repository = {
       }
    },
    fork = {
-      ['0.1.0-1'] = {
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -47624,6 +47645,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.14-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luacc = {
@@ -48574,6 +48602,13 @@ repository = {
       ['1.12-0'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['1.12-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -75036,6 +75071,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    tcc = {
@@ -76662,6 +76704,13 @@ repository = {
          }
       },
       ['1.34.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.34.2-1'] = {
          {
             arch = "rockspec"
          }, {
