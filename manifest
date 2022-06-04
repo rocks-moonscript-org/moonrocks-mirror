@@ -15042,6 +15042,13 @@ repository = {
          }
       }
    },
+   ezserv = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    f = {
       ['0.1.0-1'] = {
          {
@@ -68178,6 +68185,13 @@ repository = {
          }
       },
       ['1.14.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.15.0-1'] = {
          {
             arch = "rockspec"
          }, {
