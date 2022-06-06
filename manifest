@@ -15054,6 +15054,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.3-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    f = {
@@ -48666,6 +48676,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luadbg = {
@@ -75779,6 +75794,11 @@ repository = {
          }
       },
       ['0.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.6.1-1'] = {
          {
             arch = "rockspec"
          }
