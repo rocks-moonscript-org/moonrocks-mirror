@@ -14645,6 +14645,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['1.12-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['1.3-0'] = {
          {
             arch = "rockspec"
@@ -46772,6 +46777,22 @@ repository = {
          }
       }
    },
+   ['lua-xlib'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-xlsxwriter'] = {
       ['0.0.1-1'] = {
          {
@@ -68866,6 +68887,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    printable_chars = {
@@ -79017,6 +79043,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
