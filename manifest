@@ -41220,6 +41220,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.7.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-exec'] = {
@@ -53507,6 +53514,15 @@ repository = {
          }
       }
    },
+   ['luasql-exasol'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['luasql-firebird'] = {
       ['2.4.0-1'] = {
          {
@@ -63966,6 +63982,13 @@ repository = {
          }
       },
       ['0.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.4-1'] = {
          {
             arch = "rockspec"
          }, {
