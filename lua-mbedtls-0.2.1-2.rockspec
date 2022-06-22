@@ -1,5 +1,5 @@
 package = 'lua-mbedtls'
-version = '0.2.1-1'
+version = '0.2.1-2'
 source = {
 	url = 'git://github.com/neoxic/lua-mbedtls.git',
 	tag = '0.2.1',
