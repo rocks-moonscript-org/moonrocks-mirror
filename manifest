@@ -7964,6 +7964,15 @@ repository = {
          }
       }
    },
+   debug = {
+      ['v-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['debug.lua'] = {
       ['0.10-1'] = {
          {
@@ -20607,6 +20616,15 @@ repository = {
          }
       },
       ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   jit = {
+      ['v-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -38913,7 +38931,7 @@ repository = {
       }
    },
    ['lua-mbedtls'] = {
-      ['0.2.1-2'] = {
+      ['0.2.2-1'] = {
          {
             arch = "rockspec"
          }, {

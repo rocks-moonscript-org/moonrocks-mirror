@@ -1,8 +1,8 @@
 package = 'lua-mbedtls'
-version = '0.2.1-2'
+version = '0.2.2-1'
 source = {
 	url = 'git://github.com/neoxic/lua-mbedtls.git',
-	tag = '0.2.1',
+	tag = '0.2.2',
 }
 description = {
 	summary = 'Mbed TLS module for Lua',
