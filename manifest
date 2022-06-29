@@ -13604,6 +13604,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.29.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dub = {
@@ -20242,6 +20249,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['8.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ip2proxy = {
@@ -20260,6 +20274,13 @@ repository = {
          }
       },
       ['3.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -24213,6 +24234,13 @@ repository = {
          }
       },
       ['0.1.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.9-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -65508,6 +65536,13 @@ repository = {
          }
       },
       ['1.3.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3.5-1'] = {
          {
             arch = "rockspec"
          }, {
