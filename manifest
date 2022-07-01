@@ -3291,6 +3291,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    brain = {
@@ -77258,6 +77263,13 @@ repository = {
          }
       },
       ['1.35.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.35.1-1'] = {
          {
             arch = "rockspec"
          }, {
