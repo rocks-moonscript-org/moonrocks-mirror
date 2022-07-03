@@ -33526,6 +33526,15 @@ repository = {
          }
       }
    },
+   lmpfr = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lmpfrlib = {
       ['20170112-1'] = {
          {
@@ -61605,6 +61614,13 @@ repository = {
          }
       },
       ['0.7.20220501-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7.20220703-2'] = {
          {
             arch = "rockspec"
          }, {
