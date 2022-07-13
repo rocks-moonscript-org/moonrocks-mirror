@@ -1,8 +1,8 @@
 package = "elasticsearch-lua"
-version = "1.0.9-1"
+version = "1.0.10-1"
 source = {
   url = "git+https://github.com/PowerDNS/elasticsearch-lua",
-  tag = "v1.0.9"
+  tag = "v1.0.10"
 }
 description = {
   summary = "Elasticsearch client for the Lua language",
@@ -16,7 +16,8 @@ dependencies = {
   "lua >= 5.1 <= 5.3",
   "luasocket",
   "lua-cjson = 2.1.0-1",
-  "lunitx"
+  "lunitx",
+  "luasec"
 }
 build = {
   type = "builtin",

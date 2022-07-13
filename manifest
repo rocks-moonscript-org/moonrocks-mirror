@@ -1775,6 +1775,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.3-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    assert = {
@@ -14061,6 +14066,13 @@ repository = {
       }
    },
    ['elasticsearch-lua'] = {
+      ['1.0.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0.2-1'] = {
          {
             arch = "rockspec"
@@ -14076,13 +14088,6 @@ repository = {
          }
       },
       ['1.0.6-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.9-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -24815,6 +24820,15 @@ repository = {
    },
    ['kong-plugin-extend-headers'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-file-log-advanced'] = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -57341,6 +57355,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.44.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.6.1-1'] = {
          {
             arch = "rockspec"
@@ -73245,6 +73266,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    signalise = {
@@ -82619,6 +82645,13 @@ repository = {
          }
       },
       ['0.12.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.13.2-1'] = {
          {
             arch = "rockspec"
          }, {
