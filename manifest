@@ -1979,6 +1979,13 @@ repository = {
          }
       }
    },
+   auproc = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    aurora = {
       ['0.1-1'] = {
          {
@@ -13872,6 +13879,11 @@ repository = {
    },
    edge = {
       ['0.0.1-10'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.1-11'] = {
          {
             arch = "rockspec"
          }
@@ -33191,6 +33203,13 @@ repository = {
          }
       }
    },
+   ljack = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ljdns = {
       ['0.2-1'] = {
          {
@@ -35052,6 +35071,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    lpugl_cairo = {
@@ -35064,6 +35088,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    lpugl_opengl = {
@@ -35073,6 +35102,11 @@ repository = {
          }
       },
       ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.3-1'] = {
          {
             arch = "rockspec"
          }
@@ -35559,6 +35593,13 @@ repository = {
          }
       },
       ['1.5-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   lrtaudio = {
+      ['0.0.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -43716,6 +43757,13 @@ repository = {
          }
       },
       ['5.2.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.2.3-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -77687,6 +77735,13 @@ repository = {
          }
       },
       ['1.36.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.36.1-1'] = {
          {
             arch = "rockspec"
          }, {
