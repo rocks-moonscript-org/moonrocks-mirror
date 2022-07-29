@@ -1,6 +1,6 @@
 package = "Dado"
 
-version = "2.0.0-1"
+version = "2.0.0-3"
 
 description = {
    summary = "Database Facilities for LuaSQL",
@@ -17,7 +17,7 @@ dependencies = {
 }
 
 source = {
-   url = "git://github.com/tomasguisasola/dado.git",
+   url = "git+https://github.com/tomasguisasola/dado.git",
 }
 
 build = {
