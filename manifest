@@ -1986,6 +1986,43 @@ repository = {
          }
       }
    },
+   ['audit-log'] = {
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    auproc = {
       ['0.0.1-1'] = {
          {
@@ -3319,6 +3356,22 @@ repository = {
       ['1.1-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['botway-lua'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -24006,6 +24059,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.0-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }
       }
    },
    ['kong-plugin-add-header'] = {
@@ -43126,6 +43186,15 @@ repository = {
       ['0.1.0-0'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['lua-resty-ldap'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -69555,13 +69624,6 @@ repository = {
          }
       }
    },
-   ['plenary.nvim'] = {
-      ['scm-1'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    plterm = {
       ['0.2-1'] = {
          {
@@ -75042,6 +75104,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    stdlib = {
@@ -75388,6 +75455,11 @@ repository = {
    },
    ['string-capitalize'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }
