@@ -1,7 +1,7 @@
 package = "xerceslua"
 version = "1.0-0"
 source = {
-   url = "git://github.com/ssuda/xerceslua",
+   url = "git+https://github.com/ssuda/xerceslua.git",
    tag = "master",
 }
 description = {
