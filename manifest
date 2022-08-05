@@ -1986,6 +1986,15 @@ repository = {
          }
       }
    },
+   ['audit-log'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    auproc = {
       ['0.0.1-1'] = {
          {
@@ -39824,6 +39833,11 @@ repository = {
    },
    ['lua-octave'] = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -79607,6 +79621,13 @@ repository = {
          }
       },
       ['2.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.5.0-1'] = {
          {
             arch = "rockspec"
          }, {
