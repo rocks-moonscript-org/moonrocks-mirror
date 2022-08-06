@@ -13,7 +13,7 @@ description = {
 dependencies = {
     "lua >= 5.1",
     "errno >= 0.3.0",
-    "table-flatten >= 0.4.0",
+    "isa >= 0.3.0",
     "url >= 2.0.0",
 }
 build = {
