@@ -1,8 +1,8 @@
 package = "form-multipart"
-version = "0.2.0-1"
+version = "0.3.0-1"
 source = {
     url = "git+https://github.com/mah0x211/lua-form-multipart.git",
-    tag = "v0.2.0",
+    tag = "v0.3.0",
 }
 description = {
     summary = "encode/decode the multipart/form-data format.",
