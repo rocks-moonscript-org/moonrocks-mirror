@@ -5130,6 +5130,20 @@ repository = {
       }
    },
    cincau = {
+      ['0.10.20220813-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.10.20220813-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.3.20210701-1'] = {
          {
             arch = "rockspec"
@@ -28567,6 +28581,20 @@ repository = {
          }
       },
       ['1.1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-tag-executor'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1.0-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -71304,6 +71332,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    rcnb = {
@@ -74835,6 +74870,13 @@ repository = {
          }
       },
       ['0.6.20220801-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.6.20220813-1'] = {
          {
             arch = "rockspec"
          }, {
