@@ -1,7 +1,30 @@
-<html>
-<head><title>404 Not Found</title></head>
-<body>
-<center><h1>404 Not Found</h1></center>
-<hr><center>openresty/1.19.9.1</center>
-</body>
-</html>
+package = "audit-log"
+version = "0.1.0-1"
+
+
+supported_platforms = {"linux", "macosx"}
+source = {
+  url = "git://github.com/mykaarma/kong-audit-log",
+  tag = "0.1.0",
+}
+
+description = {
+  summary = "audit-log is a custom plugin made at MyKaarma to generate audit logs whenever a consumer/credential/rate-limit is created/updated/deleted in Kong",
+  homepage = "https://github.com/mykaarma/kong-audit-log",
+  license = "AGPL-3"
+}
+
+dependencies = {
+  "lua >= 5.1"
+}
+
+local pluginName = "audit-log"
+build = {
+  type = "builtin",
+  modules = {
+    ["kong.plugins."..pluginName..".handler"] = "kong/plugins/"..pluginName.."/handler.lua",
+    ["kong.plugins."..pluginName..".schema"] = "kong/plugins/"..pluginName.."/schema.lua",
+    ["kong.plugins."..pluginName..".daos"] = "kong/plugins/"..pluginName.."/daos.lua",
+    ["kong.plugins."..pluginName..".api"] = "kong/plugins/"..pluginName.."/api.lua",
+  }
+}
