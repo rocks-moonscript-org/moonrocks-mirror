@@ -1884,13 +1884,6 @@ repository = {
          }
       }
    },
-   aster = {
-      ['latest-1'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    async = {
       ['1.1-1'] = {
          {
@@ -71407,6 +71400,15 @@ repository = {
          }
       },
       ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   rawterm53 = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
