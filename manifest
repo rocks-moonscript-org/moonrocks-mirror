@@ -6443,6 +6443,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['copas-async'] = {
@@ -6519,6 +6526,22 @@ repository = {
          }
       },
       ['0.5-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['copas-sse'] = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -14589,6 +14612,13 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -50272,6 +50302,13 @@ repository = {
          }
       },
       ['1.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.0-1'] = {
          {
             arch = "rockspec"
          }, {
