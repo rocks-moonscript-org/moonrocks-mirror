@@ -13,9 +13,9 @@ description = {
 }
 dependencies = {
 	"lua >= 5.1",
+	"luarocks-fetch-gitrec"
 }
 build_dependencies = {
-	"luarocks-fetch-gitrec"
 }
 build = {
 	type = "make",
