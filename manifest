@@ -40007,6 +40007,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['lua-nucleo'] = {
@@ -45896,6 +45901,20 @@ repository = {
    },
    ['lua-resty-saml'] = {
       ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -81273,6 +81292,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   wax = {
+      ['latest-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
