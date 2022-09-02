@@ -41,6 +41,7 @@ build = {
 				'src/text.c',
 				'src/util.c',
 				'src/webp.c',
+				'src/colour.c',
 			}
 		}
 	},
