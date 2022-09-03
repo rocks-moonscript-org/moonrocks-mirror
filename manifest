@@ -2297,7 +2297,19 @@ repository = {
             arch = "src"
          }
       },
+      ['0.3.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['devel-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['devel-2'] = {
          {
             arch = "rockspec"
          }
@@ -27570,6 +27582,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-pipeline'] = {
@@ -32369,6 +32388,13 @@ repository = {
    },
    ['ldk-discount'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -83275,6 +83301,13 @@ repository = {
    },
    xmlparser = {
       ['2.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.2-1'] = {
          {
             arch = "rockspec"
          }, {
