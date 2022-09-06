@@ -17046,6 +17046,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4.4-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    fss = {
@@ -24439,6 +24444,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-aws-api-gateway-auth'] = {
@@ -27344,6 +27356,13 @@ repository = {
          }
       },
       ['0.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -33788,6 +33807,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    llix = {
@@ -38519,6 +38545,13 @@ repository = {
          }
       },
       ['0.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -45961,6 +45994,27 @@ repository = {
          }
       },
       ['0.1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.2-0'] = {
          {
             arch = "rockspec"
          }, {
