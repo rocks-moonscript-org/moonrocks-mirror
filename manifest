@@ -15312,6 +15312,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['external-auth'] = {
@@ -65612,7 +65619,7 @@ repository = {
       }
    },
    ['nvim-cmp'] = {
-      ['0.0.1-1'] = {
+      ['0.0.1-2'] = {
          {
             arch = "rockspec"
          }
@@ -83999,6 +84006,13 @@ repository = {
          }
       },
       ['0.14.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.15.1-1'] = {
          {
             arch = "rockspec"
          }, {

@@ -1,4 +1,4 @@
-local MODREV, SPECREV = "0.0.1", "-1"
+local MODREV, SPECREV = "0.0.1", "-2"
 rockspec_format = "3.0"
 package = "nvim-cmp"
 version = MODREV .. SPECREV
@@ -30,9 +30,9 @@ end
 
 build = {
   type = "builtin",
-}
-copy_directories = {
-  'lua',
-  'autoload',
-  'plugin',
+  copy_directories = {
+    'lua',
+    'autoload',
+    'plugin',
+  }
 }
