@@ -7,8 +7,8 @@ source = {
 }
 
 description = {
-  homepage = "https://github.com/luawax/wax",
-  license = "GPL-3"
+  homepage = "https://codeberg.org/wax/wax",
+  license = "MIT"
 }
 
 dependencies = {
@@ -21,6 +21,9 @@ build = {
     ["wax.path"] = { "src/c/lib/defs.c", "src/c/path.c" },
     ["wax.user"] = { "src/c/lib/defs.c", "src/c/user.c" },
 
+    --["wax.getopt"] = "src/template/init.lua",
+    ["wax"]          = "src/wax.lua",
+    ["wax.arg"]      = "src/arg.lua",
     ["wax.template"] = "src/template/init.lua"
   }
 }
