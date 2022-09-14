@@ -1,5 +1,5 @@
-package = "kong-forward-proxy2.1"
-version = "2.1-0"
+package = "kong-proxer"
+version = "1.0-0"
 source = {
   url = "git+https://github.com/fenix-hub/kong-forward-proxy.git"
 }
@@ -13,7 +13,7 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["kong.plugins.forward-proxy.handler"] = "src/handler.lua",
-    ["kong.plugins.forward-proxy.schema"] = "src/schema.lua"
+    ["kong.plugins.proxer.handler"] = "src/handler.lua",
+    ["kong.plugins.proxer.schema"] = "src/schema.lua"
   }
 }

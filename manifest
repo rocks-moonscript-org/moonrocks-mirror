@@ -18520,6 +18520,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['gt-mp-prometheus-plugin'] = {
@@ -23226,13 +23240,6 @@ repository = {
    },
    ['kong-forward-proxy'] = {
       ['0.1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
-   ['kong-forward-proxy2.1'] = {
-      ['2.1-0'] = {
          {
             arch = "rockspec"
          }
@@ -30317,6 +30324,13 @@ repository = {
          }
       }
    },
+   ['kong-proxer'] = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['kong-proxy-cache-plugin'] = {
       ['1.2.0-0'] = {
          {
@@ -37091,6 +37105,15 @@ repository = {
       ['0.01-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['lua-ber'] = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -84229,6 +84252,11 @@ repository = {
    },
    yyjson = {
       ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.5.1-1'] = {
          {
             arch = "rockspec"
          }
