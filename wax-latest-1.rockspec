@@ -2,28 +2,42 @@ package = "wax"
 version = "latest-1"
 
 source = {
-  url = "git://github.com/luawax/wax",
+  url = "git+https://github.com/luawax/wax",
   tag = "latest"
 }
 
 description = {
   homepage = "https://codeberg.org/wax/wax",
-  license = "MIT"
+  license = "MIT",
+  summary = "A crescent Lua library",
+  maintainer = "Thadeu de Paula",
+  detailed   = "An alternative extension to Lua standard library",
 }
 
-dependencies = {
-  "lua >= 5.1, < 5.5",
-}
+dependencies = { "lua >= 5.1, < 5.5" }
+
+local build_vars
+  = 'ROCKVER="'..version..'" '
+  ..'CC="$(CC)" '
+  ..'LD="$(LD)" '
+  ..'CFLAGS="$(CFLAGS)" '
+  ..'LIBFLAG="$(LIBFLAG)" '
+  ..'LUA_BINDIR="$(LUA_BINDIR)" '
+  ..'LUA_INCDIR="$(LUA_INCDIR)" '
+  ..'OBJ_EXTENSION="$(OBJ_EXTENSION)" '
+  ..'LIB_EXTENSION="$(LIB_EXTENSION)" '
+  ..'LUA="$(LUA)" '
+
+local install_vars
+  = 'ROCKVER="'..version..'" '
+  ..'INST_PREFIX="$(PREFIX)" '
+  ..'INST_BINDIR="$(BINDIR)" '
+  ..'INST_LIBDIR="$(LIBDIR)" '
+  ..'INST_LUADIR="$(LUADIR)" '
+  ..'INST_CONFDIR="$(CONFDIR)" '
 
 build = {
-  type = "builtin",
-  modules = {
-    ["wax.path"] = { "src/c/lib/defs.c", "src/c/path.c" },
-    ["wax.user"] = { "src/c/lib/defs.c", "src/c/user.c" },
-
-    --["wax.getopt"] = "src/template/init.lua",
-    ["wax"]          = "src/wax.lua",
-    ["wax.arg"]      = "src/arg.lua",
-    ["wax.template"] = "src/template/init.lua"
-  }
+  type = 'command',
+  build_command   = build_vars .. '$(LUA) etc/run/make.lua build',
+  install_command = install_vars .. '$(LUA) etc/run/make.lua install',
 }
