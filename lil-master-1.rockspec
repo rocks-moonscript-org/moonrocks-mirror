@@ -25,9 +25,9 @@ build = {
 		lil = {
 			defines = {
 				"LIL_IMG_COMPRESSION_QUALITY=1.0f", "LIL_IMG_COMPRESSION_SPEED=0.8f", "LIL_MAX_IMAGE=536870912",
-				"LIL_USE_PNG", "LIL_USE_JPEG", "LIL_USE_WEBP", "LIL_USE_FARBFELD", "LIL_USE_FREETYPE"
+				"LIL_USE_PNG", "LIL_USE_JPEG", "LIL_USE_WEBP", "LIL_USE_FARBFELD", "LIL_USE_FREETYPE", "LIL_USE_GIF"
 			},
-			libraries = { "png16", "turbojpeg", "webp", "freetype", "fontconfig" },
+			libraries = { "png16", "turbojpeg", "webp", "freetype", "fontconfig", "gif" },
 			sources = {
 				'src/base.c',
 				'src/comp.c',
@@ -42,6 +42,7 @@ build = {
 				'src/util.c',
 				'src/webp.c',
 				'src/colour.c',
+				'src/gif.c',
 			}
 		}
 	},

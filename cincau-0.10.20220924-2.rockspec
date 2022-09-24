@@ -1,8 +1,8 @@
 package = 'cincau'
-version = '0.10.20220813-1'
+version = '0.10.20220924-2'
 source = {
    url = 'git+https://github.com/lalawue/cincau.git',
-   tag = '0.10.20220813'
+   tag = '0.10.20220924'
 }
 description = {
    summary = 'A minimalist, fast and high configurable web framework for LuaJIT on mnet or nginx',
