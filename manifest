@@ -33310,6 +33310,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['5.41.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    libmdbx = {
@@ -41773,6 +41778,13 @@ repository = {
          }
       },
       ['0.5.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -56793,13 +56805,6 @@ repository = {
          }
       }
    },
-   luft = {
-      ['latest-1'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    lugate = {
       ['0.1.1-1'] = {
          {
@@ -57516,6 +57521,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   lupe = {
+      ['latest-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -79182,6 +79194,13 @@ repository = {
          }
       },
       ['1.37.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.37.2-1'] = {
          {
             arch = "rockspec"
          }, {
