@@ -15281,6 +15281,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['2.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    exec = {
@@ -81450,6 +81455,11 @@ repository = {
          }
       },
       ['2.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.2.0-1'] = {
          {
             arch = "rockspec"
          }
