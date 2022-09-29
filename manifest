@@ -1044,6 +1044,43 @@ repository = {
          }
       }
    },
+   ansicolorsx = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ansikit = {
       ['1.0-1'] = {
          {
@@ -65057,6 +65094,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.34.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['net-http'] = {
@@ -76503,6 +76545,15 @@ repository = {
       ['1.1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   streamcsv = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
