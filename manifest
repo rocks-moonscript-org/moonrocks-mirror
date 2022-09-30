@@ -18516,6 +18516,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    grapheme = {
@@ -84512,6 +84517,13 @@ repository = {
          }
       },
       ['0.15.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.15.4-1'] = {
          {
             arch = "rockspec"
          }, {
