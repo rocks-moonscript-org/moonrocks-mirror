@@ -5071,6 +5071,15 @@ repository = {
          }
       }
    },
+   ['checks.lua'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['chess-fen'] = {
       ['1.2-0'] = {
          {
@@ -19224,6 +19233,15 @@ repository = {
          }
       },
       ['1.1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['hash.lua'] = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -52694,6 +52712,13 @@ repository = {
          }
       }
    },
+   lualua = {
+      ['scm-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    lualvm = {
       ['1.0.0-1'] = {
          {
@@ -56413,6 +56438,13 @@ repository = {
          }
       },
       ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.4-1'] = {
          {
             arch = "rockspec"
          }, {
