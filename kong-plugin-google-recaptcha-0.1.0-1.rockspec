@@ -24,6 +24,10 @@ description = {
 
 
 dependencies = {
+    "lua >= 5.1",
+    "luasec",
+    "luasocket",
+    "dkjson",
 }
 
 
