@@ -7,7 +7,7 @@ source = {
 description = {
 	summary = "Simple FFI binding to OpenSSH hashes, MD5, SHA256, SHA224, SHA512, etc",
 	homepage = "https://codeberg.org/nazrin/openssh-hash",
-	license = "GPL-v3",
+	license = "MPL-v2",
 	issues_url = "https://codeberg.org/nazrin/openssh-hash/issues"
 }
 dependencies = {
