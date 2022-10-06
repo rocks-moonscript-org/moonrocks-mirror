@@ -1,24 +1,25 @@
-package = "pixie"
-version = "0.1-0"
+package = 'pixie'
+version = '0.1-0'
 
 source = {
-    url = "git+ssh://git@github-pixie:pixie-theme/pixie-lua.git"
+    url = 'git+ssh://git@github.com:pixie-theme/pixie-lua.git'
 }
 
 description = {
-    summary = "Pixie Lua rock.",
-    homepage = "https://github.com/pixie-theme/pixie-lua",
-    license = "MIT"
+    summary = 'Pixie Lua rock',
+    homepage = 'https://github.com/pixie-theme/pixie-lua',
+    license = 'MIT'
 }
 
 dependencies = {
-    "lua >= 5.1",
-    "lua-rtoml"
+    'lua >= 5.1',
+    'lua-rtoml'
 }
 
 build = {
-    type = "builtin",
+    type = 'builtin',
     modules = {
-        pixie = "src/pixie.lua"
+        ['pixie'] = "src/pixie/init.lua",
+        ['pixie.schema'] = "src/pixie/schema.lua",
     }
 }
