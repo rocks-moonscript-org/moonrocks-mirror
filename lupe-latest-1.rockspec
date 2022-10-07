@@ -2,11 +2,11 @@ package = "lupe"
 version = "latest-1"
 
 source = {
-   url = "git+https://git@github.com/luawax/lupe.git"
+   url = "git+https://git@github.com/waxlab/lupe.git"
 }
 
 description = {
-   homepage   = "https://github.com/luawax/lupe",
+   homepage   = "https://github.com/waxlab/lupe",
    license    = "MIT",
    summary    = "Environment for Lua",
    maintainer = "Thadeu de Paula",
