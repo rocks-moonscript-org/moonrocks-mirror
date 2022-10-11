@@ -1,13 +1,13 @@
 package = "wax"
-version = "latest-1"
+version = "0.9-1"
 
 source = {
-  url = "git+https://github.com/luawax/wax",
-  tag = "latest"
+  url = "git+https://github.com/waxlab/wax",
+  tag = "v0.9-1"
 }
 
 description = {
-  homepage = "https://codeberg.org/wax/wax",
+  homepage = "https://codeberg.org/waxlab/wax",
   license = "MIT",
   summary = "A crescent Lua library",
   maintainer = "Thadeu de Paula",

@@ -1,9 +1,9 @@
 package = "lupe"
-version = "1.0-1"
+version = "1.0-3"
 
 source = {
    url = "git+https://git@github.com/waxlab/lupe.git",
-   tag = "v1.0-1"
+   tag = "v1.0-3"
 }
 
 description = {

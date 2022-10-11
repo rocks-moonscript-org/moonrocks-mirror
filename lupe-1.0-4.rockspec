@@ -1,20 +1,23 @@
-package = "wax"
-version = "0.9-0"
+package = "lupe"
+version = "1.0-4"
 
 source = {
-  url = "git+https://github.com/waxlab/wax",
-  tag = "v0.9-0"
+   url = "git+https://git@github.com/waxlab/lupe.git",
+   tag = "v1.0-4"
 }
 
 description = {
-  homepage = "https://codeberg.org/waxlab/wax",
-  license = "MIT",
-  summary = "A crescent Lua library",
-  maintainer = "Thadeu de Paula",
-  detailed   = "An alternative extension to Lua standard library",
+   homepage   = "https://github.com/waxlab/lupe",
+   license    = "MIT",
+   summary    = "Environment for Lua",
+   maintainer = "Thadeu de Paula",
+   detailed   = [[Use directories as standalone Lua apps or packages]],
 }
 
-dependencies = { "lua >= 5.1, < 5.5" }
+dependencies = {
+  "lua >= 5.1, < 5.5",
+  "wax",
+}
 
 local build_vars
   = 'ROCKVER="'..version..'" '
@@ -41,3 +44,4 @@ build = {
   build_command   = build_vars .. '$(LUA) etc/run/make.lua build',
   install_command = install_vars .. '$(LUA) etc/run/make.lua install',
 }
+
