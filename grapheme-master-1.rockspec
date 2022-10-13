@@ -19,6 +19,11 @@ build_dependencies = {
 }
 build = {
 	type = "make",
+	build_variables = {
+		CFLAGS      = "$(CFLAGS) -Ilib/libgrapheme/ -Wall -Wpedantic -std=c99 -I$(LUA_INCDIR)",
+		LFLAGS      = "-shared -l:libgrapheme.a -Llib/libgrapheme/",
+		LUA_VERSION = "rock",
+	},
 	install_pass = false,
 	install = {
 		lib = { ["grapheme"] = "./grapheme.so" }
