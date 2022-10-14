@@ -3,9 +3,9 @@ local package_name = "kong-plugin-" .. plugin_name
 local package_version = "0.1.0"
 local rockspec_revision = "1"
 
-local github_account_name = "HK-Soft"
+local github_account_name = "EUROPCAR-MOBILITY-GROUP-API"
 local github_repo_name = "kong-plugin-google-recaptcha"
-local git_checkout = package_version == "dev" and "master" or package_version
+local git_checkout = package_version == "dev" and "main" or package_version
 
 
 package = package_name
@@ -17,8 +17,8 @@ source = {
 }
 
 description = {
-  summary = "Kong is a scalable and customizable API Management Layer built on top of Nginx.",
-  homepage = "https://"..github_account_name..".github.io/"..github_repo_name,
+  summary = "kong google recaptcha plugin help validate the recaptcha on kong routes",
+  homepage = "https://github.com/"..github_account_name.."/"..github_repo_name,
   license = "Apache 2.0",
 }
 
@@ -27,7 +27,7 @@ dependencies = {
     "lua >= 5.1",
     "luasec",
     "luasocket",
-    "dkjson",
+    "lua-cjson",
 }
 
 
