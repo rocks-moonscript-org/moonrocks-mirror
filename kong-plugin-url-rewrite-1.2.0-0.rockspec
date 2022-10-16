@@ -3,7 +3,7 @@ version = "1.2.0-0"
 source = {
    url = "git://github.com/stone-payments/kong-plugin-url-rewrite",
    branch = "main",
-   tag = "v1.1.1",
+   tag = "v1.2.0",
 }
 description = {
   summary = "KongAPI Gateway middleware plugin for url-rewrite purposes.",
