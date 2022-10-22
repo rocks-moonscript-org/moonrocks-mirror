@@ -20134,6 +20134,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['3.5-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['html-entities'] = {
@@ -30115,6 +30120,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-user-profile-validation'] = {
@@ -39810,6 +39829,15 @@ repository = {
       ['1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['lua-lace'] = {
+      ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -53083,6 +53111,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lualol = {
@@ -61426,6 +61461,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    milua = {
@@ -65684,6 +65726,15 @@ repository = {
          }
       },
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   netatmo = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -73853,6 +73904,13 @@ repository = {
          }
       },
       ['2.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
