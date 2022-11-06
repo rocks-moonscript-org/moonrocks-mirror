@@ -4377,6 +4377,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    carrot = {
@@ -40836,6 +40841,13 @@ repository = {
    },
    ['lua-mqtt'] = {
       ['0.0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
