@@ -23,3 +23,6 @@ build = {
     ["expect.core"] = "expect/core.lua",
   },
 }
+test = {
+  type = "busted",
+}
