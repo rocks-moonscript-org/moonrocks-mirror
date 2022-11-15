@@ -1,9 +1,9 @@
 package = "log-consumer"
-version = "0.1.1-1"
+version = "0.1.2-1"
 supported_platforms = {"linux", "macosx"}
 source = {
   url = "git://github.com/nainika-arecabay/kong-plugin-log-consumer",
-  tag = "main"
+  tag = "0.1.2"
 }
 description = {
   summary = "Discover, Monitor, and Secure your APIs at object/data level using this Kong Plugin as a MicroSensor.",
@@ -16,11 +16,11 @@ DART provides an API data security posture dashboard for DevSecOps to continuous
 
 In addition to API Security, for developers and/or DevOps, ArecaBay’s Kong plugin can be used to monitor and log application API calls with selective object level data.
   ]],
-  homepage = "https://docs.konghq.com/hub/arecabay/ab-microsensor/",
+  homepage = "https://github.com/nainika-arecabay/kong-plugin-log-consumer",
   license = "MIT"
 }
 dependencies = {
-  "lua ~> 5.1"
+  "lua >= 5.1"
 }
 
 local pluginName = "log-consumer"
