@@ -1,9 +1,9 @@
 package = "log-consumer"
-version = "0.1.2-1"
+version = "0.1.6-1"
 supported_platforms = {"linux", "macosx"}
 source = {
   url = "git://github.com/nainika-arecabay/kong-plugin-log-consumer",
-  tag = "0.1.2"
+  tag = "0.1.6"
 }
 description = {
   summary = "Discover, Monitor, and Secure your APIs at object/data level using this Kong Plugin as a MicroSensor.",
@@ -31,6 +31,9 @@ build = {
   
     ["kong.plugins."..pluginName..".handler"] = "kong/plugins/"..pluginName.."/handler.lua",
     ["kong.plugins."..pluginName..".schema"] = "kong/plugins/"..pluginName.."/schema.lua",
+  },
+  copy_directories = {
+    ["kong.plugins."..pluginName..".cert"] = "kong/plugins/"..pluginName.."/cert",
   }
 }
 
