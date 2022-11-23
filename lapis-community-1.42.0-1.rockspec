@@ -18,7 +18,7 @@ dependencies = {
   "tableshape",
   "lua-cjson",
   "date",
-  "web_sanitize ~> 1.1",
+  "web_sanitize >= 1.1",
 }
 
 build = {
