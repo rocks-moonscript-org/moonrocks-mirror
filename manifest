@@ -32722,6 +32722,15 @@ repository = {
          }
       }
    },
+   ['lapis-eswidget'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lapis-exceptions'] = {
       ['1.0.0-1'] = {
          {
@@ -37454,6 +37463,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['0.4-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
