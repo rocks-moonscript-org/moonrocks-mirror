@@ -1,9 +1,9 @@
-package = "log-consumer"
-version = "0.1.6-1"
+package = "imp-appsec-connector"
+version = "0.1.1-1"
 supported_platforms = {"linux", "macosx"}
 source = {
   url = "git://github.com/nainika-arecabay/kong-plugin-log-consumer",
-  tag = "0.1.6"
+  tag = "0.1.1"
 }
 description = {
   summary = "Discover, Monitor, and Secure your APIs at object/data level using this Kong Plugin as a MicroSensor.",
@@ -23,7 +23,7 @@ dependencies = {
   "lua >= 5.1"
 }
 
-local pluginName = "log-consumer"
+local pluginName = "imp-appsec-connector"
 
 build = {
   type = "builtin",
@@ -31,9 +31,6 @@ build = {
   
     ["kong.plugins."..pluginName..".handler"] = "kong/plugins/"..pluginName.."/handler.lua",
     ["kong.plugins."..pluginName..".schema"] = "kong/plugins/"..pluginName.."/schema.lua",
-  },
-  copy_directories = {
-    ["kong.plugins."..pluginName..".cert"] = "kong/plugins/"..pluginName.."/cert",
   }
 }
 
