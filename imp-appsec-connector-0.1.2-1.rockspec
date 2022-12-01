@@ -1,9 +1,9 @@
 package = "imp-appsec-connector"
-version = "0.1.1-1"
+version = "0.1.2-1"
 supported_platforms = {"linux", "macosx"}
 source = {
   url = "git://github.com/nainika-arecabay/kong-plugin-log-consumer",
-  tag = "0.1.1"
+  tag = "0.1.2"
 }
 description = {
   summary = "Discover, Monitor, and Secure your APIs at object/data level using this Kong Plugin as a MicroSensor.",
