@@ -14,9 +14,10 @@ description = {
 build = {
   type = "builtin",
   modules = {
-    ['howl.parse.md' ] = 'lib/parse/md.lua',
-    ['howl.parse.lua'] = 'lib/parse/lua.lua',
+    ['howl.parse.md' ]    = 'lib/parse/md.lua',
+    ['howl.parse.lua']    = 'lib/parse/lua.lua',
     ['howl.format.wiki' ] = 'lib/format/wiki.lua',
+    ['howl.format.vim']   = 'lib/format/vim.lua',
   },
   install = {
     bin = {
@@ -26,6 +27,6 @@ build = {
 }
 
 dependencies = {
-  "lua >= 5.2",
+  "lua >= 5.2, < 5.5",
   "wax"
 }
