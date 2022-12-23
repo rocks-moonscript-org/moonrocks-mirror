@@ -1,7 +1,7 @@
 package = "kong-proxer"
 version = "2.0-0"
 source = {
-  url = "git+https://github.com/fenix-hub/kong-proxer.git"
+  url = "https://github.com/fenix-hub/kong-proxer.git"
 }
 description = {
   summary = "A Kong plugin that allows access to an upstream url through a proxy",
