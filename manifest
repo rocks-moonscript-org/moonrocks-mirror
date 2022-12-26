@@ -2717,6 +2717,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    basedir = {
@@ -18496,6 +18503,13 @@ repository = {
          }
       },
       ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -57830,6 +57844,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.5-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luautils = {
@@ -76888,6 +76909,13 @@ repository = {
          }
       },
       ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
