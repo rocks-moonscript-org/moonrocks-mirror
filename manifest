@@ -3269,6 +3269,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    bintrees = {
@@ -29999,6 +30006,13 @@ repository = {
          }
       },
       ['1.2.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3.0-0'] = {
          {
             arch = "rockspec"
          }, {
