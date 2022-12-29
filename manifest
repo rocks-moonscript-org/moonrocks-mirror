@@ -21024,21 +21024,7 @@ repository = {
       }
    },
    ['imp-appsec-connector'] = {
-      ['0.1.2-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.1.3-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.1.4-1'] = {
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -29740,6 +29726,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-subdomain-as-header'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -44585,6 +44578,13 @@ repository = {
          }
       },
       ['2.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.2.2-0'] = {
          {
             arch = "rockspec"
          }, {
