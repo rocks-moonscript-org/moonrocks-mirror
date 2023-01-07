@@ -15156,6 +15156,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['erento-lua-rfc-4122-uuid-generator'] = {
@@ -46167,6 +46174,13 @@ repository = {
          }
       }
    },
+   ['lua-resty-mutex'] = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-resty-mysql'] = {
       ['0.15-0'] = {
          {
@@ -72402,6 +72416,27 @@ repository = {
          }
       }
    },
+   ['plenary.nvim'] = {
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    plterm = {
       ['0.2-1'] = {
          {
@@ -76004,6 +76039,13 @@ repository = {
          }
       },
       ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
