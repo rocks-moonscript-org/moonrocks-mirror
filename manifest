@@ -5114,6 +5114,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    cfg = {
@@ -64486,6 +64493,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    mongo = {
@@ -76051,6 +76065,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    sass = {
@@ -78228,6 +78249,13 @@ repository = {
          }
       },
       ['1.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.4-1'] = {
          {
             arch = "rockspec"
          }, {
