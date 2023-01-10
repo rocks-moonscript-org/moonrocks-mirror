@@ -32836,6 +32836,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.12.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2.0-1'] = {
          {
             arch = "rockspec"
@@ -46421,6 +46428,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-oauth-proxy'] = {
@@ -52115,6 +52129,15 @@ repository = {
    },
    luadeepcl = {
       ['5.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luademorock = {
+      ['v1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -61493,6 +61516,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    matcher_combinators = {
@@ -66304,6 +66341,11 @@ repository = {
          }
       },
       ['1.2.6-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.2.7-0'] = {
          {
             arch = "rockspec"
          }
@@ -76081,6 +76123,13 @@ repository = {
          }
       },
       ['0.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.6-1'] = {
          {
             arch = "rockspec"
          }, {
