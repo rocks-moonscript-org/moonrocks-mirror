@@ -1332,6 +1332,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    apisix = {
@@ -8069,6 +8076,13 @@ repository = {
       ['1.2-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -25317,6 +25331,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.5.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-aws-api-gateway-auth'] = {
@@ -28424,6 +28445,13 @@ repository = {
          }
       },
       ['0.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -46427,6 +46455,8 @@ repository = {
       ['0.1.0-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       },
       ['0.2.0-1'] = {
@@ -79923,6 +79953,18 @@ repository = {
          }
       }
    },
+   ['telescope.nvim'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    teliksandi = {
       ['1.0.0-1'] = {
          {
@@ -86796,6 +86838,13 @@ repository = {
          }
       },
       ['0.15.20-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.15.21-1'] = {
          {
             arch = "rockspec"
          }, {
