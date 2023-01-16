@@ -17599,6 +17599,15 @@ repository = {
          }
       }
    },
+   ['fs-utils'] = {
+      ['1.0.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    fsm = {
       ['0.0.1-1'] = {
          {
@@ -38431,6 +38440,15 @@ repository = {
          }
       }
    },
+   ['lua-arangodb'] = {
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-argparse'] = {
       ['0.1.0-1'] = {
          {
@@ -41522,6 +41540,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['lua-mongo-bson'] = {
+      ['1.2.3-2'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
