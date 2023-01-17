@@ -38447,6 +38447,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-argparse'] = {
@@ -80103,6 +80110,13 @@ repository = {
       ['0.1.0-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       },
       ['scm-1'] = {
