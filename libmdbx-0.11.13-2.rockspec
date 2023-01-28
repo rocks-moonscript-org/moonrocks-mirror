@@ -1,5 +1,5 @@
 package = "libmdbx"
-version = "0.11.13-1"
+version = "0.11.13-2"
 source = {
     url = "git+https://github.com/mah0x211/lua-libmdbx.git",
     tag = "v0.11.13",
@@ -17,7 +17,7 @@ dependencies = {
 build = {
     type = "command",
     build_command = [[
-        MDBX_VERSION="v0.11.13" sh ./build_deps.sh && \
+        MDBX_VERSION="0.11.13" sh ./build_deps.sh && \
         make clean && \
         WARNINGS="-Wall -Wno-trigraphs -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wno-switch -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -Wshadow -Wsign-compare" \
         MDBX_COVERAGE="$(MDBX_COVERAGE)" \
