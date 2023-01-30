@@ -4369,6 +4369,13 @@ repository = {
          }
       }
    },
+   cake = {
+      ['0.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    callbag = {
       ['0.0.1-1'] = {
          {
@@ -4652,6 +4659,11 @@ repository = {
          }
       },
       ['1.41.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.41.4-1'] = {
          {
             arch = "rockspec"
          }
@@ -5098,6 +5110,13 @@ repository = {
          }
       },
       ['3.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.5.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -18147,6 +18166,13 @@ repository = {
       ['0.4-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -48794,6 +48820,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-tsort'] = {
@@ -55530,6 +55563,13 @@ repository = {
          }
       },
       ['35.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['36.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -65381,6 +65421,15 @@ repository = {
          }
       },
       ['0.4.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   moonfltk = {
+      ['0.6.0-1'] = {
          {
             arch = "rockspec"
          }, {
