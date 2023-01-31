@@ -4362,6 +4362,13 @@ repository = {
          }
       }
    },
+   ['cache-mdbx'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['cache-redis'] = {
       ['0.1.0-1'] = {
          {
@@ -4664,6 +4671,11 @@ repository = {
          }
       },
       ['1.41.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.41.5-1'] = {
          {
             arch = "rockspec"
          }
@@ -29595,6 +29607,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-route-by-jsonrpc-method'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-rule-based-header-transformer'] = {
       ['0.1.0-1'] = {
          {
@@ -31738,6 +31759,13 @@ repository = {
          }
       },
       ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -46924,6 +46952,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.7.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-openssl'] = {
@@ -58581,6 +58616,8 @@ repository = {
       ['1.0.0-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
