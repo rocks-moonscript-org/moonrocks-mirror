@@ -32236,6 +32236,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-timechecking'] = {
@@ -33414,6 +33421,13 @@ repository = {
          }
       },
       ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -47008,6 +47022,13 @@ repository = {
          }
       },
       ['1.7.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.7.6-2'] = {
          {
             arch = "rockspec"
          }, {
