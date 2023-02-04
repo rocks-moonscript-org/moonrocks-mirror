@@ -1,8 +1,8 @@
-local git_tag = 'v0.0.2'
-local modrev = '0.0.2'
+local git_tag = 'v1.0.1'
+local modrev = '1.0.1'
 local specrev = '-1'
 
-local repo_url = 'https://github.com/MrcJkb/luarocks-tag-release'
+local repo_url = 'https://github.com/nvim-neorocks/luarocks-tag-release'
 
 rockspec_format = '3.0'
 package = 'luarocks-tag-release'
@@ -14,8 +14,8 @@ description = {
     This is not a real lua package.
     It exists for the purpose of testing the workflow.  
 ]],
-  labels = { },
-  homepage = 'https://github.com/MrcJkb/luarocks-tag-release',
+  labels = { 'neovim' } ,
+  homepage = 'https://github.com/nvim-neorocks/luarocks-tag-release',
   license = 'MIT'
 }
 

@@ -1,8 +1,8 @@
-local git_tag = 'v0.0.4'
-local modrev = '0.0.4'
+local git_tag = 'v1.0.0'
+local modrev = '1.0.0'
 local specrev = '-1'
 
-local repo_url = 'https://github.com/mrcjkb/luarocks-tag-release'
+local repo_url = 'https://github.com/nvim-neorocks/luarocks-tag-release'
 
 rockspec_format = '3.0'
 package = 'luarocks-tag-release'
@@ -15,7 +15,7 @@ description = {
     It exists for the purpose of testing the workflow.  
 ]],
   labels = { 'neovim' } ,
-  homepage = 'https://github.com/mrcjkb/luarocks-tag-release',
+  homepage = 'https://github.com/nvim-neorocks/luarocks-tag-release',
   license = 'MIT'
 }
 
