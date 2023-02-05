@@ -4509,6 +4509,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    carrot = {
@@ -39823,6 +39828,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-ddlt'] = {
@@ -44576,6 +44588,15 @@ repository = {
          }
       }
    },
+   ['lua-resty-ffi'] = {
+      ['main-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-resty-fileinfo'] = {
       ['1.0-1'] = {
          {
@@ -48614,6 +48635,13 @@ repository = {
          }
       },
       ['4.0.0.beta.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
