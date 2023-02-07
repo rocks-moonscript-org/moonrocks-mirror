@@ -18,6 +18,7 @@ dependencies = {
 external_dependencies = {
     LIBTLS = {
         header = "tls.h",
+        library = "tls",
     },
 }
 build = {
