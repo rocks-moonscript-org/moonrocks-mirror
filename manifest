@@ -4395,6 +4395,41 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    callbag = {
@@ -22431,6 +22466,13 @@ repository = {
          }
       },
       ['0.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.6-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -62772,6 +62814,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    mexbt = {
@@ -75333,6 +75380,13 @@ repository = {
          }
       }
    },
+   reflex = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    refser = {
       ['0.1-1'] = {
          {
@@ -79515,6 +79569,13 @@ repository = {
          }
       }
    },
+   ['string-random'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['string-replace'] = {
       ['0.1.0-1'] = {
          {
@@ -81999,6 +82060,13 @@ repository = {
          }
       },
       ['0.1.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-0'] = {
          {
             arch = "rockspec"
          }, {
