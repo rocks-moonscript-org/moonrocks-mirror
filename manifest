@@ -32481,45 +32481,7 @@ repository = {
       }
    },
    ['kong-upstream-hmac'] = {
-      ['0.0.1-0'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['0.0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0.1-2'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0.1-3'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['0.0.1-4'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0.1-5'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.0.1-6'] = {
+      ['2.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -33296,6 +33258,13 @@ repository = {
          }
       },
       ['1.12.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.13.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -48870,6 +48839,13 @@ repository = {
          }
       },
       ['4.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -76992,6 +76968,13 @@ repository = {
    },
    santoku = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.11-1'] = {
          {
             arch = "rockspec"
          }, {
