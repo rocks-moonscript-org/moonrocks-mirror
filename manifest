@@ -27295,10 +27295,24 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-cads-stash-body-in-ctx'] = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -42655,6 +42669,11 @@ repository = {
    },
    ['lua-ini'] = {
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.2-1'] = {
          {
             arch = "rockspec"
          }
@@ -79834,6 +79853,21 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.33-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.34-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.35-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.4-1'] = {
          {
             arch = "rockspec"
@@ -79959,6 +79993,21 @@ repository = {
          }
       },
       ['0.0.32-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.33-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.34-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.35-1'] = {
          {
             arch = "rockspec"
          }
@@ -80098,6 +80147,11 @@ repository = {
          }
       },
       ['0.0.30-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.31-1'] = {
          {
             arch = "rockspec"
          }
@@ -80781,6 +80835,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    sharedtensor = {
@@ -81284,6 +81345,13 @@ repository = {
       ['0.4.0-1'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['0.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -85757,6 +85825,13 @@ repository = {
          }
       },
       ['1.43.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.43.1-1'] = {
          {
             arch = "rockspec"
          }, {
