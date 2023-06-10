@@ -21,7 +21,9 @@ build = {
   type = "builtin",
   modules = {
     ["kong.plugins."..pluginName..".handler"] = "kong/plugins/"..pluginName.."/handler.lua",
+    ["kong.plugins."..pluginName..".mint"] = "kong/plugins/"..pluginName.."/mint.lua",
     ["kong.plugins."..pluginName..".schema"] = "kong/plugins/"..pluginName.."/schema.lua",
+    ["kong.plugins."..pluginName..".warden"] = "kong/plugins/"..pluginName.."/warden.lua",
     ["kong.plugins."..pluginName..".rate-limiting"] = "kong/plugins/"..pluginName.."/rate-limiting/init.lua",
     ["kong.plugins."..pluginName..".rate-limiting.policy"] = "kong/plugins/"..pluginName.."/rate-limiting/policy.lua",
   }
