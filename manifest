@@ -59654,6 +59654,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luashell = {
@@ -80006,6 +80011,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.38-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.4-1'] = {
          {
             arch = "rockspec"
@@ -80156,6 +80166,11 @@ repository = {
          }
       },
       ['0.0.37-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.38-1'] = {
          {
             arch = "rockspec"
          }
