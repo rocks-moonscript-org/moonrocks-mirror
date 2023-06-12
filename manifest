@@ -15641,6 +15641,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['enapter-sma'] = {
@@ -19278,6 +19283,13 @@ repository = {
          }
       },
       ['0.0.878-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.886-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -46856,6 +46868,13 @@ repository = {
          }
       },
       ['0.0.12-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.13-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -76517,6 +76536,13 @@ repository = {
          }
       }
    },
+   pprint = {
+      ['0.1.0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    prailude = {
       ['0.0.0-1'] = {
          {
@@ -77668,6 +77694,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['rapid-match-domain'] = {
+      ['1.0.0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -80315,6 +80348,11 @@ repository = {
          }
       },
       ['0.0.31-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.32-1'] = {
          {
             arch = "rockspec"
          }
