@@ -15,7 +15,7 @@ source = {
 	url = "git://github.com/pgagnidze/ena.git"
 }
 dependencies = {
-  'lua ~> 5.4',
+  'lua ~> 5.1',
   'lpeg ~> 1.0.2-1',
   'luaunit ~> 3.4-1'
 }

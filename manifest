@@ -19975,6 +19975,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    glfw = {
@@ -62760,13 +62767,6 @@ repository = {
          }
       }
    },
-   ['lush.nvim'] = {
-      ['0.1-1'] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    lust = {
       ['0.1-1'] = {
          {
@@ -86414,6 +86414,13 @@ repository = {
          }
       },
       ['1.43.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.43.2-1'] = {
          {
             arch = "rockspec"
          }, {
