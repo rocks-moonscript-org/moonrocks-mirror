@@ -8900,6 +8900,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    datadumper = {
@@ -27821,6 +27828,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-ddtrace'] = {
@@ -41977,6 +41991,13 @@ repository = {
          }
       },
       ['3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.2-2'] = {
          {
             arch = "rockspec"
          }, {
