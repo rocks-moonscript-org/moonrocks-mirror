@@ -33805,6 +33805,13 @@ repository = {
          }
       }
    },
+   ['kong-request-allow'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['kong-request-header'] = {
       ['0.0.1-1'] = {
          {
