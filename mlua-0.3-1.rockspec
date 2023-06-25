@@ -25,10 +25,12 @@ test = {
 build = {
    type = 'make',
    build_target = 'all',
+   install_target = 'install',
    variables = {
       LUA_BUILD='5.4.4',
       LUAROCKS_CFLAGS='$(CFLAGS)',  -- only necessary to get rid of a luarocks warning
-      PREFIX = '$(PREFIX)',
+      LUAROCKS_PREFIX='$(PREFIX)',  -- let Makefile know where Lua wants it installed so it can detect --local flag
+      -- Don't set PREFIX='$(PREFIX)' because MLua needs its binaries to be in the system's Lua path. I don't really understand why luarocks sets its PREFIX to non-path locations
    },
    copy_directories = {'tests'},
 }
