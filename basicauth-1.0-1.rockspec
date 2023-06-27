@@ -1,6 +1,10 @@
 package = "basicAuth"
 version = "1.0-1"
 
+source = {
+   url = "git+ssh://git@github.com/pro100n1nJkeee/basicauth.git"
+}
+
 description = {
     summary = "Basic access authentication for http clients",
 
