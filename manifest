@@ -3690,6 +3690,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    bitvec = {
@@ -19527,6 +19534,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.921-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    fzy = {
@@ -20190,6 +20204,22 @@ repository = {
          }
       },
       ['0.0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   gmod = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -42898,6 +42928,15 @@ repository = {
          }
       }
    },
+   ['lua-gmod-lib'] = {
+      ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-gnuplot'] = {
       ['0.1-1'] = {
          {
@@ -53584,6 +53623,15 @@ repository = {
          }
       }
    },
+   ['lua-yottadb'] = {
+      ['2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-zabbix-sender'] = {
       ['0.1.0-0'] = {
          {
@@ -59564,6 +59612,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luarocks-build-xmake'] = {
@@ -61951,6 +62006,15 @@ repository = {
    },
    luayaml = {
       ['0.5.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luayue = {
+      ['0.13.13-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -72276,6 +72340,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   opendal = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
