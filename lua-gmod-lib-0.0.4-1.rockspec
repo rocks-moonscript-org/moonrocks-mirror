@@ -1,11 +1,11 @@
-local git_ref = 'v0.0.2'
-local modrev = '0.0.2'
+local git_ref = 'v0.0.4'
+local modrev = '0.0.4'
 local specrev = '-1'
 
 local repo_url = 'https://github.com/TRIGONIM/lua-gmod-lib'
 
 rockspec_format = '3.0'
-package = 'gmod'
+package = 'lua-gmod-lib'
 version = modrev .. specrev
 
 description = {
@@ -25,7 +25,7 @@ dependencies = { 'lua >= 5.1' }
 
 source = {
   url = repo_url .. '/archive/' .. git_ref .. '.zip',
-  dir = 'lua-gmod-lib-' .. '0.0.2',
+  dir = 'lua-gmod-lib-' .. '0.0.4',
 }
 
 build = {
