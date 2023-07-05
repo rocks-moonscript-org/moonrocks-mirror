@@ -9004,6 +9004,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    datadumper = {
@@ -19588,6 +19602,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.936-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    fzy = {
@@ -27997,6 +28018,13 @@ repository = {
          }
       },
       ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -81164,6 +81192,11 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.40-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.5-1'] = {
          {
             arch = "rockspec"
@@ -84400,6 +84433,15 @@ repository = {
          }
       },
       ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['sweetie.nvim'] = {
+      ['1.2.1-1'] = {
          {
             arch = "rockspec"
          }, {
