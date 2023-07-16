@@ -1,9 +1,9 @@
 package = 'lua-Rotas'
-version = '0.1.0-1'
+version = '0.2.2-1'
 source = {
-    url = 'https://framagit.org/fperrad/lua-Rotas/raw/releases/lua-rotas-0.1.0.tar.gz',
-    md5 = 'f8b5eff95a0f7131e1d019c51589223f',
-    dir = 'lua-Rotas-0.1.0',
+    url = 'https://framagit.org/fperrad/lua-Rotas/raw/releases/lua-rotas-0.2.2.tar.gz',
+    md5 = 'fca5a472417190243d4975cd94198f17',
+    dir = 'lua-Rotas-0.2.2',
 }
 description = {
     summary = "a web server router",
