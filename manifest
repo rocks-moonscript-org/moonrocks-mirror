@@ -19758,6 +19758,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.956-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    fzy = {
@@ -27545,6 +27552,13 @@ repository = {
          }
       }
    },
+   ['kong-plugin-apikey-validator'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['kong-plugin-auth-endpoint-config-ishare'] = {
       ['0.0.2-1'] = {
          {
@@ -28280,6 +28294,13 @@ repository = {
          }
       },
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -32767,6 +32788,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-the-middleman2'] = {
+      ['1.0.6-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -81664,6 +81692,13 @@ repository = {
       }
    },
    satelito = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['beta-1'] = {
          {
             arch = "rockspec"
