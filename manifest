@@ -343,6 +343,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.12.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.9.1-1'] = {
          {
             arch = "rockspec"
@@ -43368,6 +43373,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-gnuplot'] = {
@@ -62089,6 +62101,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   luatypechecks = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
