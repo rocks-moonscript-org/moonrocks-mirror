@@ -1,10 +1,10 @@
 package = "imp-appsec-connector"
-version = "1.5.0-0"
+version = "0.2.0-0"
 rockspec_format = "3.0"
 supported_platforms = {"linux", "macosx"}
 source = {
   url = "git://github.com/nainika-arecabay/kong-plugin-imp-appsec-connector",
-  tag = "1.5.0"
+  tag = "0.2.0"
 }
 description = {
   summary = "Discover, Monitor, and Secure your APIs at object/data level using this Kong Plugin as a MicroSensor.",
