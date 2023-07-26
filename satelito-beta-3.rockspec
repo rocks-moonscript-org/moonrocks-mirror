@@ -1,7 +1,7 @@
 package = "satelito"
 version = "beta-3"
 source = {
-    url = "https://codeberg.org/hs0ucy/Satelito.git",
+    url = "git+https://codeberg.org/hs0ucy/Satelito.git",
     tag = "Beta-3"
 }
 description = {
