@@ -13,7 +13,7 @@ description = {
 }
 
 dependencies = {
-  "lua-resty-http"
+  "lua-resty-http == 0.17.1"
 }
 
 build = {
