@@ -27642,6 +27642,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['kong-plugin-auth-endpoint-config-ishare'] = {
@@ -27744,6 +27754,13 @@ repository = {
          }
       },
       ['0.5.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -31063,6 +31080,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.5.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-oauth2-audience'] = {
@@ -32883,6 +32907,34 @@ repository = {
          }
       },
       ['1.0.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-4'] = {
          {
             arch = "rockspec"
          }, {
@@ -37759,6 +37811,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   lingy = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -43180,6 +43239,13 @@ repository = {
          }
       },
       ['0.0.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.8-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -60476,6 +60542,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luarocks_helloworld = {
@@ -66552,6 +66625,20 @@ repository = {
    },
    mfr = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -78156,6 +78243,15 @@ repository = {
       ['0.4.1-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   ['prompt-style'] = {
+      ['0.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -93333,6 +93429,13 @@ repository = {
          }
       },
       ['0.17.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.17.12-1'] = {
          {
             arch = "rockspec"
          }, {
