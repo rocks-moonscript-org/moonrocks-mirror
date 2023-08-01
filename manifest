@@ -5574,6 +5574,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    centrilua = {
@@ -27799,6 +27806,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.5.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-authz'] = {
@@ -31115,6 +31129,13 @@ repository = {
          }
       },
       ['0.5.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -43279,6 +43300,13 @@ repository = {
          }
       },
       ['0.0.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.9-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -89491,6 +89519,13 @@ repository = {
    },
    ['upstream-auth-hmac'] = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['uriid1-lua-extensions'] = {
+      ['1.0-0'] = {
          {
             arch = "rockspec"
          }
