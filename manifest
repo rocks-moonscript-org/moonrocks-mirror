@@ -23077,14 +23077,14 @@ repository = {
       }
    },
    ['imp-appsec-connector'] = {
-      ['0.1.1-1'] = {
+      ['1.1.0-0'] = {
          {
             arch = "rockspec"
          }, {
             arch = "src"
          }
       },
-      ['0.2.0-0'] = {
+      ['1.2.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -23448,6 +23448,15 @@ repository = {
          }
       },
       ['8.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ip2locationio = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -79166,6 +79175,15 @@ repository = {
          }
       }
    },
+   ['quick-scope'] = {
+      ['2.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['r1-lua-resty-waf'] = {
       ['r0.1.0-1'] = {
          {
@@ -87873,6 +87891,13 @@ repository = {
          }
       },
       ['1.44.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.44.1-1'] = {
          {
             arch = "rockspec"
          }, {
