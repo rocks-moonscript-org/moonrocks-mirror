@@ -27701,6 +27701,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['kong-plugin-auth-endpoint-config-ishare'] = {
@@ -43579,6 +43589,15 @@ repository = {
          }
       }
    },
+   ['lua-help'] = {
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-hiredis'] = {
       ['0.1-1'] = {
          {
@@ -48475,6 +48494,13 @@ repository = {
             arch = "src"
          }
       },
+      ['2.2.4-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['3.0.0-0'] = {
          {
             arch = "rockspec"
@@ -52356,6 +52382,13 @@ repository = {
          }
       },
       ['1.0.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-0'] = {
          {
             arch = "rockspec"
          }, {
