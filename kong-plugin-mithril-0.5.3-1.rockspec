@@ -4,7 +4,7 @@ version = "0.5.3-1"             -- TODO: renumber, must match the info in the fi
 
 supported_platforms = {"linux", "macosx"}
 source = {
-  url = "git://github.com/edenlabllc/kong-plugin-mithril",
+  url = "git+ssh://git@github.com:edenlabllc/kong-plugin-mithril.git",
   tag = "0.5.3"
 }
 
