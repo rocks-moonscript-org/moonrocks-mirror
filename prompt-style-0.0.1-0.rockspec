@@ -18,9 +18,16 @@ description = {
 dependencies = {
     "lua >= 5.1",
     "ansicolors",
-    "luafilesystem"
+    "luafilesystem",
+    "luaprompt"
 }
 build = {
     type = "builtin",
-    modules = {["prompt-style"] = "prompt-style.lua"}
+    modules = {["prompt-style"] = "prompt-style.lua"},
+    install = {
+        bin = {
+            "bin/nvimp",
+            "bin/texluap"
+        },
+    },
 }
