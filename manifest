@@ -6121,6 +6121,15 @@ repository = {
          }
       }
    },
+   civ = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    cl = {
       ['20100607-1'] = {
          {
@@ -15722,6 +15731,22 @@ repository = {
          }
       }
    },
+   ele = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    elementslib = {
       ['0.2-0'] = {
          {
@@ -16220,6 +16245,13 @@ repository = {
          }
       },
       ['0.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -25405,6 +25437,13 @@ repository = {
          }
       },
       ['3.3.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.4.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -43399,6 +43438,13 @@ repository = {
          }
       },
       ['0.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.6-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -82004,6 +82050,11 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.50-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.6-1'] = {
          {
             arch = "rockspec"
@@ -82200,6 +82251,11 @@ repository = {
          }
       },
       ['0.0.49-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.50-1'] = {
          {
             arch = "rockspec"
          }
