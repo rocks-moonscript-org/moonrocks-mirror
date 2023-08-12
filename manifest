@@ -59253,6 +59253,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luaoop = {
@@ -66366,6 +66373,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['markdown.sile'] = {
+      ['1.4.1-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -82055,6 +82069,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.51-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.6-1'] = {
          {
             arch = "rockspec"
@@ -82256,6 +82275,11 @@ repository = {
          }
       },
       ['0.0.50-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.51-1'] = {
          {
             arch = "rockspec"
          }
