@@ -19918,6 +19918,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.964-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    fzy = {
@@ -25668,6 +25675,20 @@ repository = {
    },
    ['kong-auth-request-trans'] = {
       ['0.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.0-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -78357,6 +78378,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['postgres-auth-server'] = {
@@ -80836,6 +80862,13 @@ repository = {
    },
    restia = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
