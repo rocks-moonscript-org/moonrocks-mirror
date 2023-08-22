@@ -19925,6 +19925,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.965-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    fzy = {
