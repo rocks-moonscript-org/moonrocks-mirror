@@ -1288,6 +1288,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['api7-lua-resty-jwt'] = {
@@ -9105,6 +9112,13 @@ repository = {
          }
       },
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -94706,6 +94720,13 @@ repository = {
          }
       },
       ['0.19.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.19.2-1'] = {
          {
             arch = "rockspec"
          }, {
