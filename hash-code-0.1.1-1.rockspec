@@ -18,9 +18,6 @@ dependencies = {
 }
 build = {
   type = "cpp",
-  variables = {
-    LUA_LIBDIR = "$(LUA_DIR)/lib"
-  },
   modules = {
     hash_code = {
       sources = {
