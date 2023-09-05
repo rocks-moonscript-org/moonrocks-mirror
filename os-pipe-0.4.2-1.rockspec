@@ -1,8 +1,8 @@
 package = "os-pipe"
-version = "0.5.0-1"
+version = "0.4.2-1"
 source = {
     url = "git+https://github.com/mah0x211/lua-os-pipe.git",
-    tag = "v0.5.0",
+    tag = "v0.4.2",
 }
 description = {
     summary = "create descriptor pair for interprocess communication.",
@@ -13,8 +13,8 @@ description = {
 dependencies = {
     "lua >= 5.1",
     "errno >= 0.3.0",
-    "gpoll >= 0.4.0",
-    "io-wait >= 0.2.0",
+    "gpoll ~> 0.6",
+    "io-wait ~> 0.2",
     "metamodule >= 0.4.0",
 }
 build = {
