@@ -1,8 +1,8 @@
 package = "postgres"
-version = "0.3.0-1"
+version = "0.3.1-1"
 source = {
     url = "git+https://github.com/mah0x211/lua-postgres.git",
-    tag = "v0.3.0",
+    tag = "v0.3.1",
 }
 description = {
     summary = "PostgreSQL client for lua",
