@@ -20022,6 +20022,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.981-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    fzy = {
@@ -31956,6 +31963,13 @@ repository = {
          }
       },
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -53905,6 +53919,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-semver'] = {
@@ -74004,6 +74025,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.8.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    opendal = {
@@ -86828,6 +86856,13 @@ repository = {
    },
    tablua = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
          {
             arch = "rockspec"
          }, {
