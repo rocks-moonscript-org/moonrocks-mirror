@@ -61543,6 +61543,20 @@ repository = {
             arch = "src"
          }
       },
+      ['5.1.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.1.11-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['5.1.2-1'] = {
          {
             arch = "rockspec"
@@ -63726,6 +63740,20 @@ repository = {
          }
       },
       ['0.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -82930,6 +82958,11 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.70-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.8-1'] = {
          {
             arch = "rockspec"
@@ -83202,6 +83235,11 @@ repository = {
          }
       },
       ['0.0.69-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.70-1'] = {
          {
             arch = "rockspec"
          }
