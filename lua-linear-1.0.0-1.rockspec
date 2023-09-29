@@ -2,7 +2,7 @@ rockspec_format = "3.0"
 package = "lua-linear"
 version = "1.0.0-1"
 description = {
-	summary = "Linear algebra support for Lua.",
+	summary = "Linear algebra for Lua",
 	detailed = [[
 		Lua Linear provides comprehensive linear algebra support for the Lua programming
 		language. Where applicable, the BLAS and LAPACK implementations on the system are
@@ -13,7 +13,7 @@ description = {
 	labels = { "math" },
 }
 dependencies = {
-	"lua >= 5.2"
+	"lua >= 5.1"
 }
 external_dependencies = {
 	LIBBLAS = {
@@ -25,7 +25,7 @@ external_dependencies = {
 }
 source = {
 	url = "git+https://github.com/anaef/lua-linear.git",
-	tag = "1.0.0",
+	tag = "v1.0.0",
 }
 build = {
 	type = "builtin",
@@ -34,9 +34,10 @@ build = {
 			sources = {
 				"src/linear.c",
 			},
-			defines ={
+			defines = {
 				"_REENTRANT",
 				"_GNU_SOURCE",
+				"LUA_LINEAR_USE_AXPBY=1"
 			},
 			libraries = {
 				"blas",
@@ -47,5 +48,5 @@ build = {
 				"$(LIBLAPACKE_INCDIR)"
 			},
 		},
-	}
+	},
 }
