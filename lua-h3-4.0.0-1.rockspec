@@ -21,7 +21,7 @@ external_dependencies = {
 }
 source = {
 	url = "git+https://github.com/anaef/lua-h3.git",
-	tag = "4.0.0",
+	tag = "v4.0.0",
 }
 build = {
 	type = "builtin",

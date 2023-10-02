@@ -17,7 +17,7 @@ dependencies = {
 }
 source = {
 	url = "git+https://github.com/anaef/lua-tz.git",
-	tag = "1.0.0",
+	tag = "v1.0.0",
 }
 build = {
 	type = "builtin",
