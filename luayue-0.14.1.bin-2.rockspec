@@ -2,8 +2,8 @@ package = "luayue"
 version = "0.14.1.bin-2"
 source = {
    url = "git+https://github.com/Frityet/luayue",
-   tag = "v0.14.1-bin",
-   branch = "main"
+   tag = "v0.14.1-2-bin",
+   branch = "compile"
 }
 description = {
    detailed = "Binary releases for yue",
@@ -14,23 +14,27 @@ dependencies = {
    "lua >= 5.1, < 5.5"
 }
 build = {
-   type = "command",
-   platforms = {
-      macosx = {
-         build_command = "'$(LUA)' install.lua download mac \"CURL=$(CURL)\" \"YUE_VERSION=0.14.1\" \"INST_LIBDIR=$(LIBDIR)\" \"WGET=$(WGET)\" \"TAR=$(TAR)\" \"UNZIP=$(UNZIP)\" ",
-         install_command = "'$(LUA)' install.lua install mac \"CURL=$(CURL)\" \"YUE_VERSION=0.14.1\" \"INST_LIBDIR=$(LIBDIR)\" \"WGET=$(WGET)\" \"TAR=$(TAR)\" \"UNZIP=$(UNZIP)\" "
-      },
-      mingw32 = {
-         build_command = "cmd /c '$(LUA)' install.lua download win \"CURL=$(CURL)\" \"YUE_VERSION=0.14.1\" \"INST_LIBDIR=$(LIBDIR)\" \"WGET=$(WGET)\" \"TAR=$(TAR)\" \"UNZIP=$(UNZIP)\" ",
-         install_command = "cmd /c '$(LUA)' install.lua install win \"CURL=$(CURL)\" \"YUE_VERSION=0.14.1\" \"INST_LIBDIR=$(LIBDIR)\" \"WGET=$(WGET)\" \"TAR=$(TAR)\" \"UNZIP=$(UNZIP)\" "
-      },
-      unix = {
-         build_command = "'$(LUA)' install.lua download linux \"CURL=$(CURL)\" \"YUE_VERSION=0.14.1\" \"INST_LIBDIR=$(LIBDIR)\" \"WGET=$(WGET)\" \"TAR=$(TAR)\" \"UNZIP=$(UNZIP)\" ",
-         install_command = "'$(LUA)' install.lua install linux \"CURL=$(CURL)\" \"YUE_VERSION=0.14.1\" \"INST_LIBDIR=$(LIBDIR)\" \"WGET=$(WGET)\" \"TAR=$(TAR)\" \"UNZIP=$(UNZIP)\" "
-      },
-      win32 = {
-         build_command = "cmd /c '$(LUA)' install.lua download win \"CURL=$(CURL)\" \"YUE_VERSION=0.14.1\" \"INST_LIBDIR=$(LIBDIR)\" \"WGET=$(WGET)\" \"TAR=$(TAR)\" \"UNZIP=$(UNZIP)\" ",
-         install_command = "cmd /c '$(LUA)' install.lua install win \"CURL=$(CURL)\" \"YUE_VERSION=0.14.1\" \"INST_LIBDIR=$(LIBDIR)\" \"WGET=$(WGET)\" \"TAR=$(TAR)\" \"UNZIP=$(UNZIP)\" "
-      }
-   }
+   type = "make",
+   build_target = "download-bin",
+   build_variables = {
+      CC = "$(CC)",
+      CFLAGS = "$(CFLAGS)",
+      CURL = "$(CURL)",
+      CXX = "$(CXX)",
+      LIBFLAG = "$(LIBFLAG)",
+      LUA = "$(LUA)",
+      LUA_BINDIR = "$(LUA_BINDIR)",
+      LUA_INCDIR = "$(LUA_INCDIR)",
+      LUA_LIBDIR = "$(LUA_LIBDIR)",
+      YUE_VERSION = "0.14.1"
+   },
+   install_target = "install-bin",
+   install_variables = {
+      INST_BINDIR = "$(BINDIR)",
+      INST_CONFDIR = "$(CONFDIR)",
+      INST_LIBDIR = "$(LIBDIR)",
+      INST_LUADIR = "$(LUADIR)",
+      INST_PREFIX = "$(PREFIX)"
+   },
+   makefile = "Makefile"
 }
