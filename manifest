@@ -19679,6 +19679,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1013-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -44692,6 +44699,13 @@ repository = {
             arch = "src"
          }
       },
+      ['7.0.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['r3-1'] = {
          {
             arch = "rockspec"
@@ -62123,6 +62137,13 @@ repository = {
             arch = "src"
          }
       },
+      ['5.2.18-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['5.2.2-1'] = {
          {
             arch = "rockspec"
@@ -68988,6 +69009,13 @@ repository = {
          }
       },
       ['1.0.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -83078,6 +83106,15 @@ repository = {
    },
    rs232 = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   rsjson = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
