@@ -38735,6 +38735,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lightdrop = {
@@ -46417,6 +46431,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-ocrspace'] = {
@@ -50754,6 +50775,13 @@ repository = {
          }
       },
       ['1.1.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.6-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -62463,6 +62491,13 @@ repository = {
          }
       },
       ['5.2.28-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.2.29-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -89072,6 +89107,13 @@ repository = {
          }
       }
    },
+   ['tcp-body-log'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    tdb = {
       ['1.0-1'] = {
          {
@@ -92160,6 +92202,11 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ['0.8-2'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
