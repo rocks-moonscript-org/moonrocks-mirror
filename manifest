@@ -18215,6 +18215,29 @@ repository = {
          }
       }
    },
+   ['ferris.nvim'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['fffonion-busted'] = {
       ['0.1.0-1'] = {
          {
@@ -19773,6 +19796,13 @@ repository = {
          }
       },
       ['0.0.1017-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1019-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -38779,6 +38809,13 @@ repository = {
          }
       },
       ['0.3-7'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3-8'] = {
          {
             arch = "rockspec"
          }, {
@@ -62558,6 +62595,13 @@ repository = {
             arch = "src"
          }
       },
+      ['5.2.31-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['5.2.4-1'] = {
          {
             arch = "rockspec"
@@ -68704,6 +68748,15 @@ repository = {
          }
       },
       ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['meisocafe.hammerspoon.dkb'] = {
+      ['0.1-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -84810,6 +84863,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.10-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.2-1'] = {
          {
             arch = "rockspec"
@@ -85243,6 +85301,11 @@ repository = {
          }
       },
       ['0.0.78-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.79-1'] = {
          {
             arch = "rockspec"
          }
