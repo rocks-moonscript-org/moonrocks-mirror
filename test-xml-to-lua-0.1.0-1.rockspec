@@ -1,5 +1,5 @@
 local plugin_name = "test-xml-to-lua"
-local package_name = "kong-plugin-" .. plugin_name
+local package_name = "test-xml-to-lua"
 local package_version = "0.1.0"
 local rockspec_revision = "1"
 
@@ -19,7 +19,7 @@ source = {
 
 description = {
   summary = "Kong is a scalable and customizable API Management Layer built on top of Nginx.",
-  homepage = "https://"..github_account_name..".github.io/"..github_repo_name,
+  homepage = "https://github.com/BA-DipikaShekhawat/"..github_repo_name,
   license = "Apache 2.0",
 }
 
