@@ -1,11 +1,11 @@
-local plugin_name = "test-xml-to-lua"
-local package_name = "test-xml-to-lua"
+local plugin_name = "test-xml-json"
+local package_name = "test-xml-json"
 local package_version = "0.1.0"
 local rockspec_revision = "1"
 
 local github_account_name = "BA-DipikaShekhawat"
-local github_repo_name = "kong-plugin-test-xml-to-lua"
-local git_checkout = "master"
+local github_repo_name = "kong-plugin-test-xml-json"
+local git_checkout = "main"
 
 
 package = package_name
