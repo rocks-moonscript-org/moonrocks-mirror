@@ -1,11 +1,11 @@
-local git_ref = '1.0.0'
-local modrev = '1.0.0'
+local git_ref = '3.0.3'
+local modrev = '3.0.3'
 local specrev = '1'
 
-local repo_url = 'https://github.com/mrcjkb/ferris.nvim'
+local repo_url = 'https://github.com/mrcjkb/rustaceanvim'
 
 rockspec_format = '3.0'
-package = 'ferris.nvim'
+package = 'rustaceanvim'
 version = modrev ..'-'.. specrev
 
 description = {
@@ -14,8 +14,8 @@ description = {
 This plugin automatically configures the rust-analyzer builtin LSP client
 and integrates with other Rust tools. See the README's #features section
 for more info.]],
-  labels = { 'dap', 'debug-adapter-protocol', 'language-server-protocol', 'lsp', 'neovim', 'rust', 'rust-analyzer', 'rust-lang', 'rust-tools' } ,
-  homepage = 'https://github.com/mrcjkb/ferris.nvim',
+  labels = { 'dap', 'debug-adapter-protocol', 'language-server-protocol', 'lsp', 'neovim', 'nvim', 'plugin', 'rust', 'rust-analyzer', 'rust-lang', 'rust-tools' } ,
+  homepage = 'https://github.com/mrcjkb/rustaceanvim',
   license = 'GPL-2.0'
 }
 
@@ -23,7 +23,7 @@ dependencies = { 'lua >= 5.1' }
 
 source = {
   url = repo_url .. '/archive/' .. git_ref .. '.zip',
-  dir = 'ferris.nvim-' .. '1.0.0',
+  dir = 'rustaceanvim-' .. '3.0.3',
 }
 
 build = {
