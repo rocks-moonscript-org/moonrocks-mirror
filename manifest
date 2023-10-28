@@ -19807,6 +19807,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1026-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -62756,6 +62763,13 @@ repository = {
             arch = "src"
          }
       },
+      ['5.2.38-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['5.2.4-1'] = {
          {
             arch = "rockspec"
@@ -80099,6 +80113,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.5-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    pipe = {
@@ -83995,6 +84014,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rxi-json'] = {
@@ -84738,6 +84771,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.92-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['santoku-cli'] = {
@@ -85105,6 +85143,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.92-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['santoku-jpeg'] = {
@@ -85161,6 +85204,11 @@ repository = {
          }
       },
       ['0.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.5-1'] = {
          {
             arch = "rockspec"
          }
@@ -95213,6 +95261,11 @@ repository = {
          }
       },
       ['0.16.3-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.16.4-0'] = {
          {
             arch = "rockspec"
          }

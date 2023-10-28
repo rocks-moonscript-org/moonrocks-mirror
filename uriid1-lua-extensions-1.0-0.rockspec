@@ -16,10 +16,10 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["uriid1-lua-extensions"] = "init.lua",
-    ["uriid1-lua-extensions.date"] = "date.lua",
-    ["uriid1-lua-extensions.math"] = "math.lua",
-    ["uriid1-lua-extensions.string"] = "string.lua",
-    ["uriid1-lua-extensions.table"] = "table.lua",
+    [package] = "src/init.lua",
+    [package..".date"] = "src/"..package.."/date.lua",
+    [package..".math"] = "src/"..package.."/math.lua",
+    [package..".table"] = "src/"..package.."/table.lua",
+    [package..".string"] = "src/"..package.."/string.lua",
   }
 }
