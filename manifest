@@ -9732,6 +9732,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dedlit = {
@@ -36974,6 +36981,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.16.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2.0-1'] = {
          {
             arch = "rockspec"
@@ -52660,6 +52674,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-passwdqc'] = {
@@ -62430,6 +62451,13 @@ repository = {
          }
       },
       ['5.2.40-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.2.41-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -84061,6 +84089,16 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.106-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.107-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.11-1'] = {
          {
             arch = "rockspec"
@@ -84549,6 +84587,21 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.6-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.7-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['santoku-cli'] = {
@@ -84563,6 +84616,16 @@ repository = {
          }
       },
       ['0.0.102-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.103-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.104-1'] = {
          {
             arch = "rockspec"
          }
@@ -85017,6 +85080,21 @@ repository = {
          }
       },
       ['0.0.12-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.13-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.14-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.15-1'] = {
          {
             arch = "rockspec"
          }
@@ -85666,7 +85744,7 @@ repository = {
       }
    },
    scrypt = {
-      ['0.1.0-0'] = {
+      ['0.1.1-0'] = {
          {
             arch = "rockspec"
          }
@@ -88899,6 +88977,15 @@ repository = {
       ['1.0-0'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   symdiff = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -97514,6 +97601,13 @@ repository = {
          }
       },
       ['0.9-3'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-luarocks'] = {
+      ['0.4.1-0'] = {
          {
             arch = "rockspec"
          }

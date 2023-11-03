@@ -1,8 +1,8 @@
 package = "scrypt"
-version = "0.1.0-0"
+version = "0.1.1-0"
 
 source = {
- url = "git+ssh://git@github.com/Propagram/lua-scrypt.git",
+ url = "git://github.com/Propagram/lua-scrypt.git",
  branch = "main"
 }
 
