@@ -26,7 +26,10 @@ description = {
 
 dependencies = {
   "multipart >= 0.5.9-1",
-  "urlencode >= 0.0.2-0"
+  "urlencode >= 0.0.2-0",
+  "xml2lua >= 1.4",
+  "lua-cjson >= 2.1"
+
 }
 
 
