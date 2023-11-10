@@ -16116,6 +16116,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    elfs = {
@@ -74840,6 +74847,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['nui.nvim'] = {
@@ -84352,6 +84366,21 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.117-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.118-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.119-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.12-1'] = {
          {
             arch = "rockspec"
@@ -84853,6 +84882,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.9-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['santoku-cli'] = {
@@ -84887,6 +84921,21 @@ repository = {
          }
       },
       ['0.0.106-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.107-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.108-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.109-1'] = {
          {
             arch = "rockspec"
          }
@@ -85406,6 +85455,21 @@ repository = {
          }
       },
       ['0.0.25-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.26-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.27-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.28-1'] = {
          {
             arch = "rockspec"
          }
@@ -95143,6 +95207,22 @@ repository = {
       ['0.0-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   wezterm_include_launch_items = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
