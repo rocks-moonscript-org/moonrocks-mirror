@@ -30,6 +30,8 @@ build = {
     [package..".constructor"] = package.."/constructor.lua",
     [package..".string-format"] = package.."/string-format.lua",
 
+    [package..".enums.metamethods"] = package.."/enums/metamethods.lua",
+
     [package..".classes.Cdata"] = package.."/classes/Cdata.lua",
     [package..".classes.String"] = package.."/classes/String.lua",
     [package..".classes.Userdata"] = package.."/classes/Userdata.lua",

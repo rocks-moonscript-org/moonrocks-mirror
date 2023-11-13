@@ -16123,6 +16123,34 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-7'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-8'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-9'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    elfs = {
@@ -48951,15 +48979,6 @@ repository = {
          }
       }
    },
-   ['lua-resty-custom-session'] = {
-      ['1.0.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    ['lua-resty-dns'] = {
       ['0.21-1'] = {
          {
@@ -62689,6 +62708,13 @@ repository = {
          }
       },
       ['5.2.47-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.2.48-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -84028,6 +84054,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rxi-json'] = {
@@ -98095,8 +98128,449 @@ repository = {
          }
       }
    },
+   ['zerobranepackage-analyzeall'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-autodelimiter'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-autodelimitersurroundselection'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-autoindent'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-autostartdebug'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-blockcursor'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-clippy'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-cloneview'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-closetabsleftright'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-colourpicker'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-cuberite'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-documentmap'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-edgemark'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-editorautofocusbymouse'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-eris'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-escapetoquit'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-extregister'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-filetreeoneclick'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-hidemenu'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-hidemousewhentyping'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-highlightselected'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-launchtime'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-localhelpmenu'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-luadist'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['zerobranepackage-luarocks'] = {
       ['0.4.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-maketoolbar'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-markchar'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-moonscript'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-moonscriptlove'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-moveline'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-noblinkcursor'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-openimagefile'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-openra'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-openwithdefault'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-outputclone'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-outputtofile'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-overtype'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-projectsettings'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-realtimewatch'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-redbean'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-redis'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-referencepanel'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-refreshproject'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-remoteedit'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-savealleveryxrunning'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-saveonappswitch'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-saveonfocuslost'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-screenshot'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-shebangtype'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-showluareference'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-showreference'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-striptrailingwhitespace'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-syntaxcheckontype'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-tasks'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-tildemenu'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-todo'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-todoall'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-torch7'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-uniquetabname'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-urho3d'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-verbosesaving'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-wordcount'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-wordwrapmenu'] = {
+      ['0.1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['zerobranepackage-xml'] = {
+      ['0.1.0-0'] = {
          {
             arch = "rockspec"
          }
