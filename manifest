@@ -19919,6 +19919,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1037-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -44628,99 +44635,6 @@ repository = {
          }
       }
    },
-   ['lua-extended'] = {
-      ['1.0.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.0-2'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.2-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.2-2'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.2-3'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.2-4'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.3-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.1.0-2'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.1.0-3'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.1.1-4'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.1.2-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    ['lua-ezlib'] = {
       ['1.0.0-2'] = {
          {
@@ -62720,6 +62634,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.2.49-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luarocks_helloworld = {
@@ -63047,6 +62968,15 @@ repository = {
          }
       },
       ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luasnip = {
+      ['2.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -74560,6 +74490,15 @@ repository = {
          }
       }
    },
+   nlua = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    nn = {
       ['1.0.0-2'] = {
          {
@@ -84477,6 +84416,11 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.121-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.17-1'] = {
          {
             arch = "rockspec"
@@ -85559,6 +85503,11 @@ repository = {
          }
       },
       ['0.0.28-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.29-1'] = {
          {
             arch = "rockspec"
          }
