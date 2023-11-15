@@ -1,5 +1,5 @@
-local git_ref = 'v2.0.1'
-local modrev = '2.0.1'
+local git_ref = 'v2.1.0'
+local modrev = '2.1.0'
 local specrev = '1'
 
 local repo_url = 'https://github.com/L3MON4D3/LuaSnip'
@@ -20,7 +20,7 @@ dependencies = { 'lua >= 5.1', 'jsregexp == 0.0.5' }
 
 source = {
   url = repo_url .. '/archive/' .. git_ref .. '.zip',
-  dir = 'LuaSnip-' .. '2.0.1',
+  dir = 'LuaSnip-' .. '2.1.0',
 }
 
 build = {
