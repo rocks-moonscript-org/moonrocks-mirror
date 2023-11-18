@@ -21139,6 +21139,15 @@ repository = {
          }
       }
    },
+   ['git-worktree.nvim'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    github = {
       ['0.0.1-1'] = {
          {
@@ -24882,6 +24891,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   jieba = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
