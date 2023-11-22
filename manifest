@@ -32308,6 +32308,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-oasvalidator'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-oauth2-audience'] = {
       ['0.2.2-1'] = {
          {
@@ -52928,6 +52937,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-passwdqc'] = {
@@ -57663,6 +57679,13 @@ repository = {
    },
    luacio = {
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -62840,6 +62863,13 @@ repository = {
          }
       },
       ['5.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.3.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -75366,6 +75396,8 @@ repository = {
       ['1.0.0-1'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -84317,6 +84349,13 @@ repository = {
          }
       },
       ['3.6.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.6.5-1'] = {
          {
             arch = "rockspec"
          }, {
