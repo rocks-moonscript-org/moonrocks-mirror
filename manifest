@@ -30292,6 +30292,27 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['1.1.10-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.11-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.12-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.1.2-0'] = {
          {
             arch = "rockspec"
@@ -30320,6 +30341,34 @@ repository = {
       ['1.1.7-0'] = {
          {
             arch = "rockspec"
+         }
+      },
+      ['1.1.8-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.9-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -35871,6 +35920,13 @@ repository = {
          }
       },
       ['1.5.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.3-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -54399,6 +54455,13 @@ repository = {
          }
       }
    },
+   ['lua-resty-shell'] = {
+      ['0.03-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-resty-signal'] = {
       ['0.02-1'] = {
          {
@@ -56347,6 +56410,16 @@ repository = {
          }
       },
       ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.3-1'] = {
          {
             arch = "rockspec"
          }
@@ -63083,6 +63156,13 @@ repository = {
          }
       },
       ['5.3.13-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.3.14-1'] = {
          {
             arch = "rockspec"
          }, {
