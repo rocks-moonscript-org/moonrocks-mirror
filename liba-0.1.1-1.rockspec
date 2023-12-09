@@ -15,7 +15,7 @@ build = {
       BUILD_TESTING=0,
       CMAKE_INSTALL_PREFIX="$(PREFIX)",
       LUA_INCLUDE_DIR="$(LUA_INCDIR)",
-      LIBA_MODULE="lua",
+      LIBA_INSTALL="lua",
       LIBA_CXX=0,
       LIBA_LUA=1
    },
