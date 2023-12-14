@@ -7,12 +7,12 @@
 package = "prompt-style"
 version = "0.0.1-0"
 source = {
-    url = "https://github.com/Freed-Wu/prompt-style.lua",
+    url = "https://github.com/wakatime/prompt-style.lua",
 }
 description = {
     summary = "powerlevel10k style for luaprompt",
     detailed = [[powerlevel10k style for luaprompt]],
-    homepage = "https://github.com/Freed-Wu/prompt-style",
+    homepage = "https://github.com/wakatime/prompt-style",
     license = "GPL3 <https://www.gnu.org/licenses>"
 }
 dependencies = {
