@@ -6953,6 +6953,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.14.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.14.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    colorise = {
@@ -7460,6 +7474,13 @@ repository = {
          }
       },
       ['3.4.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.4.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -20514,6 +20535,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1071-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -31085,6 +31113,27 @@ repository = {
          }
       },
       ['1.5.6-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.7-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.8-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.9-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -51401,6 +51450,13 @@ repository = {
          }
       },
       ['1.6.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.6.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -75529,6 +75585,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.38.0-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['net-http'] = {
@@ -75593,6 +75654,11 @@ repository = {
          }
       },
       ['0.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.6.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -82925,6 +82991,18 @@ repository = {
          }
       }
    },
+   ['pub-sub'] = {
+      ['0.1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    public_suffix_list = {
       ['1.0.201807-1'] = {
          {
@@ -85528,6 +85606,13 @@ repository = {
          }
       },
       ['2.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.6.0-1'] = {
          {
             arch = "rockspec"
          }, {
