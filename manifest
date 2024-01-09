@@ -3974,6 +3974,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['botway-lua'] = {
@@ -27725,6 +27732,13 @@ repository = {
          }
       },
       ['2.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -86458,6 +86472,13 @@ repository = {
             arch = "src"
          }
       },
+      ['3.13.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['3.2.0-1'] = {
          {
             arch = "rockspec"
@@ -88171,6 +88192,16 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.166-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.167-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.18-1'] = {
          {
             arch = "rockspec"
@@ -88838,6 +88869,16 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.30-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.31-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.4-1'] = {
          {
             arch = "rockspec"
@@ -89136,6 +89177,11 @@ repository = {
    },
    ['santoku-template'] = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.10-1'] = {
          {
             arch = "rockspec"
          }
@@ -94035,6 +94081,11 @@ repository = {
          }
       },
       ['1.9-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.0-rc1'] = {
          {
             arch = "rockspec"
          }
