@@ -4988,6 +4988,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0.6-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    candran = {
@@ -7586,6 +7591,13 @@ repository = {
          }
       },
       ['5.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -20696,6 +20708,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1090-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -21687,6 +21706,13 @@ repository = {
          }
       },
       ['1.1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -82805,6 +82831,13 @@ repository = {
          }
       }
    },
+   ['pretty-csv'] = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    primes = {
       ['1.0.0-1'] = {
          {
@@ -84043,6 +84076,13 @@ repository = {
          }
       },
       ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -85823,6 +85863,22 @@ repository = {
          }
       }
    },
+   robotstxt = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['rock-hello'] = {
       ['1.0.0-1'] = {
          {
@@ -86473,6 +86529,20 @@ repository = {
          }
       },
       ['3.13.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.13.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.14.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -92343,6 +92413,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.6-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    stdlib = {
@@ -94085,7 +94160,7 @@ repository = {
             arch = "rockspec"
          }
       },
-      ['2.0-rc1'] = {
+      ['2.0-0'] = {
          {
             arch = "rockspec"
          }
