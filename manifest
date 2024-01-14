@@ -6383,6 +6383,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    cl = {
@@ -7598,6 +7605,13 @@ repository = {
          }
       },
       ['5.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['6.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -9463,6 +9477,15 @@ repository = {
       ['0.4-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   cxt = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -15884,6 +15907,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1-6'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    dtracing = {
@@ -18872,6 +18902,15 @@ repository = {
          }
       }
    },
+   ff = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['fffonion-busted'] = {
       ['0.1.0-1'] = {
          {
@@ -20733,6 +20772,13 @@ repository = {
          }
       },
       ['0.0.1091-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1093-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -43262,6 +43308,15 @@ repository = {
          }
       }
    },
+   lrbtree = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lrdb = {
       ['0.1.7-2'] = {
          {
@@ -62387,6 +62442,15 @@ repository = {
          }
       }
    },
+   luamark = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luamidi = {
       ['0.1-1'] = {
          {
@@ -71117,6 +71181,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1-7'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    mexbt = {
@@ -75454,6 +75525,22 @@ repository = {
    },
    mwcrng = {
       ['1.2-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['my-awesome-plugin.nvim'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -82356,6 +82443,29 @@ repository = {
       }
    },
    pkg = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   pkgrock = {
       ['0.1-0'] = {
          {
             arch = "rockspec"
@@ -90800,6 +90910,13 @@ repository = {
    },
    shim = {
       ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
