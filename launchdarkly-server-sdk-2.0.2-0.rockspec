@@ -5,9 +5,9 @@ rockspec_format = "3.0"
 version = "2.0.2-0"
 
 description = {
-   summary = "LaunchDarkly Lua Server-Side SDK",
+   summary = "LaunchDarkly SDK for server-side applications.",
    detailed = [[
-      The Lua Server-Side SDK provides access to LaunchDarkly's feature flag system and is suitable for
+      The Lua Server-side SDK provides access to LaunchDarkly's feature flag system and is suitable for
       server-side application. It is a wrapper around the LaunchDarkly C++ Server-side SDK, making use of its
       C API.
    ]],

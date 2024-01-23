@@ -5,9 +5,9 @@ rockspec_format = "3.0"
 version = "2.0.2-0"
 
 description = {
-   summary = "LaunchDarkly Lua Server-Side SDK Redis Source",
+   summary = "Redis integration for LaunchDarkly Lua Server-side SDK.",
    detailed = [[
-      Provides a Redis-based data source for the LaunchDarkly Lua Server-Side SDK. Use this if your feature flags
+      Provides a Redis data source for the LaunchDarkly Lua Server-Side SDK. Use this if your feature flags
       should be retrieved from Redis instead of LaunchDarkly SaaS (for instance, when using Relay Proxy.)
    ]],
    license = "Apache-2.0",
@@ -23,7 +23,8 @@ source = {
 }
 
 dependencies = {
-   "lua >= 5.1, <= 5.4"
+   "lua >= 5.1, <= 5.4",
+   "launchdarkly-server-sdk ~> 2"
 }
 
 external_dependencies = {
