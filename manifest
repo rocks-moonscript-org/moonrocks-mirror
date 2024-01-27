@@ -16870,6 +16870,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.0-12'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.0-2'] = {
          {
             arch = "rockspec"
@@ -16920,6 +16927,13 @@ repository = {
          }
       },
       ['1.0-9'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -19544,6 +19558,15 @@ repository = {
    },
    flatfile = {
       ['1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['flatten.nvim'] = {
+      ['0.5.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -40522,7 +40545,7 @@ repository = {
       }
    },
    liba = {
-      ['0.1.1-1'] = {
+      ['0.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -87478,6 +87501,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rxi-json'] = {
@@ -90230,6 +90267,11 @@ repository = {
          }
       },
       ['0.0.8-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.8-2'] = {
          {
             arch = "rockspec"
          }
