@@ -1,16 +1,16 @@
 ---@diagnostic disable: lowercase-global
 package = "cmd4lua"
-version = "0.5.4-1"
+version = "0.6.2-1"
 
 source = {
   url = "git+https://gitlab.com/lua_rocks/cmd4lua.git",
-  branch = "master",
+  tag = "v0.6.2",
 }
 
 description = {
-  summary = "Commands for the Lua language",
+  summary = "A library for convenient and quick creation of command handlers",
   detailed = [[
-    Cmd4Lua is a Lua module that provides the ability to quickly and conveniently
+    Cmd4Lua is a Lua library that provides the ability to quickly and conveniently
     write complex command handlers for CLI-like applications.
 
     Add supports for nested commands, options and arguments.
