@@ -19983,6 +19983,13 @@ repository = {
             arch = "src"
          }
       },
+      ['2.0.10-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['2.0.2-1'] = {
          {
             arch = "rockspec"
@@ -20026,6 +20033,13 @@ repository = {
          }
       },
       ['2.0.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.9-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -43366,6 +43380,34 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lpty = {
@@ -47023,6 +47065,11 @@ repository = {
    },
    ['lua-gltf'] = {
       ['1.0.0-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.0-3'] = {
          {
             arch = "rockspec"
          }
@@ -87611,6 +87658,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rxi-json'] = {
@@ -88233,6 +88294,16 @@ repository = {
          }
       },
       ['0.0.164-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.165-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.166-1'] = {
          {
             arch = "rockspec"
          }
@@ -97988,6 +98059,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    typecheck = {
@@ -100243,6 +100319,15 @@ repository = {
          }
       },
       ['0.2.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['web-devicons'] = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
