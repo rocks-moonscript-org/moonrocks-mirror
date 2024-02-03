@@ -21121,6 +21121,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1110-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -21894,6 +21901,13 @@ repository = {
          }
       },
       ['5.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.1.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -40673,6 +40687,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['libcidr-ffi'] = {
@@ -42641,6 +42662,22 @@ repository = {
          }
       },
       ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lotus-api'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -62941,7 +62978,7 @@ repository = {
             arch = "src"
          }
       },
-      ['0.3.1-1'] = {
+      ['0.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -81266,6 +81303,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    pato = {
@@ -88492,6 +88536,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.176-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.18-1'] = {
          {
             arch = "rockspec"
@@ -89887,6 +89936,11 @@ repository = {
          }
       },
       ['0.0.16-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.17-1'] = {
          {
             arch = "rockspec"
          }
@@ -102457,6 +102511,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   xml_tree = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },

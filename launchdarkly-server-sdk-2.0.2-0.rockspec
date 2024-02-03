@@ -36,7 +36,7 @@ external_dependencies = {
 
 test = {
     type = "command",
-    script = "test.lua"
+    command = "./scripts/interpreter.sh test.lua"
 }
 
 build = {
