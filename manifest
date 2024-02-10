@@ -4157,6 +4157,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['brotli-ffi'] = {
@@ -44730,6 +44737,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lspec = {
@@ -54028,6 +54042,11 @@ repository = {
          }
       },
       ['2.6.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['2.7.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -89178,6 +89197,16 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.192-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.193-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.2-1'] = {
          {
             arch = "rockspec"
@@ -91197,6 +91226,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.36-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.4-1'] = {
          {
             arch = "rockspec"
@@ -91230,6 +91264,11 @@ repository = {
          }
       },
       ['0.0.11-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.12-1'] = {
          {
             arch = "rockspec"
          }
@@ -103469,6 +103508,11 @@ repository = {
    },
    xml_tree = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0-2'] = {
          {
             arch = "rockspec"
          }
