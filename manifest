@@ -9,6 +9,13 @@ repository = {
             arch = "src"
          }
       },
+      ['2.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['main-1'] = {
          {
             arch = "rockspec"
@@ -7515,6 +7522,13 @@ repository = {
          }
       },
       ['1.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['10.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -38419,6 +38433,13 @@ repository = {
          }
       },
       ['0.3.9-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.9-2'] = {
          {
             arch = "rockspec"
          }, {
@@ -81924,6 +81945,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    pato = {
@@ -89350,6 +89378,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.194-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.2-1'] = {
          {
             arch = "rockspec"
@@ -93331,6 +93364,15 @@ repository = {
       ['0.0.1-1'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   simple_classes_lua = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -101552,6 +101594,13 @@ repository = {
          }
       },
       ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.0-1'] = {
          {
             arch = "rockspec"
          }, {

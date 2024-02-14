@@ -1,7 +1,8 @@
 package = "liba"
 version = "0.1.3-1"
 source = {
-   url = "git+https://github.com/tqfx/liba"
+   url = "https://github.com/tqfx/liba/archive/refs/tags/0.1.3.tar.gz",
+   file = "liba-0.1.3.tar.gz"
 }
 description = {
    summary = "An algorithm library based on C/C++ language",
@@ -13,10 +14,12 @@ build = {
    type = "cmake",
    variables = {
       BUILD_TESTING=0,
+      CMAKE_BUILD_TYPE="Release",
       CMAKE_INSTALL_PREFIX="$(PREFIX)",
       LUA_INCLUDE_DIR="$(LUA_INCDIR)",
       LIBA_INSTALL="lua",
       LIBA_LUA=1,
+      LIBA_IPO=1,
       LIBA_CXX=0
    },
    copy_directories = {}
