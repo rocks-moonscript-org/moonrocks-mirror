@@ -7169,6 +7169,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    colorise = {
@@ -22138,6 +22145,13 @@ repository = {
          }
       },
       ['5.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.4.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -67272,6 +67286,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luatabledump = {
@@ -91730,6 +91751,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.21-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.3-1'] = {
          {
             arch = "rockspec"
@@ -101536,6 +101562,11 @@ repository = {
    },
    waitpid = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }
