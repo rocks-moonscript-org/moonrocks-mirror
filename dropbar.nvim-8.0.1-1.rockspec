@@ -1,5 +1,5 @@
-local git_ref = 'da63ca9b24f18b814ac75881b1e36199a7676047'
-local modrev = 'master'
+local git_ref = '982d728f948ce768475454a0cf16bebc12674e28'
+local modrev = '8.0.1'
 local specrev = '1'
 
 local repo_url = 'https://github.com/Bekaboo/dropbar.nvim'
@@ -10,7 +10,9 @@ version = modrev ..'-'.. specrev
 
 description = {
   summary = 'IDE-like breadcrumbs, out of the box',
-  detailed = '',
+  detailed = [[
+`dropbar.nvim` provides a polished, IDE-like, highly-customizable
+winbar for neovim with drop-down menu support and multiple backends.]],
   labels = { 'breadcrumbs', 'lsp', 'neovim', 'neovim-plugin', 'nvim', 'nvim-plugin', 'treesitter', 'winbar' } ,
   homepage = 'https://github.com/Bekaboo/dropbar.nvim',
   license = 'GPL-3.0'
@@ -20,7 +22,7 @@ dependencies = { 'lua >= 5.1' }
 
 source = {
   url = repo_url .. '/archive/' .. git_ref .. '.zip',
-  dir = 'dropbar.nvim-' .. 'da63ca9b24f18b814ac75881b1e36199a7676047',
+  dir = 'dropbar.nvim-' .. '982d728f948ce768475454a0cf16bebc12674e28',
 }
 
 build = {
