@@ -37,6 +37,13 @@ repository = {
             arch = "src"
          }
       },
+      ['2.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['main-1'] = {
          {
             arch = "rockspec"
@@ -24720,6 +24727,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.1.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['haxe-deps'] = {
@@ -26171,6 +26185,13 @@ repository = {
          }
       },
       ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -89068,6 +89089,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rxi-json'] = {
@@ -90885,6 +90913,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.181-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.19-1'] = {
          {
             arch = "rockspec"
@@ -91741,6 +91774,11 @@ repository = {
          }
       },
       ['0.0.45-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.46-1'] = {
          {
             arch = "rockspec"
          }
@@ -97042,6 +97080,16 @@ repository = {
          }
       },
       ['0.0.16-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.17-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.18-1'] = {
          {
             arch = "rockspec"
          }
@@ -104324,6 +104372,11 @@ repository = {
    },
    xml_tree = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0-2'] = {
          {
             arch = "rockspec"
          }
