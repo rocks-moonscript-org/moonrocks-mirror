@@ -1,3 +1,4 @@
+rockspec_format = "3.0"
 package = "luajls"
 version = "0.7-3"
 source = {
@@ -10,10 +11,10 @@ description = {
       luajls is a set of Lua modules for developing stand-alone Lua applications.
       The modules provide general-purpose functions such as class definition and promise, to operating system abstractions such as file system and network access. The modules support asynchronous I/O based on event loops.
       luajls provides:
-      language basics such as class definition, logging, exception, promise, event loop, threads, processes
-      file system manipulation, I/O, file and networking access, serial communication, pipe, streams
-      TCP, UDP, DNS, HTTP, WebSocket, MQTT client and server with support for secured communication using SSL
-      utility modules for list and map, date and time, JSON and XML formats, AST, codec, message digest, deflate, ZIP and tar files, scheduling, worker and web view
+      - language basics such as class definition, logging, exception, promise, event loop, threads, processes
+      - file system manipulation, I/O, file and networking access, serial communication, pipe, streams
+      - TCP, UDP, DNS, HTTP, WebSocket, MQTT client and server with support for secured communication using SSL
+      - utility modules for list and map, date and time, JSON and XML formats, AST, codec, message digest, deflate, ZIP and tar files, scheduling, worker and web view
       The main targeted operating systems are Linux and Windows.
       For dependencies use rock module luajls-lfs or luajls-luv
    ]],
@@ -27,7 +28,9 @@ dependencies = {
    "sha1",
    "xml2lua",
    "dumbluaparser",
-   "luaunit", -- test dependency
+}
+test_dependencies = {
+    "luaunit"
 }
 build = {
    type = "builtin",
