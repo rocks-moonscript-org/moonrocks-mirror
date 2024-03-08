@@ -1,4 +1,4 @@
--- uriid1-lua-extensions-1.0-0.rockspec
+-- ule-1.0-0.rockspec
 package = "uriid1-lua-extensions"
 version = "1.0-0"
 source = {
@@ -7,7 +7,7 @@ source = {
 description = {
   summary = "Custom lua extensions.",
   detailed = [[
-    date, string, table, math.
+    udate, ustring, utable, umath.
   ]],
 }
 dependencies = {
@@ -16,10 +16,10 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    [package] = "src/init.lua",
-    [package..".date"] = "src/"..package.."/date.lua",
-    [package..".math"] = "src/"..package.."/math.lua",
-    [package..".table"] = "src/"..package.."/table.lua",
-    [package..".string"] = "src/"..package.."/string.lua",
+    ["ule"] = "src/init.lua",
+    ["ule"..".extensions.udate"] = "src/extensions/udate.lua",
+    ["ule"..".extensions.umath"] = "src/extensions/umath.lua",
+    ["ule"..".extensions.utable"] = "src/extensions/utable.lua",
+    ["ule"..".extensions.ustring"] = "src/extensions/ustring.lua",
   }
 }
