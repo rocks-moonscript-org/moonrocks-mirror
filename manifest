@@ -2180,6 +2180,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.1-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['asciicursor-lua'] = {
@@ -6639,6 +6653,13 @@ repository = {
          }
       },
       ['0.4.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.7-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -58361,6 +58382,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.2-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-t1k-main'] = {
@@ -66765,6 +66793,15 @@ repository = {
          }
       }
    },
+   ['luarocks-build-treesitter-parser'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['luarocks-build-xmake'] = {
       ['1.0-1'] = {
          {
@@ -68795,6 +68832,13 @@ repository = {
          }
       },
       ['0.1.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.2-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -79056,6 +79100,15 @@ repository = {
       ['1.2.1-2'] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   nd = {
+      ['0.1.0-17'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -91179,6 +91232,13 @@ repository = {
             arch = "src"
          }
       },
+      ['4.12.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['4.2.0-1'] = {
          {
             arch = "rockspec"
@@ -92616,6 +92676,11 @@ repository = {
          }
       },
       ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.4-1'] = {
          {
             arch = "rockspec"
          }
@@ -94807,6 +94872,16 @@ repository = {
          }
       },
       ['0.0.13-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.14-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.15-1'] = {
          {
             arch = "rockspec"
          }
