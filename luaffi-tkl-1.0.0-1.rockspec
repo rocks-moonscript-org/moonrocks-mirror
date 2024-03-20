@@ -3,7 +3,7 @@ version = "1.0.0-1"
 
 source = {
    url = "git+https://github.com/Tekenlight/luaffifb.git",
-   tag = "v1.0.0"
+   tag = "v1.0.2"
 }
 
 description = {
@@ -31,6 +31,5 @@ build = {
       },
       ['ffi_test.libtest'] = 'test.c',
       ['ffi_test.test'] = 'test.lua',
-	  bit = "bit.lua",
    }
 }
