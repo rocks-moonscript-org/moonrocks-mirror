@@ -22532,6 +22532,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1186-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -24883,6 +24890,13 @@ repository = {
          }
       },
       ['0.25.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.26.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -27642,6 +27656,13 @@ repository = {
          }
       }
    },
+   ['io-reader'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['io-readn'] = {
       ['0.1.0-1'] = {
          {
@@ -27695,6 +27716,13 @@ repository = {
          }
       },
       ['0.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['io-writev'] = {
+      ['0.1.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -41728,6 +41756,13 @@ repository = {
    },
    ['lazy.nvim'] = {
       ['10.17.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['10.18.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -67356,6 +67391,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luarocks-build-rust'] = {
@@ -81541,6 +81583,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.8.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['nvim-notify'] = {
@@ -85239,6 +85288,20 @@ repository = {
          }
       },
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -91162,6 +91225,13 @@ repository = {
          }
       },
       ['2.17.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.18.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -103329,6 +103399,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    tstrict = {
@@ -109171,6 +109248,13 @@ repository = {
          }
       },
       ['0.23.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.23.2-1'] = {
          {
             arch = "rockspec"
          }, {
