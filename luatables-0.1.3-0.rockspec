@@ -1,9 +1,12 @@
+local package_version = "0.1.3"
+local rockspec_revision = "0"
+
 rockspec_format = "3.0"
 package = "LuaTables"
-version = "0.1.1-0"
+version = package_version .. "-" .. rockspec_revision
 source = {
   url = "git://github.com/f4z3r/luatables.git",
-  tag = "v0.1.1",
+  tag = "v" .. package_version,
 }
 description = {
   summary = "Library to render tables nicely to the terminal.",
@@ -17,8 +20,8 @@ description = {
 }
 dependencies = {
   "lua == 5.1",
-  "utf8 >= 0.1.5",
-  "luatext >= 1.1",
+  "utf8 >= 0.1",
+  "luatext >= 1.0",
 }
 test_dependencies = {
   "busted >= 2.2",
@@ -26,6 +29,6 @@ test_dependencies = {
 build = {
   type = "builtin",
   modules = {
-    luatext = "./luatables.lua",
+    luatables = "./luatables.lua",
   },
 }
