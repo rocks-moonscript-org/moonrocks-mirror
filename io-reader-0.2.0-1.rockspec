@@ -1,12 +1,12 @@
 package = "io-reader"
-version = "0.1.0-1"
+version = "0.2.0-1"
 source = {
     url = "git+https://github.com/mah0x211/io-reader.git",
-    tag = "v0.1.0",
+    tag = "v0.2.0",
 }
 description = {
     summary = "A reader that reads data from a file or file descriptor.",
-    homepage = "https://github.com/mah0x211/io-reader",
+    homepage = "https://github.com/mah0x211/lua-io-reader",
     license = "MIT/X11",
     maintainer = "Masatoshi Fukunaga",
 }

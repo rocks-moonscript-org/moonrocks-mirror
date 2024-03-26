@@ -2,6 +2,13 @@ commands = {}
 modules = {}
 repository = {
    ['15puzzle.nvim'] = {
+      ['1.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['main-1'] = {
          {
             arch = "rockspec"
@@ -1743,6 +1750,15 @@ repository = {
    },
    app_scheduler = {
       ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   arbiter = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -24197,6 +24213,13 @@ repository = {
             arch = "src"
          }
       },
+      ['4.12.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['4.8.1-1'] = {
          {
             arch = "rockspec"
@@ -27678,7 +27701,7 @@ repository = {
       }
    },
    ['io-reader'] = {
-      ['0.1.0-1'] = {
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -27743,7 +27766,7 @@ repository = {
       }
    },
    ['io-writer'] = {
-      ['0.1.0-1'] = {
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -80095,6 +80118,13 @@ repository = {
             arch = "src"
          }
       },
+      ['8.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['main-1'] = {
          {
             arch = "rockspec"
@@ -84805,6 +84835,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.12.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.9.2-1'] = {
          {
             arch = "rockspec"
@@ -85400,6 +85437,13 @@ repository = {
          }
       },
       ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
