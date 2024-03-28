@@ -1,8 +1,8 @@
 package = "io-reader"
-version = "0.2.0-1"
+version = "0.3.0-1"
 source = {
     url = "git+https://github.com/mah0x211/io-reader.git",
-    tag = "v0.2.0",
+    tag = "v0.3.0",
 }
 description = {
     summary = "A reader that reads data from a file or file descriptor.",

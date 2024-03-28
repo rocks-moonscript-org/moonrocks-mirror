@@ -8796,6 +8796,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    connman_dbus = {
@@ -19398,6 +19405,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    exists = {
@@ -24990,6 +25002,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.27.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    grasp = {
@@ -27752,7 +27771,7 @@ repository = {
       }
    },
    ['io-reader'] = {
-      ['0.2.0-1'] = {
+      ['0.3.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -27817,7 +27836,7 @@ repository = {
       }
    },
    ['io-writer'] = {
-      ['0.2.0-1'] = {
+      ['0.3.0-1'] = {
          {
             arch = "rockspec"
          }
@@ -50791,6 +50810,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-m6502'] = {
@@ -52428,6 +52454,13 @@ repository = {
          }
       },
       ['0.12.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.13.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -62520,6 +62553,13 @@ repository = {
          }
       }
    },
+   luacom_x86 = {
+      ['dev.unknown-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luaconfig = {
       ['0.1.5-0'] = {
          {
@@ -67645,6 +67685,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luarocks-build-xmake'] = {
@@ -67891,6 +67938,13 @@ repository = {
          }
       },
       ['5.11.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.12.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -81085,6 +81139,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.11.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.8.1-1'] = {
          {
             arch = "rockspec"
@@ -85542,6 +85603,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    pato = {
@@ -89576,6 +89644,50 @@ repository = {
          }
       },
       ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   rblx_signal = {
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-5'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1-6'] = {
          {
             arch = "rockspec"
          }, {
@@ -102841,6 +102953,13 @@ repository = {
    },
    ['todo-comments.nvim'] = {
       ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.0-1'] = {
          {
             arch = "rockspec"
          }, {

@@ -13,7 +13,7 @@ description = {
   detailed = '',
   labels = { 'curl', 'http-client', 'lua', 'neovim', 'neovim-plugin', 'nvim', 'rest-client' } ,
   homepage = 'https://github.com/rest-nvim/rest.nvim',
-  license = 'MIT'
+  license = 'GPL-3.0'
 }
 
 dependencies = { 'lua >= 5.1' } 
@@ -33,5 +33,5 @@ end
 
 build = {
   type = 'builtin',
-  copy_directories = { 'doc', 'ftplugin', 'plugin', 'syntax' } ,
+  copy_directories = { 'after', 'doc', 'ftplugin', 'plugin', 'syntax' } ,
 }
