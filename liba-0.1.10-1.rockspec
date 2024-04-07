@@ -1,11 +1,11 @@
 package = "liba"
-version = "0.1.9-1"
+version = "0.1.10-1"
 source = {
-   url = "https://github.com/tqfx/liba/archive/0.1.9.tar.gz",
-   dir = "liba-0.1.9"
+   url = "https://github.com/tqfx/liba/archive/0.1.10.tar.gz",
+   dir = "liba-0.1.10"
 }
 description = {
-   summary = "An algorithm library based on C/C++ language",
+   summary = "An algorithm library based on C/C++",
    homepage = "https://github.com/tqfx/liba",
    maintainer = "tqfx <tqfx@tqfx.org>",
    license = "MPL-2.0"
