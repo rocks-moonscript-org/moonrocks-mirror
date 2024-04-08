@@ -4514,6 +4514,15 @@ repository = {
          }
       }
    },
+   ['brigid-pcre2'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['brotli-ffi'] = {
       ['0.2-2'] = {
          {
@@ -16062,6 +16071,20 @@ repository = {
             arch = "src"
          }
       },
+      ['1.24-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.25-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.3-1'] = {
          {
             arch = "rockspec"
@@ -22851,6 +22874,13 @@ repository = {
          }
       },
       ['0.0.1213-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1216-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -53780,6 +53810,13 @@ repository = {
          }
       },
       ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -87950,6 +87987,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.7-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    pipe = {
@@ -92198,6 +92240,20 @@ repository = {
          }
       },
       ['2.20.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.20.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.21.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -103433,6 +103489,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['tls-mailer'] = {
@@ -103793,6 +103856,27 @@ repository = {
          }
       },
       ['0.3.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.6-1'] = {
          {
             arch = "rockspec"
          }, {
