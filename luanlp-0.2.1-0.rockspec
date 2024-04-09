@@ -26,6 +26,7 @@ build = {
    modules = {
       ["luanlp.keyword.rake"] = "luanlp/keyword/rake.lua",
       ["luanlp.lemmatizer.wordnet"] = "luanlp/lemmatizer/wordnet.lua",
+      ["luanlp.lua51-compat"] = "luanlp/lua51-compat.lua",
       ["luanlp.path"] = "luanlp/path.lua",
       ["luanlp.pos.conll2000_test"] = "luanlp/pos/conll2000_test.lua",
       ["luanlp.pos.conll2003_test"] = "luanlp/pos/conll2003_test.lua",

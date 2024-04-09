@@ -4,8 +4,8 @@ source = {
   url = "git+https://github.com/hnimminh/libphonenumber"
 }
 description = {
-  summary = "Lua bindings for libphonenumber",
-  detailed = "Lua bindings for libphonenumber",
+  summary = "Lua bindings C/C++ for google libphonenumber",
+  detailed = "Lua bindings C/C++ for google libphonenumber",
   homepage = "https://github.com/hnimminh/libphonenumber",
   license = "MIT"
 }
