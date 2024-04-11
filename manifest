@@ -25327,6 +25327,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.28.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    grasp = {
@@ -82626,6 +82633,15 @@ repository = {
          }
       }
    },
+   nwunsch = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['nx-kong-oidc'] = {
       ['0.0.1-0'] = {
          {
@@ -97219,6 +97235,11 @@ repository = {
          }
       },
       ['0.0.22-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.23-1'] = {
          {
             arch = "rockspec"
          }
