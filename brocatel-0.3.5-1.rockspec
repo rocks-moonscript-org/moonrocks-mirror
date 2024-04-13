@@ -1,8 +1,8 @@
 rockspec_format = "3.0"
 package = "brocatel"
-version = "0.3.4-1"
+version = "0.3.5-1"
 source = {
-   url = "git+https://github.com/gudzpoz/brocatel.git",
+   url = "file:///tmp/brocatel/brocatel-0.3.5-1.tar.gz",
 }
 description = {
    summary = "A VM that runs compiled brocatel scripts.",
