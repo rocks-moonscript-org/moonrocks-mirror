@@ -1,12 +1,12 @@
-package = "pixCrypt"
+package = "pixcrypt"
 version = "1.1-1"
 source = {
-   url = "git+https://github.com/ttwizz/pixCrypt.git"
+   url = "git+https://github.com/ttwizz/pixcrypt.git"
 }
 description = {
    summary = "Key-based Encryption & Decryption Library",
    detailed = "This module allows you to encrypt and decrypt the necessary data using a key.",
-   homepage = "https://github.com/ttwizz/pixCrypt",
+   homepage = "https://github.com/ttwizz/pixcrypt",
    license = "MIT"
 }
 dependencies = {
@@ -15,6 +15,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      pixCrypt = "src/pixCrypt.lua"
+      pixcrypt = "src/pixcrypt.lua"
    }
 }
