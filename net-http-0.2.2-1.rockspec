@@ -16,7 +16,7 @@ dependencies = {
     "bufio >= 0.6.0",
     "errno >= 0.3.0",
     "error >= 0.9.0",
-    "form >= 0.4.0",
+    "form ~> 0.4.0",
     "isa >= 0.1.0",
     "net >= 0.34.0",
     "metamodule >= 0.4",
