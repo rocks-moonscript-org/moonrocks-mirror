@@ -2870,6 +2870,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['awesome-autostart'] = {
@@ -23244,6 +23251,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1243-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -35648,6 +35662,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ['kong-plugin-inigo'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -68800,6 +68821,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luarocks-build-xmake'] = {
@@ -81432,6 +81460,20 @@ repository = {
    },
    neotest = {
       ['4.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.2.3-1'] = {
          {
             arch = "rockspec"
          }, {
