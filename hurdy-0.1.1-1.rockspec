@@ -1,7 +1,7 @@
 package = "hurdy"
-version = "0.1.0-1"
+version = "0.1.1-1"
 source = {
-    url = "https://codeberg.org/apicici/hurdy/archive/v0.1.0.tar.gz",
+    url = "https://codeberg.org/apicici/hurdy/archive/v0.1.1.tar.gz",
     dir = "hurdy"
 }
 description = {
