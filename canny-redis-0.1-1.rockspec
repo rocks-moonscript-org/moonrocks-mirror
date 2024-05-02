@@ -1,3 +1,4 @@
+rockspec_format = "3.0"
 package = "canny-redis"
 version = "0.1-1"
 source = {
@@ -15,16 +16,22 @@ description = {
   license = "MIT"
 }
 dependencies = {
-  "lua >= 5.1"
+  "lua >= 5.1",
+  "luasocket"
 }
 build = {
   type = "builtin",
   modules = {
     ["canny.hi"] = "hi.lua",
     ["canny.redis"] = "redis.lua",
-    ["canny.resp"] = "resp.lua"
+    ["canny.resp"] = "resp.lua",
+    ["canny.interleaved"] = "interleaved.lua",
+    ["canny.sorted"] = "sorted.lua"
   },
   copy_directories = {
     "doc"
   }
+}
+test = {
+  type = "busted"
 }

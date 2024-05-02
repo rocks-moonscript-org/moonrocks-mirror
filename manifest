@@ -86408,6 +86408,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.14.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.9.2-1'] = {
          {
             arch = "rockspec"
@@ -93098,6 +93105,13 @@ repository = {
          }
       },
       ['1.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -100835,6 +100849,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    solr = {
@@ -106049,6 +106070,15 @@ repository = {
    },
    toto = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   tpatterns = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
