@@ -23307,6 +23307,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1255-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -71128,6 +71135,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luatexts = {
@@ -82838,6 +82852,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.5.2-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['nui.nvim'] = {
@@ -94427,6 +94446,13 @@ repository = {
          }
       },
       ['4.22.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.22.10-1'] = {
          {
             arch = "rockspec"
          }, {
