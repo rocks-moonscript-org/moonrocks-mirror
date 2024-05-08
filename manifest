@@ -8432,6 +8432,13 @@ repository = {
             arch = "src"
          }
       },
+      ['16.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['2.0.0-1'] = {
          {
             arch = "rockspec"
@@ -23322,6 +23329,13 @@ repository = {
          }
       },
       ['0.0.1261-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1264-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -96037,6 +96051,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.0.8-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ['santoku-bundle'] = {
@@ -97817,6 +97836,11 @@ repository = {
          }
       },
       ['0.0.7-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.8-1'] = {
          {
             arch = "rockspec"
          }
@@ -111283,6 +111307,13 @@ repository = {
          }
       },
       ['1.5-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.6-2'] = {
          {
             arch = "rockspec"
          }, {
