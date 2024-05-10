@@ -23349,6 +23349,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1266-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -25406,6 +25413,15 @@ repository = {
          }
       },
       ['0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['gobo-awesome-screenlock'] = {
+      ['0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -36932,6 +36948,15 @@ repository = {
          }
       }
    },
+   ['kong-plugin-mpay-jurnal'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-plugin-mtls-auth'] = {
       ['1.0.0-0'] = {
          {
@@ -46392,6 +46417,13 @@ repository = {
          }
       },
       ['1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -66747,6 +66779,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lualsx = {
@@ -83678,6 +83717,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   oauth2c = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
