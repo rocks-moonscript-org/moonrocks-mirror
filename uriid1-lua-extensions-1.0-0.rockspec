@@ -19,6 +19,7 @@ build = {
     ["ule"] = "src/init.lua",
     ["ule"..".extensions.udate"] = "src/extensions/udate.lua",
     ["ule"..".extensions.umath"] = "src/extensions/umath.lua",
+    ["ule"..".extensions.utrig"] = "src/extensions/utrig.lua",
     ["ule"..".extensions.utable"] = "src/extensions/utable.lua",
     ["ule"..".extensions.ustring"] = "src/extensions/ustring.lua",
   }

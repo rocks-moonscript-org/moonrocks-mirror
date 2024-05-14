@@ -11977,6 +11977,22 @@ repository = {
          }
       }
    },
+   ['digifi-test-lua-resty-session'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['digiprime-jwt'] = {
       ['0.0.1-1'] = {
          {
@@ -22094,6 +22110,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['fs-utils'] = {
@@ -23403,6 +23433,13 @@ repository = {
          }
       },
       ['0.0.1269-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1273-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -26688,6 +26725,13 @@ repository = {
          }
       },
       ['1.4.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.4.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -32314,6 +32358,13 @@ repository = {
          }
       },
       ['0.18-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.19-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -40883,6 +40934,15 @@ repository = {
          }
       }
    },
+   ['kong-safeline'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['kong-scalable-rate-limiter'] = {
       ['1.1.0-1'] = {
          {
@@ -46292,6 +46352,13 @@ repository = {
    },
    ['love2d.nvim'] = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -83572,6 +83639,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.3.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['nvim-treesitter'] = {
@@ -86556,6 +86630,13 @@ repository = {
          }
       },
       ['0.3.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.4-1'] = {
          {
             arch = "rockspec"
          }, {
