@@ -7369,6 +7369,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    clutch = {
@@ -11986,6 +11993,20 @@ repository = {
          }
       },
       ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-4'] = {
          {
             arch = "rockspec"
          }, {
@@ -22124,6 +22145,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['fs-utils'] = {
@@ -23440,6 +23468,13 @@ repository = {
          }
       },
       ['0.0.1273-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1274-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -106819,6 +106854,13 @@ repository = {
          }
       },
       ['2.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
