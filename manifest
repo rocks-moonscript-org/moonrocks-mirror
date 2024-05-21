@@ -4635,6 +4635,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    bufio = {
@@ -23651,6 +23658,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1283-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -27399,6 +27413,13 @@ repository = {
    },
    ['heirline.nvim'] = {
       ['1.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -36159,6 +36180,13 @@ repository = {
    },
    ['kong-plugin-impart'] = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -82026,6 +82054,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.26-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['neoconf.nvim'] = {
@@ -92737,6 +92772,11 @@ repository = {
          }
       },
       ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.2.0-1'] = {
          {
             arch = "rockspec"
          }
