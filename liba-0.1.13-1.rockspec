@@ -1,8 +1,8 @@
 package = "liba"
-version = "0.1.12-1"
+version = "0.1.13-1"
 source = {
-   url = "https://github.com/tqfx/liba/archive/0.1.12.tar.gz",
-   dir = "liba-0.1.12"
+   url = "https://github.com/tqfx/liba/archive/0.1.13.tar.gz",
+   dir = "liba-0.1.13"
 }
 description = {
    summary = "An algorithm library based on C/C++",
