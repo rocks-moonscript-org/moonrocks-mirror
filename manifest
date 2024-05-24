@@ -7645,6 +7645,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    cmdbuild = {
@@ -12258,6 +12265,13 @@ repository = {
    },
    diskqueue = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -18840,6 +18854,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.14.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    elprofiler = {
@@ -22322,6 +22343,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['fs-utils'] = {
@@ -23680,6 +23708,13 @@ repository = {
          }
       },
       ['0.0.1287-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1288-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -28598,36 +28633,6 @@ repository = {
          }
       },
       ['1.0-3'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   ihex = {
-      ['0.1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.1.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.2.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['0.2.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -64159,6 +64164,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luacheck-formatter-sonar'] = {
@@ -79297,6 +79309,15 @@ repository = {
          }
       },
       ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['mkdnflow.nvim'] = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -95578,6 +95599,27 @@ repository = {
             arch = "src"
          }
       },
+      ['4.23.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.23.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.23.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['4.3.0-1'] = {
          {
             arch = "rockspec"
@@ -102241,15 +102283,6 @@ repository = {
          }
       }
    },
-   ['sparse-set'] = {
-      ['0.1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    spawn = {
       ['0.1-0'] = {
          {
@@ -105256,6 +105289,13 @@ repository = {
          }
       },
       ['0.1.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.8-1'] = {
          {
             arch = "rockspec"
          }, {
