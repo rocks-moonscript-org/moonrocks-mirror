@@ -7,7 +7,7 @@ source = {
 description = {
   summary = "Custom lua extensions.",
   detailed = [[
-    udate, ustring, utable, umath.
+    date, string, table, math, trig, vec2
   ]],
 }
 dependencies = {
@@ -22,5 +22,6 @@ build = {
     ["ule"..".extensions.utrig"] = "src/extensions/utrig.lua",
     ["ule"..".extensions.utable"] = "src/extensions/utable.lua",
     ["ule"..".extensions.ustring"] = "src/extensions/ustring.lua",
+    ["ule"..".extensions.vec2"] = "src/extensions/vec2.lua",
   }
 }
