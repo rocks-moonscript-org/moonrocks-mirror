@@ -1,7 +1,8 @@
 package = "lua-aho-corasick"
-version = "1.0.1-1"
+version = "1.0.0-0"
 source = {
    url = "git+https://github.com/hualvwang/lua-aho-corasick/",
+   tag = "v1.0.0-0"
 }
 description = {
    detailed = [[
@@ -15,10 +16,12 @@ dependencies = {
 }
 
 build = {
-   type = "builtin",
-   modules = {
-      load_ac = "load_ac.lua",
-      ahocorasick = {"ac_fast.cxx", "ac_slow.cxx", "ac_lua.cxx"},
-      libac = {"ac_fast.cxx", "ac_slow.cxx", "ac.cxx"}
-   }
+   type = "make",
+   build_variables = {
+      LUA_INCLUDE_DIR="$(LUA_INCDIR)",
+   },
+   install_variables = {
+      LUA_TARGET_DIR="$(LUADIR)",
+      SO_TARGET_DIR="$(LIBDIR)",
+   },
 }

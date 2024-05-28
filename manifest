@@ -28905,6 +28905,15 @@ repository = {
          }
       }
    },
+   ['ingress-nginx-safeline'] = {
+      ['1.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    inifile = {
       ['1.0-1'] = {
          {
@@ -49132,21 +49141,14 @@ repository = {
       }
    },
    ['lua-aho-corasick'] = {
-      ['1.0-1'] = {
+      ['1.0.0-0'] = {
          {
             arch = "rockspec"
          }, {
             arch = "src"
          }
       },
-      ['1.0.1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0.1-6'] = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -69747,6 +69749,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luarocks-build-xmake'] = {
@@ -82494,6 +82503,15 @@ repository = {
          }
       }
    },
+   ['neoscroll.nvim'] = {
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    neotest = {
       ['4.2.0-1'] = {
          {
@@ -94660,6 +94678,13 @@ repository = {
          }
       },
       ['2.29.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.29.1-1'] = {
          {
             arch = "rockspec"
          }, {
