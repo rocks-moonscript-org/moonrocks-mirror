@@ -21204,6 +21204,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ff = {
@@ -31293,6 +31300,13 @@ repository = {
          }
       },
       ['3.6.1-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.7.0-0'] = {
          {
             arch = "rockspec"
          }, {
@@ -54230,6 +54244,13 @@ repository = {
          }
       },
       ['0.13.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.14.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -97287,6 +97308,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.14-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.2-1'] = {
          {
             arch = "rockspec"
@@ -100011,6 +100037,36 @@ repository = {
          }
       },
       ['0.0.42-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.43-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.44-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.45-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.46-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.47-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.48-1'] = {
          {
             arch = "rockspec"
          }
@@ -105107,6 +105163,26 @@ repository = {
          }
       },
       ['0.0.30-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.32-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.34-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.35-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.36-1'] = {
          {
             arch = "rockspec"
          }
