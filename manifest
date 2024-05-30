@@ -4355,6 +4355,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.5-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['botway-lua'] = {
@@ -13997,6 +14004,20 @@ repository = {
          }
       },
       ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -83666,6 +83687,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['nokia-fork-lua-cassandra'] = {
@@ -84095,6 +84123,13 @@ repository = {
          }
       },
       ['0.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.8.0-1'] = {
          {
             arch = "rockspec"
          }, {
