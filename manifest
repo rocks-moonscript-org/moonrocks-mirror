@@ -22443,6 +22443,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['fs-utils'] = {
@@ -23836,6 +23843,13 @@ repository = {
          }
       },
       ['0.0.1294-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1296-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -77034,6 +77048,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.4-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    metaclass = {
@@ -79634,6 +79658,20 @@ repository = {
    },
    ['mkdnflow.nvim'] = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -83811,6 +83849,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['nokia-fork-lua-cassandra'] = {
@@ -83950,6 +83995,22 @@ repository = {
    },
    nozzle = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['npackages.nvim'] = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -94527,6 +94588,13 @@ repository = {
          }
       },
       ['1.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.2-1'] = {
          {
             arch = "rockspec"
          }, {
