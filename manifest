@@ -18405,6 +18405,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    edge = {
@@ -23857,6 +23864,13 @@ repository = {
          }
       },
       ['0.0.1296-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1298-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -43639,6 +43653,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['10.22.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lazybag = {
@@ -51640,6 +51661,13 @@ repository = {
          }
       },
       ['1.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.5-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -92357,6 +92385,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0-7'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    qaluate = {
@@ -101524,6 +101559,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    sessiond_dbus = {
@@ -108376,6 +108425,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    try = {
@@ -111604,6 +111660,20 @@ repository = {
          }
       },
       ['1.6.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
