@@ -18531,6 +18531,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.9.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['editorconfig-core'] = {
@@ -23957,6 +23964,13 @@ repository = {
          }
       },
       ['0.0.1309-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1313-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -82901,6 +82915,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['8.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['neorg-telescope'] = {
@@ -84098,6 +84119,13 @@ repository = {
          }
       },
       ['4.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -94889,6 +94917,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rocks-git.nvim'] = {
@@ -95287,6 +95322,13 @@ repository = {
          }
       },
       ['2.30.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.31.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -101992,6 +102034,13 @@ repository = {
    },
    sfs = {
       ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -108704,6 +108753,20 @@ repository = {
          }
       },
       ['3.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.4.1-1'] = {
          {
             arch = "rockspec"
          }, {
