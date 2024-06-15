@@ -19049,6 +19049,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.14.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    elprofiler = {
@@ -24029,6 +24036,13 @@ repository = {
          }
       },
       ['0.0.1320-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1323-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -43834,6 +43848,13 @@ repository = {
          }
       },
       ['10.23.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['10.24.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -66006,6 +66027,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.7-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luafanlite = {
@@ -66043,6 +66071,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.7-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luafanmicro = {
@@ -66075,6 +66110,13 @@ repository = {
          }
       },
       ['0.7-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.7-3'] = {
          {
             arch = "rockspec"
          }, {
@@ -80038,6 +80080,13 @@ repository = {
          }
       },
       ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -96612,6 +96661,13 @@ repository = {
             arch = "src"
          }
       },
+      ['4.24.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['4.3.0-1'] = {
          {
             arch = "rockspec"
@@ -108933,6 +108989,13 @@ repository = {
          }
       },
       ['3.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.4.2-1'] = {
          {
             arch = "rockspec"
          }, {
