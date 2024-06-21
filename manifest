@@ -9351,6 +9351,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.52.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    connman_dbus = {
@@ -24157,6 +24164,13 @@ repository = {
          }
       },
       ['0.0.1340-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1341-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -54317,6 +54331,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.5.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-protobuf-etcd'] = {
@@ -55442,6 +55463,13 @@ repository = {
          }
       },
       ['1.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -70875,6 +70903,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['7.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['7.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luarocks_helloworld = {
@@ -72405,6 +72447,13 @@ repository = {
          }
       },
       ['0.3.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
