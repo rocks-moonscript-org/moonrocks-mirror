@@ -2,7 +2,7 @@ rockspec_format = "3.0"
 
 package = "icecream"
 
-local package_version = "0.5.0"
+local package_version = "0.5.1"
 local rockspec_revision = "1"
 
 version = package_version .. "-" .. rockspec_revision
@@ -18,15 +18,21 @@ else
 end
 
 description = {
-   summary = "🍦 Never use print() to debug again. A Lua port of the Python IceCream library.",
+   summary = "🍦 Never use print() to debug again. A Lua port of the Python debugging utility IceCream.",
    detailed = [[
-      icecream.lua is a port of the Python debugging utility IceCream.
-      It enhances print debugging by providing more informative and visually appealing output.
-      Say goodbye to traditional print statements and embrace a better way to debug your code.
+icecream.lua enhances print debugging by providing more informative and visually appealing output.
+Use ic() just like you would use print() for debugging.
+
+Features:
+- Automatically includes the expressions and their values.
+- Provides contextual information to help you locate where the print statement was called.
+- Outputs are designed to be easily readable, reducing the cognitive load during debugging.
+
+For more information and usage examples, visit the project homepage.
    ]],
    homepage = "https://github.com/jeffzi/icecream.lua",
    license = "MIT",
-   labels = { "debug" },
+   labels = { "debug", "logs" },
 }
 
 dependencies = {
