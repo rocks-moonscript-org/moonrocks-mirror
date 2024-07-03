@@ -20977,6 +20977,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    fbclient = {
@@ -24299,6 +24306,13 @@ repository = {
          }
       },
       ['0.0.1353-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1360-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -33110,6 +33124,15 @@ repository = {
          }
       },
       ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['kong-kafka-log-plus'] = {
+      ['1.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -78936,6 +78959,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    minheap = {
@@ -83881,6 +83918,13 @@ repository = {
    },
    ['neorg-interim-ls'] = {
       ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -96572,6 +96616,13 @@ repository = {
             arch = "src"
          }
       },
+      ['2.33.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['2.4.0-1'] = {
          {
             arch = "rockspec"
@@ -102222,6 +102273,11 @@ repository = {
          }
       },
       ['0.0.120-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.121-1'] = {
          {
             arch = "rockspec"
          }
@@ -109336,6 +109392,20 @@ repository = {
          }
       },
       ['4.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.1.1-1'] = {
          {
             arch = "rockspec"
          }, {
