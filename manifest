@@ -4718,6 +4718,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    brocatel = {
@@ -11092,6 +11099,15 @@ repository = {
          }
       },
       ['0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['custom-access-time'] = {
+      ['0.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -18755,6 +18771,13 @@ repository = {
       }
    },
    ['edgy.nvim'] = {
+      ['1.10.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.8.3-1'] = {
          {
             arch = "rockspec"
@@ -22115,6 +22138,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['flatbuffers-lib'] = {
@@ -24434,6 +24464,13 @@ repository = {
          }
       },
       ['0.0.1361-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1362-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -44416,6 +44453,13 @@ repository = {
             arch = "src"
          }
       },
+      ['11.10.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['11.2.0-1'] = {
          {
             arch = "rockspec"
@@ -53336,6 +53380,13 @@ repository = {
          }
       },
       ['0.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.3.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -84003,6 +84054,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['neodev.nvim'] = {
@@ -84174,6 +84232,13 @@ repository = {
          }
       },
       ['8.8.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['8.9.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -85450,6 +85515,13 @@ repository = {
          }
       },
       ['4.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['4.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -89604,6 +89676,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    outcome = {
@@ -91808,6 +91887,20 @@ repository = {
    },
    ['persistence.nvim'] = {
       ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -109800,6 +109893,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    tomba = {
@@ -116953,6 +117053,13 @@ repository = {
    },
    ['zen-mode.nvim'] = {
       ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
