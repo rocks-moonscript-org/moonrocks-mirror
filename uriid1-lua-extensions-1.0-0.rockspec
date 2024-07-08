@@ -7,7 +7,7 @@ source = {
 description = {
   summary = "Custom lua extensions.",
   detailed = [[
-    date, string, table, math, trig, vec2
+    udate, ustring, utable, umath, utrig, vec2, path, bit, test
   ]],
 }
 dependencies = {
@@ -23,5 +23,8 @@ build = {
     ["ule"..".extensions.utable"] = "src/extensions/utable.lua",
     ["ule"..".extensions.ustring"] = "src/extensions/ustring.lua",
     ["ule"..".extensions.vec2"] = "src/extensions/vec2.lua",
+    ["ule"..".extensions.path"] = "src/extensions/path.lua",
+    ["ule"..".extensions.bit"] = "src/extensions/bit.lua",
+    ["ule"..".extensions.test"] = "src/extensions/test.lua",
   }
 }
