@@ -7118,6 +7118,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['cipher-log'] = {
@@ -21813,6 +21820,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['fffonion-busted'] = {
@@ -29377,6 +29391,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    husl = {
@@ -29515,6 +29536,13 @@ repository = {
          }
       },
       ['0.5.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -37273,6 +37301,13 @@ repository = {
          }
       },
       ['0.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.2.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -71297,6 +71332,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.1.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luarocks-build-xmake'] = {
@@ -84636,6 +84678,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.3.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.3.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['neotest-haskell'] = {
@@ -85966,6 +86022,22 @@ repository = {
          }
       }
    },
+   ['np-traffic-splitter'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['npackages.nvim'] = {
       ['0.0.1-1'] = {
          {
@@ -86479,6 +86551,13 @@ repository = {
       }
    },
    ['nvim-nio'] = {
+      ['1.10.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.2.0-1'] = {
          {
             arch = "rockspec"
@@ -87128,6 +87207,13 @@ repository = {
          }
       },
       ['3.8.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.9.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -96886,6 +96972,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.1.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rocks-dev.nvim'] = {
@@ -96939,6 +97032,13 @@ repository = {
          }
       },
       ['1.2.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.2.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -97039,6 +97139,13 @@ repository = {
          }
       },
       ['1.5.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
