@@ -6,9 +6,9 @@ source = {
 }
 
 description = {
-  summary = "Pimp Module for Lua Debugging",
+  summary = "Module for Lua pretty print and debugging ",
   detailed = [[
-    The Pimp module designed to aid in debugging and logging by providing functions to print and format information about function calls, arguments, and more. It offers a simple way to enhance the debugging process in your Lua applications.
+    Module for pretty-printing tables and text, as well as for simple debugging using Lua's built-in debug methods. The main goal of the module is to replace print with a more advanced tool.
   ]],
   homepage = "https://github.com/uriid1/pimp-lua",
   license = "MIT"
