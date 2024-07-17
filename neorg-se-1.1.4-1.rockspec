@@ -1,5 +1,5 @@
-local git_ref = 'v1.0.1'
-local modrev = '1.0.1'
+local git_ref = 'v1.1.4'
+local modrev = '1.1.4'
 local specrev = '1'
 
 local repo_url = 'https://github.com/benlubas/neorg-se'
@@ -22,7 +22,7 @@ test_dependencies = { }
 
 source = {
   url = repo_url .. '/archive/' .. git_ref .. '.zip',
-  dir = 'neorg-se-' .. '1.0.1',
+  dir = 'neorg-se-' .. '1.1.4',
 }
 
 if modrev == 'scm' or modrev == 'dev' then
