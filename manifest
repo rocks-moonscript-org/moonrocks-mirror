@@ -7151,6 +7151,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['cipher-log'] = {
@@ -11406,6 +11413,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.3.1-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['cybu.nvim'] = {
@@ -12284,6 +12298,13 @@ repository = {
          }
       },
       ['0.5.7-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.5.8-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -18748,6 +18769,15 @@ repository = {
          }
       }
    },
+   ['easy-lsp'] = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['easyjevko.lua'] = {
       ['0.1.0-2'] = {
          {
@@ -18922,6 +18952,13 @@ repository = {
          }
       },
       ['1.10.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.10.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -24705,6 +24742,13 @@ repository = {
          }
       },
       ['0.0.1378-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1379-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -44933,6 +44977,13 @@ repository = {
             arch = "src"
          }
       },
+      ['11.13.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['11.2.0-1'] = {
          {
             arch = "rockspec"
@@ -61246,6 +61297,13 @@ repository = {
          }
       },
       ['1.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.5.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -85989,6 +86047,13 @@ repository = {
       }
    },
    ['nightfox.nvim'] = {
+      ['3.10.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['3.9.3-1'] = {
          {
             arch = "rockspec"
@@ -92232,6 +92297,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    perihelion = {
@@ -93782,6 +93854,11 @@ repository = {
          }
       },
       ['0.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.6.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -100844,6 +100921,11 @@ repository = {
          }
       },
       ['0.0.15-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.16-1'] = {
          {
             arch = "rockspec"
          }
@@ -113794,6 +113876,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['tree-sitter-ini'] = {
@@ -120198,6 +120287,13 @@ repository = {
             arch = "src"
          }
       },
+      ['3.12.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['3.2.0-1'] = {
          {
             arch = "rockspec"
@@ -122483,6 +122579,13 @@ repository = {
          }
       },
       ['2.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
