@@ -18,10 +18,11 @@ dependencies = {
 build = {
     type = "builtin",
     modules = { 
+        ["cgilua_cli.templates"] = "src/templates.lua"
     },
     install = {
         bin = {
             cgilua = "src/cgilua"
-        }
+        },
     }
 }
