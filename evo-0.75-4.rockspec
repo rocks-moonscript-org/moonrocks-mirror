@@ -1,8 +1,8 @@
 package = "evo"
-version = "0.75-3"
+version = "0.75-4"
 
 source = {
-   url = "https://github.com/lamp10101/evo.lua/releases/download/v0.75-2/evo-0.75-2.src.rock.zip.zip"
+   url = "https://github.com/lamp10101/evo.lua/releases/download/v0.75-2/evo.zip",
 }
 
 description = {
