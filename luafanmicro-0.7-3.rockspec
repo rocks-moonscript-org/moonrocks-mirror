@@ -37,6 +37,7 @@ build = {
             "src/tcpd.c",
             "src/udpd.c",
             "src/stream.c",
+            "src/stream_ffi.c",
             "src/objectbuf.c",
             "src/fifo.c",
             "src/httpd.c",
