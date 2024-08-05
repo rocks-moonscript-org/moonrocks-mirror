@@ -50488,6 +50488,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lsp-progress.nvim'] = {
@@ -71443,6 +71450,36 @@ repository = {
          }
       }
    },
+   luapride = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-2'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    luaproc = {
       ['1.0-1'] = {
          {
@@ -79076,6 +79113,15 @@ repository = {
          }
       }
    },
+   ['markview.nvim'] = {
+      ['19.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['mason-lspconfig.nvim'] = {
       ['1.26.0-1'] = {
          {
@@ -79104,6 +79150,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.30.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['mason-nvim-dap.nvim'] = {
@@ -79122,6 +79175,13 @@ repository = {
          }
       },
       ['2.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -103605,6 +103665,21 @@ repository = {
       }
    },
    ['santoku-matrix'] = {
+      ['0.0.10-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.11-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.12-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.3-1'] = {
          {
             arch = "rockspec"
@@ -103631,6 +103706,11 @@ repository = {
          }
       },
       ['0.0.8-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.9-1'] = {
          {
             arch = "rockspec"
          }
@@ -123877,6 +123957,13 @@ repository = {
             arch = "src"
          }
       },
+      ['5.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['master-1'] = {
          {
             arch = "rockspec"
@@ -124534,6 +124621,13 @@ repository = {
          }
       },
       ['0.23.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.23.9-1'] = {
          {
             arch = "rockspec"
          }, {
