@@ -7767,6 +7767,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    clock = {
@@ -24983,6 +24990,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1415-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -26596,6 +26610,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['git.nvim'] = {
@@ -26642,6 +26663,20 @@ repository = {
          }
       },
       ['3.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.3.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -37076,6 +37111,18 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.6.2-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.6.3-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-plugin-grpc-gateway'] = {
@@ -46836,22 +46883,6 @@ repository = {
          }
       }
    },
-   lican = {
-      ['1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ['1.0-2'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    ['lice-lua'] = {
       ['0.1.0-1'] = {
          {
@@ -52411,6 +52442,15 @@ repository = {
          }
       }
    },
+   ['lua-context'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-covid-data'] = {
       ['0.1.0-0'] = {
          {
@@ -53312,6 +53352,15 @@ repository = {
    },
    ['lua-floyd-sampling'] = {
       ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['lua-forms'] = {
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -55538,6 +55587,13 @@ repository = {
          }
       },
       ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -64124,6 +64180,15 @@ repository = {
          }
       }
    },
+   ['lua-sandbox'] = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['lua-schema-validation'] = {
       ['1.0-1'] = {
          {
@@ -67261,15 +67326,6 @@ repository = {
       ['0.1-1'] = {
          {
             arch = "rockspec"
-         }
-      }
-   },
-   luactx = {
-      ['1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
          }
       }
    },
@@ -85927,6 +85983,15 @@ repository = {
          }
       }
    },
+   ['neotest-golang'] = {
+      ['0.11.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['neotest-haskell'] = {
       ['1.1.0-1'] = {
          {
@@ -91659,15 +91724,6 @@ repository = {
          }
       }
    },
-   pandorabox = {
-      ['1.0-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    panluna = {
       ['0.1.0-1'] = {
          {
@@ -92417,6 +92473,13 @@ repository = {
          }
       },
       ['1.0.0-4'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-5'] = {
          {
             arch = "rockspec"
          }, {
@@ -100412,6 +100475,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rxi-json'] = {
@@ -106116,6 +106186,15 @@ repository = {
    },
    setuid = {
       ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['sf.nvim'] = {
+      ['1.4.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -113176,6 +113255,13 @@ repository = {
          }
       },
       ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -124051,6 +124137,13 @@ repository = {
          }
       },
       ['5.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.1.1-1'] = {
          {
             arch = "rockspec"
          }, {

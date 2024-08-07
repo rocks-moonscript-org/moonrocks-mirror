@@ -1,15 +1,15 @@
-package = "luactx"
+package = "lua-context"
 version = "1.0-1"
 source = {
-   url = "git://github.com/jigordev/luactx.git"
+   url = "git://github.com/jigordev/lua-context.git"
 }
 description = {
-   summary = "luactx is a Lua library designed to facilitate context management in both synchronous and asynchronous environments.",
+   summary = "lua-context is a Lua library designed to facilitate context management in both synchronous and asynchronous environments.",
    detailed = [[
       This library provides a structured way to handle setup, execution, and teardown of operations within a defined context.
    ]],
    license = "MIT",
-   homepage = "https://github.com/jigordev/luactx",
+   homepage = "https://github.com/jigordev/lua-context",
    maintainer = "J. Igor Melo <jigordev@gmail.com>",
 }
 dependencies = {
@@ -19,6 +19,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      ["lctx"] = "luactx.lua"
+      ["lctx"] = "src/context.lua"
    }
 }
