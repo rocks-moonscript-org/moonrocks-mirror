@@ -1,5 +1,5 @@
-local git_ref = 'f9ff00bc06d7cb70548a3847d7a2a05e928bc988'
-local modrev = 'master'
+local git_ref = 'v1.6.0'
+local modrev = '1.6.0'
 local specrev = '1'
 
 local repo_url = 'https://github.com/nvim-tree/nvim-tree.lua'
@@ -30,7 +30,7 @@ test_dependencies = { }
 
 source = {
   url = repo_url .. '/archive/' .. git_ref .. '.zip',
-  dir = 'nvim-tree.lua-' .. 'f9ff00bc06d7cb70548a3847d7a2a05e928bc988',
+  dir = 'nvim-tree.lua-' .. '1.6.0',
 }
 
 if modrev == 'scm' or modrev == 'dev' then
