@@ -9796,6 +9796,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['7.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    conjure = {
@@ -12821,6 +12828,13 @@ repository = {
    },
    ['digifi-lua-resty-session'] = {
       ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -25137,6 +25151,13 @@ repository = {
             arch = "src"
          }
       },
+      ['0.0.1435-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['0.0.769-1'] = {
          {
             arch = "rockspec"
@@ -29398,6 +29419,13 @@ repository = {
          }
       },
       ['0.14.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.14.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -33774,6 +33802,13 @@ repository = {
          }
       },
       ['1.0.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.0-4'] = {
          {
             arch = "rockspec"
          }, {
@@ -107543,6 +107578,8 @@ repository = {
       ['0.6.1-0'] = {
          {
             arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -114970,6 +115007,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['tree-sitter-godot_resource'] = {
@@ -115927,6 +115971,13 @@ repository = {
          }
       },
       ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -124780,6 +124831,13 @@ repository = {
          }
       },
       ['5.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.7.1-1'] = {
          {
             arch = "rockspec"
          }, {
