@@ -22179,6 +22179,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.8.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['fffonion-busted'] = {
@@ -25152,6 +25159,13 @@ repository = {
          }
       },
       ['0.0.1435-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1437-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -34466,6 +34480,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.20-0'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['kong-lua-sandbox'] = {
@@ -39871,6 +39892,13 @@ repository = {
          }
       },
       ['1.0.8-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -78184,6 +78212,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.1.0-3'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luxure = {
@@ -86328,6 +86363,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['neotest-haskell'] = {
@@ -89128,6 +89170,13 @@ repository = {
          }
       },
       ['2.11.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.12.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -115717,6 +115766,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['tree-sitter-jsx'] = {
@@ -115983,6 +116039,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['tree-sitter-liquidsoap'] = {
@@ -116173,6 +116236,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['tree-sitter-menhir'] = {
@@ -116308,6 +116378,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['tree-sitter-nim'] = {
@@ -116381,6 +116458,13 @@ repository = {
          }
       },
       ['0.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.5-1'] = {
          {
             arch = "rockspec"
          }, {
