@@ -23058,6 +23058,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.12.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.8.0-1'] = {
          {
             arch = "rockspec"
@@ -72633,6 +72640,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luarocks-build-treesitter-parser-cpp'] = {
@@ -76978,6 +76992,16 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['4.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luse = {
@@ -78649,6 +78673,22 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   lze = {
+      ['1.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lzfse = {
@@ -79551,6 +79591,13 @@ repository = {
          }
       },
       ['19.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['20.0.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -96762,6 +96809,22 @@ repository = {
          }
       }
    },
+   ['quicker.nvim'] = {
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ['r1-lua-resty-waf'] = {
       ['r0.1.0-1'] = {
          {
@@ -99129,6 +99192,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rocks-git.nvim'] = {
@@ -99685,6 +99755,13 @@ repository = {
          }
       },
       ['2.37.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.37.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -111016,6 +111093,18 @@ repository = {
          }
       }
    },
+   ['tea-leaves'] = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    teateatea = {
       ['1.3-1'] = {
          {
@@ -112506,6 +112595,11 @@ repository = {
          }
       },
       ['1.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.2-0'] = {
          {
             arch = "rockspec"
          }
@@ -114140,6 +114234,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['tree-sitter-commonlisp'] = {
@@ -114680,6 +114781,13 @@ repository = {
          }
       },
       ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -118253,6 +118361,13 @@ repository = {
          }
       },
       ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
