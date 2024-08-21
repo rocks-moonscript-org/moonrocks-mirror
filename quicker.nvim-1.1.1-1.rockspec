@@ -1,28 +1,28 @@
-local git_ref = 'v4.0.0'
-local modrev = '4.0.0'
+local git_ref = 'v1.1.1'
+local modrev = '1.1.1'
 local specrev = '1'
 
-local repo_url = 'https://github.com/rcarriga/nvim-dap-ui'
+local repo_url = 'https://github.com/stevearc/quicker.nvim'
 
 rockspec_format = '3.0'
-package = 'nvim-dap-ui'
+package = 'quicker.nvim'
 version = modrev ..'-'.. specrev
 
 description = {
-  summary = 'A UI for nvim-dap',
+  summary = 'Improved UI and workflow for the Neovim quickfix',
   detailed = '',
   labels = { 'neovim' } ,
-  homepage = 'https://github.com/rcarriga/nvim-dap-ui',
+  homepage = 'https://github.com/stevearc/quicker.nvim',
   license = 'MIT'
 }
 
-dependencies = { 'lua >= 5.1', 'nvim-dap', 'nvim-nio' } 
+dependencies = { 'lua >= 5.1' } 
 
 test_dependencies = { }
 
 source = {
   url = repo_url .. '/archive/' .. git_ref .. '.zip',
-  dir = 'nvim-dap-ui-' .. '4.0.0',
+  dir = 'quicker.nvim-' .. '1.1.1',
 }
 
 if modrev == 'scm' or modrev == 'dev' then
@@ -33,5 +33,5 @@ end
 
 build = {
   type = 'builtin',
-  copy_directories = { 'doc' } ,
+  copy_directories = { 'doc', 'syntax' } ,
 }

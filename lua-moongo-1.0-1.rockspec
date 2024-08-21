@@ -1,7 +1,7 @@
-package = "moongo"
+package = "lua-moongo"
 version = "1.0-1"
 source = {
-   url = "git://github.com/jigordev/moongo.git",
+   url = "git://github.com/jigordev/lua-moongo.git",
    branch = "master"
 }
 description = {
@@ -10,7 +10,7 @@ description = {
       Moongo is an object document mapper made in the Lua language with the aim of facilitating operations with the MongoDB database.
    ]],
    license = "MIT",
-   homepage = "https://github.com/jigordev/moongo",
+   homepage = "https://github.com/jigordev/lua-moongo",
    maintainer = "J. Igor Melo <jigordev@gmail.com>",
 }
 dependencies = {

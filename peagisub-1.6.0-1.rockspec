@@ -34,7 +34,8 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      peagisub = "src/peagisub.lua"
+      ["peagisub"                 ] = "src/peagisub.lua",
+      ["aegisub"                   ] = "src/aegisub.lua"
    },
    install= {
 	bin = {
