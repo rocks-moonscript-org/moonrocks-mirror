@@ -23104,6 +23104,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.13.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.8.0-1'] = {
          {
             arch = "rockspec"
@@ -25270,6 +25277,13 @@ repository = {
          }
       },
       ['0.0.1444-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.1445-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -78904,6 +78918,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lzfse = {
@@ -100080,6 +100101,13 @@ repository = {
             arch = "src"
          }
       },
+      ['2.38.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['2.4.0-1'] = {
          {
             arch = "rockspec"
@@ -102290,6 +102318,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.207-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.21-1'] = {
          {
             arch = "rockspec"
@@ -103627,6 +103660,11 @@ repository = {
          }
       },
       ['0.0.221-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.222-1'] = {
          {
             arch = "rockspec"
          }
@@ -114195,6 +114233,13 @@ repository = {
          }
       },
       ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
