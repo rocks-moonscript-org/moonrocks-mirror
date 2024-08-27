@@ -5687,6 +5687,13 @@ repository = {
          }
       }
    },
+   ['cairo-luajit-ffi'] = {
+      ['0.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    cake = {
       ['0.1.2-1'] = {
          {
@@ -72808,6 +72815,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['5.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['luarocks-build-treesitter-parser-cpp'] = {
@@ -72833,6 +72847,13 @@ repository = {
          }
       },
       ['2.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -78871,6 +78892,13 @@ repository = {
          }
       },
       ['2.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.3.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -86738,6 +86766,13 @@ repository = {
          }
       },
       ['5.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.4.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -98611,6 +98646,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    restia = {
@@ -103771,6 +103813,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.223-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.23-1'] = {
          {
             arch = "rockspec"
@@ -106210,6 +106257,11 @@ repository = {
          }
       },
       ['0.0.145-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.146-1'] = {
          {
             arch = "rockspec"
          }
@@ -115849,6 +115901,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['tree-sitter-gowork'] = {
@@ -116050,6 +116109,13 @@ repository = {
          }
       },
       ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -116738,6 +116804,13 @@ repository = {
          }
       },
       ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.3-1'] = {
          {
             arch = "rockspec"
          }, {
