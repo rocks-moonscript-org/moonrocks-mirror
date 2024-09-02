@@ -739,6 +739,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    aka = {
@@ -53084,6 +53091,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.0.5-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-curl'] = {
@@ -87964,6 +87985,13 @@ repository = {
             arch = "src"
          }
       },
+      ['1.16.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ['1.8.1-1'] = {
          {
             arch = "rockspec"
@@ -98880,6 +98908,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.3.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['3.3.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    restia = {
@@ -99872,6 +99914,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.6.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rocks-git.nvim'] = {
@@ -100484,6 +100533,13 @@ repository = {
          }
       },
       ['2.38.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.39.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -106227,6 +106283,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ['0.0.51-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ['0.0.6-1'] = {
          {
             arch = "rockspec"
@@ -106522,6 +106583,11 @@ repository = {
          }
       },
       ['0.0.146-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.147-1'] = {
          {
             arch = "rockspec"
          }
@@ -107163,6 +107229,23 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   scheduler = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0-3'] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -116022,6 +116105,38 @@ repository = {
          }
       },
       ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['tree-sitter-glimmer_javascript'] = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ['tree-sitter-glimmer_typescript'] = {
+      ['0.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.2-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -126234,6 +126349,13 @@ repository = {
          }
       },
       ['6.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['6.0.5-1'] = {
          {
             arch = "rockspec"
          }, {
