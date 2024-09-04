@@ -1265,6 +1265,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.5.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['alt-getopt'] = {
@@ -7925,6 +7932,20 @@ repository = {
          }
       },
       ['0.8.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.8.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.8.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -57380,6 +57401,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-resty-agoradynamickey'] = {
@@ -75190,6 +75218,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.4.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    luatabledump = {
@@ -88052,6 +88087,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    nocurses = {
@@ -94963,6 +95005,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['persistence.nvim'] = {
@@ -97064,6 +97113,15 @@ repository = {
          }
       }
    },
+   pues = {
+      ['1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    pulseaudio = {
       ['0.1-1'] = {
          {
@@ -98969,6 +99027,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['3.4.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    restia = {
@@ -99968,6 +100033,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.7.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['rocks-git.nvim'] = {
@@ -100077,6 +100149,13 @@ repository = {
          }
       },
       ['2.0.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.2.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -100601,6 +100680,13 @@ repository = {
          }
       },
       ['2.4.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.40.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -101927,6 +102013,13 @@ repository = {
          }
       },
       ['5.2.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['5.2.3-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -107296,6 +107389,11 @@ repository = {
          }
       },
       ['1.0-3'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-1'] = {
          {
             arch = "rockspec"
          }
@@ -127152,6 +127250,13 @@ repository = {
          }
       },
       ['0.24.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.25.0-1'] = {
          {
             arch = "rockspec"
          }, {
