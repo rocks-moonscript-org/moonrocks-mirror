@@ -1,0 +1,35 @@
+local git_ref = 'e849f45c8b809aa782835febda6e659dfef55904'
+local modrev = 'main'
+local specrev = '-1'
+
+local repo_url = 'https://github.com/TRIGONIM/lua-express'
+
+rockspec_format = '3.0'
+package = 'lua-express'
+version = modrev .. specrev
+
+description = {
+  summary = 'A minimalistic web framework for Lua',
+  detailed = [[
+    Create complete web applications of any complexity in Lua with minimal dependencies.
+    Easy to embed in any application. All requests are executed non-blocking (asynchronously).
+    There is support for almost all methods from express.js.
+    Several highly loaded web applications are already running on lua-express.
+    More info: https://github.com/TRIGONIM/lua-express/  
+]],
+  labels = { 'express', 'web', 'framework', 'async' } ,
+  homepage = 'https://luarocks.org/modules/AMD-NICK/lua-express',
+  license = 'MIT'
+}
+
+dependencies = { 'lua >= 5.1', 'copas', 'luasocket', 'pegasus' } 
+
+source = {
+  url = repo_url .. '/archive/' .. git_ref .. '.zip',
+  dir = 'lua-express-' .. 'e849f45c8b809aa782835febda6e659dfef55904',
+}
+
+build = {
+  type = 'builtin',
+  copy_directories = { },
+}
