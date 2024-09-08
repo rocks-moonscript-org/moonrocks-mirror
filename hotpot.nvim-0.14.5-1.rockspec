@@ -1,19 +1,19 @@
-local git_ref = 'v0.3.1'
-local modrev = '0.3.1'
+local git_ref = 'v0.14.5'
+local modrev = '0.14.5'
 local specrev = '1'
 
-local repo_url = 'https://github.com/jnpngshiii/logger.nvim'
+local repo_url = 'https://github.com/rktjmp/hotpot.nvim'
 
 rockspec_format = '3.0'
-package = 'logger.nvim'
+package = 'hotpot.nvim'
 version = modrev ..'-'.. specrev
 
 description = {
-  summary = 'A simple logging system for Neovim plugins.',
+  summary = ':stew: Carl Weathers #1 Neovim Plugin.',
   detailed = '',
-  labels = { 'lua', 'neovim', 'neovim-plugin', 'vim' } ,
-  homepage = 'https://github.com/jnpngshiii/logger.nvim',
-  license = 'GPL-3.0'
+  labels = { 'carl-weathers', 'fennel', 'lisp', 'lua', 'neovim', 'neovim-plugin' } ,
+  homepage = 'https://github.com/rktjmp/hotpot.nvim',
+  license = 'MIT'
 }
 
 dependencies = { 'lua >= 5.1' } 
@@ -22,7 +22,7 @@ test_dependencies = { }
 
 source = {
   url = repo_url .. '/archive/' .. git_ref .. '.zip',
-  dir = 'logger.nvim-' .. '0.3.1',
+  dir = 'hotpot.nvim-' .. '0.14.5',
 }
 
 if modrev == 'scm' or modrev == 'dev' then
