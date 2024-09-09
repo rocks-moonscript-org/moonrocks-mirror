@@ -29411,6 +29411,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['4.0.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    heaps = {
@@ -46896,6 +46903,15 @@ repository = {
          }
       }
    },
+   lexpect = {
+      ['0.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    lffetch = {
       ['1.0-2'] = {
          {
@@ -53820,6 +53836,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['main-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['lua-exprtk'] = {
@@ -54287,6 +54310,13 @@ repository = {
          }
       },
       ['1.3.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['main-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -55391,6 +55421,13 @@ repository = {
          }
       },
       ['1.2.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['main-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -57153,6 +57190,20 @@ repository = {
          }
       },
       ['1.1.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.1.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['main-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -80224,6 +80275,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['23.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['mason-lspconfig.nvim'] = {
@@ -80256,6 +80314,13 @@ repository = {
          }
       },
       ['1.30.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['1.31.0-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -86713,6 +86778,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.2.1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['neorg-se'] = {
@@ -88093,6 +88165,13 @@ repository = {
          }
       },
       ['2.0.0-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['2.0.1-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -97138,6 +97217,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['1.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    pulseaudio = {
@@ -101140,6 +101224,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['2024.9.2-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    rustaceanvim = {
@@ -102974,6 +103065,11 @@ repository = {
          }
       },
       ['0.0.210-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.211-1'] = {
          {
             arch = "rockspec"
          }
@@ -105683,6 +105779,11 @@ repository = {
          }
       },
       ['0.0.37-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.0.38-1'] = {
          {
             arch = "rockspec"
          }
@@ -115797,6 +115898,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['tree-sitter-ebnf'] = {
@@ -118875,6 +118983,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ['0.0.4-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ['tree-sitter-ralph'] = {
@@ -119239,6 +119354,13 @@ repository = {
          }
       },
       ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -119645,6 +119767,13 @@ repository = {
          }
       },
       ['0.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['0.0.4-1'] = {
          {
             arch = "rockspec"
          }, {
@@ -126765,6 +126894,13 @@ repository = {
          }
       },
       ['6.0.6-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['6.0.7-1'] = {
          {
             arch = "rockspec"
          }, {
