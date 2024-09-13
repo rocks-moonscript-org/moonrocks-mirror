@@ -18,11 +18,11 @@ description = {
     More info: https://github.com/TRIGONIM/lua-express/  
 ]],
   labels = { 'express', 'web', 'framework', 'async' } ,
-  homepage = 'https://github.com/TRIGONIM/lua-express',
+  homepage = 'https://luarocks.org/modules/AMD-NICK/lua-express',
   license = 'MIT'
 }
 
-dependencies = { 'lua >= 5.1', 'copas >= 4.7.0', 'luasocket', 'lua-cjson', 'pegasus' } 
+dependencies = { 'lua >= 5.1', 'copas', 'luasocket', 'pegasus' } 
 
 source = {
   url = repo_url .. '/archive/' .. git_ref .. '.zip',
