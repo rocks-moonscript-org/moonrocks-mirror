@@ -1,5 +1,5 @@
-local git_ref = 'v1.0.0'
-local modrev = '1.0.0'
+local git_ref = 'v0.1.0'
+local modrev = '0.1.0'
 local specrev = '-1'
 
 local repo_url = 'https://github.com/1321tremblay/notes.nvim'
@@ -20,7 +20,7 @@ dependencies = { 'lua >= 5.1' }
 
 source = {
   url = repo_url .. '/archive/' .. git_ref .. '.zip',
-  dir = 'notes.nvim-' .. '1.0.0',
+  dir = 'notes.nvim-' .. '0.1.0',
 }
 
 build = {
