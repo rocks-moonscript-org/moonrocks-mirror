@@ -1,0 +1,204 @@
+rockspec_format = "3.0"
+package = "luasubprocess"
+version = "1.0.0-1"
+source = {
+  url = "git+https://github.com/jamescamdenmartin/lua-subprocess.git",
+  tag = "1.0.0-1"
+}
+description = {
+  summary = "This is a Lua module that allows you to create child processes and communicate with them.",
+  detailed = [[
+lua-subprocess
+==============
+
+== Introduction
+
+`lua-subprocess` is a Lua module that allows you to create child processes and
+communicate with them. The API is based on Python's subprocess
+module, but is not yet as complete.
+
+== Compatibility
+
+Tested under Windows, Linux and Wine. Needs more testing.
+
+== Building
+
+Building lua-subprocess without the makefile is very simple. All you
+need to do is compile subprocess.c and liolib-copy.c into a shared
+object, linked against your Lua library, making sure you define either
+OS_POSIX or OS_WINDOWS, depending on your platform.
+
+To save a bit of space, you can also define SHARE_LIOLIB if you're
+certain you are compiling lua-subprocess with the same toolchain as Lua
+was compiled with (in particular, `FILE*` pointers should be
+compatible). If you are not sure, don't use SHARE_LIOLIB, because it can
+cause crashing!
+
+* SHARE_LIOLIB doesn't work in MSVC.
+
+.Example
+--------------------------
+gcc -fPIC -shared -DOS_POSIX -DSHARE_LIOLIB -o subprocess.so \
+    subprocess.c liolib-copy.c -llua
+--------------------------
+
+== Functions
+
+==== subprocess.popen { arg1, arg2, ..., [options...] }
+Creates a child process with the arguments arg1, arg2 etc. Options
+are table items with string keys. The valid options are:
+
+    * `executable` - If set, this is used as the actual executable
+    to run, while `arg1` becomes `argv[0]` of the child process.
+    If not set, `arg1` is used as the executable name.
+    * `stdin`, `stdout`, `stderr` - These identify what to use
+    as the standard input/output/error files of the child process.
+    If not specified, the handle(s) from the parent process are used.
+    Each of these options can have the following types:
+        ** `string` - the option specifies a filename that is opened
+        for reading (for stdin) or for writing (for stdout or stderr).
+        ** `number` - specifies an open file to use. The file
+        is not closed by popen in the parent process.
+        In POSIX, this value is a file descriptor.
+        In Windows, this value is a Windows API handle.
+        ** `FILE*` - a Lua file object can be used. This file is not
+        closed by popen in the parent process.
+    The following constants can also be used:
+        ** `subprocess.PIPE` - a pipe is created, and the relevant end
+        is given to the child process. A Lua file object is placed in
+        the returned proc object. For stdin, the read end is given to
+        the child process and stdin is set to a writable file in the proc
+        object. For stdout or stderr, the write end is given to the child
+        process and stdout/stderr is set to a readable file in the proc
+        object.
+        ** `subprocess.STDOUT` (only for stderr) -
+        This can be used to redirect the standard error file to the
+        standard output. This is useful if a pipe is used for stdout,
+        or for outputting both stdout and stderr to the same regular file.
+    * `close_fds` _(boolean)_ If true, all file descriptors (except
+    standard input, output and error) are closed after forking, but
+    before calling exec, so that the child process doesn't inherit these
+    file descriptors. On Windows, this does nothing.
+    * `binary` _(boolean)_ If true, binary mode is used for files returned
+    to the caller. This disables CR/LF translation. On POSIX, this does nothing.
+    * `cwd` _(string)_ Names a directory for the child process to be
+    run in.
+`subprocess.popen` can throw Lua errors when something goes horribly
+wrong. For normal errors, however, it returns `nil, errormsg, errno` (errno
+may or may not be nil, depending on the nature of the error).
+
+===== Return value
+On success, returns a proc object (see <<procobj,below>>).
+On failure, returns `nil, errormsg, errno`.
+
+==== subprocess.call { arg1, arg2, ..., [options...] }
+Creates a child process in the same way as `subprocess.popen` but waits
+for the child to finish executing, then sets and returns the `exitcode`.
+
+WARNING: Do not set `stdin`, `stdout` or `stderr` to `subprocess.PIPE`
+when calling `subprocess.call`, as it will deadlock when a pipe buffer
+is filled.
+
+===== Return value
+Returns `exitcode`. See: <<exitcode,exitcode>>.
+
+==== subprocess.call_capture { arg1, arg2, ..., [options...] }
+Creates a child process in the same way as `subprocess.popen` but reads
+all data from the child's standard output and returns it. If you want to
+capture stderr as well, set `stderr` to `subprocess.STDOUT`.
+
+WARNING: Do not set `stderr` to `subprocess.PIPE`, it can deadlock.
+
+WARNING: `subprocess.call_capture` captures all the child process's output
+into memory, so if the child produces a huge amount of output, memory might be
+exhausted.
+
+===== Return value
+Returns `exitcode, content` where `content` is a string containing the captured output.
+
+==== subprocess.wait()
+Waits for any child process to exit.
+
+===== Return value
+On success, returns `proc, exitcode, pid`. I'm not sure why you'd want the
+pid after the process has finished, though.
+
+On failure, returns `nil, errormsg`.
+
+WARNING: On POSIX operating systems, `subprocess.wait` calls the `wait` system
+function. If you create child processes without using the subprocess module,
+and the `wait` system call returns a pid without a corresponding proc object,
+then the returned proc object will be `nil`.
+Furthermore, the process will be removed from the process table and the `waitpid`
+system call should not be used for that pid again.
+
+[procobj]
+== Proc objects
+
+==== proc.pid
+This is set to the process identifier of the child.
+
+WARNING: On POSIX systems, do not use this value with the `waitpid` system
+call, because you will make the subprocess module use an invalid pid
+in future system calls. In fact, the `wait` system call will have this effect
+too, so don't use it while subprocess's child processes are running.
+
+==== proc.stdin, proc.stdout, proc.stderr
+These are set to file objects if the corresponding option passed to
+`subprocess.popen`, was set to `subprocess.PIPE`. Note that if
+the `stderr` option was set to `subprocess.STDOUT`,
+`proc.stderr` will not be set.
+
+[exitcode]
+==== proc.exitcode
+After `proc:poll`, `proc:wait` or `subprocess.wait` discovers the child process has
+terminated, this field is set to the exit code of the child process. Before then,
+it is `nil`.
+If `proc.exitcode < 0` then the child was killed by signal number 
+`-proc.exitcode`.
+
+==== proc:poll()
+Checks if the child process has terminated. If the child process has terminated,
+this sets `proc.exitcode` and returns it. If the child process is still running,
+this returns `nil`.
+
+==== proc:wait()
+Waits for the child process to terminate, then sets and returns the
+`exitcode` field.
+
+==== proc:send_signal(sig) _(POSIX only)_
+Sends a signal to the child process.
+
+==== proc:terminate()
+Terminates the child process. On POSIX, itsends `SIGTERM`. On Windows,
+it calls TerminateProcess.
+
+==== proc:kill()
+Kills the child process. On POSIX, it sends `SIGKILL`. On Windows, it
+is the same as `proc:terminate()`.
+
+== TODO ==
+* Support of other operating systems.
+* Deadlock-free way of communicating.
+]],
+  license = "",
+  homepage = "https://github.com/jamescamdenmartin/lua-subprocess",
+  issues_url
+    = "https://github.com/jamescamdenmartin/lua-subprocess/issues",
+  maintainer
+    = " ",
+  labels = { },
+}
+supported_platforms = {
+  "linux"
+}
+build = {
+    type = "make",
+    build_target = "luasubprocess.so",
+    install_target = "install",
+    variables = {
+        CFLAGS = "$(CFLAGS)",
+        LUA_LIBDIR = "$(LIBDIR)",
+        LUA_SHAREDIR = "$(LUADIR)",
+    },
+}
