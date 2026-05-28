@@ -1,0 +1,72 @@
+package = "lca"
+version = "0.1.2-1"
+source = {
+	url = "https://github.com/forkfork/lca/archive/refs/tags/v0.1.2.tar.gz",
+	dir = "lca-0.1.2",
+}
+description = {
+	summary = "A Lua coding absurdity using OpenAI Codex OAuth credentials",
+	detailed = [[
+	lca is a from-scratch Lua coding absurdity with
+OpenAI Codex OAuth login, AWS Bedrock support, an interactive REPL, local tools,
+streaming responses, context compaction, and MCP server support.
+
+The tag-based read/edit tool design is inspired by Salvatore Sanfilippo
+(@antirez), especially https://antirez.com/news/166.
+]],
+	homepage = "https://github.com/forkfork/lca",
+	license = "BSD-2-Clause",
+}
+dependencies = {
+	"lua >= 5.4, < 5.6",
+	"luasocket",
+	"lua-cjson",
+	"luv",
+}
+build = {
+	type = "builtin",
+	modules = {
+		["logo"] = "lua/logo.lua",
+		["agent.async"] = "lua/agent/async.lua",
+		["agent.commands"] = "lua/agent/commands.lua",
+		["agent.compaction"] = "lua/agent/compaction.lua",
+		["agent.config"] = "lua/agent/config.lua",
+		["agent.core"] = "lua/agent/core.lua",
+		["agent.lint"] = "lua/agent/lint.lua",
+		["agent.login"] = "lua/agent/login.lua",
+		["agent.mcp"] = "lua/agent/mcp.lua",
+		["agent.parallel"] = "lua/agent/parallel.lua",
+		["agent.project_context"] = "lua/agent/project_context.lua",
+		["agent.project_index"] = "lua/agent/project_index.lua",
+		["agent.repl"] = "lua/agent/repl.lua",
+		["agent.session"] = "lua/agent/session.lua",
+		["agent.system_prompt"] = "lua/agent/system_prompt.lua",
+		["agent.tool_protocol"] = "lua/agent/tool_protocol.lua",
+		["agent.tool_registry"] = "lua/agent/tool_registry.lua",
+		["agent.ui"] = "lua/agent/ui.lua",
+		["agent.providers"] = "lua/agent/providers/init.lua",
+		["agent.providers.bedrock"] = "lua/agent/providers/bedrock.lua",
+		["agent.providers.codex"] = "lua/agent/providers/codex.lua",
+		["agent.tools.edit"] = "lua/agent/tools/edit.lua",
+		["agent.tools.find"] = "lua/agent/tools/find.lua",
+		["agent.tools.grep"] = "lua/agent/tools/grep.lua",
+		["agent.tools.ls"] = "lua/agent/tools/ls.lua",
+		["agent.tools.read"] = "lua/agent/tools/read.lua",
+		["agent.tools.run"] = "lua/agent/tools/run.lua",
+		["agent.tools.shell"] = "lua/agent/tools/shell.lua",
+		["agent.tools.write"] = "lua/agent/tools/write.lua",
+		["agent.util.fs"] = "lua/agent/util/fs.lua",
+		["agent.util.json"] = "lua/agent/util/json.lua",
+		["agent.util.path"] = "lua/agent/util/path.lua",
+		["agent.util.shell"] = "lua/agent/util/shell.lua",
+	},
+	install = {
+		bin = {
+			["lca"] = "bin/lca",
+			["lca-agent"] = "bin/agent.lua",
+			["lca-repl"] = "bin/repl.lua",
+			["lca-login"] = "scripts/login.lua",
+			["lca-auth"] = "scripts/auth.lua",
+		},
+	},
+}
