@@ -1,0 +1,39 @@
+package = "moonrocks"
+version = "1.3.0-1"
+
+source = {
+  url = "git://github.com/leafo/moonrocks.git",
+  branch = "v1.3.0"
+}
+
+description = {
+  summary = "A tool for installing and uploading Lua packages to rocks.moonscript.org",
+  homepage = "http://rocks.moonscript.org/",
+  maintainer = "Leaf Corcoran <leafot@gmail.com>",
+  license = "MIT"
+}
+
+dependencies = {
+  "lua >= 5.1",
+  "argparse",
+  "penlight >= 1.1.0",
+  "ansicolors",
+  "luasocket",
+  "lua-cjson",
+}
+
+build = {
+  type = "builtin",
+  modules = {
+    ["moonrocks.actions"] = "moonrocks/actions.lua",
+    ["moonrocks.api"] = "moonrocks/api.lua",
+    ["moonrocks.multipart"] = "moonrocks/multipart.lua",
+    ["moonrocks.outdated"] = "moonrocks/outdated.lua",
+    ["moonrocks.semver"] = "moonrocks/semver.lua",
+    ["moonrocks.util"] = "moonrocks/util.lua",
+    ["moonrocks.version"] = "moonrocks/version.lua",
+  },
+  install = {
+    bin = { "bin/moonrocks" }
+  }
+}
