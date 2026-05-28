@@ -2272,6 +2272,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.1.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["api7-lua-tinyyaml"] = {
@@ -2847,6 +2854,11 @@ repository = {
          }
       },
       ["0.4.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.4.1-1"] = {
          {
             arch = "rockspec"
          }
@@ -18119,6 +18131,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["0.5.2-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    densearrays = {
@@ -31562,6 +31579,11 @@ repository = {
          }
       },
       ["0.4.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.4.2-1"] = {
          {
             arch = "rockspec"
          }
@@ -62315,6 +62337,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["1.5.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["lapis-cache"] = {
@@ -73570,6 +73599,13 @@ repository = {
          }
       },
       ["0.2.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.2.2-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -111533,6 +111569,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["0.2.2-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    mlua = {
@@ -125444,6 +125485,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["0.5.2-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["os-remove"] = {
@@ -125465,6 +125511,11 @@ repository = {
          }
       },
       ["0.2.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.2.2-1"] = {
          {
             arch = "rockspec"
          }
@@ -133802,6 +133853,11 @@ repository = {
          }
       },
       ["0.4.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.4.3-1"] = {
          {
             arch = "rockspec"
          }
@@ -160038,6 +160094,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["0.5.2-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["time-sleep"] = {
@@ -160047,6 +160108,11 @@ repository = {
          }
       },
       ["0.2.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.2.3-1"] = {
          {
             arch = "rockspec"
          }
