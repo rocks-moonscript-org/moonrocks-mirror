@@ -1,0 +1,21 @@
+package = "lua-resty-exec"
+version = "3.0.3-1"
+source = {
+    url = "https://buffering.party/software/lua-resty-exec/lua-resty-exec-3.0.3.tar.gz",
+}
+description = {
+    summary = "Run external programs in OpenResty without spawning a shell",
+    homepage = "https://buffering.party/software/lua-resty-exec/",
+    license = "MIT"
+}
+build = {
+    type = "builtin",
+    modules = {
+        ["resty.exec"] = "lib/resty/exec.lua",
+        ["resty.exec.socket"] = "lib/resty/exec/socket.lua",
+    }
+}
+dependencies = {
+    "lua >= 5.1",
+    "netstring >= 1.0.6"
+}
