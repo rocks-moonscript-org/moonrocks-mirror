@@ -6149,6 +6149,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    bme280 = {
@@ -43898,6 +43905,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["2.1.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    hotswap = {
@@ -48901,6 +48915,13 @@ repository = {
          }
       },
       ["3.9.1-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["3.9.2-0"] = {
          {
             arch = "rockspec"
          }, {
@@ -66023,6 +66044,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["1.0.1-2"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    liquid = {
@@ -70002,6 +70028,13 @@ repository = {
          }
       },
       ["0.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.2.1-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -87493,6 +87526,13 @@ repository = {
             arch = "src"
          }
       },
+      ["5.1.5-3"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["5.2.4-1"] = {
          {
             arch = "rockspec"
@@ -87507,6 +87547,13 @@ repository = {
             arch = "src"
          }
       },
+      ["5.2.4-3"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["5.3.6-1"] = {
          {
             arch = "rockspec"
@@ -87515,6 +87562,13 @@ repository = {
          }
       },
       ["5.3.6-2"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["5.3.6-3"] = {
          {
             arch = "rockspec"
          }, {
@@ -87542,7 +87596,21 @@ repository = {
             arch = "src"
          }
       },
+      ["5.4.8-2"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["5.5.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["5.5.0-2"] = {
          {
             arch = "rockspec"
          }, {
