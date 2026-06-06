@@ -40466,6 +40466,13 @@ repository = {
             arch = "src"
          }
       },
+      ["1.6.71-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["1.6.8-1"] = {
          {
             arch = "rockspec"
@@ -103388,6 +103395,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["0.31.0-2"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.31.1-2"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luxdummy1 = {
@@ -147339,6 +147356,11 @@ repository = {
          }
       },
       ["0.0.307-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.308-1"] = {
          {
             arch = "rockspec"
          }
