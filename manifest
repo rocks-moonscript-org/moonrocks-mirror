@@ -30739,6 +30739,15 @@ repository = {
          }
       }
    },
+   flare = {
+      ["0.0.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ["flash.nvim"] = {
       ["1.18.2-1"] = {
          {
@@ -38663,6 +38672,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["5.5.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["gitsigns.nvim"] = {
@@ -41674,6 +41690,13 @@ repository = {
          }
       },
       ["1.9.7-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["10.0.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -121108,6 +121131,13 @@ repository = {
             arch = "src"
          }
       },
+      ["2.10.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["2.2.0-1"] = {
          {
             arch = "rockspec"
@@ -140487,6 +140517,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["9.0.5-2"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ruvalid = {
@@ -152840,6 +152875,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.2.5-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    sfxr = {
@@ -159384,6 +159426,15 @@ repository = {
          }
       },
       ["0.7.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   terminal = {
+      ["0.1.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -247791,6 +247842,13 @@ repository = {
    },
    yamlscript = {
       ["0.2.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.2.12-1"] = {
          {
             arch = "rockspec"
          }, {
