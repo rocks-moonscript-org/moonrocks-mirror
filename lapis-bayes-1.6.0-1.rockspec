@@ -1,0 +1,49 @@
+package = "lapis-bayes"
+version = "1.6.0-1"
+
+source = {
+  url = "git+https://github.com/leafo/lapis-bayes.git",
+  branch = "v1.6.0"
+}
+
+description = {
+  summary = "Naive Bayes classifier for use in Lua",
+  license = "MIT",
+  maintainer = "Leaf Corcoran <leafot@gmail.com>",
+}
+
+dependencies = {
+  "lua == 5.1",
+  "lapis >= 1.16.0"
+}
+
+build = {
+  type = "builtin",
+  modules = {
+    ["lapis.bayes"] = "lapis/bayes.lua",
+    ["lapis.bayes.classifiers.base"] = "lapis/bayes/classifiers/base.lua",
+    ["lapis.bayes.classifiers.bayes"] = "lapis/bayes/classifiers/bayes.lua",
+    ["lapis.bayes.classifiers.bayes_multi"] = "lapis/bayes/classifiers/bayes_multi.lua",
+    ["lapis.bayes.classifiers.default"] = "lapis/bayes/classifiers/default.lua",
+    ["lapis.bayes.classifiers.fisher"] = "lapis/bayes/classifiers/fisher.lua",
+    ["lapis.bayes.classifiers.test"] = "lapis/bayes/classifiers/test.lua",
+    ["lapis.bayes.migrations"] = "lapis/bayes/migrations.lua",
+    ["lapis.bayes.model"] = "lapis/bayes/model.lua",
+    ["lapis.bayes.models"] = "lapis/bayes/models.lua",
+    ["lapis.bayes.models.categories"] = "lapis/bayes/models/categories.lua",
+    ["lapis.bayes.models.word_classifications"] = "lapis/bayes/models/word_classifications.lua",
+    ["lapis.bayes.schema"] = "lapis/bayes/schema.lua",
+    ["lapis.bayes.text.punycode"] = "lapis/bayes/text/punycode.lua",
+    ["lapis.bayes.text.stem"] = "lapis/bayes/text/stem.lua",
+    ["lapis.bayes.text.unaccent"] = "lapis/bayes/text/unaccent.lua",
+    ["lapis.bayes.text.utf8"] = "lapis/bayes/text/utf8.lua",
+    ["lapis.bayes.tokenizers.base"] = "lapis/bayes/tokenizers/base.lua",
+    ["lapis.bayes.tokenizers.ngram"] = "lapis/bayes/tokenizers/ngram.lua",
+    ["lapis.bayes.tokenizers.postgres_text"] = "lapis/bayes/tokenizers/postgres_text.lua",
+    ["lapis.bayes.tokenizers.spam"] = "lapis/bayes/tokenizers/spam.lua",
+    ["lapis.bayes.tokenizers.url_domains"] = "lapis/bayes/tokenizers/url_domains.lua",
+    ["lapis.bayes.tokenizers.util"] = "lapis/bayes/tokenizers/util.lua",
+    ["lapis.bayes.trainers.base"] = "lapis/bayes/trainers/base.lua",
+    ["lapis.bayes.trainers.saturation"] = "lapis/bayes/trainers/saturation.lua",
+  }
+}
