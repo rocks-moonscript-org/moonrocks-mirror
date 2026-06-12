@@ -1,14 +1,14 @@
 rockspec_format = "3.0"
 package = "vecdeque"
-version = "1.1-1"
+version = "1.0.0-1"
 source = {
    url = "git+https://codeberg.org/kwrjnthe/lua-vecdeque",
-   tag = "1.1"
+   tag = "1.0.0"
 }
 description = {
-   summary = "dynamic-array implementation of a double-ended queue in Lua",
+   summary = "dynamic-array deque",
 
-   detailed = [[double-ended queue (deque); implemented as a dynamically growing array with an offset.]],
+   detailed = [[double-ended queue implemented as a geometrically-growing resizable array with an offset.]],
 
    labels = { "datastructure" },
 
@@ -21,6 +21,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      vecdeque = "vecdeque.lua"
+      vecdeque = "vecdeque.c"
    },
 }

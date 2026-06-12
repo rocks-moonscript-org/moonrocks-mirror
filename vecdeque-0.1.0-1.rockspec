@@ -1,8 +1,8 @@
 package = "vecdeque"
-version = "1.0-1"
+version = "0.1.0-1"
 source = {
    url = "git+https://codeberg.org/kwrjnthe/lua-vecdeque",
-   tag = "1.0"
+   tag = "0.1.0"
 }
 description = {
    summary = "dynamic-array implementation of a double-ended queue in Lua",
