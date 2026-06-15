@@ -479,6 +479,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ["0.16.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ["0.9.1-1"] = {
          {
             arch = "rockspec"
@@ -29129,6 +29134,20 @@ repository = {
          }
       },
       ["3.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["3.3.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["3.3.1-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -66409,6 +66428,13 @@ repository = {
          }
       },
       ["0.2.0-2"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.2.1-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -118395,6 +118421,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["2.1.6-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["neotest-vstest"] = {
@@ -139082,6 +139115,13 @@ repository = {
          }
       },
       ["0.1.3-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.2.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -161352,6 +161392,13 @@ repository = {
    },
    timeutil = {
       ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1.0-2"] = {
          {
             arch = "rockspec"
          }, {
@@ -241184,6 +241231,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.1.0-4"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    tulip = {
@@ -248488,6 +248542,13 @@ repository = {
          }
       },
       ["0.2.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.2.20-1"] = {
          {
             arch = "rockspec"
          }, {
