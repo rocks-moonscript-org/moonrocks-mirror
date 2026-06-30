@@ -36607,6 +36607,13 @@ repository = {
             arch = "src"
          }
       },
+      ["0.0.2668-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["0.0.769-1"] = {
          {
             arch = "rockspec"
@@ -42061,6 +42068,13 @@ repository = {
          }
       },
       ["10.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["10.0.1-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -62262,6 +62276,27 @@ repository = {
          }
       },
       ["6.20.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["6.20.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["6.20.3-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["6.20.4-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -129036,18 +129071,6 @@ repository = {
          }
       }
    },
-   pay = {
-      ["0.1.0-1"] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ["0.1.1-1"] = {
-         {
-            arch = "rockspec"
-         }
-      }
-   },
    payments = {
       ["1.0.0-1"] = {
          {
@@ -134962,6 +134985,22 @@ repository = {
       ["1.1-0"] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   quadratic = {
+      ["1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.0.5-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -149245,6 +149284,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ["0.0.318-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ["0.0.32-1"] = {
          {
             arch = "rockspec"
@@ -155930,6 +155974,15 @@ repository = {
          }
       }
    },
+   simpleoop = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    simulua = {
       ["0.1-1"] = {
          {
@@ -157206,6 +157259,13 @@ repository = {
          }
       },
       ["0.1.54-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1.55-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -163594,6 +163654,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["0.1.1-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["token-handler"] = {
@@ -164762,6 +164827,11 @@ repository = {
    },
    tostring = {
       ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.1.1-1"] = {
          {
             arch = "rockspec"
          }
@@ -244717,6 +244787,36 @@ repository = {
          }
       }
    },
+   var = {
+      ["0.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1-2"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1-3"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1-4"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    vararg = {
       ["1.0-1"] = {
          {
@@ -245766,6 +245866,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ["voxgig-struct"] = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -252991,6 +253098,13 @@ repository = {
          }
       },
       ["0.0.6-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.0.7-1"] = {
          {
             arch = "rockspec"
          }, {
