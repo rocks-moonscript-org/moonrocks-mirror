@@ -41120,6 +41120,13 @@ repository = {
             arch = "src"
          }
       },
+      ["1.6.73-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["1.6.8-1"] = {
          {
             arch = "rockspec"
@@ -108526,6 +108533,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["math-evol"] = {
@@ -135819,6 +135833,15 @@ repository = {
          }
       }
    },
+   ["quadtree-tl"] = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    quantum = {
       ["1.0-0"] = {
          {
@@ -147843,6 +147866,16 @@ repository = {
             arch = "rockspec"
          }
       },
+      ["0.0.73-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.74-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ["0.0.8-1"] = {
          {
             arch = "rockspec"
@@ -147938,6 +147971,21 @@ repository = {
          }
       },
       ["0.0.4-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.5-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.6-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.7-1"] = {
          {
             arch = "rockspec"
          }
@@ -150264,6 +150312,21 @@ repository = {
          }
       },
       ["0.0.330-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.331-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.332-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.333-1"] = {
          {
             arch = "rockspec"
          }
@@ -161703,6 +161766,13 @@ repository = {
          }
       },
       ["0.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.2.1-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -251184,6 +251254,13 @@ repository = {
             arch = "src"
          }
       },
+      ["0.2.27-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["0.2.3-1"] = {
          {
             arch = "rockspec"
@@ -251236,6 +251313,13 @@ repository = {
          }
       },
       ["0.1.11-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1.12-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -254187,6 +254271,13 @@ repository = {
    },
    ["zettelkasten.nvim"] = {
       ["2.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["2.2.0-1"] = {
          {
             arch = "rockspec"
          }, {
