@@ -1,0 +1,42 @@
+rockspec_format = "3.0"
+package = "volksdata"
+version = "1.0.0beta-8"
+
+source = {
+   url = "git+https://git.knowledgetx.com/scossu/volksdata_lua.git",
+   tag = "v1.0b8",
+}
+
+description = {
+   summary = "Compact, minimalistic RDF library and persistent store.",
+   detailed = [[
+      Volksdata is an embedded library to manipulate and permanently store
+      Linked Data. It handles terms, triples, graphs, and has in-memory and
+      persistent storage back ends. It can encode and decode Turtle, TriG, and
+      N3 syntax.
+   ]],
+   homepage = "http://git.knowledgetx.com/scossu/volksdata_lua",
+   license =
+       "https://git.knowledgetx.com/scossu/volksdata_lua/src/master/LICENSE"
+}
+
+dependencies = {
+   "lua >= 5.5, < 6",
+   "penlight >= 1.15, < 2",
+}
+
+external_dependencies = {
+    LMDB = { header = "lmdb.h" },
+    XXHASH = { header = "xxhash.h" },
+}
+
+test_dependencies = {
+    "u-test",
+}
+
+build = { type = "make" }
+
+test = {
+    type = "command",
+    command = "lua run_tests.lua",
+}
