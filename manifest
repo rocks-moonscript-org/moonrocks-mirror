@@ -8871,6 +8871,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["4.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    cbuf = {
@@ -14647,6 +14654,11 @@ repository = {
          }
       },
       ["3.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["3.0.1-1"] = {
          {
             arch = "rockspec"
          }
@@ -37214,6 +37226,13 @@ repository = {
             arch = "src"
          }
       },
+      ["0.0.2690-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["0.0.769-1"] = {
          {
             arch = "rockspec"
@@ -59277,6 +59296,15 @@ repository = {
          }
       }
    },
+   ["kong-plugin-s3-presign"] = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ["kong-plugin-sa-jwt-claims-validate"] = {
       ["0.1.0-1"] = {
          {
@@ -72588,6 +72616,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ltestlib = {
+      ["0.0.1-1"] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -106033,6 +106068,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["0.39.4-2"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    luxdummy1 = {
@@ -116749,6 +116789,13 @@ repository = {
          }
       },
       ["0.6.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.7.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -140718,6 +140765,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.1.7-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["rock-hello"] = {
@@ -148218,6 +148272,16 @@ repository = {
             arch = "rockspec"
          }
       },
+      ["0.0.363-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.364-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ["0.0.37-1"] = {
          {
             arch = "rockspec"
@@ -149501,6 +149565,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["0.0.8-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-make"] = {
@@ -150125,6 +150194,11 @@ repository = {
          }
       },
       ["0.0.218-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.219-1"] = {
          {
             arch = "rockspec"
          }
@@ -153508,6 +153582,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ["0.0.40-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ["0.0.5-1"] = {
          {
             arch = "rockspec"
@@ -155936,6 +156015,16 @@ repository = {
          }
       },
       ["0.0.517-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.518-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.519-1"] = {
          {
             arch = "rockspec"
          }
@@ -160207,6 +160296,13 @@ repository = {
             arch = "src"
          }
       },
+      ["14.1.10-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["14.1.2-1"] = {
          {
             arch = "rockspec"
@@ -161090,10 +161186,24 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["2.0.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["std.prototype"] = {
       ["1.0.1-2"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.1-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -161152,6 +161262,13 @@ repository = {
          }
       },
       ["1.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.4.1-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -161414,6 +161531,13 @@ repository = {
          }
       },
       ["41.2.3-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["41.2.4-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -191077,6 +191201,13 @@ repository = {
          }
       },
       ["0.0.38-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.0.39-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -246608,6 +246739,13 @@ repository = {
          }
       },
       ["3.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["3.0.1-1"] = {
          {
             arch = "rockspec"
          }, {
