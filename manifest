@@ -2389,6 +2389,13 @@ repository = {
          }
       }
    },
+   apibrasil = {
+      ["0.0.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    apicast = {
       ["scm-1"] = {
          {
@@ -19419,6 +19426,13 @@ repository = {
          }
       },
       ["2.10-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["2.11-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -44510,6 +44524,23 @@ repository = {
          }, {
             arch = "win32-x86_64"
          }
+      },
+      ["0.12.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "linux-aarch64"
+         }, {
+            arch = "linux-x86_64"
+         }, {
+            arch = "macosx-arm64"
+         }, {
+            arch = "macosx-x86_64"
+         }, {
+            arch = "src"
+         }, {
+            arch = "win32-x86_64"
+         }
       }
    },
    ["heroku-openresty"] = {
@@ -46140,6 +46171,22 @@ repository = {
          }
       },
       ["0.1-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   hyprmorph = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1.1-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -59303,6 +59350,27 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.2.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.3.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["kong-plugin-sa-jwt-claims-validate"] = {
@@ -60404,6 +60472,13 @@ repository = {
          }
       },
       ["2.2.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["2.2.2-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -63405,6 +63480,13 @@ repository = {
          }
       },
       ["6.22.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["6.23.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -89276,6 +89358,11 @@ repository = {
    },
    ["lua-tz"] = {
       ["1.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["1.1.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -122201,6 +122288,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["1.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["nginx-lua-waf"] = {
@@ -141365,6 +141459,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["2.6.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["rocks-lazy.nvim"] = {
@@ -153396,6 +153497,16 @@ repository = {
          }
       },
       ["0.0.63-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.64-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.0.65-1"] = {
          {
             arch = "rockspec"
          }
@@ -246751,6 +246862,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["3.0.1-2"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    typed = {
@@ -248505,6 +248623,13 @@ repository = {
          }
       },
       ["1.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.1.1-1"] = {
          {
             arch = "rockspec"
          }, {
