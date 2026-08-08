@@ -9741,6 +9741,13 @@ repository = {
             arch = "src"
          }
       },
+      ["1.9.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["master-1"] = {
          {
             arch = "rockspec"
@@ -14704,6 +14711,11 @@ repository = {
          }
       },
       ["3.0.3-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["3.0.4-1"] = {
          {
             arch = "rockspec"
          }
@@ -38714,6 +38726,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.1.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["gemini.nvim"] = {
@@ -44604,32 +44630,32 @@ repository = {
          {
             arch = "rockspec"
          }, {
+            arch = "linux-aarch64"
+         }, {
             arch = "linux-x86_64"
          }, {
             arch = "macosx-arm64"
          }, {
             arch = "macosx-x86_64"
          }, {
-            arch = "win32-x86_64"
-         }, {
             arch = "src"
          }, {
-            arch = "linux-aarch64"
+            arch = "win32-x86_64"
          }
       },
       ["0.11.0-1"] = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
-            arch = "macosx-arm64"
+            arch = "linux-aarch64"
          }, {
             arch = "linux-x86_64"
          }, {
-            arch = "linux-aarch64"
+            arch = "macosx-arm64"
          }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }, {
             arch = "win32-x86_64"
          }
@@ -44655,8 +44681,6 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "linux-aarch64"
          }, {
             arch = "linux-x86_64"
@@ -44664,6 +44688,8 @@ repository = {
             arch = "macosx-arm64"
          }, {
             arch = "macosx-x86_64"
+         }, {
+            arch = "src"
          }, {
             arch = "win32-x86_64"
          }
@@ -44689,17 +44715,17 @@ repository = {
          {
             arch = "rockspec"
          }, {
+            arch = "linux-aarch64"
+         }, {
             arch = "linux-x86_64"
          }, {
             arch = "macosx-arm64"
          }, {
             arch = "macosx-x86_64"
          }, {
-            arch = "win32-x86_64"
-         }, {
             arch = "src"
          }, {
-            arch = "linux-aarch64"
+            arch = "win32-x86_64"
          }
       }
    },
@@ -121668,6 +121694,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.38.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["neotest-kotlin"] = {
@@ -126821,6 +126854,20 @@ repository = {
    },
    ["omnivideo-ai"] = {
       ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1.2-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -140610,6 +140657,13 @@ repository = {
    },
    ["riffusion-ai"] = {
       ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1.1-1"] = {
          {
             arch = "rockspec"
          }, {
