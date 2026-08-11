@@ -1,8 +1,8 @@
-local git_ref = "v0.1.6"
-local modrev = "0.1.6"
+local git_ref = "v0.1.9"
+local modrev = "0.1.9"
 local specrev = "1"
 
-local repo_url = "https://github.com/luanvil/mote"
+local repo_url = "https://github.com/Owloops/mote"
 
 rockspec_format = "3.0"
 package = "mote"
@@ -13,7 +13,8 @@ description = {
     detailed = [[
 Coroutine-based HTTP server with routing, middleware, SSE, and more.]],
     labels = { 'http-server', 'lua' } ,
-    homepage = "https://github.com/luanvil/mote",
+    homepage = "https://github.com/Owloops/mote",
+    maintainer = "Papuna Gagnidze <pgagnidze@owloops.com>",
     license = 'MIT'
 }
 
@@ -30,7 +31,7 @@ test_dependencies = {
 
 source = {
     url = repo_url .. "/archive/" .. git_ref .. ".zip",
-    dir = "mote-" .. "0.1.6",
+    dir = "mote-" .. "0.1.9",
 }
 
 if modrev == "scm" or modrev == "dev" then
