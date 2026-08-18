@@ -1192,6 +1192,15 @@ repository = {
          }
       }
    },
+   ["aitextwatermarkremover-tools"] = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    aka = {
       ["1.0.0-1"] = {
          {
@@ -3882,6 +3891,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.8-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["atmos-env-iup"] = {
@@ -3893,6 +3909,13 @@ repository = {
          }
       },
       ["0.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.3-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -3935,6 +3958,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["atmos-env-sdl"] = {
@@ -3951,6 +3981,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.3-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["atmos-env-socket"] = {
@@ -3962,6 +3999,13 @@ repository = {
          }
       },
       ["0.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.3-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -4027,6 +4071,13 @@ repository = {
          }
       },
       ["0.7-2"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.8-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -17718,6 +17769,13 @@ repository = {
          }
       },
       ["1.6.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.7.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -72345,6 +72403,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["2.9.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["lrexlib-oniguruma"] = {
@@ -72398,6 +72463,13 @@ repository = {
          }
       },
       ["2.9.3-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["2.9.4-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -72489,6 +72561,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["2.9.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["lrexlib-pcre2"] = {
@@ -72514,6 +72593,13 @@ repository = {
          }
       },
       ["2.9.3-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["2.9.4-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -72605,6 +72691,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["2.9.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["lrexlib-tre"] = {
@@ -72658,6 +72751,13 @@ repository = {
          }
       },
       ["2.9.3-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["2.9.4-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -116960,6 +117060,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.4.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    mongorover = {
@@ -127370,6 +127477,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["onedark.nvim"] = {
@@ -135861,6 +135975,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ["premake-language-support"] = {
+      ["beta-8"] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -160426,22 +160547,6 @@ repository = {
          }
       }
    },
-   slatelua = {
-      ["0.0.1-1"] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      },
-      ["0.0.1-2"] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    slaxml = {
       ["0.8-1"] = {
          {
@@ -166440,6 +166545,13 @@ repository = {
          }
       },
       ["0.3.14-18"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.3.14-19"] = {
          {
             arch = "rockspec"
          }, {
