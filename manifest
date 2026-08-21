@@ -846,6 +846,15 @@ repository = {
          }
       }
    },
+   aerostring = {
+      ["1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    aes_everywhere = {
       ["1.1.3-6"] = {
          {
@@ -9588,6 +9597,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["1.9.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    cfadmin = {
@@ -14840,6 +14856,11 @@ repository = {
          }
       },
       ["2.4.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.5.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -38809,6 +38830,157 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["26.260812-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-al"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-box2d"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-chipmunk"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-dumbft"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-fats"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-gles"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-grd"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-kissfft"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-ogg"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-opus"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-pack"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-sod"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-tardis"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-win"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-wire"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["gamecake-zip"] = {
+      ["0.9-260813"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    gauge = {
@@ -54769,6 +54941,13 @@ repository = {
          }
       },
       ["1.3.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.4.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -117160,6 +117339,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.8.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    mongorover = {
@@ -119146,6 +119332,22 @@ repository = {
    },
    ["music-player.nvim"] = {
       ["1.0.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   musiclua = {
+      ["0.3.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.3.0-2"] = {
          {
             arch = "rockspec"
          }, {
@@ -131654,6 +131856,42 @@ repository = {
    },
    panpipe = {
       ["0.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["panto-agent"] = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["panto-herdr"] = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["panto-subagents"] = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["panto-web"] = {
+      ["0.1.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -150055,6 +150293,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.2.1-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-fs"] = {
@@ -152248,6 +152496,11 @@ repository = {
          }
       },
       ["2.1.3-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["3.0.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -251724,6 +251977,13 @@ repository = {
          }
       },
       ["1.0.0beta-11"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.0.0beta-12"] = {
          {
             arch = "rockspec"
          }, {

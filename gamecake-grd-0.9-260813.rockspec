@@ -1,0 +1,156 @@
+build={
+ modules={
+  ["wetgenes.freetype"]="lua_freetype/code/freetype.lua",
+  ["wetgenes.freetype.core"]={
+   incdirs={
+    "lua_freetype",
+    "lua_freetype/code",
+    "lib_hacks/code",
+    "$(FREETYPE_LIB_INCDIR)/freetype2/",
+    "$(FREETYPE_LIB_INCDIR)/freetype2/freetype/",
+    "lua_grd/code",
+   },
+   libdirs={
+    "$(FREETYPE_LIB_LIBDIR)",
+   },
+   libraries={
+    "freetype",
+    "gif",
+    "png",
+    "jpeg",
+   },
+   sources={
+    "lua_freetype/code/lua_freetype.c",
+    "lua_grd/code/lua_grd.c",
+    "lua_grd/code/grd.c",
+    "lua_grd/code/grd_gif.c",
+    "lua_grd/code/grd_jpg.c",
+    "lua_grd/code/grd_png.c",
+   },
+  },
+  ["wetgenes.grd"]="lua_grd/code/grd.lua",
+  ["wetgenes.grd.core"]={
+   incdirs={
+    "lua_grd",
+    "lib_hacks/code",
+    "$(PNG_LIB_INCDIR)",
+    "$(GIF_LIB_INCDIR)",
+    "$(JPEG_LIB_INCDIR)",
+   },
+   libdirs={
+    "$(PNG_LIB_LIBDIR)",
+    "$(GIF_LIB_LIBDIR)",
+    "$(JPEG_LIB_LIBDIR)",
+   },
+   libraries={
+    "gif",
+    "png",
+    "jpeg",
+   },
+   sources={
+    "lua_grd/code/lua_grd.c",
+    "lua_grd/code/grd.c",
+    "lua_grd/code/grd_gif.c",
+    "lua_grd/code/grd_jpg.c",
+    "lua_grd/code/grd_png.c",
+   },
+  },
+  ["wetgenes.grdcanvas"]="lua_grd/code/grdcanvas.lua",
+  ["wetgenes.grdhistory"]="lua_grd/code/grdhistory.lua",
+  ["wetgenes.grdlayers"]="lua_grd/code/grdlayers.lua",
+  ["wetgenes.grdmap"]="lua_grdmap/code/grdmap.lua",
+  ["wetgenes.grdmap.core"]={
+   incdirs={
+    "lua_grdmap",
+    "lib_hacks/code",
+    "lua_grd",
+   },
+   libraries={
+    "gif",
+    "png",
+    "jpeg",
+   },
+   sources={
+    "lua_grdmap/code/lua_grdmap.c",
+    "lua_grdmap/code/grdmap.c",
+    "lua_grdmap/code/grdmap_tiles.c",
+    "lua_grd/code/lua_grd.c",
+    "lua_grd/code/grd.c",
+    "lua_grd/code/grd_gif.c",
+    "lua_grd/code/grd_jpg.c",
+    "lua_grd/code/grd_png.c",
+   },
+  },
+  ["wetgenes.grdpaint"]="lua_grd/code/grdpaint.lua",
+  ["wetgenes.grdsvg"]="lua_grd/code/grdsvg.lua",
+ },
+ platform={
+  windows={
+  },
+ },
+ type="builtin",
+}
+dependencies={
+ "lua >= 5.1 <= 5.2",
+}
+description={
+ detailed="\
+Needs libpng libgif libjpeg libzzip and libfreetype pre installed.\
+\
+APNG is sported but you must have libpng configured for it ( which you \
+probably do not )\
+\
+See libs/lua_grd/readme.md in the gamecake repo \
+https://github.com/xriss/gamecake/blob/master/libs/lua_grd/\
+\
+\
+ \
+# gamecake-grd\
+\
+- v0.9\
+\9- initial rocks release.\
+\
+Lua code documentation auto built from source comments can be found at \
+https://xriss.github.io/gamecake/docs/\
+\
+Graphical bitmap load/save/edit of png/gif/jpg files. This is the \
+internal bitmap core of swankypaint \
+https://store.steampowered.com/app/432030/Swanky_Paint/\
+\
+Some comamnd line interface is available through \"gamecake -lcmd\"\
+\
+\9gamecakejit -lcmd grd\
+\
+after installing the gamecake rock.\
+",
+ homepage="https://github.com/xriss/gamecake",
+ license="MIT",
+ summary="read/write/edit of png/gif/jpg",
+}
+external_dependencies={
+ FREETYPE_LIB={
+  header="freetype2/freetype/freetype.h",
+ },
+ GIF_LIB={
+  header="gif_lib.h",
+  library="libgif.a",
+ },
+ JPEG_LIB={
+  header="jpeglib.h",
+  library="libjpeg.a",
+ },
+ PNG_LIB={
+  header="png.h",
+  library="libpng.a",
+ },
+ ZZIP_LIB={
+  header="zzip.h",
+  library="libzzip.a",
+ },
+}
+package="gamecake-grd"
+source={
+ dir="src",
+ url="file:///home/kriss/devcake/gamecake/rocks/grd/src.zip",
+}
+version="0.9-260813"
