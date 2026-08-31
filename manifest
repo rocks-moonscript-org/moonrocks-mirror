@@ -1201,6 +1201,15 @@ repository = {
          }
       }
    },
+   ["aitextcleaner-formatting-residue"] = {
+      ["0.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ["aitextwatermarkremover-tools"] = {
       ["0.1.0-1"] = {
          {
@@ -2109,6 +2118,15 @@ repository = {
    },
    ansikit = {
       ["1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   anyascii = {
+      ["0.1.1-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -11306,6 +11324,15 @@ repository = {
          }
       },
       ["0.3.0-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["cleanpaste-normalizer"] = {
+      ["0.2.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -47760,6 +47787,15 @@ repository = {
          }
       }
    },
+   imsg = {
+      ["0.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ["incline.nvim"] = {
       ["0.0.1-1"] = {
          {
@@ -48847,6 +48883,24 @@ repository = {
    },
    ["ipqs-db-reader"] = {
       ["1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["iptv-org-pro-url-tools"] = {
+      ["0.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["iptvplaylist-m3u-tools"] = {
+      ["0.2.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -67715,6 +67769,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["0.1.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lester = {
@@ -68357,6 +68418,11 @@ repository = {
          }
       },
       ["0.8.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.9.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -75008,6 +75074,13 @@ repository = {
          }
       },
       ["0.2.1.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.2.3-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -107520,6 +107593,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.43.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["lux-lua"] = {
@@ -107958,6 +108038,48 @@ repository = {
          }
       },
       ["1.0.0-2"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.0.0-3"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.0.0-4"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.0.0-5"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.0.0-6"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.0.0-7"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.0.0-8"] = {
          {
             arch = "rockspec"
          }, {
@@ -128358,6 +128480,15 @@ repository = {
       ["1.0-1"] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   omelette = {
+      ["0.1.6-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -151059,6 +151190,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.4.3-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.4.4-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-fs"] = {
@@ -151298,6 +151439,11 @@ repository = {
          }
       },
       ["2.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.1.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -153347,6 +153493,36 @@ repository = {
          }
       },
       ["3.8.7-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["3.9.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["3.9.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["4.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["5.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["5.0.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["5.0.2-1"] = {
          {
             arch = "rockspec"
          }
@@ -159067,6 +159243,16 @@ repository = {
          }
       },
       ["2.2.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.2.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.2.3-1"] = {
          {
             arch = "rockspec"
          }
@@ -251140,6 +251326,15 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "all"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["unirate-api"] = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
          }, {
             arch = "src"
          }
