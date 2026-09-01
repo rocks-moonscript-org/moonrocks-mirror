@@ -6702,6 +6702,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.5.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["botbye-openresty"] = {
@@ -31966,6 +31973,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   finbu = {
+      ["1.0-0"] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -68423,6 +68437,11 @@ repository = {
          }
       },
       ["0.9.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.9.1-1"] = {
          {
             arch = "rockspec"
          }
@@ -108029,6 +108048,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["0.43.2-2"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["lux.nvim"] = {
@@ -108080,6 +108104,13 @@ repository = {
          }
       },
       ["1.0.0-8"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.0.0-9"] = {
          {
             arch = "rockspec"
          }, {
@@ -118021,6 +118052,13 @@ repository = {
          }
       },
       ["0.10.5-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.10.6-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -149191,6 +149229,21 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.0.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.0.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.0.3-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-bundle"] = {
@@ -149435,6 +149488,21 @@ repository = {
          }
       },
       ["2.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.0.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.0.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.0.3-1"] = {
          {
             arch = "rockspec"
          }
@@ -151200,6 +151268,26 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.4.5-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.5.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.7.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.8.0-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-fs"] = {
@@ -151447,6 +151535,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.1.1-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-http"] = {
@@ -151598,6 +151691,18 @@ repository = {
          }
       },
       ["0.0.8-1"] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ["santoku-imap"] = {
+      ["0.0.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.1.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -152125,6 +152230,26 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.0.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.0.3-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.0.4-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.0.5-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-learn-llama"] = {
@@ -152212,6 +152337,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.1.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.1.2-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-lpeg"] = {
@@ -152296,6 +152431,11 @@ repository = {
          }
       },
       ["2.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.0.1-1"] = {
          {
             arch = "rockspec"
          }
@@ -153526,6 +153666,36 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["5.0.4-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["5.0.5-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["5.0.6-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["5.0.7-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["5.0.8-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["5.0.9-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-markdown"] = {
@@ -153570,6 +153740,11 @@ repository = {
          }
       },
       ["2.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.2.1-1"] = {
          {
             arch = "rockspec"
          }
@@ -155225,6 +155400,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.0.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.0.3-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-monocypher"] = {
@@ -155367,6 +155552,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.1.1-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-mustache"] = {
@@ -155454,6 +155644,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.1.1-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-resty"] = {
@@ -155521,6 +155716,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.1.1-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-socket"] = {
@@ -155575,6 +155780,16 @@ repository = {
          }
       },
       ["2.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.2.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -155847,6 +156062,16 @@ repository = {
          }
       },
       ["2.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.2.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["3.0.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -156276,6 +156501,16 @@ repository = {
          }
       },
       ["2.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.0.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.0.2-1"] = {
          {
             arch = "rockspec"
          }
@@ -159253,6 +159488,16 @@ repository = {
          }
       },
       ["2.2.3-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.3.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.3.1-1"] = {
          {
             arch = "rockspec"
          }
@@ -170011,6 +170256,13 @@ repository = {
       ["1.0.0-2"] = {
          {
             arch = "rockspec"
+         }
+      },
+      ["1.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
