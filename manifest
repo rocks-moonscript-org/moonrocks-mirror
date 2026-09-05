@@ -6893,6 +6893,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["4.0.0-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["botway-lua"] = {
@@ -40678,6 +40685,15 @@ repository = {
          }
       }
    },
+   ["gmeow-gts"] = {
+      ["1.0.0rc1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    gmi = {
       ["0.0.1-1"] = {
          {
@@ -53694,6 +53710,13 @@ repository = {
          }
       },
       ["1.4.0-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.4.1-0"] = {
          {
             arch = "rockspec"
          }, {
@@ -87019,6 +87042,13 @@ repository = {
          }
       },
       ["1.9.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.9.1-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -128811,6 +128841,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["0.2.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["onedark.nvim"] = {
@@ -164972,6 +165009,13 @@ repository = {
          }
       },
       ["1.4.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.4.1-2"] = {
          {
             arch = "rockspec"
          }, {
