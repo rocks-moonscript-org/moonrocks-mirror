@@ -2342,6 +2342,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.2.4-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["api7-lua-resty-jwt"] = {
@@ -15054,6 +15061,13 @@ repository = {
       ["3.0.4-1"] = {
          {
             arch = "rockspec"
+         }
+      },
+      ["3.1.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -69728,6 +69742,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.9.7-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["live-server.nvim"] = {
@@ -75836,6 +75857,13 @@ repository = {
          }
       },
       ["0.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.2.1-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -108294,6 +108322,27 @@ repository = {
             arch = "src"
          }
       },
+      ["1.0.0-15"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.0.0-16"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.0.0-17"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["1.0.0-2"] = {
          {
             arch = "rockspec"
@@ -115856,6 +115905,16 @@ repository = {
          }
       },
       ["0.4.5-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.5.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.5.1-1"] = {
          {
             arch = "rockspec"
          }
@@ -142756,6 +142815,23 @@ repository = {
          }, {
             arch = "win32-x86_64"
          }
+      },
+      ["0.3.14-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "linux-aarch64"
+         }, {
+            arch = "linux-x86_64"
+         }, {
+            arch = "macosx-aarch64"
+         }, {
+            arch = "macosx-x86_64"
+         }, {
+            arch = "win32-aarch64"
+         }, {
+            arch = "win32-x86_64"
+         }
       }
    },
    ["rewords-site-kit"] = {
@@ -145527,6 +145603,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["0.4.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.4.1-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    rsjson = {
@@ -145633,6 +145719,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["0.7.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.7.1-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["rsre-lua"] = {
@@ -145697,6 +145793,16 @@ repository = {
          }
       },
       ["0.3.6-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.4.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.4.1-1"] = {
          {
             arch = "rockspec"
          }
@@ -149542,6 +149648,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.0.6-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-bundle"] = {
@@ -149801,6 +149912,11 @@ repository = {
          }
       },
       ["2.0.3-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.0.4-1"] = {
          {
             arch = "rockspec"
          }
@@ -151557,6 +151673,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ["2.12.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ["2.2.0-1"] = {
          {
             arch = "rockspec"
@@ -152066,6 +152187,11 @@ repository = {
          }
       },
       ["0.2.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.2.2-1"] = {
          {
             arch = "rockspec"
          }
@@ -154161,6 +154287,16 @@ repository = {
          }
       },
       ["5.1.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["5.1.4-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["5.1.5-1"] = {
          {
             arch = "rockspec"
          }
@@ -156715,6 +156851,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.0.2-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-system"] = {
@@ -157418,6 +157559,11 @@ repository = {
          }
       },
       ["2.0.4-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.0.5-1"] = {
          {
             arch = "rockspec"
          }
@@ -160046,6 +160192,11 @@ repository = {
          }
       },
       ["2.3.3-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.3.4-1"] = {
          {
             arch = "rockspec"
          }
@@ -168674,6 +168825,13 @@ repository = {
          }
       },
       ["0.3.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.4.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -182105,6 +182263,13 @@ repository = {
          }
       },
       ["0.0.33-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.0.34-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -258769,6 +258934,13 @@ repository = {
          }
       },
       ["0.1.19-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1.20-1"] = {
          {
             arch = "rockspec"
          }, {
