@@ -15106,6 +15106,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["3.1.6-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["copilot3d-org"] = {
@@ -33417,6 +33424,15 @@ repository = {
          }
       }
    },
+   frostlake = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ["fs-utils"] = {
       ["1.0.8-1"] = {
          {
@@ -49533,6 +49549,20 @@ repository = {
          }
       },
       ["1.5.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["2.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["2.0.1-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -67977,6 +68007,15 @@ repository = {
          }
       }
    },
+   lettext = {
+      ["0.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    levents = {
       ["0.1-0"] = {
          {
@@ -85050,6 +85089,13 @@ repository = {
          }
       },
       ["0.2.0-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.2.1-0"] = {
          {
             arch = "rockspec"
          }, {
