@@ -39537,6 +39537,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["1.1.0-2"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["geni3-org"] = {
@@ -47123,6 +47130,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["1.0.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    hycolor = {
@@ -50739,6 +50753,11 @@ repository = {
    },
    kdlua = {
       ["1.0.0-0"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["1.0.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -85156,6 +85175,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.2.2-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["lua-resty-jsonrpc-batch"] = {
@@ -92096,6 +92122,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   ["lua-xjson"] = {
+      ["0.9.0-1"] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -102672,6 +102705,13 @@ repository = {
       ["0.2.0-1"] = {
          {
             arch = "rockspec"
+         }
+      },
+      ["1.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
          }
       }
    },
@@ -133328,6 +133368,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.3.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["panto-web"] = {
@@ -142073,6 +142120,13 @@ repository = {
          }
       },
       ["8.13.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["8.14.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -153263,6 +153317,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.1.1-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-make"] = {
@@ -157061,6 +157120,11 @@ repository = {
          }
       },
       ["3.2.6-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["3.3.0-1"] = {
          {
             arch = "rockspec"
          }
