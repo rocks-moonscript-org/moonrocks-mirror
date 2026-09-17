@@ -19318,6 +19318,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.1.3-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    delaunay = {
@@ -37949,6 +37963,13 @@ repository = {
             arch = "src"
          }
       },
+      ["0.0.2698-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["0.0.769-1"] = {
          {
             arch = "rockspec"
@@ -53259,6 +53280,13 @@ repository = {
    },
    ["kong-lua-resty-http"] = {
       ["0.18.1-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.18.2-0"] = {
          {
             arch = "rockspec"
          }, {
@@ -84100,6 +84128,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["1.0.6-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["lua-resty-grpc"] = {
@@ -88885,6 +88920,13 @@ repository = {
          }
       },
       ["0.2.5-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.2.6-0"] = {
          {
             arch = "rockspec"
          }, {
@@ -108528,6 +108570,11 @@ repository = {
          }
       },
       ["0.43.3-2"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.45.2-1"] = {
          {
             arch = "rockspec"
          }
@@ -138640,6 +138687,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["6.3.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["prom-client"] = {
@@ -150103,6 +150157,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["2.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-bundle"] = {
@@ -152124,6 +152183,11 @@ repository = {
          }
       },
       ["2.12.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.13.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -157204,6 +157268,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["4.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-sqlite-migrate"] = {
@@ -160672,6 +160741,11 @@ repository = {
          }
       },
       ["2.3.5-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.3.6-1"] = {
          {
             arch = "rockspec"
          }
@@ -164591,6 +164665,20 @@ repository = {
          }
       },
       ["0.1.63-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1.64-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1.65-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -169316,6 +169404,22 @@ repository = {
          }
       },
       ["0.4.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.5.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["tested-core"] = {
+      ["0.5.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -257332,15 +257436,6 @@ repository = {
       ["0.9-0"] = {
          {
             arch = "rockspec"
-         }
-      }
-   },
-   wql = {
-      ["0.0-1"] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
          }
       }
    },
