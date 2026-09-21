@@ -1,0 +1,59 @@
+rockspec_format = "3.0"
+package = "libtmux"
+version = "0.1.0alpha1-1"
+source = {
+    url = "git+https://github.com/libtmux/libtmux-lua.git",
+    tag = "v0.1.0alpha1",
+}
+description = {
+    summary = "Lua API for tmux sessions, windows and panes",
+    homepage = "https://github.com/libtmux/libtmux-lua",
+    license = "MIT",
+    issues_url = "https://github.com/libtmux/libtmux-lua/issues",
+}
+dependencies = {
+    "lua >= 5.1, < 5.6",
+}
+build = {
+    type = "builtin",
+    modules = {
+        libtmux = "lua/libtmux/init.lua",
+        ["libtmux._internal.batch"] = "lua/libtmux/_internal/batch.lua",
+        ["libtmux._internal.buffer"] = "lua/libtmux/_internal/buffer.lua",
+        ["libtmux._internal.client"] = "lua/libtmux/_internal/client.lua",
+        ["libtmux._internal.codec"] = "lua/libtmux/_internal/codec.lua",
+        ["libtmux._internal.command"] = "lua/libtmux/_internal/command.lua",
+        ["libtmux._internal.control"] = "lua/libtmux/_internal/control.lua",
+        ["libtmux._internal.control_io"] = "lua/libtmux/_internal/control_io.lua",
+        ["libtmux._internal.control_parser"] = "lua/libtmux/_internal/control_parser.lua",
+        ["libtmux._internal.domain"] = "lua/libtmux/_internal/domain.lua",
+        ["libtmux._internal.endpoint"] = "lua/libtmux/_internal/endpoint.lua",
+        ["libtmux._internal.entity"] = "lua/libtmux/_internal/entity.lua",
+        ["libtmux._internal.environment"] = "lua/libtmux/_internal/environment.lua",
+        ["libtmux._internal.environment_codec"] = "lua/libtmux/_internal/environment_codec.lua",
+        ["libtmux._internal.error"] = "lua/libtmux/_internal/error.lua",
+        ["libtmux._internal.execution"] = "lua/libtmux/_internal/execution.lua",
+        ["libtmux._internal.fields"] = "lua/libtmux/_internal/fields.lua",
+        ["libtmux._internal.graph"] = "lua/libtmux/_internal/graph.lua",
+        ["libtmux._internal.identity"] = "lua/libtmux/_internal/identity.lua",
+        ["libtmux._internal.live_query"] = "lua/libtmux/_internal/live_query.lua",
+        ["libtmux._internal.metadata"] = "lua/libtmux/_internal/metadata.lua",
+        ["libtmux._internal.observation"] = "lua/libtmux/_internal/observation.lua",
+        ["libtmux._internal.option_codec"] = "lua/libtmux/_internal/option_codec.lua",
+        ["libtmux._internal.options_catalog"] = "lua/libtmux/_internal/options_catalog.lua",
+        ["libtmux._internal.pane"] = "lua/libtmux/_internal/pane.lua",
+        ["libtmux._internal.planner"] = "lua/libtmux/_internal/planner.lua",
+        ["libtmux._internal.process"] = "lua/libtmux/_internal/process.lua",
+        ["libtmux._internal.query"] = "lua/libtmux/_internal/query.lua",
+        ["libtmux._internal.query_wire"] = "lua/libtmux/_internal/query_wire.lua",
+        ["libtmux._internal.runtime"] = "lua/libtmux/_internal/runtime.lua",
+        ["libtmux._internal.scope"] = "lua/libtmux/_internal/scope.lua",
+        ["libtmux._internal.server"] = "lua/libtmux/_internal/server.lua",
+        ["libtmux._internal.settings"] = "lua/libtmux/_internal/settings.lua",
+        ["libtmux._internal.text"] = "lua/libtmux/_internal/text.lua",
+        ["libtmux._internal.topology"] = "lua/libtmux/_internal/topology.lua",
+        ["libtmux.query"] = "lua/libtmux/query.lua",
+        ["libtmux.runtime.luv"] = "lua/libtmux/runtime/luv.lua",
+        ["libtmux.runtime.nvim"] = "lua/libtmux/runtime/nvim.lua",
+    },
+}
