@@ -1,22 +1,25 @@
-
-
-package = "santoku-jpeg"
-version = "0.0.16-1"
+-- tk: lua
+-- SPDX-License-Identifier: MIT
+-- SPDX-FileCopyrightText: 2023 Birch Point SWE
+package = "santoku-learn"
+version = "4.1.1-1"
 rockspec_format = "3.0"
 
 source = {
-  url = "https://github.com/treadwelllane/lua-santoku-jpeg/releases/download/0.0.16-1/santoku-jpeg-0.0.16-1.tar.gz",
+  url = "https://github.com/birchpointswe/lua-santoku-learn/releases/download/4.1.1-1/santoku-learn-4.1.1-1.tar.gz",
 }
 
 description = {
-  homepage = "https://github.com/treadwelllane/lua-santoku-jpeg",
+  homepage = "https://github.com/birchpointswe/lua-santoku-learn",
   license = "MIT"
 }
 
 dependencies = {
-  "lua >= 5.1",
-  "santoku >= 0.0.162-1",
-  "santoku-fs >= 0.0.16-1"
+  "lua == 5.1",
+"santoku >= 2.5.0, < 3.0.0",
+"santoku-matrix >= 3.0.0, < 4.0.0",
+"santoku-fs >= 2.0.0, < 3.0.0",
+"santoku-lpeg >= 2.0.0, < 3.0.0"
 }
 
 external_dependencies = {
@@ -28,28 +31,21 @@ build = {
   makefile = "Makefile",
   variables = {
     LIB_EXTENSION = "$(LIB_EXTENSION)",
+    TK_ROCKS_DIR = "$(PREFIX)/../..",
   },
   build_variables = {
     CC = "$(CC)",
     CXX = "$(CXX)",
-    AR = "$(AR)",
-    LD = "$(LD)",
-    NM = "$(NM)",
-    LDSHARED = "$(LDSHARED)",
-    RANLIB = "$(RANLIB)",
     CFLAGS = "$(CFLAGS)",
     LIBFLAG = "$(LIBFLAG)",
-    LUA_BINDIR = "$(LUA_BINDIR)",
     LUA_INCDIR = "$(LUA_INCDIR)",
     LUA_LIBDIR = "$(LUA_LIBDIR)",
-    LUA_LIBDIR = "$(LUA_LIBDIR)",
-    LUA = "$(LUA)",
   },
   install_variables = {
+    CC = "$(CC)",
     INST_PREFIX = "$(PREFIX)",
     INST_BINDIR = "$(BINDIR)",
     INST_LIBDIR = "$(LIBDIR)",
     INST_LUADIR = "$(LUADIR)",
-    INST_CONFDIR = "$(CONFDIR)",
   }
 }

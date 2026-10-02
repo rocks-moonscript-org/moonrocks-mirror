@@ -1,22 +1,21 @@
-
-
-package = "santoku-jpeg"
-version = "0.0.17-1"
+-- tk: lua
+package = "santoku-lpeg"
+version = "2.3.1-1"
 rockspec_format = "3.0"
 
 source = {
-  url = "https://github.com/treadwelllane/lua-santoku-jpeg/releases/download/0.0.17-1/santoku-jpeg-0.0.17-1.tar.gz",
+  url = "https://github.com/birchpointswe/lua-santoku-lpeg/releases/download/2.3.1-1/santoku-lpeg-2.3.1-1.tar.gz",
 }
 
 description = {
-  homepage = "https://github.com/treadwelllane/lua-santoku-jpeg",
+  homepage = "https://github.com/birchpointswe/lua-santoku-lpeg",
   license = "MIT"
 }
 
 dependencies = {
-  "lua >= 5.1",
-  "santoku >= 0.0.193-1",
-  "santoku-fs >= 0.0.29-1"
+  "lua == 5.1",
+"santoku >= 2.5.0, < 3.0.0",
+"santoku-matrix >= 3.0.2, < 4.0.0"
 }
 
 external_dependencies = {
@@ -28,28 +27,21 @@ build = {
   makefile = "Makefile",
   variables = {
     LIB_EXTENSION = "$(LIB_EXTENSION)",
+    TK_ROCKS_DIR = "$(PREFIX)/../..",
   },
   build_variables = {
     CC = "$(CC)",
     CXX = "$(CXX)",
-    AR = "$(AR)",
-    LD = "$(LD)",
-    NM = "$(NM)",
-    LDSHARED = "$(LDSHARED)",
-    RANLIB = "$(RANLIB)",
     CFLAGS = "$(CFLAGS)",
     LIBFLAG = "$(LIBFLAG)",
-    LUA_BINDIR = "$(LUA_BINDIR)",
     LUA_INCDIR = "$(LUA_INCDIR)",
     LUA_LIBDIR = "$(LUA_LIBDIR)",
-    LUA_LIBDIR = "$(LUA_LIBDIR)",
-    LUA = "$(LUA)",
   },
   install_variables = {
+    CC = "$(CC)",
     INST_PREFIX = "$(PREFIX)",
     INST_BINDIR = "$(BINDIR)",
     INST_LIBDIR = "$(LIBDIR)",
     INST_LUADIR = "$(LUADIR)",
-    INST_CONFDIR = "$(CONFDIR)",
   }
 }
