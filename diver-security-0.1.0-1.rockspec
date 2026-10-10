@@ -1,0 +1,61 @@
+package = 'diver-security'
+version = '0.1.0-1'
+source = {
+    url = 'git+https://github.com/qompassai/luarocks.git',
+    dir = 'luarocks/security',
+}
+description = {
+    summary = 'Diver security toolkit: security.* RCE/MiTM/zombie/supply-chain guards, red/blue suites, pass integration, Ghidra bridge, PQC tokens.',
+    homepage = 'https://github.com/qompassai/luarocks',
+    license = 'Apache-2.0',
+}
+dependencies = {
+    'lua >= 5.1',
+    'diver-utils >= 0.1.0',
+    'diver-config >= 0.1.0',
+}
+build = {
+    type = 'builtin',
+    modules = {
+        ['security'] = 'lua/security/init.lua',
+        ['security.adapter_policy'] = 'lua/security/adapter_policy.lua',
+        ['security.ai'] = 'lua/security/ai.lua',
+        ['security.annotations'] = 'lua/security/annotations.lua',
+        ['security.auditlog'] = 'lua/security/auditlog.lua',
+        ['security.blue'] = 'lua/security/blue/init.lua',
+        ['security.blue.base64'] = 'lua/security/blue/base64.lua',
+        ['security.blue.dap'] = 'lua/security/blue/dap.lua',
+        ['security.blue.gpg'] = 'lua/security/blue/gpg.lua',
+        ['security.blue.sops'] = 'lua/security/blue/sops.lua',
+        ['security.blue.ssh'] = 'lua/security/blue/ssh.lua',
+        ['security.bounty'] = 'lua/security/bounty/init.lua',
+        ['security.bounty.dashboard'] = 'lua/security/bounty/dashboard.lua',
+        ['security.bounty.gates'] = 'lua/security/bounty/gates.lua',
+        ['security.bounty.profiles'] = 'lua/security/bounty/profiles.lua',
+        ['security.bounty.recon'] = 'lua/security/bounty/recon.lua',
+        ['security.bounty.report'] = 'lua/security/bounty/report.lua',
+        ['security.bounty.scope'] = 'lua/security/bounty/scope.lua',
+        ['security.bounty.submit'] = 'lua/security/bounty/submit.lua',
+        ['security.commands'] = 'lua/security/commands.lua',
+        ['security.container'] = 'lua/security/container.lua',
+        ['security.ghidra'] = 'lua/security/ghidra.lua',
+        ['security.guard'] = 'lua/security/guard.lua',
+        ['security.mask'] = 'lua/security/mask.lua',
+        ['security.mcp_vet'] = 'lua/security/mcp_vet.lua',
+        ['security.mitm'] = 'lua/security/mitm.lua',
+        ['security.pass'] = 'lua/security/pass/init.lua',
+        ['security.patterns'] = 'lua/security/patterns.lua',
+        ['security.pqc'] = 'lua/security/pqc.lua',
+        ['security.prng'] = 'lua/security/prng.lua',
+        ['security.red'] = 'lua/security/red/init.lua',
+        ['security.red.red'] = 'lua/security/red/red.lua',
+        ['security.red.shark'] = 'lua/security/red/shark.lua',
+        ['security.red.tomcat'] = 'lua/security/red/tomcat.lua',
+        ['security.scanner'] = 'lua/security/scanner.lua',
+        ['security.sshfs'] = 'lua/security/sshfs.lua',
+        ['security.supplychain'] = 'lua/security/supplychain.lua',
+        ['security.token'] = 'lua/security/token.lua',
+        ['security.zombie'] = 'lua/security/zombie.lua'
+    },
+    copy_directories = { 'lua/security/ghidra' }
+}
