@@ -1,9 +1,9 @@
 package = 'lua-schema'
-version = '0.1.0-2'
+version = '0.2.1-1'
 source = {
-    url = 'https://framagit.org/fperrad/lua-schema/raw/releases/lua-schema-0.1.0.tar.gz',
-    md5 = 'dd76821d217acf99efdd7dd87123d8f4',
-    dir = 'lua-schema-0.1.0',
+    url = 'https://framagit.org/fperrad/lua-schema/raw/releases/lua-schema-0.2.1.tar.gz',
+    md5 = '9b0ed0c2dd611bb32e1ee6dd469cbce7',
+    dir = 'lua-schema-0.2.1',
 }
 description = {
     summary = "JSON Schema data validator",
@@ -20,6 +20,8 @@ for example CBOR, Message Pack, UBJSON or just plain Lua.
 dependencies = {
     'lua >= 5.1',
     'lpeg',
+--    'idn2',  -- format: idn-email & idn-hostname
+--    'lrexlib-pcre2',  -- keyword: pattern & patternProperties
 }
 build = {
     type = 'builtin',
