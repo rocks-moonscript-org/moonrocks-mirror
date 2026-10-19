@@ -1,9 +1,9 @@
 package = 'lua-schema'
-version = '0.3.0-1'
+version = '0.4.0-1'
 source = {
-    url = 'https://framagit.org/fperrad/lua-schema/raw/releases/lua-schema-0.3.0.tar.gz',
-    md5 = '344ea2abf2d4f1ff9136e11e78518239',
-    dir = 'lua-schema-0.3.0',
+    url = 'https://framagit.org/fperrad/lua-schema/raw/releases/lua-schema-0.4.0.tar.gz',
+    md5 = '90e9b7b01e47bfa4499a34fccd9e4f86',
+    dir = 'lua-schema-0.4.0',
 }
 description = {
     summary = "JSON Schema data validator",
@@ -28,18 +28,18 @@ build = {
     modules = {
         ['schema']                      = 'src/schema.lua',
         ['schema.core']                 = 'src/schema/core.lua',
-        ['schema.draft-04']             = 'src/schema/draft-04.lua',
-        ['schema.draft-06']             = 'src/schema/draft-06.lua',
-        ['schema.draft-07']             = 'src/schema/draft-07.lua',
-        ['schema.draft2019-09']         = 'src/schema/draft2019-09.lua',
-        ['schema.draft2020-12']         = 'src/schema/draft2020-12.lua',
         ['schema.format']               = 'src/schema/format.lua',
         ['schema.keyword']              = 'src/schema/keyword.lua',
+        ['schema.openapi']              = 'src/schema/openapi.lua',
         ['schema.utils']                = 'src/schema/utils.lua',
-        ['schema.v1-2026']              = 'src/schema/v1-2026.lua',
+        ['schema.dialect.draft-04']     = 'src/schema/dialect/draft-04.lua',
+        ['schema.dialect.draft-06']     = 'src/schema/dialect/draft-06.lua',
+        ['schema.dialect.draft-07']     = 'src/schema/dialect/draft-07.lua',
+        ['schema.dialect.draft2019-09'] = 'src/schema/dialect/draft2019-09.lua',
+        ['schema.dialect.draft2020-12'] = 'src/schema/dialect/draft2020-12.lua',
         ['schema.dialect.oas31']        = 'src/schema/dialect/oas31.lua',
         ['schema.dialect.oas32']        = 'src/schema/dialect/oas32.lua',
-        ['schema.dialect.openapi']      = 'src/schema/dialect/openapi.lua',
+        ['schema.dialect.v1-2026']      = 'src/schema/dialect/v1-2026.lua',
     },
     copy_directories = { 'docs', 'test' },
 }
