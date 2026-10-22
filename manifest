@@ -8895,6 +8895,11 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.0.5-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    carrot = {
@@ -20037,6 +20042,13 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   digest = {
+      ["0.0.1-1"] = {
+         {
+            arch = "rockspec"
          }
       }
    },
@@ -38880,6 +38892,13 @@ repository = {
             arch = "src"
          }
       },
+      ["0.0.2756-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["0.0.769-1"] = {
          {
             arch = "rockspec"
@@ -47640,6 +47659,22 @@ repository = {
          }
       },
       ["1.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   hotty = {
+      ["0.4.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.5.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -66129,6 +66164,11 @@ repository = {
          }
       },
       ["0.6.0-0"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.7.0-0"] = {
          {
             arch = "rockspec"
          }
@@ -121261,6 +121301,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["mona.nvim"] = {
@@ -132113,6 +132160,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.2.9-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["onedark.nvim"] = {
@@ -135141,6 +135195,20 @@ repository = {
          }
       },
       ["2.14.3-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["2.14.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["2.15.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -143643,6 +143711,13 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["0.0.2-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["quick-scope"] = {
@@ -151880,10 +151955,20 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["3.4.1-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-brotli"] = {
       ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.1.1-1"] = {
          {
             arch = "rockspec"
          }
@@ -152184,6 +152269,11 @@ repository = {
             arch = "rockspec"
          }
       },
+      ["14.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
       ["6.0.1-1"] = {
          {
             arch = "rockspec"
@@ -152304,6 +152394,11 @@ repository = {
          }
       },
       ["3.0.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["3.1.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -152456,6 +152551,16 @@ repository = {
          }
       },
       ["7.3.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["7.3.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["7.3.3-1"] = {
          {
             arch = "rockspec"
          }
@@ -155711,6 +155816,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.6-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    skewheap = {
@@ -157998,6 +158110,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["1.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["std.functional"] = {
@@ -159768,6 +159887,13 @@ repository = {
    },
    syntaxhighlight = {
       ["1.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.1.0-1"] = {
          {
             arch = "rockspec"
          }, {
