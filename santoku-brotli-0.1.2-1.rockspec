@@ -1,0 +1,51 @@
+-- tk: lua
+-- SPDX-License-Identifier: MIT
+-- SPDX-FileCopyrightText: 2023 Birch Point SWE
+package = "santoku-brotli"
+version = "0.1.2-1"
+rockspec_format = "3.0"
+
+source = {
+  url = "https://releases.santoku.dev/santoku-brotli/0.1.2-1/santoku-brotli-0.1.2-1.tar.gz",
+}
+
+description = {
+  homepage = "https://santoku.dev/#santoku-brotli",
+  license = "MIT"
+}
+
+dependencies = {
+  "lua == 5.1",
+"santoku >= 3.4.0, < 4.0.0"
+}
+
+external_dependencies = {
+  
+}
+
+build = {
+  type = "make",
+  makefile = "Makefile",
+  variables = {
+    LIB_EXTENSION = "$(LIB_EXTENSION)",
+    TK_ROCKS_DIR = "$(PREFIX)/../..",
+  },
+  build_variables = {
+    CC = "$(CC)",
+    CXX = "$(CXX)",
+    AR = "$(AR)",
+    RANLIB = "$(RANLIB)",
+    CFLAGS = "$(CFLAGS)",
+    LIBFLAG = "$(LIBFLAG)",
+    LUA_INCDIR = "$(LUA_INCDIR)",
+    LUA_LIBDIR = "$(LUA_LIBDIR)",
+    
+  },
+  install_variables = {
+    CC = "$(CC)",
+    INST_PREFIX = "$(PREFIX)",
+    INST_BINDIR = "$(BINDIR)",
+    INST_LIBDIR = "$(LIBDIR)",
+    INST_LUADIR = "$(LUADIR)",
+  }
+}
