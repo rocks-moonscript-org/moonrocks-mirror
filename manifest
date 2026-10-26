@@ -28837,6 +28837,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.5.97-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    epoll = {
@@ -39078,6 +39085,13 @@ repository = {
          }
       },
       ["0.0.2759-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.0.2761-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -52095,6 +52109,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.3.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["jumbleberry-auto-ssl"] = {
@@ -60687,6 +60708,13 @@ repository = {
          }
       },
       ["0.8.5-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.8.6-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -70897,6 +70925,13 @@ repository = {
       }
    },
    libtmux = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["0.1.0alpha1-1"] = {
          {
             arch = "rockspec"
@@ -102110,6 +102145,13 @@ repository = {
             arch = "src"
          }
       },
+      ["38-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["5.1.12-1"] = {
          {
             arch = "rockspec"
@@ -104485,6 +104527,11 @@ repository = {
          }
       },
       ["9.4.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["9.5.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -108634,6 +108681,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.7-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    lulpeg = {
@@ -111551,6 +111605,11 @@ repository = {
          }
       },
       ["0.49.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.49.3-1"] = {
          {
             arch = "rockspec"
          }
@@ -165092,15 +165151,6 @@ repository = {
          }
       },
       ["3.0.1-1"] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
-   tomltools = {
-      ["1.0.0-1"] = {
          {
             arch = "rockspec"
          }, {
