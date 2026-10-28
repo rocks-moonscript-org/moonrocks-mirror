@@ -1,0 +1,153 @@
+-- Use the source, Luke!
+-- Copyright (C) 2026 Gary V. Vaughan
+
+local _MODREV, _SPECREV = '17', '-1'
+
+rockspec_format = '3.0'
+package = 'specl'
+version = _MODREV .. _SPECREV
+
+description = {
+   summary = 'Behaviour Driven Development for Lua',
+   detailed = [[
+      Develop and run BDD specs written in Lua for RSpec style workflow.
+   ]],
+   homepage = 'https://gvvaughan.github.io/specl',
+   license = 'MIT',
+}
+
+dependencies = {
+   'lua >= 5.1, < 5.6',
+   'lpeg',
+   'lyaml >= 5',
+}
+
+source = {
+   url = 'https://github.com/gvvaughan/specl/archive/v' .. _MODREV .. '.zip',
+   dir = 'specl-' .. _MODREV,
+}
+
+if _MODREV == 'dev' then
+   source = {
+      url = 'git+https://github.com/gvvaughan/specl.git',
+   }
+end
+
+build = {
+   type = 'builtin',
+
+   install = {
+      bin = {specl = 'build-aux/specl'},
+   },
+
+   -- A release commits its man page and LDocs to install.
+   copy_directories = {'doc'},
+}
+
+if _MODREV == 'dev' then
+   -- The rock installs only build-aux/specl as the `specl` command.
+   local bundled = {
+      'lib/specl/badargs.lua',
+      'lib/specl/cli.lua',
+      'lib/specl/color.lua',
+      'lib/specl/expect.lua',
+      'lib/specl/formatter/progress.lua',
+      'lib/specl/formatter/report.lua',
+      'lib/specl/formatter/tap.lua',
+      'lib/specl/inprocess.lua',
+      'lib/specl/loader.lua',
+      'lib/specl/main.lua',
+      'lib/specl/matchers.lua',
+      'lib/specl/runner.lua',
+      'lib/specl/sandbox.lua',
+      'lib/specl/shell.lua',
+      'lib/specl/std.lua',
+      'lib/specl/util.lua',
+      'lib/specl/version.lua.in',
+      -- Spec files are macro-expanded at run time, with the macro package.
+      'macro',
+      'macro.Getter',
+      'macro.TokenList',
+      'macro.clexer',
+      'macro.lexer',
+      'optparse',
+      'std._debug',
+      'std.functional._base',
+      'std.functional.init',
+      'std.normalize',
+      'std.normalize._core',
+      'std.prototype._base',
+      'std.prototype.container',
+      'std.prototype.object',
+      'typecheck',
+   }
+
+   build.type = 'luke'
+
+   -- Specl is one file with these bundled in, so a development build
+   -- needs them only to build it.
+   build_dependencies = {
+      'luamacro >= 2.5.1',
+      'luarocks-build-luke >= 0.2',
+      'optparse >= 2',
+      'smush',
+      'std._debug >= 1',
+      'std.functional >= 2',
+      'std.normalize >= 4',
+      'std.prototype >= 2',
+      'typecheck >= 4',
+      -- luarocks.org's ldoc fails on Lua 5.5; gvvaughan's works.
+      'gvvaughan/ldoc',
+   }
+
+   -- A build without help2man keeps the man page that a release commits.
+   build.variables = {
+      HELP2MAN = {checkprog = 'HELP2MAN', progs = {'help2man', 'true'}},
+      SMUSH    = {checkprog = 'SMUSH', progs = {'smush'}},
+   }
+
+   -- The host provides compiled modules.
+   --
+   -- Each library shares one copy of std.normalize's core.
+   local smush = '$SMUSH --main=specl.cli' ..
+      ' --external=package --external=lpeg --external=luacov' ..
+      ' --external=posix.dirent --external=posix.sys.stat --external=posix.sys.time' ..
+      ' --external=yaml' ..
+      ' $sources' ..
+      ' optparse._normalize::std.normalize._core' ..
+      ' typecheck._normalize::std.normalize._core'
+
+   build.bin = {
+      {['build-aux/specl'] = {
+         command = 'LUA_PATH="$abs_top_srcdir/lib/?.lua;$abs_top_srcdir/lib/?/init.lua;$LUA_PATH;;"' ..
+                   ' ' .. smush .. ' > $target',
+         sources = bundled,
+      }},
+      -- ./specl runs bin/specl with the modules in this source tree.
+      'specl.in',
+   }
+
+   build.ldocs = 'build-aux/config.ld.in'
+
+   -- Document build-aux/specl.
+   build.files = {
+      {['doc/specl.1'] = {
+         command = '$HELP2MAN --output=$target --no-info --name=Specl "$LUA build-aux/specl"',
+         sources = 'build-aux/specl',
+      }},
+   }
+
+   -- Stamp a development build with who made it, and from which commit.
+   build.version = '$USER/$gitref'
+   build.copy_directories = nil
+end
+
+test_dependencies = {
+   'ansicolors',
+   'luacov',
+}
+
+test = {
+   type = 'command',
+   command = 'specl -vfreport --coverage spec/*_spec.yaml',
+}
