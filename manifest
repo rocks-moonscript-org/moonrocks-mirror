@@ -6921,6 +6921,8 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -8939,6 +8941,17 @@ repository = {
       ["3.2.2-1"] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   carlisle = {
+      ["2021.6.13-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -28594,6 +28607,20 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["1.2-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    enum = {
@@ -47379,6 +47406,15 @@ repository = {
          }
       }
    },
+   ["hk-parser"] = {
+      ["0.3.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ["hlchunk.nvim"] = {
       ["1.0.1-1"] = {
          {
@@ -49782,6 +49818,17 @@ repository = {
          }
       }
    },
+   incgraph = {
+      ["1.4.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
+         }
+      }
+   },
    ["incline.nvim"] = {
       ["0.0.1-1"] = {
          {
@@ -49953,6 +50000,17 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   index = {
+      ["4.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -68201,6 +68259,17 @@ repository = {
          }
       }
    },
+   ["latex-environ"] = {
+      ["0.3-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ["latex-fonts"] = {
       ["0.0.1-1"] = {
          {
@@ -68223,6 +68292,17 @@ repository = {
          }
       },
       ["2026.6.1-2"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
+         }
+      }
+   },
+   ["latex-parallel"] = {
+      ["1.4-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -72889,6 +72969,22 @@ repository = {
       ["2.5-1"] = {
          {
             arch = "rockspec"
+         }
+      },
+      ["2.7-1"] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ["lm-math"] = {
+      ["1.959-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -78526,6 +78622,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.1.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["lua-covid-data"] = {
@@ -81476,6 +81579,13 @@ repository = {
    },
    ["lua-lolhtml"] = {
       ["1.0.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.1.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -100118,6 +100228,17 @@ repository = {
          }
       }
    },
+   ["lualatex-math"] = {
+      ["1.12-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
+         }
+      }
+   },
    lualdap = {
       ["1.3.1-1"] = {
          {
@@ -111987,6 +112108,13 @@ repository = {
             arch = "src"
          }
       },
+      ["1.0.0-21"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["1.0.0-3"] = {
          {
             arch = "rockspec"
@@ -112030,6 +112158,13 @@ repository = {
          }
       },
       ["1.0.0-9"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.0.1-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -114635,6 +114770,17 @@ repository = {
       ["0.0.1-1"] = {
          {
             arch = "rockspec"
+         }
+      }
+   },
+   marginnote = {
+      ["1.5-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -132291,6 +132437,13 @@ repository = {
          }, {
             arch = "all"
          }
+      },
+      ["2026.5.13-3"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }
       }
    },
    obey = {
@@ -138335,8 +138488,19 @@ repository = {
          }
       }
    },
+   pdfcol = {
+      ["1.8-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    pdfcolmk = {
-      ["2019.11.24-1"] = {
+      ["2.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -142060,6 +142224,13 @@ repository = {
          }
       }
    },
+   ["praxo-core"] = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    prefix_tree = {
       ["0.1.0-1"] = {
          {
@@ -145307,6 +145478,13 @@ repository = {
    },
    raven = {
       ["1.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ["raven-gui"] = {
+      ["0.2.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -153057,6 +153235,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["3.5.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["3.6.0-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-brotli"] = {
@@ -153262,6 +153450,21 @@ repository = {
          }
       },
       ["3.6.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["3.7.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["3.8.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["3.9.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -153756,6 +153959,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["7.8.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["7.9.0-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-markdown"] = {
@@ -153832,6 +154045,11 @@ repository = {
          }
       },
       ["6.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["6.3.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -153942,6 +154160,11 @@ repository = {
          }
       },
       ["2.1.3-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.10.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -154154,6 +154377,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["6.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-sqlite-migrate"] = {
@@ -154321,6 +154549,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["4.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["4.3.0-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-websocket"] = {
@@ -154388,6 +154626,17 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   sauerj = {
+      ["0.9.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -156622,6 +156871,8 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -157068,6 +157319,17 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   sjtubeamer = {
+      ["3.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -161683,6 +161945,15 @@ repository = {
          }
       }
    },
+   tabularht = {
+      ["2026.5.13-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    taggedcoro = {
       ["1.0.0-1"] = {
          {
@@ -162023,6 +162294,24 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   tcolorbox = {
+      ["6.10.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
+         }
+      },
+      ["6.10.0-2"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -164393,6 +164682,17 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      }
+   },
+   tikzfill = {
+      ["1.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -245502,6 +245802,8 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },
@@ -247345,6 +247647,15 @@ repository = {
             arch = "rockspec"
          }, {
             arch = "src"
+         }
+      },
+      ["0.8.18-3"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }, {
+            arch = "all"
          }
       }
    },

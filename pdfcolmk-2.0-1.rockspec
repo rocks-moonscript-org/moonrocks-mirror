@@ -1,5 +1,6 @@
-local git_ref = '2019-11-24'
-local modrev = git_ref:gsub('-', '.')
+local git_ref = 'release-2019-11-24'
+-- local modrev = git_ref:gsub("^release%-", ""):gsub('%-', '.')
+local modrev = '2.0'
 local specrev = '1'
 
 local repo_url = 'https://github.com/ho-tex/pdfcolmk'
@@ -18,14 +19,14 @@ This package was an experimental solution to the problem, and worked best with p
 For current releases of pdfTeX (later than version 1.40.0, released in 2007), this package is not needed, since “real” colour stacks are available. The present pdfcolmk is therefore just an empty stub that does nothing at all, just in case there are still documents that reference it.
 
 The documented source of the original package is still available at the github repository.]],
-  labels = { 'tex', 'latex' },
-  homepage = 'https://ctan.org/pkg/pdfcolmk',
+  labels = { 'Obsolete', 'Colour' },
+  homepage = repo_url,
   license = 'LPPL-1.3c'
 }
 
 source = {
-  url = repo_url .. '/archive/refs/tags/release-' .. git_ref .. '.zip',
-  dir = package .. '-release-' .. git_ref,
+  url = repo_url .. '/archive/' .. git_ref .. '.zip',
+  dir = package .. '-' .. git_ref,
 }
 
 if modrev == 'scm' or modrev == 'dev' then
@@ -35,11 +36,8 @@ if modrev == 'scm' or modrev == 'dev' then
   }
 end
 
+build_dependencies = { 'luatex', 'latex-base' }
+
 build = {
-  type = 'none',
-  install = {
-    conf = {
-      ['../tex/latex/pdfcolmk/pdfcolmk.sty'] = 'pdfcolmk.sty',
-    }
-  }
+  type = 'l3build',
 }
