@@ -1,6 +1,6 @@
 local git_ref = 'v3.2.0'
 local modrev = git_ref:gsub('^v', '')
-local specrev = '1'
+local specrev = '2'
 
 rockspec_format = '3.0'
 package = 'sjtubeamer'
@@ -26,5 +26,19 @@ dependencies = { 'beamer', 'pgf', 'latex-tools', 'tcolorbox', 'colortbl', 'bookt
 
 build = {
   type = 'l3build',
+  patches = {
+    ['fix-mythemefile.diff'] = [[
+--- old/source/beamerthemesjtubeamer.dtx
++++ new/source/beamerthemesjtubeamer.dtx
+@@ -237,7 +237,7 @@
+         @\sjtubeamer@mythemeoption\endcsname{true}
+     }
+     \def\sjtubeamer@mythemefile{sjtubeamertheme\sjtubeamer@mythemename.ltx}
+-    \IfFileExists{\sjtubeamer@mythemefile}{
++    \IfFileExists{./\sjtubeamer@mythemefile}{
+       \PackageWarning{\sjtubeamer@mythemename}{
+         Local ltx file is found. For documentation use only. \MessageBreak
+         Move to \getcontribdir{\sjtubeamer@mythemename} for release.
+]]
+  }
 }
-
