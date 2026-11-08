@@ -3037,9 +3037,9 @@ repository = {
          {
             arch = "rockspec"
          }, {
-            arch = "src"
-         }, {
             arch = "all"
+         }, {
+            arch = "src"
          }
       },
       ["0.7.1-1"] = {
@@ -39366,6 +39366,13 @@ repository = {
             arch = "src"
          }
       },
+      ["0.0.2771-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["0.0.769-1"] = {
          {
             arch = "rockspec"
@@ -41440,6 +41447,15 @@ repository = {
          }
       }
    },
+   ["ggcode.etunnel"] = {
+      ["1.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ggram = {
       ["1.0-1"] = {
          {
@@ -42292,6 +42308,15 @@ repository = {
          }
       },
       ["1.0.8-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["glance-widgets-api-sdk"] = {
+      ["1.0.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -48210,6 +48235,13 @@ repository = {
          }
       },
       ["0.6.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.7.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -71010,6 +71042,16 @@ repository = {
          }
       },
       ["0.1.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.10.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.10.1-1"] = {
          {
             arch = "rockspec"
          }
@@ -136796,6 +136838,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["3.2.4-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    orgmode = {
@@ -137739,6 +137788,13 @@ repository = {
          }
       }
    },
+   ["pageview.nvim"] = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ["pai-serverless-kong"] = {
       ["0.0.1-1"] = {
          {
@@ -137988,6 +138044,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.3.2-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["panto-codex"] = {
@@ -138147,6 +138210,20 @@ repository = {
          }
       },
       ["0.12.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.13.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.14.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -139055,6 +139132,13 @@ repository = {
          }
       },
       ["0.1.13-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1.14-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -175641,6 +175725,34 @@ repository = {
             arch = "src"
          }
       },
+      ["0.26.10-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.26.11-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.26.12-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.26.13-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
       ["0.26.2-1"] = {
          {
             arch = "rockspec"
@@ -175684,6 +175796,34 @@ repository = {
          }
       },
       ["0.26.8-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.26.9-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.27.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.27.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.27.2-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -249904,6 +250044,20 @@ repository = {
          }
       },
       ["0.6.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.6.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.6.2-1"] = {
          {
             arch = "rockspec"
          }, {
