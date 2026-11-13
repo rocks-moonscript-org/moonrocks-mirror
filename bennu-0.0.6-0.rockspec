@@ -1,8 +1,8 @@
 package = "bennu"
-version = "0.0.5-0"
+version = "0.0.6-0"
 source = {
-   url = "https://codeberg.org/nimiux/bennu/releases/download/v0.0.5/bennu-v0.0.5.tar.gz",
-   dir = "bennu-v0.0.5",
+   url = "https://codeberg.org/nimiux/bennu/releases/download/v0.0.6/bennu-v0.0.6.tar.gz",
+   dir = "bennu-v0.0.6",
 }
 description = {
    summary = "Lua functions",
@@ -17,10 +17,10 @@ dependencies = {
    "argparse 0.7.2-1",
    "fun >=0.1.3",
    "inspect >= 3.1.3",
-   -- "ldoc >= 1.5.0.2", -- ldoc not working for version 5.5
    "lua >= 5.5",
    "lua-hash >= 0.1.1",
    "luaposix >= 38",
+   "penlight >= 1.15.0",
    "say >= 1.4.1-3",
 }
 build = {
