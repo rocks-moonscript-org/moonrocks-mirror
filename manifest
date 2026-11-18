@@ -6035,6 +6035,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["0.0.8-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ber = {
@@ -41821,6 +41828,27 @@ repository = {
          }
       },
       ["1.7.12-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.7.13-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.7.14-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.7.15-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -78972,6 +79000,15 @@ repository = {
          }
       }
    },
+   ["lua-checkutf8"] = {
+      ["0.0.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ["lua-circuit-breaker"] = {
       ["1.0.0-1"] = {
          {
@@ -88001,6 +88038,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["3.2.4-0"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["lua-resty-healthcheck-api7-xrpc"] = {
@@ -91189,6 +91233,13 @@ repository = {
          }
       },
       ["1.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["1.10.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -108634,6 +108685,15 @@ repository = {
          }
       },
       ["1.0.0-6"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   luatorch = {
+      ["0.8.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -130148,6 +130208,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["1.2.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    ["nginx-lua-waf"] = {
@@ -137726,6 +137793,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["3.3.6-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    orgmode = {
@@ -139027,6 +139101,15 @@ repository = {
          }
       }
    },
+   ["panto-mcp"] = {
+      ["0.1.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    ["panto-opencode-go"] = {
       ["0.1.0-1"] = {
          {
@@ -139119,6 +139202,13 @@ repository = {
          }
       },
       ["0.14.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.15.0-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -140055,6 +140145,13 @@ repository = {
          }
       },
       ["0.1.17-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.1.18-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -143944,6 +144041,11 @@ repository = {
          }
       },
       ["0.7.1-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["0.7.2-1"] = {
          {
             arch = "rockspec"
          }
@@ -155438,6 +155540,16 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ["6.0.4-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["7.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    ["santoku-fs"] = {
@@ -155487,6 +155599,11 @@ repository = {
          }
       },
       ["2.5.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["2.6.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -155906,6 +156023,26 @@ repository = {
          }
       },
       ["10.2.2-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["10.2.3-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["10.2.4-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["10.2.5-1"] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ["11.0.0-1"] = {
          {
             arch = "rockspec"
          }
@@ -163503,6 +163640,13 @@ repository = {
          }, {
             arch = "src"
          }
+      },
+      ["4.0.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
       }
    },
    strong = {
@@ -167765,6 +167909,20 @@ repository = {
          }
       },
       ["0.11.1-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.12.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ["0.12.1-1"] = {
          {
             arch = "rockspec"
          }, {
@@ -248970,6 +249128,60 @@ repository = {
          }
       }
    },
+   ["tsdevstack-api-key"] = {
+      ["1.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["tsdevstack-api-prefix"] = {
+      ["1.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["tsdevstack-client-ip"] = {
+      ["1.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["tsdevstack-opentelemetry"] = {
+      ["1.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["tsdevstack-strip-identity"] = {
+      ["1.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   ["tsdevstack-trust"] = {
+      ["1.0.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
    tstrict = {
       ["0.2-2"] = {
          {
@@ -253851,6 +254063,15 @@ repository = {
          }
       },
       ["1.8.0-1"] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      }
+   },
+   webmincer = {
+      ["1.0.0-1"] = {
          {
             arch = "rockspec"
          }, {
