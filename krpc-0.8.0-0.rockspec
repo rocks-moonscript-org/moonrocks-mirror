@@ -1,0 +1,29 @@
+rockspec_format = "3.0"
+package = "krpc"
+version = "0.8.0-0"
+source = {
+  url = "https://s3.amazonaws.com/krpc/lua/krpc-0.8.0.zip"
+}
+description = {
+  summary = "Lua client library for kRPC",
+  detailed = [[
+Lua client for kRPC, a Remote Procedure Call server for Kerbal Space Program.
+It lets you control the game from an external program over the network.
+
+Documentation: https://krpc.github.io/krpc/latest/lua.html
+Source and issue tracker: https://github.com/krpc/krpc]],
+  homepage = "https://krpc.github.io/krpc",
+  issues_url = "https://github.com/krpc/krpc/issues",
+  license = "LGPL-3.0-or-later"
+}
+dependencies = {
+  "lua >= 5.1, < 5.5",
+  "luasocket >= 3.0",
+  "lua-protobuf >= 0.5.3",
+  "penlight"
+}
+build = {
+  type = "builtin",
+  modules = {
+  }
+}
